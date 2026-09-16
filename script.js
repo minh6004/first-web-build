@@ -6,6 +6,23 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
+const eventListEl = document.querySelector(".event-list");
+
+if (eventListEl) {
+  eventListEl.addEventListener("click", (event) => {
+    const button = event.target.closest(".event-summary");
+    if (!button) return;
+
+    const detail = document.getElementById(button.getAttribute("aria-controls"));
+    if (!detail) return;
+
+    const isOpen = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!isOpen));
+    detail.classList.toggle("is-open", !isOpen);
+    detail.inert = isOpen;
+  });
+}
+
 const coverEl = document.getElementById("cover");
 const enterMainBtn = document.getElementById("enterMainBtn");
 const siteHeaderEl = document.getElementById("siteHeader");
@@ -93,6 +110,31 @@ function drawRoughBoxes() {
   });
 }
 
+function drawRoughArrows() {
+  const color = roughColor();
+
+  document.querySelectorAll(".event-arrow-svg").forEach((svg) => {
+    svg.innerHTML = "";
+    svg.setAttribute("viewBox", "0 0 20 20");
+
+    const rc = rough.svg(svg);
+    const path = rc.linearPath(
+      [
+        [4, 7],
+        [10, 14],
+        [16, 7],
+      ],
+      {
+        stroke: color,
+        strokeWidth: 2,
+        roughness: ROUGH_ROUGHNESS,
+        bowing: ROUGH_BOWING,
+      }
+    );
+    svg.appendChild(path);
+  });
+}
+
 // Draws hand-drawn lines under every item except the last, inside `containerEl`
 // (which must be position:relative). `widthEl` (defaults to containerEl) supplies
 // the line length -- e.g. the actual <table>, which can be wider than its
@@ -156,6 +198,7 @@ function redrawAllRough() {
   document.documentElement.classList.add("rough-ready");
   drawRoughDividers();
   drawRoughBoxes();
+  drawRoughArrows();
   drawRoughInnerAll();
 }
 

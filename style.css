@@ -440,6 +440,115 @@ p {
 }
 
 /* ==========================================================================
+   Big Events (accordion cards)
+   ========================================================================== */
+.big-events {
+  position: relative;
+  padding-block: var(--space-8);
+}
+
+.big-events h2 {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--space-4);
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.event-summary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.event-summary-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.event-org {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+
+.event-decision {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-h3);
+}
+
+.event-arrow-svg {
+  flex-shrink: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+  transition: transform 0.25s ease;
+}
+
+.event-summary[aria-expanded="true"] .event-arrow-svg {
+  transform: rotate(180deg);
+}
+
+.event-detail-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.event-detail-wrap.is-open {
+  grid-template-rows: 1fr;
+}
+
+.event-detail-inner {
+  overflow: hidden;
+}
+
+.event-detail-content {
+  padding: 0 var(--space-4) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.event-block-label {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.event-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .event-arrow-svg,
+  .event-detail-wrap {
+    transition: none;
+  }
+}
+
+/* ==========================================================================
    Features
    ========================================================================== */
 .features {
