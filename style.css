@@ -177,6 +177,34 @@ select:focus-visible {
   overflow: visible;
 }
 
+/* Rough.js hand-drawn box outlines (replaces border+border-radius on cards).
+   The CSS border below is a no-JS fallback; .rough-ready hides it once the
+   Rough.js rectangle has actually been drawn (progressive enhancement). */
+.rough-box {
+  position: relative;
+  border: 1px solid var(--color-border);
+}
+
+.rough-ready .rough-box {
+  border-color: transparent;
+}
+
+.rough-box-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* Rough.js hand-drawn inner dividers (realtime list items, ranking table rows) */
+.rough-inner-dividers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
 h1, h2 {
   font-family: var(--font-display);
   font-weight: 700;
@@ -412,8 +440,6 @@ p {
 
 .feature-card {
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-card);
   padding: var(--space-4);
 }
 
@@ -512,8 +538,6 @@ select {
 
 .realtime-card {
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-card);
   padding: var(--space-4);
 }
 
@@ -533,6 +557,10 @@ select {
 
 .realtime-item + .realtime-item {
   border-top: 1px solid var(--color-border);
+}
+
+.rough-ready .realtime-item + .realtime-item {
+  border-top-color: transparent;
 }
 
 .realtime-value {
@@ -562,6 +590,7 @@ select {
 }
 
 .table-scroll {
+  position: relative;
   overflow-x: auto;
 }
 
@@ -577,6 +606,11 @@ select {
   padding: var(--space-2);
   border-bottom: 1px solid var(--color-border);
   white-space: nowrap;
+}
+
+.rough-ready .ranking-table th,
+.rough-ready .ranking-table td {
+  border-bottom-color: transparent;
 }
 
 .ranking-table th {
@@ -623,8 +657,6 @@ select {
 
 .account-card {
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-card);
   padding: var(--space-4);
 }
 
