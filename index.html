@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>StockLens (가칭)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Caveat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">StockLens</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="메뉴 열기">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="#features">기능</a></li>
+          <li><a href="#">이슈 브리핑</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-doodles" aria-hidden="true">
+        <svg class="hero-doodle doodle-chart" viewBox="0 0 140 90" role="presentation">
+          <path d="M6 78 C14 68, 20 74, 26 64 C32 54, 38 66, 46 52 C54 40, 60 58, 70 44 C80 30, 86 46, 96 32 C102 24, 106 20, 112 14" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M100 16 L112 14 L108 26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <svg class="hero-doodle doodle-candles" viewBox="0 0 110 90" role="presentation">
+          <line x1="15" y1="10" x2="15" y2="80" stroke-width="2" stroke-linecap="round" />
+          <rect x="8" y="30" width="14" height="26" stroke-width="2" />
+          <line x1="40" y1="18" x2="40" y2="70" stroke-width="2" stroke-linecap="round" />
+          <rect x="33" y="34" width="14" height="18" stroke-width="2" />
+          <line x1="65" y1="6" x2="65" y2="76" stroke-width="2" stroke-linecap="round" />
+          <rect x="58" y="20" width="14" height="34" stroke-width="2" />
+          <line x1="90" y1="16" x2="90" y2="66" stroke-width="2" stroke-linecap="round" />
+          <rect x="83" y="28" width="14" height="20" stroke-width="2" />
+        </svg>
+        <svg class="hero-doodle doodle-announce" viewBox="0 0 90 80" role="presentation">
+          <path d="M10 46 L34 32 L34 58 Z" stroke-width="2.5" stroke-linejoin="round" />
+          <path d="M18 58 L18 66 L26 66 L24 58" stroke-width="2" stroke-linejoin="round" />
+          <path d="M44 34 Q54 45 44 56" stroke-width="2" stroke-linecap="round" />
+          <path d="M52 26 Q68 45 52 64" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <svg class="hero-doodle doodle-clock" viewBox="0 0 80 80" role="presentation">
+          <circle cx="40" cy="42" r="26" stroke-width="2.5" />
+          <line x1="40" y1="42" x2="40" y2="26" stroke-width="2.5" stroke-linecap="round" />
+          <g class="doodle-wiggle">
+            <line x1="40" y1="42" x2="54" y2="42" stroke-width="2.5" stroke-linecap="round" />
+          </g>
+        </svg>
+      </div>
+      <div class="container">
+        <h1>[플레이스홀더 헤드라인: 이 종목, 지금 사도 될까?]</h1>
+        <p>[플레이스홀더 서브텍스트: 경제 지표, 국제 기구 발표, 시사 이슈를 정리해서 내가 관심 있는 종목의 매수 적절성을 판단하는 데 도움을 줍니다.]</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#">시작하기</a>
+          <a class="btn btn-secondary" href="#features">더 알아보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>[플레이스홀더: 무엇을 정리해 주나요]</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>경제 지표 요약</h3>
+            <p>[플레이스홀더 설명 텍스트]</p>
+          </article>
+          <article class="feature-card">
+            <h3>국제 기구 발표 트래커</h3>
+            <p>[플레이스홀더 설명 텍스트]</p>
+          </article>
+          <article class="feature-card">
+            <h3>종목 적합성 판단</h3>
+            <p>[플레이스홀더 설명 텍스트]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-filter" id="search-filter">
+      <div class="container">
+        <h2>종목 검색 및 필터</h2>
+        <form class="search-form" role="search" action="#">
+          <div class="search-field">
+            <label for="searchInput" class="visually-hidden">종목명 또는 티커 검색</label>
+            <input type="search" id="searchInput" name="q" placeholder="종목명 또는 티커 검색…" autocomplete="off" />
+          </div>
+          <div class="filter-group">
+            <div class="filter-field">
+              <label for="filterCountry">국가</label>
+              <select id="filterCountry" name="country">
+                <option value="">전체</option>
+                <option value="kr">한국</option>
+                <option value="us">미국</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="filterSector">업종</label>
+              <select id="filterSector" name="sector">
+                <option value="">전체</option>
+                <option value="tech">기술</option>
+                <option value="finance">금융</option>
+                <option value="energy">에너지</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="filterEvent">이벤트 유형</label>
+              <select id="filterEvent" name="event">
+                <option value="">전체</option>
+                <option value="rate">금리 발표</option>
+                <option value="earnings">실적 발표</option>
+                <option value="policy">정책 발표</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">검색</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="realtime" id="realtime">
+      <div class="container">
+        <div class="section-heading-row">
+          <h2>실시간 정보</h2>
+          <span class="badge">LIVE</span>
+        </div>
+        <div class="realtime-card">
+          <ul class="realtime-list">
+            <li class="realtime-item">
+              <span class="realtime-label">코스피</span>
+              <span class="realtime-value">2,650.32</span>
+              <span class="realtime-change up">+0.42%</span>
+            </li>
+            <li class="realtime-item">
+              <span class="realtime-label">국제유가(WTI)</span>
+              <span class="realtime-value">$71.85</span>
+              <span class="realtime-change down">-1.15%</span>
+            </li>
+            <li class="realtime-item">
+              <span class="realtime-label">[플레이스홀더] 국제 기구 발표</span>
+              <span class="realtime-value">[더미 요약 텍스트]</span>
+              <span class="realtime-change">방금 전</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="hot-ranking" id="ranking">
+      <div class="container">
+        <h2>핫한 주식 TOP 10</h2>
+        <div class="table-scroll">
+          <table class="ranking-table">
+            <caption class="visually-hidden">실시간 인기 종목 순위표 (더미 데이터)</caption>
+            <thead>
+              <tr>
+                <th scope="col">순위</th>
+                <th scope="col">종목명</th>
+                <th scope="col">현재가</th>
+                <th scope="col">등락률</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>더미종목 A</td><td>72,300</td><td class="up">+3.21%</td></tr>
+              <tr><td>2</td><td>더미종목 B</td><td>145,000</td><td class="up">+2.87%</td></tr>
+              <tr><td>3</td><td>더미종목 C</td><td>58,900</td><td class="down">-0.54%</td></tr>
+              <tr><td>4</td><td>더미종목 D</td><td>231,500</td><td class="up">+2.10%</td></tr>
+              <tr><td>5</td><td>더미종목 E</td><td>13,450</td><td class="down">-1.32%</td></tr>
+              <tr><td>6</td><td>더미종목 F</td><td>89,200</td><td class="up">+1.95%</td></tr>
+              <tr><td>7</td><td>더미종목 G</td><td>402,000</td><td class="down">-0.87%</td></tr>
+              <tr><td>8</td><td>더미종목 H</td><td>27,650</td><td class="up">+1.44%</td></tr>
+              <tr><td>9</td><td>더미종목 I</td><td>61,300</td><td class="up">+1.02%</td></tr>
+              <tr><td>10</td><td>더미종목 J</td><td>18,900</td><td class="down">-0.31%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="account-link" id="account">
+      <div class="container">
+        <h2>내 주식 현황 연동</h2>
+        <p>[플레이스홀더 설명: 토스 계좌를 연동하면 보유 종목과 주식 알림을 여기서 확인할 수 있어요.]</p>
+        <button type="button" class="btn btn-primary">계좌 연동하기</button>
+        <div class="account-grid">
+          <article class="account-card">
+            <h3>보유 종목 (연동 시 표시)</h3>
+            <p>[플레이스홀더: 삼성전자 10주, 평균단가 71,200원]</p>
+          </article>
+          <article class="account-card">
+            <h3>주식 알림 (연동 시 표시)</h3>
+            <p>[플레이스홀더: 목표가 도달 시 알림 발송]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2026 StockLens</span>
+      <ul class="footer-links">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+    <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
