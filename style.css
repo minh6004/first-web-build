@@ -81,6 +81,13 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* Component rules like .hero{display:flex} outrank the UA [hidden] rule by
+   cascade origin, not just specificity -- force hidden elements to stay
+   collapsed regardless of what display value their own class sets. */
+[hidden] {
+  display: none !important;
+}
+
 body {
   margin: 0;
   background-color: var(--color-bg);
@@ -266,12 +273,26 @@ p {
 }
 
 /* ==========================================================================
-   Hero
+   Hero / Cover screen (shown first; hidden once "시작하기" reveals the main screen)
    ========================================================================== */
 .hero {
   position: relative;
   overflow: hidden;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
   padding-block: var(--space-8) var(--space-8);
+  transition: opacity 0.3s ease;
+}
+
+.hero.is-hiding {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    transition: none;
+  }
 }
 
 .hero .container {

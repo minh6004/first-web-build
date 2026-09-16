@@ -6,6 +6,31 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
+const coverEl = document.getElementById("cover");
+const enterMainBtn = document.getElementById("enterMainBtn");
+const siteHeaderEl = document.getElementById("siteHeader");
+const mainEl = document.getElementById("main");
+const siteFooterEl = document.getElementById("siteFooter");
+
+enterMainBtn.addEventListener("click", () => {
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  coverEl.classList.add("is-hiding");
+
+  const revealMain = () => {
+    coverEl.hidden = true;
+    siteHeaderEl.hidden = false;
+    mainEl.hidden = false;
+    siteFooterEl.hidden = false;
+    redrawAllRough(); // rough-box/divider sizes were 0 while main was display:none
+  };
+
+  if (reduceMotion) {
+    revealMain();
+  } else {
+    setTimeout(revealMain, 300);
+  }
+});
+
 const ROUGH_ROUGHNESS = 2.2; // same value used for section dividers, kept in sync for the box/inner-divider extension
 const ROUGH_BOWING = 2;
 

@@ -14,7 +14,48 @@
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 건너뛰기</a>
-  <header class="site-header">
+
+  <section class="hero" id="cover">
+    <div class="hero-doodles" aria-hidden="true">
+      <svg class="hero-doodle doodle-chart" viewBox="0 0 140 90" role="presentation">
+        <path d="M6 78 C14 68, 20 74, 26 64 C32 54, 38 66, 46 52 C54 40, 60 58, 70 44 C80 30, 86 46, 96 32 C102 24, 106 20, 112 14" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M100 16 L112 14 L108 26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <svg class="hero-doodle doodle-candles" viewBox="0 0 110 90" role="presentation">
+        <line x1="15" y1="10" x2="15" y2="80" stroke-width="2" stroke-linecap="round" />
+        <rect x="8" y="30" width="14" height="26" stroke-width="2" />
+        <line x1="40" y1="18" x2="40" y2="70" stroke-width="2" stroke-linecap="round" />
+        <rect x="33" y="34" width="14" height="18" stroke-width="2" />
+        <line x1="65" y1="6" x2="65" y2="76" stroke-width="2" stroke-linecap="round" />
+        <rect x="58" y="20" width="14" height="34" stroke-width="2" />
+        <line x1="90" y1="16" x2="90" y2="66" stroke-width="2" stroke-linecap="round" />
+        <rect x="83" y="28" width="14" height="20" stroke-width="2" />
+      </svg>
+      <svg class="hero-doodle doodle-announce" viewBox="0 0 90 80" role="presentation">
+        <path d="M10 46 L34 32 L34 58 Z" stroke-width="2.5" stroke-linejoin="round" />
+        <path d="M18 58 L18 66 L26 66 L24 58" stroke-width="2" stroke-linejoin="round" />
+        <path d="M44 34 Q54 45 44 56" stroke-width="2" stroke-linecap="round" />
+        <path d="M52 26 Q68 45 52 64" stroke-width="2" stroke-linecap="round" />
+      </svg>
+      <svg class="hero-doodle doodle-clock" viewBox="0 0 80 80" role="presentation">
+        <circle cx="40" cy="42" r="26" stroke-width="2.5" />
+        <line x1="40" y1="42" x2="40" y2="26" stroke-width="2.5" stroke-linecap="round" />
+        <g class="doodle-wiggle">
+          <line x1="40" y1="42" x2="54" y2="42" stroke-width="2.5" stroke-linecap="round" />
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <h1>[플레이스홀더 헤드라인: 이 종목, 지금 사도 될까?]</h1>
+      <p>[플레이스홀더 서브텍스트: 경제 지표, 국제 기구 발표, 시사 이슈를 정리해서 내가 관심 있는 종목의 매수 적절성을 판단하는 데 도움을 줍니다.]</p>
+      <div class="cta-row">
+        <button type="button" class="btn btn-primary" id="enterMainBtn">시작하기</button>
+        <a class="btn btn-secondary" href="#features">더 알아보기</a>
+      </div>
+    </div>
+  </section>
+
+  <header class="site-header" id="siteHeader" hidden>
     <div class="container">
       <a class="logo" href="#">StockLens</a>
       <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="메뉴 열기">
@@ -31,43 +72,50 @@
     <div class="rough-divider rough-divider--bottom" aria-hidden="true"><svg class="rough-divider-svg" role="presentation"></svg></div>
   </header>
 
-  <main id="main">
-    <section class="hero">
-      <div class="hero-doodles" aria-hidden="true">
-        <svg class="hero-doodle doodle-chart" viewBox="0 0 140 90" role="presentation">
-          <path d="M6 78 C14 68, 20 74, 26 64 C32 54, 38 66, 46 52 C54 40, 60 58, 70 44 C80 30, 86 46, 96 32 C102 24, 106 20, 112 14" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M100 16 L112 14 L108 26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        <svg class="hero-doodle doodle-candles" viewBox="0 0 110 90" role="presentation">
-          <line x1="15" y1="10" x2="15" y2="80" stroke-width="2" stroke-linecap="round" />
-          <rect x="8" y="30" width="14" height="26" stroke-width="2" />
-          <line x1="40" y1="18" x2="40" y2="70" stroke-width="2" stroke-linecap="round" />
-          <rect x="33" y="34" width="14" height="18" stroke-width="2" />
-          <line x1="65" y1="6" x2="65" y2="76" stroke-width="2" stroke-linecap="round" />
-          <rect x="58" y="20" width="14" height="34" stroke-width="2" />
-          <line x1="90" y1="16" x2="90" y2="66" stroke-width="2" stroke-linecap="round" />
-          <rect x="83" y="28" width="14" height="20" stroke-width="2" />
-        </svg>
-        <svg class="hero-doodle doodle-announce" viewBox="0 0 90 80" role="presentation">
-          <path d="M10 46 L34 32 L34 58 Z" stroke-width="2.5" stroke-linejoin="round" />
-          <path d="M18 58 L18 66 L26 66 L24 58" stroke-width="2" stroke-linejoin="round" />
-          <path d="M44 34 Q54 45 44 56" stroke-width="2" stroke-linecap="round" />
-          <path d="M52 26 Q68 45 52 64" stroke-width="2" stroke-linecap="round" />
-        </svg>
-        <svg class="hero-doodle doodle-clock" viewBox="0 0 80 80" role="presentation">
-          <circle cx="40" cy="42" r="26" stroke-width="2.5" />
-          <line x1="40" y1="42" x2="40" y2="26" stroke-width="2.5" stroke-linecap="round" />
-          <g class="doodle-wiggle">
-            <line x1="40" y1="42" x2="54" y2="42" stroke-width="2.5" stroke-linecap="round" />
-          </g>
-        </svg>
-      </div>
+  <main id="main" hidden>
+    <section class="realtime" id="realtime">
+      <div class="rough-divider rough-divider--top" aria-hidden="true"><svg class="rough-divider-svg" role="presentation"></svg></div>
       <div class="container">
-        <h1>[플레이스홀더 헤드라인: 이 종목, 지금 사도 될까?]</h1>
-        <p>[플레이스홀더 서브텍스트: 경제 지표, 국제 기구 발표, 시사 이슈를 정리해서 내가 관심 있는 종목의 매수 적절성을 판단하는 데 도움을 줍니다.]</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#">시작하기</a>
-          <a class="btn btn-secondary" href="#features">더 알아보기</a>
+        <div class="section-heading-row">
+          <h2>실시간 정보</h2>
+          <span class="badge">LIVE</span>
+        </div>
+        <div class="realtime-grid">
+          <div class="realtime-stat realtime-stat--lg rough-box">
+            <span class="realtime-stat-label">코스피</span>
+            <span class="realtime-value">2,650.32</span>
+            <span class="realtime-change up">+0.42%</span>
+          </div>
+          <div class="realtime-stat rough-box">
+            <span class="realtime-stat-label">나스닥</span>
+            <span class="realtime-value">18,342.10</span>
+            <span class="realtime-change up">+0.85%</span>
+          </div>
+          <div class="realtime-stat rough-box">
+            <span class="realtime-stat-label">S&amp;P 500</span>
+            <span class="realtime-value">5,932.40</span>
+            <span class="realtime-change up">+0.52%</span>
+          </div>
+          <div class="realtime-stat rough-box">
+            <span class="realtime-stat-label">코스닥</span>
+            <span class="realtime-value">823.45</span>
+            <span class="realtime-change up">+1.28%</span>
+          </div>
+          <div class="realtime-stat rough-box">
+            <span class="realtime-stat-label">달러환율(USD/KRW)</span>
+            <span class="realtime-value">1,362.50</span>
+            <span class="realtime-change down">-0.31%</span>
+          </div>
+          <div class="realtime-stat realtime-stat--sm rough-box">
+            <span class="realtime-stat-label">국제유가(WTI)</span>
+            <span class="realtime-value">$71.85</span>
+            <span class="realtime-change down">-1.15%</span>
+          </div>
+        </div>
+        <div class="realtime-news rough-box">
+          <span class="realtime-news-label">[플레이스홀더] 국제 기구 발표</span>
+          <span class="realtime-news-value">[더미 요약 텍스트]</span>
+          <span class="realtime-news-time">방금 전</span>
         </div>
       </div>
     </section>
@@ -135,53 +183,6 @@
       </div>
     </section>
 
-    <section class="realtime" id="realtime">
-      <div class="rough-divider rough-divider--top" aria-hidden="true"><svg class="rough-divider-svg" role="presentation"></svg></div>
-      <div class="container">
-        <div class="section-heading-row">
-          <h2>실시간 정보</h2>
-          <span class="badge">LIVE</span>
-        </div>
-        <div class="realtime-grid">
-          <div class="realtime-stat realtime-stat--lg rough-box">
-            <span class="realtime-stat-label">코스피</span>
-            <span class="realtime-value">2,650.32</span>
-            <span class="realtime-change up">+0.42%</span>
-          </div>
-          <div class="realtime-stat rough-box">
-            <span class="realtime-stat-label">나스닥</span>
-            <span class="realtime-value">18,342.10</span>
-            <span class="realtime-change up">+0.85%</span>
-          </div>
-          <div class="realtime-stat rough-box">
-            <span class="realtime-stat-label">S&amp;P 500</span>
-            <span class="realtime-value">5,932.40</span>
-            <span class="realtime-change up">+0.52%</span>
-          </div>
-          <div class="realtime-stat rough-box">
-            <span class="realtime-stat-label">코스닥</span>
-            <span class="realtime-value">823.45</span>
-            <span class="realtime-change up">+1.28%</span>
-          </div>
-          <div class="realtime-stat rough-box">
-            <span class="realtime-stat-label">달러환율(USD/KRW)</span>
-            <span class="realtime-value">1,362.50</span>
-            <span class="realtime-change down">-0.31%</span>
-          </div>
-          <div class="realtime-stat realtime-stat--sm rough-box">
-            <span class="realtime-stat-label">국제유가(WTI)</span>
-            <span class="realtime-value">$71.85</span>
-            <span class="realtime-change down">-1.15%</span>
-          </div>
-        </div>
-        <div class="realtime-news rough-box">
-          <span class="realtime-news-label">[플레이스홀더] 국제 기구 발표</span>
-          <span class="realtime-news-value">[더미 요약 텍스트]</span>
-          <span class="realtime-news-time">방금 전</span>
-        </div>
-      </div>
-    </section>
-
     <section class="hot-ranking" id="ranking">
       <div class="rough-divider rough-divider--top" aria-hidden="true"><svg class="rough-divider-svg" role="presentation"></svg></div>
       <div class="container">
@@ -234,7 +235,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" id="siteFooter" hidden>
     <div class="rough-divider rough-divider--top" aria-hidden="true"><svg class="rough-divider-svg" role="presentation"></svg></div>
     <div class="container">
       <span>&copy; 2026 StockLens</span>
