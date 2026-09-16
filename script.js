@@ -120,10 +120,6 @@ function drawRoughInnerDividers(containerEl, items, widthEl, includeAfterLast) {
 }
 
 function drawRoughInnerAll() {
-  document.querySelectorAll(".realtime-card").forEach((card) => {
-    drawRoughInnerDividers(card, Array.from(card.querySelectorAll(".realtime-item")));
-  });
-
   document.querySelectorAll(".table-scroll").forEach((wrap) => {
     const table = wrap.querySelector(".ranking-table");
     if (table) drawRoughInnerDividers(wrap, Array.from(table.querySelectorAll("tr")), table, true);
