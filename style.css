@@ -2,6 +2,20 @@
    Design tokens
    Source: Taste analysis of gm-meme.com (structure) + finance-trust tone-down
    ========================================================================== */
+
+/* BMYEONSUNG (배달의민족 연성체), exact webfont code from noonnu.cc/font_page/54.
+   unicode-range restricts it to Hangul + punctuation so Latin letters/digits
+   fall through to Caveat (next in the --font-display stack) instead of using
+   BMYEONSUNG's own Latin glyphs. */
+@font-face {
+    font-family: 'Yeonseong';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+    unicode-range: U+AC00-D7A3, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF,
+      U+3000-303F, U+FF00-FFEF, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
 :root {
   /* color */
   --color-bg: #ffffff;
@@ -19,9 +33,10 @@
   /* theme: always light, matching the reference site (no dark mode) */
   color-scheme: light;
 
-  /* type: handwriting/pencil feel, Korean via Nanum Pen Script, Latin/numbers via Caveat */
-  --font-display: "Nanum Pen Script", "Caveat", sans-serif;
-  --font-body: "Nanum Pen Script", "Caveat", sans-serif;
+  /* type: display (headings/logo/buttons) = handwriting, Korean via Yeonseong (BMYEONSUNG), Latin/numbers via Caveat Bold */
+  --font-display: "Yeonseong", "Caveat", sans-serif;
+  /* body (paragraphs, lists, small text) = Pretendard for readability */
+  --font-body: "Pretendard", sans-serif;
   --fs-h1: clamp(2.25rem, 5vw + 1rem, 3.75rem);
   --fs-h2: clamp(1.75rem, 3vw + 1rem, 2.5rem);
   --fs-h3: clamp(1.25rem, 1.5vw + 1rem, 1.5rem);
@@ -65,7 +80,8 @@ html {
 
 body {
   margin: 0;
-  background: var(--color-bg);
+  background-color: var(--color-bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.035 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--fs-body);
@@ -90,7 +106,6 @@ ul {
 
 h1, h2, h3, p {
   margin: 0;
-  font-weight: 400;
 }
 
 .container {
@@ -135,12 +150,43 @@ select:focus-visible {
   border: 0;
 }
 
+/* Rough.js hand-drawn section dividers (replaces border-top/bottom hairlines) */
+.rough-divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+  pointer-events: none;
+}
+
+.rough-divider--top {
+  top: 0;
+}
+
+.rough-divider--bottom {
+  bottom: 0;
+}
+
+.rough-divider-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
 h1, h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
   text-wrap: balance;
 }
 
 h3 {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
 }
 
 /* ==========================================================================
@@ -151,7 +197,6 @@ h3 {
   top: 0;
   z-index: 10;
   background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
 }
 
 .site-header .container {
@@ -163,6 +208,7 @@ h3 {
 
 .logo {
   font-family: var(--font-display);
+  font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: -0.02rem;
 }
@@ -301,6 +347,8 @@ h3 {
   justify-content: center;
   padding: 0.85rem 1.75rem;
   border-radius: var(--radius-pill);
+  font-family: var(--font-display);
+  font-weight: 700;
   font-size: 1.05rem;
   text-decoration: none;
   border: 1px solid transparent;
@@ -343,8 +391,8 @@ h3 {
    Features
    ========================================================================== */
 .features {
+  position: relative;
   padding-block: var(--space-8);
-  border-top: 1px solid var(--color-border);
 }
 
 .features h2 {
@@ -380,8 +428,8 @@ h3 {
    Search & Filter
    ========================================================================== */
 .search-filter {
+  position: relative;
   padding-block: var(--space-8);
-  border-top: 1px solid var(--color-border);
 }
 
 .search-filter h2 {
@@ -434,8 +482,8 @@ select {
    Realtime
    ========================================================================== */
 .realtime {
+  position: relative;
   padding-block: var(--space-8);
-  border-top: 1px solid var(--color-border);
 }
 
 .section-heading-row {
@@ -501,8 +549,8 @@ select {
    Hot Ranking
    ========================================================================== */
 .hot-ranking {
+  position: relative;
   padding-block: var(--space-8);
-  border-top: 1px solid var(--color-border);
 }
 
 .hot-ranking h2 {
@@ -548,8 +596,8 @@ select {
    Account link (Toss integration placeholder)
    ========================================================================== */
 .account-link {
+  position: relative;
   padding-block: var(--space-8);
-  border-top: 1px solid var(--color-border);
 }
 
 .account-link h2 {
@@ -591,7 +639,7 @@ select {
    Footer
    ========================================================================== */
 .site-footer {
-  border-top: 1px solid var(--color-border);
+  position: relative;
   padding-block: var(--space-4);
   margin-top: var(--space-8);
 }
