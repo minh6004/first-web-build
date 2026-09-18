@@ -6,10 +6,10 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
-const eventListEl = document.querySelector(".event-list");
+const eventGridEl = document.querySelector(".event-grid");
 
-if (eventListEl) {
-  eventListEl.addEventListener("click", (event) => {
+if (eventGridEl) {
+  eventGridEl.addEventListener("click", (event) => {
     const button = event.target.closest(".event-summary");
     if (!button) return;
 
@@ -20,6 +20,7 @@ if (eventListEl) {
     button.setAttribute("aria-expanded", String(!isOpen));
     detail.classList.toggle("is-open", !isOpen);
     detail.inert = isOpen;
+    button.closest(".event-card")?.classList.toggle("is-expanded", !isOpen);
   });
 }
 

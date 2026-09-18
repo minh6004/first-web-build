@@ -74,6 +74,9 @@
   /* cover-screen-only cream paper tone (the "wall" the printed slide is taped to) --
      hero-specific carve-out, same precedent as the hero doodles: not a site-wide token. */
   --color-hero-paper-bg: #f7f1df;
+
+  /* big-events-only postit yellow -- same hero-specific-carve-out precedent */
+  --color-postit: #fff3b0;
 }
 
 /* ==========================================================================
@@ -550,7 +553,7 @@ p {
 }
 
 /* ==========================================================================
-   Big Events (accordion cards)
+   Big Events (postit-on-corkboard grid cards)
    ========================================================================== */
 .big-events {
   position: relative;
@@ -562,33 +565,119 @@ p {
   margin-bottom: var(--space-4);
 }
 
-.event-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
 }
 
-.event-summary {
+.event-card {
+  position: relative;
   width: 100%;
+  max-width: 22rem;
+  aspect-ratio: 4 / 5;
+  justify-self: center;
+  background: var(--color-postit);
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  transform: rotate(var(--card-tilt, 0deg));
+  transition: transform 0.3s ease, max-width 0.3s ease;
+}
+
+/* fixed per-card tilt so no two postits sit at the same angle -- dummy data
+   is a fixed 4 cards, no need for a random-angle generator here */
+.event-grid .event-card:nth-child(1) {
+  --card-tilt: -2deg;
+}
+
+.event-grid .event-card:nth-child(2) {
+  --card-tilt: 1.6deg;
+}
+
+.event-grid .event-card:nth-child(3) {
+  --card-tilt: -1.2deg;
+}
+
+.event-grid .event-card:nth-child(4) {
+  --card-tilt: 2.3deg;
+}
+
+/* ponytail: grid-column span isn't a CSS-animatable property (spec: discrete),
+   so the width-expand itself snaps instantly; only the detail reveal below
+   (grid-template-rows) and this tilt reset actually transition smoothly.
+   upgrade path if a true width morph is wanted later: JS FLIP animation. */
+.event-card.is-expanded {
+  grid-column: 1 / -1;
+  max-width: none;
+  aspect-ratio: auto;
+  justify-self: stretch;
+  transform: rotate(0deg);
+}
+
+.event-pin {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  width: 22px;
+  height: 26px;
+  z-index: 2;
+  pointer-events: none;
+  transform: translateX(-50%) rotate(calc(var(--card-tilt, 0deg) * -1));
+  transition: transform 0.3s ease;
+}
+
+.event-pin-shadow {
+  fill: rgba(0, 0, 0, 0.18);
+}
+
+.event-pin-head {
+  fill: #d6362f;
+  stroke: #a8241e;
+  stroke-width: 1;
+}
+
+.event-pin-highlight {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.event-pin-needle {
+  stroke: #8a8a8a;
+  stroke-width: 1.5;
+}
+
+/* position:absolute (not width/height:100%) so the square card's aspect-ratio
+   height is what sizes the button -- a percentage height here would instead
+   try to resolve against the grid row's auto track, which itself depends on
+   this same button's size, an unreliable circular case in Chromium. */
+.event-summary {
+  position: absolute;
+  inset: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
+  justify-content: center;
+  gap: var(--space-1);
   padding: var(--space-4);
   background: none;
   border: none;
-  text-align: left;
+  text-align: center;
   font-family: inherit;
   color: inherit;
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.event-summary-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  min-width: 0;
+/* expanded: back to a normal in-flow box (no more percentage/absolute
+   sizing) so its height is just its own content, and .event-card's auto
+   height correctly grows to fit button + detail-wrap beneath it. */
+.event-card.is-expanded .event-summary {
+  position: static;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-8) var(--space-4) var(--space-4);
 }
 
 .event-org {
@@ -600,10 +689,13 @@ p {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: var(--fs-h3);
+  text-wrap: balance;
 }
 
 .event-arrow-svg {
-  flex-shrink: 0;
+  position: absolute;
+  right: var(--space-3);
+  bottom: var(--space-3);
   display: block;
   width: 20px;
   height: 20px;
@@ -615,18 +707,19 @@ p {
   transform: rotate(180deg);
 }
 
+/* max-height (not the site's usual grid-template-rows 0fr/1fr trick): .event-card
+   is itself now a grid item whose own height is "auto" (content-driven) when
+   expanded, and nesting an auto-resolved fr-track inside an ancestor that is
+   also mid auto-sizing is a circular dependency that made browsers undersize
+   the card and let this overlap the row below. max-height sidesteps that. */
 .event-detail-wrap {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
 .event-detail-wrap.is-open {
-  grid-template-rows: 1fr;
-}
-
-.event-detail-inner {
-  overflow: hidden;
+  max-height: 40rem;
 }
 
 .event-detail-content {
@@ -653,7 +746,9 @@ p {
 
 @media (prefers-reduced-motion: reduce) {
   .event-arrow-svg,
-  .event-detail-wrap {
+  .event-detail-wrap,
+  .event-card,
+  .event-pin {
     transition: none;
   }
 }
@@ -1036,6 +1131,10 @@ select {
   .realtime-stat--sm {
     grid-column: 1;
     grid-row: auto;
+  }
+
+  .event-grid {
+    grid-template-columns: 1fr;
   }
 }
 
