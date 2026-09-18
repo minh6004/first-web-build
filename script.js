@@ -7,20 +7,56 @@ navToggle.addEventListener("click", () => {
 });
 
 const eventGridEl = document.querySelector(".event-grid");
+const eventBackdropEl = document.getElementById("eventLightboxBackdrop");
 
-if (eventGridEl) {
+function closeEventLightbox() {
+  const openCard = document.querySelector(".event-card.is-expanded");
+  if (!openCard) return;
+
+  const button = openCard.querySelector(".event-zoom");
+  const detail = openCard.querySelector(".event-detail-wrap");
+  button.setAttribute("aria-expanded", "false");
+  button.setAttribute("aria-label", "자세히 보기");
+  detail.classList.remove("is-open");
+  detail.inert = true;
+  openCard.classList.remove("is-expanded");
+  openCard.removeAttribute("role");
+  openCard.removeAttribute("aria-modal");
+  eventBackdropEl.classList.remove("is-visible");
+  button.focus();
+}
+
+if (eventGridEl && eventBackdropEl) {
   eventGridEl.addEventListener("click", (event) => {
-    const button = event.target.closest(".event-summary");
+    const button = event.target.closest(".event-zoom");
     if (!button) return;
 
-    const detail = document.getElementById(button.getAttribute("aria-controls"));
-    if (!detail) return;
-
     const isOpen = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", String(!isOpen));
-    detail.classList.toggle("is-open", !isOpen);
-    detail.inert = isOpen;
-    button.closest(".event-card")?.classList.toggle("is-expanded", !isOpen);
+    if (isOpen) {
+      closeEventLightbox();
+      return;
+    }
+
+    const card = button.closest(".event-card");
+    const detail = document.getElementById(button.getAttribute("aria-controls"));
+    if (!card || !detail) return;
+
+    closeEventLightbox(); // only one card open at a time
+
+    button.setAttribute("aria-expanded", "true");
+    button.setAttribute("aria-label", "닫기");
+    detail.classList.add("is-open");
+    detail.inert = false;
+    card.classList.add("is-expanded");
+    card.setAttribute("role", "dialog");
+    card.setAttribute("aria-modal", "true");
+    eventBackdropEl.classList.add("is-visible");
+  });
+
+  eventBackdropEl.addEventListener("click", closeEventLightbox);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeEventLightbox();
   });
 }
 
@@ -134,31 +170,6 @@ function drawRoughBoxes() {
   });
 }
 
-function drawRoughArrows() {
-  const color = roughColor();
-
-  document.querySelectorAll(".event-arrow-svg").forEach((svg) => {
-    svg.innerHTML = "";
-    svg.setAttribute("viewBox", "0 0 20 20");
-
-    const rc = rough.svg(svg);
-    const path = rc.linearPath(
-      [
-        [4, 7],
-        [10, 14],
-        [16, 7],
-      ],
-      {
-        stroke: color,
-        strokeWidth: 2,
-        roughness: ROUGH_ROUGHNESS,
-        bowing: ROUGH_BOWING,
-      }
-    );
-    svg.appendChild(path);
-  });
-}
-
 function drawRoughPullString() {
   const svg = document.querySelector(".pull-string-svg");
   if (!svg) return;
@@ -245,7 +256,6 @@ function redrawAllRough() {
   document.documentElement.classList.add("rough-ready");
   drawRoughDividers();
   drawRoughBoxes();
-  drawRoughArrows();
   drawRoughInnerAll();
   drawRoughPullString();
 }
