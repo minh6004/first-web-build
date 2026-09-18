@@ -25,27 +25,42 @@ if (eventListEl) {
 
 const coverEl = document.getElementById("cover");
 const enterMainBtn = document.getElementById("enterMainBtn");
+const pullHandleEl = document.getElementById("pullHandle");
 const siteHeaderEl = document.getElementById("siteHeader");
 const mainEl = document.getElementById("main");
 const siteFooterEl = document.getElementById("siteFooter");
 
 enterMainBtn.addEventListener("click", () => {
+  if (enterMainBtn.disabled) return;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  coverEl.classList.add("is-hiding");
 
-  const revealMain = () => {
-    coverEl.hidden = true;
+  // unhides header/main/footer so they're already laid out behind the (still
+  // fully covering) cover screen before it rolls away -- no white flash
+  const showMainContent = () => {
     siteHeaderEl.hidden = false;
     mainEl.hidden = false;
     siteFooterEl.hidden = false;
+  };
+
+  const finish = () => {
+    coverEl.hidden = true;
     redrawAllRough(); // rough-box/divider sizes were 0 while main was display:none
   };
 
   if (reduceMotion) {
-    revealMain();
-  } else {
-    setTimeout(revealMain, 300);
+    showMainContent();
+    finish();
+    return;
   }
+
+  enterMainBtn.disabled = true;
+  pullHandleEl.classList.add("is-pulled"); // stage 1: handle gets tugged down
+
+  setTimeout(() => {
+    showMainContent();
+    coverEl.classList.add("is-hiding"); // stage 2: whole cover rolls up and away
+    setTimeout(finish, 460);
+  }, 150);
 });
 
 const ROUGH_ROUGHNESS = 2.2; // same value used for section dividers, kept in sync for the box/inner-divider extension
@@ -135,6 +150,29 @@ function drawRoughArrows() {
   });
 }
 
+function drawRoughPullString() {
+  const svg = document.querySelector(".pull-string-svg");
+  if (!svg) return;
+
+  const width = svg.clientWidth;
+  const height = svg.clientHeight;
+  if (!width || !height) return;
+
+  svg.innerHTML = "";
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+
+  const rc = rough.svg(svg);
+  const x1 = width / 2 + (Math.random() - 0.5) * 2;
+  const x2 = width / 2 + (Math.random() - 0.5) * 2;
+  const line = rc.line(x1, 1, x2, height - 1, {
+    stroke: roughColor(),
+    strokeWidth: 1.5,
+    roughness: ROUGH_ROUGHNESS,
+    bowing: ROUGH_BOWING,
+  });
+  svg.appendChild(line);
+}
+
 // Draws hand-drawn lines under every item except the last, inside `containerEl`
 // (which must be position:relative). `widthEl` (defaults to containerEl) supplies
 // the line length -- e.g. the actual <table>, which can be wider than its
@@ -200,6 +238,7 @@ function redrawAllRough() {
   drawRoughBoxes();
   drawRoughArrows();
   drawRoughInnerAll();
+  drawRoughPullString();
 }
 
 redrawAllRough();

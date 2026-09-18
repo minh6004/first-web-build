@@ -66,6 +66,14 @@
 
   /* rough-divider stroke: darker than --color-border so the hand-drawn wobble reads clearly */
   --color-divider-rough: #a8a8a8;
+
+  /* shared feTurbulence noise, reused at page level (body) and on the cover-screen
+     paper backdrop -- same texture, not a new pattern per section */
+  --noise-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  /* cover-screen-only cream paper tone (the "wall" the printed slide is taped to) --
+     hero-specific carve-out, same precedent as the hero doodles: not a site-wide token. */
+  --color-hero-paper-bg: #f7f1df;
 }
 
 /* ==========================================================================
@@ -91,7 +99,7 @@ html {
 body {
   margin: 0;
   background-color: var(--color-bg);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image: var(--noise-texture);
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--fs-body);
@@ -276,31 +284,132 @@ p {
    Hero / Cover screen (shown first; hidden once "시작하기" reveals the main screen)
    ========================================================================== */
 .hero {
-  position: relative;
+  position: fixed;
+  inset: 0;
+  z-index: 20;
   overflow: hidden;
-  min-height: 100dvh;
   display: flex;
   align-items: center;
   padding-block: var(--space-8) var(--space-8);
-  transition: opacity 0.3s ease;
+  background-color: var(--color-hero-paper-bg);
+  background-image: var(--noise-texture);
 }
 
-.hero.is-hiding {
-  opacity: 0;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero {
-    transition: none;
+@keyframes hero-roll-up {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  35% {
+    transform: translateY(-38%) rotate(-1.6deg);
+  }
+  65% {
+    transform: translateY(-75%) rotate(1.4deg);
+  }
+  100% {
+    transform: translateY(-112%) rotate(0deg);
   }
 }
 
-.hero .container {
+.hero.is-hiding {
+  animation: hero-roll-up 0.46s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero.is-hiding {
+    animation: none;
+  }
+}
+
+/* Content "paper slide": printed-page border (rough-box), taped on at a slight
+   tilt onto the cream --color-hero-paper-bg backdrop set on .hero above. */
+.hero-paper {
   position: relative;
   z-index: 1;
   display: grid;
   gap: var(--space-4);
   max-width: 46rem;
+  padding-block: var(--space-4);
+  background: var(--color-surface);
+  transform: rotate(-1.3deg);
+}
+
+.hero-paper .tape {
+  position: absolute;
+  top: -0.6rem;
+  width: 3.25rem;
+  height: 1.25rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.hero-paper .tape-left {
+  left: 1.5rem;
+  transform: rotate(-8deg);
+}
+
+.hero-paper .tape-right {
+  right: 1.5rem;
+  transform: rotate(6deg);
+}
+
+/* Roll-screen pull tab, replacing the old "시작하기" button */
+.pull-handle {
+  position: absolute;
+  left: 50%;
+  bottom: var(--space-4);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+  transition: transform 0.15s ease-out;
+}
+
+.pull-handle.is-pulled {
+  transform: translate(-50%, 20px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pull-handle {
+    transition: none;
+  }
+}
+
+.pull-string-svg {
+  display: block;
+  width: 6px;
+  height: 34px;
+  overflow: visible;
+}
+
+.pull-tab {
+  margin-top: -2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1.2rem;
+  border-radius: var(--radius-pill);
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  touch-action: manipulation;
+  box-shadow: var(--shadow-hard);
+  transition: transform 0.15s ease;
+}
+
+.pull-tab:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pull-tab {
+    transition: none;
+  }
 }
 
 /* Hand-drawn decorative doodles (finance-themed, outline only) */
