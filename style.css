@@ -3,21 +3,8 @@
    Source: Taste analysis of gm-meme.com (structure) + finance-trust tone-down
    ========================================================================== */
 
-/* BMYEONSUNG (배달의민족 연성체), exact webfont code from noonnu.cc/font_page/54.
-   unicode-range restricts it to Hangul + punctuation so Latin letters/digits
-   fall through to Caveat (next in the --font-display stack) instead of using
-   BMYEONSUNG's own Latin glyphs. */
-@font-face {
-    font-family: 'Yeonseong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
-    font-weight: normal;
-    font-display: swap;
-    unicode-range: U+AC00-D7A3, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF,
-      U+3000-303F, U+FF00-FFEF, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
-}
-
 :root {
-  /* color */
+  /* color -- see DESIGN.md for the 3-group rule (brand / up-down / base) */
   --color-bg: #ffffff;
   --color-surface: #ffffff;
   --color-surface-alt: #f3f3f1;
@@ -25,16 +12,19 @@
   --color-text-muted: #5c5f66;
   --color-line: #000000;
   --color-border: #e2e2e2;
-  --color-accent: #0b99ff;
-  --color-accent-contrast: #ffffff;
-  --color-accent-soft: #eaf5ff;
+  --color-accent: #d97757;
+  /* black, not white: white-on-#d97757 is ~3.1:1 (fails WCAG AA text),
+     black-on-#d97757 is ~6.7:1 */
+  --color-accent-contrast: var(--color-text);
+  --color-accent-soft: #f7e4dc;
   --color-warn: #ebd22f;
 
   /* theme: always light, matching the reference site (no dark mode) */
   color-scheme: light;
 
-  /* type: display (headings/logo/buttons) = handwriting, Korean via Yeonseong (BMYEONSUNG), Latin/numbers via Caveat Bold */
-  --font-display: "Yeonseong", "Caveat", sans-serif;
+  /* type: display (headings/logo/buttons) = Pretendard, weight varies by
+     use (see DESIGN.md -- only .hero h1 is Black/900 so far) */
+  --font-display: "Pretendard", sans-serif;
   /* body (paragraphs, lists, small text) = Pretendard for readability */
   --font-body: "Pretendard", sans-serif;
   --fs-h1: clamp(2.25rem, 5vw + 1rem, 3.75rem);
@@ -67,13 +57,9 @@
   /* rough-divider stroke: same tone as --color-text-muted, darker than --color-border so the hand-drawn wobble reads clearly */
   --color-divider-rough: #5c5f66;
 
-  /* shared feTurbulence noise, reused at page level (body) and on the cover-screen
-     paper backdrop -- same texture, not a new pattern per section */
+  /* shared feTurbulence noise -- still used by body (see DESIGN.md: global
+     paper-texture removal is pending a follow-up pass, not part of this one) */
   --noise-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-
-  /* cover-screen-only cream paper tone (the "wall" the printed slide is taped to) --
-     hero-specific carve-out, same precedent as the hero doodles: not a site-wide token. */
-  --color-hero-paper-bg: #f7f1df;
 }
 
 /* ==========================================================================
@@ -287,202 +273,48 @@ p {
   position: fixed;
   inset: 0;
   z-index: 20;
-  overflow: hidden;
+  overflow: hidden auto;
   display: flex;
   align-items: center;
   padding-block: var(--space-8) var(--space-8);
-  background-color: var(--color-hero-paper-bg);
-  background-image: var(--noise-texture);
-}
-
-@keyframes hero-roll-up {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  35% {
-    transform: translateY(-38%) rotate(-1.6deg);
-  }
-  65% {
-    transform: translateY(-75%) rotate(1.4deg);
-  }
-  100% {
-    transform: translateY(-112%) rotate(0deg);
-  }
+  background: var(--color-bg);
+  transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
 .hero.is-hiding {
-  animation: hero-roll-up 0.46s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-  will-change: transform;
+  opacity: 0;
+  transform: scale(0.96);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero.is-hiding {
-    animation: none;
+  .hero {
+    transition: none;
   }
 }
 
-/* Content "paper slide": printed-page border (rough-box), taped on at a slight
-   tilt onto the cream --color-hero-paper-bg backdrop set on .hero above. */
-.hero-paper {
+.hero-inner {
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  max-width: 56rem;
+}
+
+.hero-illustration {
+  width: clamp(140px, 22vw, 220px);
+  height: auto;
+  flex-shrink: 0;
+}
+
+.hero-copy {
   display: grid;
   gap: var(--space-4);
-  max-width: 46rem;
-  padding-block: var(--space-4);
-  background: var(--color-surface);
-  transform: rotate(-1.3deg);
-}
-
-.hero-paper .tape {
-  position: absolute;
-  top: -0.6rem;
-  width: 3.25rem;
-  height: 1.25rem;
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
-}
-
-.hero-paper .tape-left {
-  left: 1.5rem;
-  transform: rotate(-8deg);
-}
-
-.hero-paper .tape-right {
-  right: 1.5rem;
-  transform: rotate(6deg);
-}
-
-/* Roll-screen pull tab, replacing the old "시작하기" button */
-.pull-handle {
-  position: absolute;
-  left: 50%;
-  bottom: var(--space-4);
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translateX(-50%);
-  transition: transform 0.15s ease-out;
-}
-
-.pull-handle.is-pulled {
-  transform: translate(-50%, 20px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .pull-handle {
-    transition: none;
-  }
-}
-
-.pull-string-svg {
-  display: block;
-  width: 6px;
-  height: 34px;
-  overflow: visible;
-}
-
-.pull-tab {
-  margin-top: -2px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.75rem 1.6rem;
-  border-radius: var(--radius-pill);
-  border: none;
-  background: var(--color-accent);
-  color: var(--color-accent-contrast);
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.2rem;
-  cursor: pointer;
-  touch-action: manipulation;
-  box-shadow: var(--shadow-hard);
-  transition: transform 0.15s ease;
-}
-
-.pull-tab:active {
-  transform: scale(0.97);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .pull-tab {
-    transition: none;
-  }
-}
-
-/* Hand-drawn decorative doodles (finance-themed, outline only) */
-.hero-doodles {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.hero-doodles svg * {
-  fill: none;
-  stroke: currentColor;
-}
-
-.hero-doodle {
-  position: absolute;
-  height: auto;
-  color: var(--color-line);
-  opacity: 0.7;
-}
-
-.doodle-chart {
-  top: 2rem;
-  right: 3%;
-  width: 150px;
-  transform: rotate(-3deg);
-}
-
-.doodle-candles {
-  top: 1.5rem;
-  left: 3%;
-  width: 90px;
-  transform: rotate(2deg);
-}
-
-.doodle-announce {
-  bottom: 2rem;
-  left: 6%;
-  width: 80px;
-  transform: rotate(-4deg);
-}
-
-.doodle-clock {
-  bottom: 1.5rem;
-  right: 6%;
-  width: 70px;
-}
-
-@keyframes doodle-wiggle {
-  0%, 100% {
-    transform: rotate(-6deg);
-  }
-  50% {
-    transform: rotate(8deg);
-  }
-}
-
-.doodle-wiggle {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: doodle-wiggle 2.6s ease-in-out infinite;
-}
-
-@media (max-width: 1024px) {
-  .hero-doodles {
-    display: none;
-  }
 }
 
 .hero h1 {
   font-family: var(--font-display);
+  font-weight: 900;
   font-size: var(--fs-h1);
   line-height: 1.1;
   letter-spacing: -0.02rem;
@@ -1053,6 +885,19 @@ select {
     padding-block: var(--space-6);
   }
 
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-illustration {
+    width: 140px;
+  }
+
+  .hero p {
+    max-width: none;
+  }
+
   .search-form {
     flex-direction: column;
     align-items: stretch;
@@ -1084,9 +929,5 @@ select {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
-  }
-
-  .doodle-wiggle {
-    animation: none;
   }
 }

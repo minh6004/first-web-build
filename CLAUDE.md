@@ -10,7 +10,17 @@ announcements, news synthesized into a buy/sell fit judgment). Files: `index.htm
 - **Whenever you finish a code change here (edit index.html/style.css/script.js or add files), commit and push to `origin/main` right away — don't wait to be asked.** Standing user instruction (2026-09-16).
 - Still use judgment on commit boundaries: one logical change per commit, clear message, no `--force`, no `--no-verify`. Ask first only for something destructive (e.g. history rewrite) — routine commit+push for normal edits needs no confirmation.
 
-## Design system (locked as the site's main concept — 2026-09-16)
+## Design system
+
+**Superseded 2026-09-18 — see `DESIGN.md`.** The hand-drawn pencil/paper concept below (locked
+2026-09-16) was fully discontinued in favor of an Open Peeps illustration system, Pretendard Black
+headlines, and a terracotta (`#d97757`) signature color. `DESIGN.md` is now the source of truth for
+any new work; the section below is kept only as history and as an accurate description of the
+sections that haven't been migrated yet (see `DESIGN.md`'s "Rollout status"). Don't build anything
+new in the style described below.
+
+<details>
+<summary>Old design system (locked 2026-09-16, discontinued 2026-09-18)</summary>
 
 The user confirmed the current look is the permanent direction, not a placeholder style. **Any new
 section, component, or page must match this, not introduce a new look.** Read `style.css`'s `:root`
@@ -46,3 +56,5 @@ tokens before adding anything, and reuse them — don't invent new colors/fonts/
 - Full rationale/history for all of the above is in claude-mem project memory
   (`design-tokens-gm-meme`, `first-web-build-structure`) — check there before making a judgment call
   on anything not covered here.
+
+</details>

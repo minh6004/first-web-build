@@ -82,7 +82,6 @@ if (eventGridEl && eventBackdropEl) {
 
 const coverEl = document.getElementById("cover");
 const enterMainBtn = document.getElementById("enterMainBtn");
-const pullHandleEl = document.getElementById("pullHandle");
 const siteHeaderEl = document.getElementById("siteHeader");
 const mainEl = document.getElementById("main");
 const siteFooterEl = document.getElementById("siteFooter");
@@ -92,7 +91,7 @@ enterMainBtn.addEventListener("click", () => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // unhides header/main/footer so they're already laid out behind the (still
-  // fully covering) cover screen before it rolls away -- no white flash
+  // fully covering) cover screen before it fades away -- no white flash
   const showMainContent = () => {
     siteHeaderEl.hidden = false;
     mainEl.hidden = false;
@@ -111,21 +110,17 @@ enterMainBtn.addEventListener("click", () => {
   }
 
   enterMainBtn.disabled = true;
-  pullHandleEl.classList.add("is-pulled"); // stage 1: handle gets tugged down
-
-  setTimeout(() => {
-    showMainContent();
-    // showMainContent() just triggered a big layout (the whole main screen).
-    // Starting the roll-up animation in the same tick makes that layout/paint
-    // compete with the animation's first frames and stutter -- wait two
-    // rAFs so the (still hidden behind the cover) layout settles first.
+  showMainContent();
+  // showMainContent() just triggered a big layout (the whole main screen).
+  // Starting the fade in the same tick makes that layout/paint compete with
+  // the animation's first frames and stutter -- wait two rAFs so the (still
+  // hidden behind the cover) layout settles first.
+  requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        coverEl.classList.add("is-hiding"); // stage 2: whole cover rolls up and away
-        setTimeout(finish, 460);
-      });
+      coverEl.classList.add("is-hiding"); // fade + scale down and out
+      setTimeout(finish, 350);
     });
-  }, 150);
+  });
 });
 
 const ROUGH_ROUGHNESS = 2.2; // same value used for section dividers, kept in sync for the box/inner-divider extension
@@ -188,29 +183,6 @@ function drawRoughBoxes() {
     });
     svg.appendChild(rect);
   });
-}
-
-function drawRoughPullString() {
-  const svg = document.querySelector(".pull-string-svg");
-  if (!svg) return;
-
-  const width = svg.clientWidth;
-  const height = svg.clientHeight;
-  if (!width || !height) return;
-
-  svg.innerHTML = "";
-  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
-
-  const rc = rough.svg(svg);
-  const x1 = width / 2 + (Math.random() - 0.5) * 2;
-  const x2 = width / 2 + (Math.random() - 0.5) * 2;
-  const line = rc.line(x1, 1, x2, height - 1, {
-    stroke: roughColor(),
-    strokeWidth: 1.5,
-    roughness: ROUGH_ROUGHNESS,
-    bowing: ROUGH_BOWING,
-  });
-  svg.appendChild(line);
 }
 
 // Draws hand-drawn lines under every item except the last, inside `containerEl`
@@ -277,7 +249,6 @@ function redrawAllRough() {
   drawRoughDividers();
   drawRoughBoxes();
   drawRoughInnerAll();
-  drawRoughPullString();
 }
 
 redrawAllRough();
