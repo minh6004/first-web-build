@@ -64,8 +64,8 @@
   --color-up: #1a7f37;
   --color-down: #d1242f;
 
-  /* rough-divider stroke: darker than --color-border so the hand-drawn wobble reads clearly */
-  --color-divider-rough: #a8a8a8;
+  /* rough-divider stroke: same tone as --color-text-muted, darker than --color-border so the hand-drawn wobble reads clearly */
+  --color-divider-rough: #5c5f66;
 
   /* shared feTurbulence noise, reused at page level (body) and on the cover-screen
      paper backdrop -- same texture, not a new pattern per section */
