@@ -7,20 +7,76 @@ navToggle.addEventListener("click", () => {
 });
 
 const eventGridEl = document.querySelector(".event-grid");
+const eventBackdropEl = document.getElementById("eventLightboxBackdrop");
 
-if (eventGridEl) {
+// a plain requestAnimationFrame can still fire before the grid has finished
+// reflowing the row an expand/collapse just left (its sibling card's height
+// changes too, since the row briefly has only one item in it) -- a second
+// rAF gives that reflow a frame to settle before rough-box remeasures it,
+// same double-rAF pattern already used for the cover roll-up.
+function redrawRoughBoxesNextFrame() {
+  requestAnimationFrame(() => requestAnimationFrame(drawRoughBoxes));
+}
+
+function closeEventLightbox() {
+  const openCard = document.querySelector(".event-card.is-expanded");
+  if (!openCard) return;
+
+  const button = openCard.querySelector(".event-zoom");
+  const detail = openCard.querySelector(".event-detail-wrap");
+  button.setAttribute("aria-expanded", "false");
+  button.setAttribute("aria-label", "자세히 보기");
+  detail.classList.remove("is-open");
+  detail.inert = true;
+  openCard.classList.remove("is-expanded");
+  openCard.removeAttribute("role");
+  openCard.removeAttribute("aria-modal");
+  eventBackdropEl.classList.remove("is-visible");
+  button.focus();
+  redrawRoughBoxesNextFrame(); // card shrank back to its grid size
+}
+
+if (eventGridEl && eventBackdropEl) {
   eventGridEl.addEventListener("click", (event) => {
-    const button = event.target.closest(".event-summary");
+    const button = event.target.closest(".event-zoom");
     if (!button) return;
 
-    const detail = document.getElementById(button.getAttribute("aria-controls"));
-    if (!detail) return;
-
     const isOpen = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", String(!isOpen));
-    detail.classList.toggle("is-open", !isOpen);
-    detail.inert = isOpen;
-    button.closest(".event-card")?.classList.toggle("is-expanded", !isOpen);
+    if (isOpen) {
+      closeEventLightbox();
+      return;
+    }
+
+    const card = button.closest(".event-card");
+    const detail = document.getElementById(button.getAttribute("aria-controls"));
+    if (!card || !detail) return;
+
+    closeEventLightbox(); // only one card open at a time
+
+    button.setAttribute("aria-expanded", "true");
+    button.setAttribute("aria-label", "닫기");
+    detail.classList.add("is-open");
+    detail.inert = false;
+    card.classList.add("is-expanded");
+    card.setAttribute("role", "dialog");
+    card.setAttribute("aria-modal", "true");
+    eventBackdropEl.classList.add("is-visible");
+    redrawRoughBoxesNextFrame(); // card grew to lightbox size
+  });
+
+  // the immediate redraw above can still land mid-animation (the sibling
+  // card in the same grid row shares its height via grid stretch while
+  // .event-detail-wrap's max-height transition is running), leaving its
+  // rough-box border drawn at a transient size -- redraw once more when
+  // that transition actually finishes for a guaranteed-correct final size.
+  eventGridEl.addEventListener("transitionend", (event) => {
+    if (event.propertyName === "max-height") drawRoughBoxes();
+  });
+
+  eventBackdropEl.addEventListener("click", closeEventLightbox);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeEventLightbox();
   });
 }
 
@@ -134,31 +190,6 @@ function drawRoughBoxes() {
   });
 }
 
-function drawRoughArrows() {
-  const color = roughColor();
-
-  document.querySelectorAll(".event-arrow-svg").forEach((svg) => {
-    svg.innerHTML = "";
-    svg.setAttribute("viewBox", "0 0 20 20");
-
-    const rc = rough.svg(svg);
-    const path = rc.linearPath(
-      [
-        [4, 7],
-        [10, 14],
-        [16, 7],
-      ],
-      {
-        stroke: color,
-        strokeWidth: 2,
-        roughness: ROUGH_ROUGHNESS,
-        bowing: ROUGH_BOWING,
-      }
-    );
-    svg.appendChild(path);
-  });
-}
-
 function drawRoughPullString() {
   const svg = document.querySelector(".pull-string-svg");
   if (!svg) return;
@@ -245,7 +276,6 @@ function redrawAllRough() {
   document.documentElement.classList.add("rough-ready");
   drawRoughDividers();
   drawRoughBoxes();
-  drawRoughArrows();
   drawRoughInnerAll();
   drawRoughPullString();
 }
