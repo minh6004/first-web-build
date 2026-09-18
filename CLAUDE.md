@@ -10,6 +10,18 @@ announcements, news synthesized into a buy/sell fit judgment). Files: `index.htm
 - **Whenever you finish a code change here (edit index.html/style.css/script.js or add files), commit and push to `origin/main` right away — don't wait to be asked.** Standing user instruction (2026-09-16).
 - Still use judgment on commit boundaries: one logical change per commit, clear message, no `--force`, no `--no-verify`. Ask first only for something destructive (e.g. history rewrite) — routine commit+push for normal edits needs no confirmation.
 
+## QA gate for design/UI work (standing instruction — 2026-09-18)
+
+- Whenever a prompt in this project results in a visual/UI change (new
+  component, section, card design, page restyle, animation/transition,
+  icon/illustration, or an edit to an existing visual element), invoke the
+  `qa-design-reviewer` subagent (`.claude/agents/qa-design-reviewer.md`)
+  right after implementing it and **before showing the result to the user**.
+- If it reports issues, fix them yourself (the subagent has no write access
+  by design) and invoke it again. Repeat until it reports no `[심각]`
+  (critical) issues. Only then present the result.
+- Skip it for changes with no visual surface (data/logic/config-only edits).
+
 ## Design system
 
 **Superseded 2026-09-18 — see `DESIGN.md`.** The hand-drawn pencil/paper concept below (locked
