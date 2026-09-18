@@ -560,7 +560,7 @@ p {
   position: relative;
   padding-block: var(--space-8);
   background-color: var(--color-kraft-bg);
-  background-image: var(--noise-texture);
+  background-image: var(--noise-texture), radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, 0.1), transparent 65%);
 }
 
 .big-events h2 {
@@ -602,27 +602,29 @@ p {
   gap: var(--space-4);
 }
 
-/* torn bottom edge via clip-path -- two slightly different zigzags so cards
-   don't all share the exact same tear. filter:drop-shadow (not box-shadow)
-   because box-shadow gets cut off by clip-path at the polygon's own edge. */
+/* torn bottom edge via clip-path -- each card gets its own hand-picked,
+   irregularly-spaced/irregular-depth point list (--card-tear) so no two
+   tears repeat the same rhythm, mixing sharp deep notches with shallow
+   rounded ones. A soft light->dark gradient right at the edge (in the
+   background layer below) fakes a lifted paper cross-section.
+   filter:drop-shadow (not box-shadow) because box-shadow gets clipped away
+   at the polygon's own edge; two stacked drop-shadows (a big soft one + a
+   tight faint contact one) read as a natural, non-hard-edged lift. */
 .event-card {
   position: relative;
   width: 100%;
   max-width: 22rem;
   aspect-ratio: 4 / 5;
+  min-height: 0;
   justify-self: center;
   display: flex;
   flex-direction: column;
-  padding: var(--space-4) var(--space-4) calc(var(--space-4) + 0.75rem);
-  background: var(--color-postit);
-  clip-path: polygon(
-    0% 0%, 100% 0%, 100% 100%,
-    94% 96%, 88% 100%, 82% 95%, 76% 99%, 70% 94%,
-    64% 98%, 58% 93%, 52% 97%, 46% 92%, 40% 96%,
-    34% 91%, 28% 97%, 22% 92%, 16% 98%, 10% 93%,
-    4% 97%, 0% 92%
-  );
-  filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.18));
+  padding: var(--space-4) var(--space-4) calc(var(--space-4) + 0.65rem);
+  background:
+    linear-gradient(to bottom, transparent 78%, rgba(255, 255, 255, 0.85) 88%, rgba(0, 0, 0, 0.16) 100%),
+    var(--color-postit);
+  clip-path: var(--card-tear);
+  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.14)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
   transform: translateY(var(--card-offset, 0px)) rotate(var(--card-tilt, 0deg));
   transition: transform 0.3s ease;
 }
@@ -633,20 +635,27 @@ p {
   --card-tilt: -3deg;
   --card-offset: -6px;
   --pin-color: #d6362f;
-  --pin-color-dark: #a8241e;
+  --pin-color-dark: #8f1d18;
+  --card-tear: polygon(
+    0% 0%, 100% 0%, 100% 100%,
+    95% 97%, 89% 88%, 84% 96%, 80% 91%,
+    71% 98%, 65% 84%, 60% 93%, 56% 90%,
+    47% 99%, 40% 86%, 36% 95%, 31% 89%,
+    22% 97%, 16% 80%, 12% 94%, 6% 88%, 0% 97%
+  );
 }
 
 .event-grid .event-card:nth-child(2) {
   --card-tilt: 2.5deg;
   --card-offset: 8px;
   --pin-color: #eab308;
-  --pin-color-dark: #a16207;
-  clip-path: polygon(
-    0% 0%, 100% 0%, 100% 94%,
-    95% 99%, 89% 95%, 83% 100%, 77% 95%, 71% 99%,
-    65% 94%, 59% 98%, 53% 93%, 47% 97%, 41% 92%,
-    35% 98%, 29% 93%, 23% 97%, 17% 92%, 11% 98%,
-    5% 93%, 0% 97%
+  --pin-color-dark: #92650a;
+  --card-tear: polygon(
+    0% 0%, 100% 0%, 100% 95%,
+    92% 87%, 86% 98%, 79% 92%,
+    68% 99%, 61% 83%, 55% 95%, 50% 89%,
+    42% 97%, 34% 85%, 29% 96%, 24% 90%,
+    15% 99%, 9% 82%, 4% 94%, 0% 90%
   );
 }
 
@@ -654,20 +663,27 @@ p {
   --card-tilt: -2deg;
   --card-offset: 5px;
   --pin-color: #2f6fd6;
-  --pin-color-dark: #1e4a9e;
+  --pin-color-dark: #1c3f80;
+  --card-tear: polygon(
+    0% 0%, 100% 0%, 100% 98%,
+    93% 90%, 87% 99%, 81% 84%,
+    73% 96%, 66% 89%, 60% 98%,
+    49% 87%, 43% 97%, 38% 91%,
+    27% 99%, 20% 83%, 14% 95%, 8% 88%, 0% 96%
+  );
 }
 
 .event-grid .event-card:nth-child(4) {
   --card-tilt: 3.5deg;
   --card-offset: -4px;
   --pin-color: #2f9e52;
-  --pin-color-dark: #1e6b38;
-  clip-path: polygon(
-    0% 0%, 100% 0%, 100% 94%,
-    95% 99%, 89% 95%, 83% 100%, 77% 95%, 71% 99%,
-    65% 94%, 59% 98%, 53% 93%, 47% 97%, 41% 92%,
-    35% 98%, 29% 93%, 23% 97%, 17% 92%, 11% 98%,
-    5% 93%, 0% 97%
+  --pin-color-dark: #1a5c33;
+  --card-tear: polygon(
+    0% 0%, 100% 0%, 100% 93%,
+    88% 99%, 80% 85%, 73% 97%,
+    63% 90%, 55% 99%, 48% 84%,
+    38% 96%, 31% 88%, 25% 98%,
+    15% 86%, 9% 96%, 3% 90%, 0% 98%
   );
 }
 
@@ -688,6 +704,21 @@ p {
   transform: none;
 }
 
+/* clip-path % coords scale with the box's own height -- on a tall lightbox
+   the square card's tear (dips up to ~20% of height) turns into spikes over
+   100px deep that clip through the detail text. Swap in one shallow, shared
+   tear here instead (small at any content height). Needs the .event-grid
+   prefix to out-specificity the :nth-child(n) tear rules above, since a
+   plain .event-card.is-expanded loses that cascade fight otherwise. */
+.event-grid .event-card.is-expanded {
+  --card-tear: polygon(
+    0% 0%, 100% 0%, 100% 99%,
+    92% 100%, 85% 98%, 78% 100%, 70% 99%,
+    60% 100%, 50% 98%, 40% 100%, 30% 99%,
+    20% 100%, 12% 98%, 5% 100%, 0% 99%
+  );
+}
+
 .event-lightbox-backdrop {
   position: fixed;
   inset: 0;
@@ -703,12 +734,16 @@ p {
   pointer-events: auto;
 }
 
+/* CSS-drawn pin (no SVG, no emoji) -- three stacked divs: a blurred ellipse
+   "puncture" shadow on the paper, a short metal needle, and a glossy round
+   head using two layered radial-gradients (a top-left highlight blob + a
+   bottom-right dark blob over the base --pin-color) for a plastic/metal look. */
 .event-pin {
   position: absolute;
-  top: -13px;
+  top: -15px;
   left: 50%;
-  width: 22px;
-  height: 26px;
+  width: 24px;
+  height: 30px;
   z-index: 2;
   pointer-events: none;
   transform: translateX(-50%) rotate(calc(var(--card-tilt, 0deg) * -1));
@@ -720,22 +755,40 @@ p {
 }
 
 .event-pin-shadow {
-  fill: rgba(0, 0, 0, 0.18);
-}
-
-.event-pin-head {
-  fill: var(--pin-color, #d6362f);
-  stroke: var(--pin-color-dark, #a8241e);
-  stroke-width: 1;
-}
-
-.event-pin-highlight {
-  fill: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  width: 14px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  filter: blur(1.5px);
+  transform: translateX(-50%);
 }
 
 .event-pin-needle {
-  stroke: #8a8a8a;
-  stroke-width: 1.5;
+  position: absolute;
+  left: 50%;
+  top: 17px;
+  width: 2px;
+  height: 9px;
+  background: linear-gradient(to bottom, #d8d8d8, #7d7d7d);
+  transform: translateX(-50%);
+}
+
+.event-pin-head {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0) 38%),
+    radial-gradient(circle at 70% 76%, var(--pin-color-dark, #a8241e), transparent 58%),
+    var(--pin-color, #d6362f);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
 }
 
 .event-org {
