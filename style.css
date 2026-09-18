@@ -312,6 +312,7 @@ p {
 
 .hero.is-hiding {
   animation: hero-roll-up 0.46s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  will-change: transform;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -388,14 +389,14 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.55rem 1.2rem;
+  padding: 0.75rem 1.6rem;
   border-radius: var(--radius-pill);
   border: none;
   background: var(--color-accent);
   color: var(--color-accent-contrast);
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   touch-action: manipulation;
   box-shadow: var(--shadow-hard);

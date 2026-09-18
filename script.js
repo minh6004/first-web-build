@@ -58,8 +58,16 @@ enterMainBtn.addEventListener("click", () => {
 
   setTimeout(() => {
     showMainContent();
-    coverEl.classList.add("is-hiding"); // stage 2: whole cover rolls up and away
-    setTimeout(finish, 460);
+    // showMainContent() just triggered a big layout (the whole main screen).
+    // Starting the roll-up animation in the same tick makes that layout/paint
+    // compete with the animation's first frames and stutter -- wait two
+    // rAFs so the (still hidden behind the cover) layout settles first.
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        coverEl.classList.add("is-hiding"); // stage 2: whole cover rolls up and away
+        setTimeout(finish, 460);
+      });
+    });
   }, 150);
 });
 
