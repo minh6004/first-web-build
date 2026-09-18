@@ -75,9 +75,8 @@
      hero-specific carve-out, same precedent as the hero doodles: not a site-wide token. */
   --color-hero-paper-bg: #f7f1df;
 
-  /* big-events-only note paper + corkboard tones -- same hero-specific-carve-out precedent */
-  --color-postit: #fdfaf1;
-  --color-kraft-bg: #e3d2a8;
+  /* big-events-only postit yellow -- same hero-specific-carve-out precedent */
+  --color-postit: #fff3b0;
 }
 
 /* ==========================================================================
@@ -554,46 +553,16 @@ p {
 }
 
 /* ==========================================================================
-   Big Events (torn-paper notes pinned on a corkboard, click to zoom)
+   Big Events (postit-on-corkboard grid cards)
    ========================================================================== */
 .big-events {
   position: relative;
   padding-block: var(--space-8);
-  background-color: var(--color-kraft-bg);
-  background-image: var(--noise-texture), radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, 0.1), transparent 65%);
 }
 
 .big-events h2 {
   font-size: var(--fs-h2);
   margin-bottom: var(--space-4);
-}
-
-.event-doodles svg {
-  fill: none;
-  stroke: var(--color-line);
-  stroke-width: 1.5;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-}
-
-.event-doodle {
-  position: absolute;
-  opacity: 0.55;
-  pointer-events: none;
-}
-
-.event-doodle-sparkle {
-  top: var(--space-1);
-  right: var(--space-3);
-  width: 26px;
-  height: 26px;
-}
-
-.event-doodle-x {
-  bottom: var(--space-2);
-  left: var(--space-3);
-  width: 20px;
-  height: 20px;
 }
 
 .event-grid {
@@ -602,247 +571,147 @@ p {
   gap: var(--space-4);
 }
 
-/* torn bottom edge via clip-path -- each card gets its own hand-picked,
-   irregularly-spaced/irregular-depth point list (--card-tear) so no two
-   tears repeat the same rhythm, mixing sharp deep notches with shallow
-   rounded ones. A soft light->dark gradient right at the edge (in the
-   background layer below) fakes a lifted paper cross-section.
-   filter:drop-shadow (not box-shadow) because box-shadow gets clipped away
-   at the polygon's own edge; two stacked drop-shadows (a big soft one + a
-   tight faint contact one) read as a natural, non-hard-edged lift. */
 .event-card {
   position: relative;
   width: 100%;
   max-width: 22rem;
   aspect-ratio: 4 / 5;
-  min-height: 0;
   justify-self: center;
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-4) var(--space-4) calc(var(--space-4) + 0.65rem);
-  background:
-    linear-gradient(to bottom, transparent 78%, rgba(255, 255, 255, 0.85) 88%, rgba(0, 0, 0, 0.16) 100%),
-    var(--color-postit);
-  clip-path: var(--card-tear);
-  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.14)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
-  transform: translateY(var(--card-offset, 0px)) rotate(var(--card-tilt, 0deg));
-  transition: transform 0.3s ease;
+  background: var(--color-postit);
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  transform: rotate(var(--card-tilt, 0deg));
+  transition: transform 0.3s ease, max-width 0.3s ease;
 }
 
-/* fixed per-card tilt/offset/pin-color/tear so no two notes look identical --
-   dummy data is a fixed 4 cards, no need for a random generator here */
+/* fixed per-card tilt so no two postits sit at the same angle -- dummy data
+   is a fixed 4 cards, no need for a random-angle generator here */
 .event-grid .event-card:nth-child(1) {
-  --card-tilt: -3deg;
-  --card-offset: -6px;
-  --pin-color: #d6362f;
-  --pin-color-dark: #8f1d18;
-  --card-tear: polygon(
-    0% 0%, 100% 0%, 100% 100%,
-    95% 97%, 89% 88%, 84% 96%, 80% 91%,
-    71% 98%, 65% 84%, 60% 93%, 56% 90%,
-    47% 99%, 40% 86%, 36% 95%, 31% 89%,
-    22% 97%, 16% 80%, 12% 94%, 6% 88%, 0% 97%
-  );
+  --card-tilt: -2deg;
 }
 
 .event-grid .event-card:nth-child(2) {
-  --card-tilt: 2.5deg;
-  --card-offset: 8px;
-  --pin-color: #eab308;
-  --pin-color-dark: #92650a;
-  --card-tear: polygon(
-    0% 0%, 100% 0%, 100% 95%,
-    92% 87%, 86% 98%, 79% 92%,
-    68% 99%, 61% 83%, 55% 95%, 50% 89%,
-    42% 97%, 34% 85%, 29% 96%, 24% 90%,
-    15% 99%, 9% 82%, 4% 94%, 0% 90%
-  );
+  --card-tilt: 1.6deg;
 }
 
 .event-grid .event-card:nth-child(3) {
-  --card-tilt: -2deg;
-  --card-offset: 5px;
-  --pin-color: #2f6fd6;
-  --pin-color-dark: #1c3f80;
-  --card-tear: polygon(
-    0% 0%, 100% 0%, 100% 98%,
-    93% 90%, 87% 99%, 81% 84%,
-    73% 96%, 66% 89%, 60% 98%,
-    49% 87%, 43% 97%, 38% 91%,
-    27% 99%, 20% 83%, 14% 95%, 8% 88%, 0% 96%
-  );
+  --card-tilt: -1.2deg;
 }
 
 .event-grid .event-card:nth-child(4) {
-  --card-tilt: 3.5deg;
-  --card-offset: -4px;
-  --pin-color: #2f9e52;
-  --pin-color-dark: #1a5c33;
-  --card-tear: polygon(
-    0% 0%, 100% 0%, 100% 93%,
-    88% 99%, 80% 85%, 73% 97%,
-    63% 90%, 55% 99%, 48% 84%,
-    38% 96%, 31% 88%, 25% 98%,
-    15% 86%, 9% 96%, 3% 90%, 0% 98%
-  );
+  --card-tilt: 2.3deg;
 }
 
-/* expanded: a centered fixed-position lightbox instead of a grid cell, so it
-   no longer participates in grid track sizing at all (the earlier version's
-   grid-column expand needed the grid to auto-size around it, which caused a
-   Chromium circular-sizing bug -- fixed positioning sidesteps that entirely). */
+/* ponytail: grid-column span isn't a CSS-animatable property (spec: discrete),
+   so the width-expand itself snaps instantly; only the detail reveal below
+   (grid-template-rows) and this tilt reset actually transition smoothly.
+   upgrade path if a true width morph is wanted later: JS FLIP animation. */
 .event-card.is-expanded {
-  position: fixed;
-  inset: 0;
-  margin: auto;
-  z-index: 31;
-  width: min(90vw, 34rem);
+  grid-column: 1 / -1;
   max-width: none;
-  max-height: 85vh;
   aspect-ratio: auto;
-  overflow-y: auto;
-  transform: none;
+  justify-self: stretch;
+  transform: rotate(0deg);
 }
 
-/* clip-path % coords scale with the box's own height -- on a tall lightbox
-   the square card's tear (dips up to ~20% of height) turns into spikes over
-   100px deep that clip through the detail text. Swap in one shallow, shared
-   tear here instead (small at any content height). Needs the .event-grid
-   prefix to out-specificity the :nth-child(n) tear rules above, since a
-   plain .event-card.is-expanded loses that cascade fight otherwise. */
-.event-grid .event-card.is-expanded {
-  --card-tear: polygon(
-    0% 0%, 100% 0%, 100% 99%,
-    92% 100%, 85% 98%, 78% 100%, 70% 99%,
-    60% 100%, 50% 98%, 40% 100%, 30% 99%,
-    20% 100%, 12% 98%, 5% 100%, 0% 99%
-  );
-}
-
-.event-lightbox-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 30;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.25s ease;
-}
-
-.event-lightbox-backdrop.is-visible {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-/* CSS-drawn pin (no SVG, no emoji) -- three stacked divs: a blurred ellipse
-   "puncture" shadow on the paper, a short metal needle, and a glossy round
-   head using two layered radial-gradients (a top-left highlight blob + a
-   bottom-right dark blob over the base --pin-color) for a plastic/metal look. */
 .event-pin {
   position: absolute;
-  top: -15px;
+  top: -13px;
   left: 50%;
-  width: 24px;
-  height: 30px;
+  width: 22px;
+  height: 26px;
   z-index: 2;
   pointer-events: none;
   transform: translateX(-50%) rotate(calc(var(--card-tilt, 0deg) * -1));
   transition: transform 0.3s ease;
 }
 
-.event-card.is-expanded .event-pin {
-  transform: translateX(-50%);
-}
-
 .event-pin-shadow {
-  position: absolute;
-  left: 50%;
-  bottom: 1px;
-  width: 14px;
-  height: 5px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  filter: blur(1.5px);
-  transform: translateX(-50%);
-}
-
-.event-pin-needle {
-  position: absolute;
-  left: 50%;
-  top: 17px;
-  width: 2px;
-  height: 9px;
-  background: linear-gradient(to bottom, #d8d8d8, #7d7d7d);
-  transform: translateX(-50%);
+  fill: rgba(0, 0, 0, 0.18);
 }
 
 .event-pin-head {
+  fill: #d6362f;
+  stroke: #a8241e;
+  stroke-width: 1;
+}
+
+.event-pin-highlight {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.event-pin-needle {
+  stroke: #8a8a8a;
+  stroke-width: 1.5;
+}
+
+/* position:absolute (not width/height:100%) so the square card's aspect-ratio
+   height is what sizes the button -- a percentage height here would instead
+   try to resolve against the grid row's auto track, which itself depends on
+   this same button's size, an unreliable circular case in Chromium. */
+.event-summary {
   position: absolute;
-  top: 0;
-  left: 50%;
-  width: 21px;
-  height: 21px;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  background:
-    radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0) 38%),
-    radial-gradient(circle at 70% 76%, var(--pin-color-dark, #a8241e), transparent 58%),
-    var(--pin-color, #d6362f);
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  background: none;
+  border: none;
+  text-align: center;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* expanded: back to a normal in-flow box (no more percentage/absolute
+   sizing) so its height is just its own content, and .event-card's auto
+   height correctly grows to fit button + detail-wrap beneath it. */
+.event-card.is-expanded .event-summary {
+  position: static;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-8) var(--space-4) var(--space-4);
 }
 
 .event-org {
   font-size: var(--fs-small);
   color: var(--color-text-muted);
-  text-align: center;
 }
 
 .event-decision {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: var(--fs-h3);
-  text-align: center;
   text-wrap: balance;
 }
 
-.event-meta-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
+.event-arrow-svg {
+  position: absolute;
+  right: var(--space-3);
+  bottom: var(--space-3);
+  display: block;
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+  transition: transform 0.25s ease;
 }
 
-.event-zoom {
-  display: flex;
-  padding: 0.35rem;
-  margin: -0.35rem;
-  background: none;
-  border: none;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  touch-action: manipulation;
+.event-summary[aria-expanded="true"] .event-arrow-svg {
+  transform: rotate(180deg);
 }
 
-.event-zoom-icon {
-  width: 18px;
-  height: 18px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.6;
-  stroke-linecap: round;
-}
-
-.event-date {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
-  font-variant-numeric: tabular-nums;
-}
-
+/* max-height (not the site's usual grid-template-rows 0fr/1fr trick): .event-card
+   is itself now a grid item whose own height is "auto" (content-driven) when
+   expanded, and nesting an auto-resolved fr-track inside an ancestor that is
+   also mid auto-sizing is a circular dependency that made browsers undersize
+   the card and let this overlap the row below. max-height sidesteps that. */
 .event-detail-wrap {
   max-height: 0;
   overflow: hidden;
@@ -854,7 +723,7 @@ p {
 }
 
 .event-detail-content {
-  padding-top: var(--space-3);
+  padding: 0 var(--space-4) var(--space-4);
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
@@ -876,10 +745,10 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .event-arrow-svg,
   .event-detail-wrap,
   .event-card,
-  .event-pin,
-  .event-lightbox-backdrop {
+  .event-pin {
     transition: none;
   }
 }
