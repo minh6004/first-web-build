@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "StockLens 사이트 구조 + 마스코트 배치도",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    { "id": "flow", "label": "핵심 흐름" },
+    { "id": "detail", "label": "상세 보기" },
+    { "id": "secondary", "label": "기타 섹션" }
+  ],
+  "phases": [
+    { "id": "p_cover", "label": "표지 화면", "fromCol": 0, "toCol": 0 },
+    { "id": "p_main", "label": "메인 화면", "fromCol": 1, "toCol": 4, "variant": "emphasis" }
+  ],
+  "groups": [
+    { "id": "secondary_group", "label": "기타 섹션 (기능·검색·랭킹·계좌)", "lane": "secondary", "fromCol": 1, "toCol": 4, "variant": "dashed" }
+  ],
+  "mainPath": ["cover", "nav", "realtime", "bigevents"],
+  "nodes": [
+    { "id": "cover", "lane": "flow", "col": 0, "type": "frontend", "label": "표지 화면", "sublabel": "히어로 + 시작하기 버튼", "tag": "마스코트 cover 적용", "width": 150 },
+    { "id": "nav", "lane": "flow", "col": 1, "type": "frontend", "label": "네비게이션", "sublabel": "로고 + 메뉴", "width": 150 },
+    { "id": "realtime", "lane": "flow", "col": 2, "type": "frontend", "label": "실시간 정보 그리드", "sublabel": "코스피 등 6개 지표 + LIVE", "tag": "마스코트 chart 적용", "width": 150 },
+    { "id": "bigevents", "lane": "flow", "col": 3, "type": "frontend", "label": "오늘의 빅 이벤트", "sublabel": "카드 4개 + 돋보기 아이콘", "tag": "마스코트 search 적용", "width": 150 },
+    { "id": "eventdetail", "lane": "detail", "col": 3, "type": "frontend", "label": "이벤트 상세 라이트박스", "sublabel": "영향 섹터 · 포인트 · 반대 시각", "width": 150 },
+    { "id": "features", "lane": "secondary", "col": 1, "type": "frontend", "label": "기능 소개", "width": 132 },
+    { "id": "searchfilter", "lane": "secondary", "col": 2, "type": "frontend", "label": "검색 · 필터", "width": 132 },
+    { "id": "ranking", "lane": "secondary", "col": 3, "type": "frontend", "label": "핫한 주식 TOP 10", "width": 132 },
+    { "id": "account", "lane": "secondary", "col": 4, "type": "frontend", "label": "계좌 연동", "width": 132 }
+  ],
+  "edges": [
+    { "id": "e_cover_nav", "from": "cover", "to": "nav", "label": "시작하기 클릭 (fade+scale)", "variant": "emphasis" },
+    { "id": "e_nav_realtime", "from": "nav", "to": "realtime", "variant": "default" },
+    { "id": "e_realtime_bigevents", "from": "realtime", "to": "bigevents", "variant": "default" },
+    { "id": "e_bigevents_detail", "from": "bigevents", "to": "eventdetail", "label": "돋보기 클릭 → 라이트박스", "variant": "emphasis", "role": "branch" },
+    { "id": "e_detail_back", "from": "eventdetail", "to": "bigevents", "label": "닫기 (Esc / 배경 클릭)", "variant": "dashed", "role": "return" },
+    { "id": "e_bigevents_features", "from": "bigevents", "to": "features", "variant": "dashed" },
+    { "id": "e_features_search", "from": "features", "to": "searchfilter", "variant": "dashed" },
+    { "id": "e_search_ranking", "from": "searchfilter", "to": "ranking", "variant": "dashed" },
+    { "id": "e_ranking_account", "from": "ranking", "to": "account", "variant": "dashed" }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "마스코트 적용 완료 (3종, 파일 존재)",
+      "items": [
+        "cover — 표지 화면 (커피 + 상승 차트 폰, 앉은 포즈)",
+        "chart — 실시간 정보 그리드 (차트를 가리키는 서있는 포즈)",
+        "search — 오늘의 빅 이벤트 돋보기 자리 (돋보기 든 앉은 포즈)"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "마스코트 계획 중 (5종, 파일 없음 — TBD)",
+      "items": [
+        "celebrate → 계좌 연동 (알림 성공 · 목표가 도달 등 긍정 상황)",
+        "worried → 이벤트 상세의 '반대로 생각하면?' 옆",
+        "empty → 검색 · 필터 (검색 결과 없음 / 계좌 미연동 상태)",
+        "alert → 실시간 정보의 국제 기구 발표 알림",
+        "explain → 기능 소개 섹션 (온보딩 설명)"
+      ]
+    }
+  ]
+}
