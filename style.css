@@ -632,7 +632,7 @@ select {
    site-wide, this override just drops the right auto-margin here so extra
    space collects on the right instead */
 .realtime .container {
-  margin-inline: 0 auto;
+  margin-inline: var(--space-6) auto;
 }
 
 .section-heading-row {
