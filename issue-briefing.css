@@ -1,0 +1,336 @@
+/* 이슈 브리핑 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/
+   .badge/.section-heading-row 등을 그대로 재사용하고, 이 페이지에만 필요한
+   컴포넌트만 여기에 둔다. */
+
+:root {
+  /* 이 페이지는 국내 증시 관례(상승=빨강/하락=파랑)를 따른다. 사이트 전역
+     --color-up/--color-down(초록/빨강, 실시간 정보 섹션에서 사용 중)과는
+     의도적으로 다른 별도 토큰이며, 이 페이지 바깥에서는 쓰지 않는다. */
+  --color-briefing-up: #d1242f;
+  --color-briefing-down: #2f5f96;
+}
+
+/* ===================== ① 종합 신호 섹션 ===================== */
+
+.signal-summary {
+  position: relative;
+  padding-block: var(--space-8);
+}
+
+.signal-summary-intro {
+  color: var(--color-text-muted);
+  max-width: 42rem;
+  margin-bottom: var(--space-4);
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.signal-card {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.signal-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.signal-sector-name {
+  font-size: var(--fs-h3);
+}
+
+/* .signal-badge builds on the shared .badge pill shape (see style.css) --
+   only the color modifiers are added here. */
+.signal-badge {
+  font-weight: 700;
+}
+
+.signal-badge.up-dominant {
+  background: color-mix(in srgb, var(--color-briefing-up) 15%, var(--color-surface));
+  color: var(--color-briefing-up);
+}
+
+.signal-badge.down-dominant {
+  background: color-mix(in srgb, var(--color-briefing-down) 15%, var(--color-surface));
+  color: var(--color-briefing-down);
+}
+
+.signal-badge.mixed {
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+}
+
+.signal-count-line {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.signal-balance-bar {
+  display: flex;
+  height: 0.5rem;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  background: var(--color-surface-alt);
+}
+
+.signal-balance-up {
+  background: var(--color-briefing-up);
+}
+
+.signal-balance-down {
+  background: var(--color-briefing-down);
+}
+
+.signal-event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.signal-event-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: var(--fs-small);
+}
+
+.signal-event-name {
+  flex: 1;
+  color: var(--color-text);
+}
+
+.signal-event-arrow.up {
+  color: var(--color-briefing-up);
+}
+
+.signal-event-arrow.down {
+  color: var(--color-briefing-down);
+}
+
+.signal-event-strength {
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.signal-disclaimer {
+  margin-top: var(--space-1);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+/* ===================== ② 개별 이벤트 리스트 ===================== */
+
+.event-briefing {
+  padding-block: var(--space-8);
+}
+
+.event-briefing h2 {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--space-4);
+}
+
+.briefing-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.briefing-date-heading {
+  font-size: var(--fs-h3);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.briefing-event {
+  padding: 0;
+  overflow: hidden;
+}
+
+.briefing-event + .briefing-event {
+  margin-top: var(--space-2);
+}
+
+.briefing-event-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+@media (hover: hover) {
+  .briefing-event-toggle:hover {
+    background: var(--color-surface-alt);
+  }
+}
+
+.briefing-event-line {
+  flex: 1 1 auto;
+  font-weight: 700;
+}
+
+.briefing-event-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: flex-end;
+}
+
+.briefing-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-small);
+  white-space: nowrap;
+}
+
+.briefing-chip.up {
+  background: color-mix(in srgb, var(--color-briefing-up) 12%, var(--color-surface));
+  color: var(--color-briefing-up);
+}
+
+.briefing-chip.down {
+  background: color-mix(in srgb, var(--color-briefing-down) 12%, var(--color-surface));
+  color: var(--color-briefing-down);
+}
+
+/* 인라인 아코디언: 팝업/라이트박스가 아니라 문서 흐름 안에서 그대로
+   펼쳐진다(빅 이벤트 섹션의 고정 위치 라이트박스와는 다른 방식). */
+.briefing-event-detail {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.briefing-event-detail.is-open {
+  max-height: 60rem;
+}
+
+.briefing-diagram {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0 var(--space-3) var(--space-3);
+}
+
+.briefing-diagram-node {
+  flex: 1 1 12rem;
+  border: 1.5px solid var(--color-card-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.briefing-diagram-label {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+
+.briefing-diagram-node p {
+  margin: 0;
+  font-size: var(--fs-small);
+}
+
+.briefing-diagram-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-size: 1.25rem;
+  flex: 0 0 auto;
+}
+
+.briefing-diagram-branches {
+  flex: 1 1 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.briefing-diagram-node--sector {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.briefing-diagram-node--sector.up {
+  color: var(--color-briefing-up);
+  border-color: var(--color-briefing-up);
+}
+
+.briefing-diagram-node--sector.down {
+  color: var(--color-briefing-down);
+  border-color: var(--color-briefing-down);
+}
+
+.briefing-explain,
+.briefing-counterpoint {
+  padding: 0 var(--space-3) var(--space-3);
+}
+
+.briefing-explain p:last-child,
+.briefing-counterpoint p:last-child {
+  margin: 0;
+}
+
+.briefing-explain-label {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  margin-bottom: 0.35rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .briefing-event-detail {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .signal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .briefing-event-toggle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .briefing-event-chips {
+    justify-content: flex-start;
+  }
+
+  .briefing-diagram {
+    flex-direction: column;
+  }
+
+  .briefing-diagram-arrow {
+    transform: rotate(90deg);
+  }
+}

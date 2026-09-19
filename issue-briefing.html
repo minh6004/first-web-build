@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>이슈 브리핑 · StockLens</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="issue-briefing.css" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <a class="skip-link" href="#briefing-main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <a class="logo" href="index.html">StockLens</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="메뉴 열기">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html#features">기능</a></li>
+          <li><a href="issue-briefing.html" aria-current="page">이슈 브리핑</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="briefing-main">
+    <!-- ① 종합 신호 섹션: 오늘 발생한 이벤트를 종합해 변동성이 가장 클 것으로
+         보이는 섹터를 자동 선정(선정 로직은 issue-briefing.js의
+         computeSignalVerdict() 참고) 해서 상단에 보여준다. 관심종목 기반이
+         아니라 "오늘 전체 이벤트 종합" 기준이라는 점이 핵심. -->
+    <section class="signal-summary" id="signal-summary">
+      <div class="container">
+        <div class="section-heading-row">
+          <h2>오늘의 변동성 신호</h2>
+          <span class="badge">자동 선정</span>
+        </div>
+        <p class="signal-summary-intro">오늘 발생한 전체 이벤트를 종합했을 때, 방향성 긴장(상승·하락 요인이 함께 잡히는) 이 가장 큰 섹터를 자동으로 뽑았습니다.</p>
+        <div class="signal-grid" id="signalGrid">
+          <!-- issue-briefing.js의 renderSignalCard()가 SIGNAL_SECTORS 데이터로
+               카드를 채운다. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ② 개별 이벤트 리스트: 날짜별로 그룹핑, 기본은 압축 한 줄 행만 노출하고
+         클릭 시 인과관계 다이어그램이 인라인으로 펼쳐진다(아코디언, 동시에
+         하나만 열림). 리스트/다이어그램 렌더링은 issue-briefing.js에서
+         renderEventRow() / renderEventDiagram()로 분리되어 있어, 나중에
+         데스크톱 마스터-디테일(좌: 목록 / 우: 다이어그램) 2단 레이아웃이나
+         모바일 별도 상세 페이지로 옮겨 붙이기 쉽다. -->
+    <section class="event-briefing" id="event-briefing">
+      <div class="container">
+        <h2>개별 이벤트</h2>
+        <div class="briefing-list" id="briefingList">
+          <!-- issue-briefing.js의 buildEventList()가 EVENTS 데이터로 날짜별
+               그룹 + 이벤트 행/상세를 채운다. -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <span>&copy; 2026 StockLens</span>
+      <ul class="footer-links">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+    <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
+  </footer>
+
+  <script src="issue-briefing.js"></script>
+</body>
+</html>
