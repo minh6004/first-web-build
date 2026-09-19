@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>마스코트 미리보기</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <style>
+    :root {
+      --color-accent: #d97757;
+      --color-text: #000000;
+      --color-text-muted: #5c5f66;
+      --color-bg: #ffffff;
+      --color-border: #e2e2e2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2.5rem 1.5rem;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: "Pretendard", sans-serif;
+    }
+
+    h1 {
+      font-weight: 900;
+      font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+      margin: 0 0 0.5rem;
+    }
+
+    .intro {
+      color: var(--color-text-muted);
+      max-width: 60ch;
+      margin: 0 0 2.5rem;
+    }
+
+    .mascot-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 70rem;
+      margin-inline: auto;
+    }
+
+    .mascot-card {
+      border: 1px solid var(--color-border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+    }
+
+    .mascot-card h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0 0 0.25rem;
+    }
+
+    .mascot-card .label {
+      display: inline-block;
+      color: var(--color-accent);
+      background: #f7e4dc;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+    }
+
+    .compare-row {
+      display: flex;
+      gap: 1rem;
+    }
+
+    figure {
+      flex: 1 1 0;
+      margin: 0;
+      min-width: 0;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      border: 1px solid var(--color-border);
+      border-radius: 0.5rem;
+    }
+
+    .bg-raw img {
+      background: #f5efe4;
+    }
+
+    .bg-transparent img {
+      background-image:
+        repeating-conic-gradient(#e8e8e8 0% 25%, #ffffff 0% 50%);
+      background-size: 20px 20px;
+    }
+
+    figcaption {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      margin-top: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>마스코트 캐릭터 미리보기</h1>
+  <p class="intro">Recraft로 생성한 마스코트 3종의 원본(배경 있음)과 rembg로 배경을 제거한 투명 버전을 나란히 비교합니다.</p>
+
+  <div class="mascot-grid">
+    <article class="mascot-card">
+      <span class="label">표지 화면용</span>
+      <h2>mascot-cover</h2>
+      <div class="compare-row">
+        <figure class="bg-raw">
+          <img src="assets/illustrations/mascot/raw/mascot-cover.png" alt="mascot-cover 원본(배경 있음)" />
+          <figcaption>원본</figcaption>
+        </figure>
+        <figure class="bg-transparent">
+          <img src="assets/illustrations/mascot/transparent/mascot-cover.png" alt="mascot-cover 배경 제거본" />
+          <figcaption>투명 배경</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="mascot-card">
+      <span class="label">돋보기 아이콘용</span>
+      <h2>mascot-search</h2>
+      <div class="compare-row">
+        <figure class="bg-raw">
+          <img src="assets/illustrations/mascot/raw/mascot-search.png" alt="mascot-search 원본(배경 있음)" />
+          <figcaption>원본</figcaption>
+        </figure>
+        <figure class="bg-transparent">
+          <img src="assets/illustrations/mascot/transparent/mascot-search.png" alt="mascot-search 배경 제거본" />
+          <figcaption>투명 배경</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="mascot-card">
+      <span class="label">실시간 정보 섹션용</span>
+      <h2>mascot-chart</h2>
+      <div class="compare-row">
+        <figure class="bg-raw">
+          <img src="assets/illustrations/mascot/raw/mascot-chart.png" alt="mascot-chart 원본(배경 있음)" />
+          <figcaption>원본</figcaption>
+        </figure>
+        <figure class="bg-transparent">
+          <img src="assets/illustrations/mascot/transparent/mascot-chart.png" alt="mascot-chart 배경 제거본" />
+          <figcaption>투명 배경</figcaption>
+        </figure>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
