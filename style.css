@@ -666,11 +666,9 @@ select {
   font-weight: 700;
 }
 
-/* Toss-style asymmetric grid: kospi large (2x2), the other 5 stats (all one
-   uniform medium size) auto-place into the remaining cells -- 4 fill the 2x2
-   block next to kospi, the 5th (wti) wraps to the next row on its own,
-   leaving that row's other columns empty on purpose (asymmetric, not forced
-   to fill). */
+/* Two rows: kospi + s&p500 are equal-size large cards sharing row 1 (each
+   spans 2 of the 4 columns), the other 4 stats are equal-size medium cards
+   auto-placed one per column across row 2. */
 .realtime-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -697,12 +695,13 @@ select {
 
 .realtime-stat-label {
   color: var(--color-text-muted);
-  font-size: var(--fs-small);
+  font-size: var(--fs-body);
+  font-weight: 700;
 }
 
 .realtime-stat--lg {
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
+  grid-column: span 2;
+  grid-row: 1;
   min-height: 0;
   padding: var(--space-3);
 }
