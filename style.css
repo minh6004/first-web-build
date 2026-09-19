@@ -628,6 +628,13 @@ select {
   padding-block: var(--space-8);
 }
 
+/* left-align this section only -- .container itself stays centered
+   site-wide, this override just drops the right auto-margin here so extra
+   space collects on the right instead */
+.realtime .container {
+  margin-inline: 0 auto;
+}
+
 .section-heading-row {
   display: flex;
   align-items: center;
@@ -659,24 +666,25 @@ select {
   font-weight: 700;
 }
 
-/* Toss-style asymmetric grid: kospi large (2x2), 4 medium stats fill the
-   remaining 2x2 next to it via grid auto-placement, wti sits underneath kospi
-   as a single narrow/short card -- smaller than a medium in both dimensions,
-   leaving the rest of that row empty on purpose (asymmetric, not forced to fill). */
+/* Toss-style asymmetric grid: kospi large (2x2), the other 5 stats (all one
+   uniform medium size) auto-place into the remaining cells -- 4 fill the 2x2
+   block next to kospi, the 5th (wti) wraps to the next row on its own,
+   leaving that row's other columns empty on purpose (asymmetric, not forced
+   to fill). */
 .realtime-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-3);
+  gap: var(--space-2);
   margin-bottom: var(--space-3);
 }
 
 .realtime-stat {
-  padding: var(--space-3);
+  padding: var(--space-2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.3rem;
-  min-height: 6rem;
+  min-height: 5rem;
 }
 
 .realtime-stat-label {
@@ -688,44 +696,16 @@ select {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   min-height: 0;
-  padding: var(--space-4);
+  padding: var(--space-3);
 }
 
 .realtime-stat--lg .realtime-value {
   font-size: 2em;
 }
 
-.realtime-stat--sm {
-  grid-column: 1 / 2;
-  min-height: 0;
-  padding: var(--space-2);
-}
-
-.realtime-stat--sm .realtime-value {
-  font-size: 0.95em;
-}
-
 .realtime-value {
   font-variant-numeric: tabular-nums;
   font-size: 1.15em;
-}
-
-.realtime-news {
-  padding: var(--space-3) var(--space-4);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--space-2);
-}
-
-.realtime-news-label {
-  flex: 1 1 16rem;
-}
-
-.realtime-news-time {
-  color: var(--color-text-muted);
-  font-size: var(--fs-small);
 }
 
 .realtime-change.up {
@@ -920,8 +900,7 @@ select {
     grid-template-columns: 1fr;
   }
 
-  .realtime-stat--lg,
-  .realtime-stat--sm {
+  .realtime-stat--lg {
     grid-column: 1;
     grid-row: auto;
   }
