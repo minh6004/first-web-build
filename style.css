@@ -666,14 +666,27 @@ select {
   font-weight: 700;
 }
 
-/* Two rows: kospi + s&p500 are equal-size large cards sharing row 1 (each
-   spans 2 of the 4 columns), the other 4 stats are equal-size medium cards
-   auto-placed one per column across row 2. */
+/* Single left-aligned column, stacked top to bottom: kospi (large) ->
+   nasdaq+kosdaq pair -> s&p500 (large, same size as kospi) -> usd/krw+wti
+   pair. max-width caps the column narrower than the section container so
+   the whitespace stays on the right, matching the large cards' width so
+   each paired row (split in two, minus the gap) lines up under them. */
 .realtime-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: var(--space-2);
   margin-bottom: var(--space-3);
+  max-width: 38rem;
+}
+
+.realtime-row {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.realtime-row .realtime-stat {
+  flex: 1;
+  min-width: 0;
 }
 
 .realtime-stat {
@@ -700,10 +713,8 @@ select {
 }
 
 .realtime-stat--lg {
-  grid-column: span 2;
-  grid-row: 1;
-  min-height: 0;
-  padding: var(--space-3);
+  min-height: 10rem;
+  padding: var(--space-4);
 }
 
 .realtime-stat--lg .realtime-value {
@@ -747,8 +758,8 @@ select {
 }
 
 .realtime-stat-chart--lg {
-  width: 8rem;
-  height: 6rem;
+  width: 9rem;
+  height: 7rem;
 }
 
 .realtime-change.up {
@@ -937,15 +948,6 @@ select {
 
   .account-grid {
     grid-template-columns: 1fr;
-  }
-
-  .realtime-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .realtime-stat--lg {
-    grid-column: 1;
-    grid-row: auto;
   }
 
   .event-grid {
