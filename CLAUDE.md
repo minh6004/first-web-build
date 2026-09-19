@@ -24,12 +24,13 @@ announcements, news synthesized into a buy/sell fit judgment). Files: `index.htm
 
 ## Design system
 
-**Superseded 2026-09-18 — see `DESIGN.md`.** The hand-drawn pencil/paper concept below (locked
-2026-09-16) was fully discontinued in favor of an Open Peeps illustration system, Pretendard Black
-headlines, and a terracotta (`#d97757`) signature color. `DESIGN.md` is now the source of truth for
-any new work; the section below is kept only as history and as an accurate description of the
-sections that haven't been migrated yet (see `DESIGN.md`'s "Rollout status"). Don't build anything
-new in the style described below.
+**Superseded 2026-09-18, fully migrated 2026-09-19 — see `DESIGN.md`.** The hand-drawn pencil/paper
+concept below (locked 2026-09-16) was discontinued in favor of an Open Peeps illustration system,
+Pretendard, and a terracotta (`#d97757`) signature color (warmed up further on 2026-09-19 — warm
+charcoal text, warm cream background, terracotta used much more broadly). As of 2026-09-19 every
+section of the site is on the new system and every Rough.js/paper-texture/pin trace was removed
+from the codebase, not just deprecated — the section below is kept **purely as history**, it no
+longer describes any current part of the site. `DESIGN.md` is the source of truth for any new work.
 
 <details>
 <summary>Old design system (locked 2026-09-16, discontinued 2026-09-18)</summary>

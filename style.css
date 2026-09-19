@@ -5,25 +5,34 @@
 
 :root {
   /* color -- see DESIGN.md for the 3-group rule (brand / up-down / base) */
-  --color-bg: #ffffff;
+  --color-bg: #faf5ec;
   --color-surface: #ffffff;
-  --color-surface-alt: #f3f3f1;
-  --color-text: #000000;
-  --color-text-muted: #5c5f66;
-  --color-line: #000000;
-  --color-border: #e2e2e2;
+  --color-surface-alt: #f6f1ea;
+  --color-text: #2e2620;
+  --color-text-muted: #6b6055;
+  --color-border: #e5ddd0;
   --color-accent: #d97757;
-  /* black, not white: white-on-#d97757 is ~3.1:1 (fails WCAG AA text),
-     black-on-#d97757 is ~6.7:1 */
+  /* warm charcoal, not white: white-on-#d97757 is ~3.1:1 (fails WCAG AA
+     text), warm-charcoal-on-#d97757 is ~4.8:1 */
   --color-accent-contrast: var(--color-text);
   --color-accent-soft: #f7e4dc;
+  /* deeper terracotta reserved for solid-fill + white-text contexts (the
+     LIVE badge): --color-accent itself is only ~3.1:1 with white, this is
+     ~5.2:1 */
+  --color-accent-deep: #b3512d;
+  --color-accent-deep-contrast: #ffffff;
+  /* card/divider border: opaque dark terracotta, not a translucent one --
+     needed the extra contrast against the cream page background to read as
+     "clearly visible" rather than a faint tint */
+  --color-card-border: #a8583a;
   --color-warn: #ebd22f;
 
   /* theme: always light, matching the reference site (no dark mode) */
   color-scheme: light;
 
   /* type: display (headings/logo/buttons) = Pretendard, weight varies by
-     use (see DESIGN.md -- only .hero h1 is Black/900 so far) */
+     use (see DESIGN.md -- .hero h1 and .logo are Black/900, rest still 700
+     pending a full type-scale pass) */
   --font-display: "Pretendard", sans-serif;
   /* body (paragraphs, lists, small text) = Pretendard for readability */
   --font-body: "Pretendard", sans-serif;
@@ -43,23 +52,15 @@
   --space-12: 7rem;
 
   /* shape */
-  --radius-card: 1.13rem;
+  --radius-card: 0.75rem;
   --radius-pill: 100px;
-  --shadow-hard: 4px 4px 0 var(--color-line);
 
   /* layout */
   --container-max: 80rem;
 
-  /* semantic status colors */
+  /* semantic status colors -- finance convention, never reused elsewhere */
   --color-up: #1a7f37;
   --color-down: #d1242f;
-
-  /* rough-divider stroke: same tone as --color-text-muted, darker than --color-border so the hand-drawn wobble reads clearly */
-  --color-divider-rough: #5c5f66;
-
-  /* shared feTurbulence noise -- still used by body (see DESIGN.md: global
-     paper-texture removal is pending a follow-up pass, not part of this one) */
-  --noise-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* ==========================================================================
@@ -85,7 +86,6 @@ html {
 body {
   margin: 0;
   background-color: var(--color-bg);
-  background-image: var(--noise-texture);
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--fs-body);
@@ -154,62 +154,51 @@ select:focus-visible {
   border: 0;
 }
 
-/* Rough.js hand-drawn section dividers (replaces border-top/bottom hairlines) */
-.rough-divider {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 12px;
-  pointer-events: none;
-}
-
-.rough-divider--top {
-  top: 0;
-}
-
-.rough-divider--bottom {
-  bottom: 0;
-}
-
-.rough-divider-svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
-/* Rough.js hand-drawn box outlines (replaces border+border-radius on cards).
-   The CSS border below is a no-JS fallback; .rough-ready hides it once the
-   Rough.js rectangle has actually been drawn (progressive enhancement). */
-.rough-box {
+/* Card border: solid, opaque dark terracotta -- deliberately not a faint
+   hairline, needs to read clearly against the cream page background. Corner
+   radius is intentionally modest ("slightly rounded", not pill-like). */
+.card {
   position: relative;
-  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-card-border);
+  border-radius: var(--radius-card);
+  transition: border-color 0.15s ease;
 }
 
-.rough-ready .rough-box {
-  border-color: transparent;
+@media (hover: hover) {
+  .card:hover {
+    border-color: var(--color-accent);
+  }
 }
 
-.rough-box-svg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  overflow: visible;
-}
-
-/* Rough.js hand-drawn inner dividers (realtime list items, ranking table rows) */
-.rough-inner-dividers {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
 }
 
 h1, h2 {
   font-family: var(--font-display);
   font-weight: 700;
   text-wrap: balance;
+}
+
+/* small terracotta accent bar next to every main-section heading -- the
+   brand color's reach was widened past buttons/links per DESIGN.md */
+main h2 {
+  position: relative;
+  padding-left: 1rem;
+}
+
+main h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--color-accent);
 }
 
 h3 {
@@ -240,7 +229,7 @@ p {
 
 .logo {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1.25rem;
   letter-spacing: -0.02rem;
 }
@@ -248,6 +237,19 @@ p {
 .nav-list {
   display: flex;
   gap: var(--space-4);
+}
+
+.nav-list a {
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-list a {
+    transition: none;
+  }
 }
 
 .nav-toggle {
@@ -375,16 +377,19 @@ p {
     background: var(--color-surface-alt);
   }
 
-  .nav-list a:hover,
+  .nav-list a:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
   .footer-links a:hover {
     color: var(--color-accent);
   }
 }
 
 /* ==========================================================================
-   Big Events (same card material as .realtime-stat: white + rough-box +
-   no radius/shadow/tilt -- see .rough-box in the Reset section for the
-   shared border, drawn by drawRoughBoxes() in script.js)
+   Big Events (same card material as .realtime-stat: .card in the Reset
+   section supplies the terracotta border/radius/hover)
    ========================================================================== */
 .big-events {
   position: relative;
@@ -403,7 +408,6 @@ p {
 }
 
 .event-card {
-  background: var(--color-surface);
   padding: var(--space-4);
   min-height: 9rem;
   display: flex;
@@ -469,7 +473,7 @@ p {
   margin: -0.35rem;
   background: none;
   border: none;
-  color: var(--color-text-muted);
+  color: var(--color-accent);
   cursor: pointer;
   touch-action: manipulation;
 }
@@ -549,7 +553,6 @@ p {
 }
 
 .feature-card {
-  background: var(--color-surface);
   padding: var(--space-4);
 }
 
@@ -646,6 +649,16 @@ select {
   font-size: var(--fs-small);
 }
 
+/* solid-fill variant for a single strong callout (the realtime "LIVE" badge)
+   -- --color-accent-soft's pale tint reads fine for the tag-chip use above,
+   but a badge this small needs the deeper shade for white text to stay
+   readable (see --color-accent-deep's contrast note in the tokens). */
+.badge--live {
+  background: var(--color-accent-deep);
+  color: var(--color-accent-deep-contrast);
+  font-weight: 700;
+}
+
 /* Toss-style asymmetric grid: kospi large (2x2), 4 medium stats fill the
    remaining 2x2 next to it via grid auto-placement, wti sits underneath kospi
    as a single narrow/short card -- smaller than a medium in both dimensions,
@@ -658,7 +671,6 @@ select {
 }
 
 .realtime-stat {
-  background: var(--color-surface);
   padding: var(--space-3);
   display: flex;
   flex-direction: column;
@@ -699,7 +711,6 @@ select {
 }
 
 .realtime-news {
-  background: var(--color-surface);
   padding: var(--space-3) var(--space-4);
   display: flex;
   flex-wrap: wrap;
@@ -757,11 +768,6 @@ select {
   white-space: nowrap;
 }
 
-.rough-ready .ranking-table th,
-.rough-ready .ranking-table td {
-  border-bottom-color: transparent;
-}
-
 .ranking-table th {
   font-size: var(--fs-small);
   color: var(--color-text-muted);
@@ -805,7 +811,6 @@ select {
 }
 
 .account-card {
-  background: var(--color-surface);
   padding: var(--space-4);
 }
 
