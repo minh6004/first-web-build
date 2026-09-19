@@ -681,10 +681,18 @@ select {
 .realtime-stat {
   padding: var(--space-2);
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  min-height: 5rem;
+}
+
+.realtime-stat-info {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.3rem;
-  min-height: 5rem;
 }
 
 .realtime-stat-label {
@@ -706,6 +714,42 @@ select {
 .realtime-value {
   font-variant-numeric: tabular-nums;
   font-size: 1.15em;
+}
+
+/* 실제 차트 라이브러리 연동 예정 자리 -- 사선 해치 패턴으로 표시만 해두는
+   placeholder. 실제 데이터로 교체할 때는 이 클래스를 가진 요소를 찾아
+   차트 라이브러리의 canvas/svg로 바꿔 끼우면 됨. */
+.realtime-stat-chart {
+  flex-shrink: 0;
+  width: 4rem;
+  height: 3rem;
+  border: 1.5px solid var(--color-card-border);
+  border-radius: var(--radius-card);
+  transition: border-color 0.15s ease;
+  background-image: repeating-linear-gradient(
+    45deg,
+    color-mix(in srgb, var(--color-card-border) 30%, transparent),
+    color-mix(in srgb, var(--color-card-border) 30%, transparent) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+}
+
+@media (hover: hover) {
+  .card:hover .realtime-stat-chart {
+    border-color: var(--color-accent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .realtime-stat-chart {
+    transition: none;
+  }
+}
+
+.realtime-stat-chart--lg {
+  width: 8rem;
+  height: 6rem;
 }
 
 .realtime-change.up {
