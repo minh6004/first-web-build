@@ -1,0 +1,36 @@
+/* '주식 검색' 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/
+   input[type="search"] 스타일을 그대로 재사용하고, 이 페이지에만 필요한
+   결과 리스트/빈 상태만 여기에 둔다. */
+
+.stock-search {
+  padding-block: var(--space-8);
+}
+
+.stock-search h1 {
+  font-size: var(--fs-h2);
+  font-weight: 900;
+  margin-bottom: var(--space-4);
+}
+
+.stock-search-field {
+  max-width: 28rem;
+  margin-bottom: var(--space-4);
+}
+
+.stock-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 28rem;
+}
+
+.stock-result-item {
+  padding: var(--space-3);
+}
+
+.stock-empty-message {
+  color: var(--color-text-muted);
+}
