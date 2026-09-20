@@ -23,7 +23,7 @@
         <ul class="nav-list" id="navList">
           <li><a href="index.html#features">기능</a></li>
           <li><a href="issue-briefing.html">이슈 브리핑</a></li>
-          <li><a href="login.html" aria-current="page">로그인</a></li>
+          <li><a href="login.html" id="navAuthLink" aria-current="page">로그인</a></li>
         </ul>
       </nav>
     </div>
@@ -36,14 +36,15 @@
           <h1>로그인</h1>
           <form id="loginForm" class="auth-form">
             <div class="filter-field">
-              <label for="username">아이디</label>
-              <input type="text" id="username" name="username" autocomplete="username" required />
+              <label for="email">아이디</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="example@email.com" required />
             </div>
             <div class="filter-field">
               <label for="password">비밀번호</label>
               <input type="password" id="password" name="password" autocomplete="current-password" required />
             </div>
             <button type="submit" class="btn btn-primary auth-submit">로그인</button>
+            <p class="auth-message" id="loginMessage" role="status" aria-live="polite"></p>
           </form>
           <p class="auth-switch">계정이 없으신가요? <a href="signup.html">회원가입</a></p>
         </div>
@@ -62,6 +63,6 @@
     <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
   </footer>
 
-  <script src="login.js"></script>
+  <script type="module" src="login.js"></script>
 </body>
 </html>

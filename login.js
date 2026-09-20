@@ -1,5 +1,9 @@
-// 로그인 페이지 전용 스크립트. 백엔드가 없어 실제 인증은 불가능하므로,
-// 제출 시 페이지 이동/alert 없이 콘솔에만 입력값을 기록한다.
+// 로그인 페이지 전용 스크립트. Firebase Authentication(이메일/비밀번호)으로
+// 실제 로그인을 수행한다.
+import { auth, signInWithEmailAndPassword } from "./firebase-init.js";
+import { initNavAuth } from "./nav-auth.js";
+
+initNavAuth();
 
 const navToggle = document.getElementById("navToggle");
 const navList = document.getElementById("navList");
@@ -9,10 +13,37 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
-const loginForm = document.getElementById("loginForm");
+const LOGIN_ERROR_MESSAGES = {
+  "auth/invalid-credential": "아이디 또는 비밀번호가 올바르지 않습니다.",
+  "auth/wrong-password": "비밀번호가 틀렸습니다.",
+  "auth/user-not-found": "가입되지 않은 아이디입니다.",
+  "auth/invalid-email": "이메일 형식이 올바르지 않습니다.",
+  "auth/too-many-requests": "로그인 시도가 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+  "auth/network-request-failed": "네트워크 상태를 확인해 주세요.",
+};
 
-loginForm.addEventListener("submit", (event) => {
+function describeLoginError(error) {
+  return LOGIN_ERROR_MESSAGES[error.code] || "로그인에 실패했습니다. 잠시 후 다시 시도해 주세요.";
+}
+
+const loginForm = document.getElementById("loginForm");
+const loginMessage = document.getElementById("loginMessage");
+
+loginForm.addEventListener("submit", async (event) => {
   event.preventDefault();
-  const values = Object.fromEntries(new FormData(loginForm));
-  console.log("[로그인 시도 - 실제 인증 없음]", values);
+  loginMessage.textContent = "";
+  loginMessage.classList.remove("is-error");
+
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value;
+
+  try {
+    await signInWithEmailAndPassword(auth, email, password);
+    loginMessage.textContent = "로그인되었습니다.";
+    loginForm.reset();
+  } catch (error) {
+    console.error(error);
+    loginMessage.textContent = describeLoginError(error);
+    loginMessage.classList.add("is-error");
+  }
 });

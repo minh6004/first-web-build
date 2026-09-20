@@ -1,6 +1,9 @@
 // 이슈 브리핑 페이지 전용 스크립트. index.html의 script.js는 표지/메인 전환 등
 // 이 페이지에 없는 요소를 전제로 하고 있어 그대로 가져다 쓸 수 없으므로,
 // 필요한 만큼만(네비 토글 + 이 페이지 로직) 별도로 둔다.
+import { initNavAuth } from "./nav-auth.js";
+
+initNavAuth();
 
 const navToggle = document.getElementById("navToggle");
 const navList = document.getElementById("navList");

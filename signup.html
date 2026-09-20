@@ -23,7 +23,7 @@
         <ul class="nav-list" id="navList">
           <li><a href="index.html#features">기능</a></li>
           <li><a href="issue-briefing.html">이슈 브리핑</a></li>
-          <li><a href="login.html">로그인</a></li>
+          <li><a href="login.html" id="navAuthLink">로그인</a></li>
         </ul>
       </nav>
     </div>
@@ -35,11 +35,11 @@
         <div class="auth-card card">
           <h1>회원가입</h1>
 
-          <!-- 이 폼은 Formspree로 데이터를 전송만 할 뿐, 실제 로그인 인증 기능은
-               없음. 비밀번호가 평문으로 전송되므로 실서비스 전환 시 별도 인증
-               백엔드(예: Firebase Auth, Supabase Auth) 및 비밀번호 해싱 도입이
-               필요함. -->
-          <form id="signupForm" class="auth-form" action="https://formspree.io/f/xljdgben" method="POST">
+          <!-- Firebase Authentication(이메일/비밀번호)으로 실제 계정을 만들고,
+               Firestore users/{uid} 문서에 닉네임/생년월일을 저장한다
+               (signup.js 참고). 보안 규칙(firestore.rules)이 본인 문서만
+               읽고 쓸 수 있도록 제한한다. -->
+          <form id="signupForm" class="auth-form">
             <div class="filter-field">
               <label for="nickname">닉네임</label>
               <input type="text" id="nickname" name="nickname" required />
@@ -49,8 +49,8 @@
               <input type="date" id="birthdate" name="birthdate" required />
             </div>
             <div class="filter-field">
-              <label for="signupUsername">아이디</label>
-              <input type="text" id="signupUsername" name="username" autocomplete="username" required />
+              <label for="email">아이디</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="example@email.com" required />
             </div>
             <div class="filter-field">
               <label for="signupPassword">비밀번호</label>
@@ -95,6 +95,6 @@
     <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
   </footer>
 
-  <script src="signup.js"></script>
+  <script type="module" src="signup.js"></script>
 </body>
 </html>

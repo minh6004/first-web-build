@@ -1,3 +1,7 @@
+import { initNavAuth } from "./nav-auth.js";
+
+initNavAuth();
+
 const navToggle = document.getElementById("navToggle");
 const navList = document.getElementById("navList");
 
