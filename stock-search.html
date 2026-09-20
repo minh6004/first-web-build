@@ -51,7 +51,8 @@
 
           <!-- 오른쪽: 검색 + 필터 + 결과 + 선택한 종목 분석. 필터를 포함한
                검색 로직은 stock-search.js의 searchStocks(query, filters),
-               분석 텍스트는 getStockAnalysis(name)으로 분리되어 있다. -->
+               분석 영역은 getStockMetrics(name)/getRelatedEvents(sector)로
+               분리되어 있다. -->
           <div class="stock-analysis-panel">
             <div class="stock-search-controls">
               <div class="search-field stock-search-field">
@@ -83,10 +84,22 @@
             <ul class="stock-result-list" id="stockResultList"></ul>
             <p class="stock-empty-message" id="stockEmptyMessage" hidden>검색 결과가 없습니다</p>
 
+            <!-- 종목 클릭 시 채워지는 분석 영역. 핵심 지표는
+                 getStockMetrics(), 관련 이벤트는 getRelatedEvents()가
+                 반환하는 더미 데이터로 채운다(둘 다 나중에 실제 API/
+                 이슈 브리핑 데이터로 교체하기 쉽게 분리되어 있음). 긴 문장
+                 대신 타일/칩 위주라 한눈에 스캔되도록 구성. -->
             <div class="stock-analysis" id="stockAnalysis" hidden>
               <p class="stock-analysis-label">분석</p>
               <h3 id="stockAnalysisTitle"></h3>
-              <p id="stockAnalysisText"></p>
+
+              <div class="metric-tiles" id="stockMetricTiles"></div>
+
+              <div class="related-events">
+                <p class="related-events-heading">최근 영향 이벤트</p>
+                <ul class="related-event-list" id="relatedEventList"></ul>
+                <p class="related-events-empty" id="relatedEventsEmpty" hidden>최근 관련 이벤트가 없습니다</p>
+              </div>
             </div>
           </div>
         </div>

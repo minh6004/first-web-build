@@ -1,7 +1,7 @@
-// '주식 검색' 페이지 전용 스크립트. 실제 시세/분석 데이터 연동은 아직 없고,
-// 더미 데이터를 기반으로 화면과 흐름만 구현한다. getTopMovers()/
-// searchStocks()/getStockAnalysis() 세 함수만 나중에 실제 API 호출로
-// 교체하면 되도록 분리해뒀다.
+// '주식 검색' 페이지 전용 스크립트. 실제 시세/재무/이벤트 데이터 연동은
+// 아직 없고, 더미 데이터를 기반으로 화면과 흐름만 구현한다. getTopMovers()/
+// searchStocks()/getStockMetrics()/getRelatedEvents() 네 함수만 나중에
+// 실제 API(시세, 재무, 이슈 브리핑 이벤트)로 교체하면 되도록 분리해뒀다.
 import { initNavAuth } from "./nav-auth.js";
 
 initNavAuth();
@@ -98,35 +98,133 @@ function searchStocks(query, filters = {}) {
   });
 }
 
-// 종목별 더미 분석 코멘트 -- 나중에 실제 분석 로직(예: 이슈 브리핑 데이터
-// 연결)으로 교체할 때 이 함수 내부만 바꾸면 된다. 목록에 없는 종목은 기본
-// 문구("최근 이 종목에 영향을 준 이벤트가 없습니다")로 대체한다.
-function getStockAnalysis(name) {
-  const dummyInsights = {
-    엔비디아: "최근 이 종목은 AI 반도체 수요 확대 이슈의 영향을 받고 있어요.",
-    삼성전자: "최근 이 종목은 반도체 업황 회복 기대감의 영향을 받고 있어요.",
-    LG에너지솔루션: "최근 이 종목은 배터리 소재 가격 변동 이슈의 영향을 받고 있어요.",
-    셀트리온: "최근 이 종목은 바이오시밀러 관련 실적 기대감의 영향을 받고 있어요.",
-    신한지주: "최근 이 종목은 기준금리 관련 이슈의 영향을 받고 있어요.",
+// 핵심 지표 더미 값 -- 나중에 실제 재무 API로 교체할 때 이 함수 내부만
+// 바꾸면 된다. 종목명 길이로 살짝 변주만 줘서 다 똑같아 보이지 않게 했을
+// 뿐, 실제 값과는 무관하다.
+function getStockMetrics(name) {
+  const seed = name.length;
+  return {
+    per: `${(12 + seed * 1.3).toFixed(1)}배`,
+    pbr: `${(0.8 + seed * 0.12).toFixed(2)}배`,
+    roe: `${(6 + seed * 0.7).toFixed(1)}%`,
+    marketCap: `${Math.round(20 + seed * 15)}조원`,
   };
-  return dummyInsights[name] || "최근 이 종목에 영향을 준 이벤트가 없습니다.";
+}
+
+// 섹터별 더미 관련 이벤트(1~2개) -- 이슈 브리핑 페이지에 실제로 있는
+// 이벤트 중 해당 섹터와 맞아떨어지는 것을 그대로 옮겨왔다. 나중에는 여기
+// 대신 이슈 브리핑의 실제 이벤트 데이터에서 섹터가 일치하는 항목을 조회하는
+// 로직으로 바뀔 자리. 매핑이 없는 섹터(바이오/IT·플랫폼)는 빈 배열을
+// 반환해 "최근 관련 이벤트가 없습니다"가 자연스럽게 뜨도록 둔다.
+const RELATED_EVENTS_BY_SECTOR = {
+  반도체: [
+    {
+      org: "엔비디아",
+      decision: "3분기 실적 발표 (매출 시장 예상치 상회)",
+      chips: [
+        { sector: "반도체", direction: "up" },
+        { sector: "AI", direction: "up" },
+      ],
+    },
+    {
+      org: "TSMC",
+      decision: "첨단 공정 가동률 상승 발표",
+      chips: [
+        { sector: "반도체", direction: "up" },
+        { sector: "파운드리", direction: "up" },
+      ],
+    },
+  ],
+  "2차전지": [
+    {
+      org: "중국 배터리 업체",
+      decision: "국내 시장 저가 공세 심화",
+      chips: [
+        { sector: "2차전지", direction: "down" },
+        { sector: "배터리소재", direction: "down" },
+      ],
+    },
+  ],
+  금융: [
+    {
+      org: "한국은행",
+      decision: "기준금리 동결 결정",
+      chips: [
+        { sector: "은행주", direction: "up" },
+        { sector: "성장주", direction: "up" },
+      ],
+    },
+  ],
+  에너지: [
+    {
+      org: "국내 정유사",
+      decision: "3분기 정제마진 개선 발표",
+      chips: [
+        { sector: "정유", direction: "up" },
+        { sector: "화학", direction: "up" },
+      ],
+    },
+  ],
+  바이오: [],
+  "IT/플랫폼": [],
+};
+
+function getRelatedEvents(sector) {
+  return RELATED_EVENTS_BY_SECTOR[sector] || [];
 }
 
 const resultList = document.getElementById("stockResultList");
 const emptyMessage = document.getElementById("stockEmptyMessage");
 const analysisPanel = document.getElementById("stockAnalysis");
 const analysisTitle = document.getElementById("stockAnalysisTitle");
-const analysisText = document.getElementById("stockAnalysisText");
+const metricTiles = document.getElementById("stockMetricTiles");
+const relatedEventList = document.getElementById("relatedEventList");
+const relatedEventsEmpty = document.getElementById("relatedEventsEmpty");
 
 function hideAnalysis() {
   analysisPanel.hidden = true;
   analysisTitle.textContent = "";
-  analysisText.textContent = "";
+  metricTiles.innerHTML = "";
+  relatedEventList.innerHTML = "";
+  relatedEventsEmpty.hidden = true;
 }
 
-function showAnalysis(name) {
-  analysisTitle.textContent = name;
-  analysisText.textContent = getStockAnalysis(name);
+function renderMetricTiles(metrics) {
+  metricTiles.innerHTML = `
+    <div class="metric-tile"><span class="metric-label">PER</span><span class="metric-value">${metrics.per}</span></div>
+    <div class="metric-tile"><span class="metric-label">PBR</span><span class="metric-value">${metrics.pbr}</span></div>
+    <div class="metric-tile"><span class="metric-label">ROE</span><span class="metric-value">${metrics.roe}</span></div>
+    <div class="metric-tile"><span class="metric-label">시가총액</span><span class="metric-value">${metrics.marketCap}</span></div>
+  `;
+}
+
+function renderRelatedEvents(events) {
+  relatedEventList.innerHTML = "";
+
+  if (events.length === 0) {
+    relatedEventsEmpty.hidden = false;
+    return;
+  }
+
+  relatedEventsEmpty.hidden = true;
+  events.forEach((event) => {
+    const item = document.createElement("li");
+    item.className = "related-event";
+    const chipsHtml = event.chips
+      .map((chip) => `<span class="related-chip ${chip.direction}">${chip.sector}${chip.direction === "up" ? "↑" : "↓"}</span>`)
+      .join("");
+    item.innerHTML = `
+      <span class="related-event-line">${event.org} ${event.decision}</span>
+      <span class="related-event-chips">${chipsHtml}</span>
+    `;
+    relatedEventList.appendChild(item);
+  });
+}
+
+function showAnalysis(stock) {
+  analysisTitle.textContent = stock.name;
+  renderMetricTiles(getStockMetrics(stock.name));
+  renderRelatedEvents(getRelatedEvents(stock.sector));
   analysisPanel.hidden = false;
 }
 
@@ -154,7 +252,7 @@ function renderResults(stocks) {
     button.addEventListener("click", () => {
       resultList.querySelectorAll(".stock-result-item.is-selected").forEach((el) => el.classList.remove("is-selected"));
       item.classList.add("is-selected");
-      showAnalysis(stock.name);
+      showAnalysis(stock);
     });
 
     item.appendChild(button);
