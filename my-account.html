@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>로그인 · StockLens</title>
+  <title>나의 계좌 · StockLens</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="auth.css" />
+  <link rel="stylesheet" href="my-account.css" />
   <meta name="theme-color" content="#ffffff" />
 </head>
 <body>
-  <a class="skip-link" href="#auth-main">본문으로 건너뛰기</a>
+  <a class="skip-link" href="#account-main">본문으로 건너뛰기</a>
 
   <header class="site-header" id="siteHeader">
     <div class="container">
@@ -21,37 +21,35 @@
       </button>
       <nav>
         <ul class="nav-list" id="navList">
-          <li><a href="my-account.html">나의 계좌</a></li>
+          <li><a href="my-account.html" aria-current="page">나의 계좌</a></li>
           <li><a href="issue-briefing.html">이슈 브리핑</a></li>
-          <li><a href="login.html" id="navAuthLink" aria-current="page">로그인</a></li>
+          <li><a href="login.html" id="navAuthLink">로그인</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="auth-main">
-    <section class="auth" id="auth">
+  <main id="account-main">
+    <section class="account" id="account-page">
       <div class="container">
-        <div class="auth-card card">
-          <h1>로그인</h1>
-          <form id="loginForm" class="auth-form">
-            <div class="filter-field">
-              <label for="email">아이디</label>
-              <input type="email" id="email" name="email" autocomplete="email" placeholder="example@email.com" required />
-            </div>
-            <div class="filter-field">
-              <label for="password">비밀번호</label>
-              <input type="password" id="password" name="password" autocomplete="current-password" required />
-            </div>
-            <button type="submit" class="btn btn-primary auth-submit">로그인</button>
-            <p class="auth-message" id="loginMessage" role="status" aria-live="polite"></p>
-            <button type="button" class="auth-terms-toggle" id="resendVerificationBtn" hidden>인증 메일 다시 보내기</button>
-          </form>
-          <p class="auth-switch">계정이 없으신가요? <a href="signup.html">회원가입</a></p>
+        <h1>나의 계좌</h1>
+
+        <div class="account-card card" id="accountEmptyState">
+          <p class="account-empty-title">아직 연동된 계좌가 없습니다</p>
+          <p class="account-empty-desc">계좌를 연동하면 보유 종목·평가금액 등을 한눈에 볼 수 있어요.</p>
+          <button type="button" class="btn btn-primary" id="connectAccountBtn">계좌 연동하기</button>
+        </div>
+
+        <!-- 실제 증권사 API 연동 후 isAccountLinked()가 true를 반환하게 되면
+             이 영역에 보유 종목/평가금액 등을 채운다. 지금은 항상 hidden. -->
+        <div class="account-card card" id="accountLinkedState" hidden>
+          <p>연동된 계좌 정보가 여기 표시됩니다.</p>
         </div>
       </div>
     </section>
   </main>
+
+  <div class="toast" id="accountToast" role="status" aria-live="polite"></div>
 
   <footer class="site-footer" id="siteFooter">
     <div class="container">
@@ -64,6 +62,6 @@
     <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
   </footer>
 
-  <script type="module" src="login.js"></script>
+  <script type="module" src="my-account.js"></script>
 </body>
 </html>

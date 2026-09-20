@@ -1,0 +1,65 @@
+/* '나의 계좌' 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/.btn을
+   그대로 재사용하고, 이 페이지에만 필요한 빈 상태 카드와 토스트만 여기에 둔다. */
+
+.account {
+  padding-block: var(--space-8);
+}
+
+.account h1 {
+  font-size: var(--fs-h2);
+  font-weight: 900;
+  margin-bottom: var(--space-4);
+}
+
+.account-card {
+  max-width: 32rem;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.account-empty-title {
+  font-size: var(--fs-h3);
+  font-weight: 700;
+}
+
+.account-empty-desc {
+  color: var(--color-text-muted);
+}
+
+.account-card .btn {
+  align-self: flex-start;
+}
+
+/* 계좌 연동 기능이 아직 없다는 안내를 짧게 띄우는 토스트. 모달 대신 화면
+   하단에 잠깐 뜨는 방식을 선택 -- 별도 확인/닫기 동작이 필요 없는 단순 안내라
+   포커스를 가두는 모달보다 가볍다. */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: var(--space-4);
+  transform: translate(-50%, 0.5rem);
+  max-width: calc(100vw - 2 * var(--space-3));
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-pill);
+  background: var(--color-text);
+  color: var(--color-bg);
+  font-size: var(--fs-small);
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 50;
+}
+
+.toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    transition: none;
+  }
+}
