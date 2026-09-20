@@ -37,13 +37,59 @@
       <div class="container">
         <h1>주식 검색</h1>
 
-        <div class="search-field stock-search-field">
-          <label for="stockSearchInput" class="visually-hidden">종목명 또는 티커 검색</label>
-          <input type="search" id="stockSearchInput" placeholder="종목명 또는 티커 검색…" autocomplete="off" />
-        </div>
+        <div class="stock-search-layout">
+          <!-- 왼쪽: 오늘의 등락 현황판. 더미 데이터는 stock-search.js의
+               getTopMovers()가 반환 -- 나중에 실제 시세 API로 교체할 때 이
+               함수 내부만 바꾸면 된다. -->
+          <div class="stock-movers-panel">
+            <h2 class="stock-movers-heading">오늘 가장 많이 오른 TOP 5</h2>
+            <ol class="mover-list" id="gainerList"></ol>
 
-        <ul class="stock-result-list" id="stockResultList"></ul>
-        <p class="stock-empty-message" id="stockEmptyMessage" hidden>검색 결과가 없습니다</p>
+            <h2 class="stock-movers-heading">오늘 가장 많이 내린 TOP 5</h2>
+            <ol class="mover-list" id="loserList"></ol>
+          </div>
+
+          <!-- 오른쪽: 검색 + 필터 + 결과 + 선택한 종목 분석. 필터를 포함한
+               검색 로직은 stock-search.js의 searchStocks(query, filters),
+               분석 텍스트는 getStockAnalysis(name)으로 분리되어 있다. -->
+          <div class="stock-analysis-panel">
+            <div class="stock-search-controls">
+              <div class="search-field stock-search-field">
+                <label for="stockSearchInput" class="visually-hidden">종목명 또는 티커 검색</label>
+                <input type="search" id="stockSearchInput" placeholder="종목명 또는 티커 검색…" autocomplete="off" />
+              </div>
+              <div class="filter-field">
+                <label for="marketFilter">국내/해외</label>
+                <select id="marketFilter">
+                  <option value="all">전체</option>
+                  <option value="domestic">국내</option>
+                  <option value="overseas">해외</option>
+                </select>
+              </div>
+              <div class="filter-field">
+                <label for="sectorFilter">섹터</label>
+                <select id="sectorFilter">
+                  <option value="all">전체</option>
+                  <option value="반도체">반도체</option>
+                  <option value="2차전지">2차전지</option>
+                  <option value="바이오">바이오</option>
+                  <option value="금융">금융</option>
+                  <option value="에너지">에너지</option>
+                  <option value="IT/플랫폼">IT/플랫폼</option>
+                </select>
+              </div>
+            </div>
+
+            <ul class="stock-result-list" id="stockResultList"></ul>
+            <p class="stock-empty-message" id="stockEmptyMessage" hidden>검색 결과가 없습니다</p>
+
+            <div class="stock-analysis" id="stockAnalysis" hidden>
+              <p class="stock-analysis-label">분석</p>
+              <h3 id="stockAnalysisTitle"></h3>
+              <p id="stockAnalysisText"></p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>

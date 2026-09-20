@@ -1,6 +1,15 @@
 /* '주식 검색' 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/
-   input[type="search"] 스타일을 그대로 재사용하고, 이 페이지에만 필요한
-   결과 리스트/빈 상태만 여기에 둔다. */
+   input[type="search"]/.filter-field 스타일을 그대로 재사용하고, 이
+   페이지에만 필요한 2단 레이아웃/현황판/결과 리스트/분석 영역만 여기에 둔다. */
+
+:root {
+  /* 이 페이지도 issue-briefing.css와 동일하게 국내 증시 관례(상승=빨강/
+     하락=파랑)를 따른다 -- 사이트 전역 --color-up/--color-down(초록/빨강,
+     실시간 정보 섹션에서 사용)과는 의도적으로 다른 별도 토큰이며, 이 페이지
+     바깥에서는 쓰지 않는다. */
+  --color-stock-up: #d1242f;
+  --color-stock-down: #2f5f96;
+}
 
 .stock-search {
   padding-block: var(--space-8);
@@ -12,9 +21,91 @@
   margin-bottom: var(--space-4);
 }
 
-.stock-search-field {
-  max-width: 28rem;
+/* 가운데 세로선 기준 좌/우 2단. 데스크톱 50:50, 모바일은 세로 스택(왼쪽
+   현황판이 위, 오른쪽 검색+분석이 아래 -- 문서 순서 그대로). */
+.stock-search-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-6);
+}
+
+.stock-movers-panel {
+  flex: 1 1 0;
+  min-width: 0;
+  padding-right: var(--space-6);
+  border-right: 1px solid var(--color-border);
+}
+
+.stock-analysis-panel {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.stock-movers-heading {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--space-2);
+}
+
+.stock-movers-heading + .mover-list {
   margin-bottom: var(--space-4);
+}
+
+.mover-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mover-item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.mover-item:last-child {
+  border-bottom: none;
+}
+
+.mover-rank {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  width: 1.25rem;
+}
+
+.mover-name {
+  flex: 1;
+}
+
+.mover-change {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.mover-change.up {
+  color: var(--color-stock-up);
+}
+
+.mover-change.down {
+  color: var(--color-stock-down);
+}
+
+.stock-search-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.stock-search-field {
+  flex: 1 1 16rem;
+}
+
+.stock-search-controls .filter-field {
+  flex: 0 1 10rem;
 }
 
 .stock-result-list {
@@ -24,13 +115,88 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 28rem;
 }
 
 .stock-result-item {
+  padding: 0;
+  overflow: hidden;
+}
+
+.stock-result-button {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
   padding: var(--space-3);
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+@media (hover: hover) {
+  .stock-result-button:hover {
+    background: var(--color-surface-alt);
+  }
+}
+
+.stock-result-item.is-selected {
+  border-color: var(--color-accent);
+}
+
+.stock-result-name {
+  font-weight: 700;
+}
+
+.stock-result-meta {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  white-space: nowrap;
 }
 
 .stock-empty-message {
   color: var(--color-text-muted);
+}
+
+.stock-analysis {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+.stock-analysis-label {
+  margin: 0 0 0.35rem;
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+
+.stock-analysis h3 {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--space-1);
+}
+
+.stock-analysis p:last-child {
+  margin: 0;
+  color: var(--color-text);
+}
+
+@media (max-width: 900px) {
+  .stock-search-layout {
+    flex-direction: column;
+  }
+
+  .stock-movers-panel {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: var(--space-4);
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: var(--space-4);
+  }
 }
