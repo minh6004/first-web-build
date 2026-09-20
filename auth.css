@@ -1,0 +1,131 @@
+/* 로그인/회원가입 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/
+   .btn/.filter-field/input 스타일 등을 그대로 재사용하고, 이 두 페이지에만
+   필요한 카드 레이아웃/약관 아코디언/상태 메시지만 여기에 둔다. */
+
+.auth {
+  padding-block: var(--space-8);
+}
+
+.auth .container {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 26rem;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.auth-card h1 {
+  font-size: var(--fs-h2);
+  font-weight: 900;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.auth-submit {
+  width: 100%;
+  margin-top: var(--space-1);
+}
+
+.auth-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.auth-switch {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.auth-switch a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.auth-terms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.auth-terms-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--fs-small);
+}
+
+.auth-terms-check input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--color-accent);
+}
+
+.auth-terms-toggle {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-accent);
+  font-size: var(--fs-small);
+  text-decoration: underline;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* 약관 텍스트는 모달이 아니라 인라인 아코디언으로 펼친다 (issue-briefing
+   페이지의 이벤트 상세와 같은 max-height 확장 방식 재사용). */
+.auth-terms-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.auth-terms-panel.is-open {
+  max-height: 16rem;
+  overflow-y: auto;
+}
+
+.auth-terms-panel-inner {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: var(--space-2);
+  margin-top: 0.5rem;
+  background: var(--color-surface-alt);
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* 성공/실패 상태는 --color-up/--color-down(시세 등락 전용)을 쓰지 않는다 --
+   폼 제출 결과는 재무 등락과 무관한 상태이므로 브랜드 액센트/기본 텍스트
+   색으로만 구분한다. */
+.auth-message {
+  min-height: 1.2em;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.auth-message.is-error {
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auth-terms-panel {
+    transition: none;
+  }
+}

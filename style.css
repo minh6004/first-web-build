@@ -608,6 +608,9 @@ p {
 }
 
 input[type="search"],
+input[type="text"],
+input[type="password"],
+input[type="date"],
 select {
   font-family: inherit;
   font-size: var(--fs-body);

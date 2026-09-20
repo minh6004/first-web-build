@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>회원가입 · StockLens</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="auth.css" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <a class="skip-link" href="#auth-main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <a class="logo" href="index.html">StockLens</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="메뉴 열기">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html#features">기능</a></li>
+          <li><a href="issue-briefing.html">이슈 브리핑</a></li>
+          <li><a href="login.html">로그인</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="auth-main">
+    <section class="auth" id="auth">
+      <div class="container">
+        <div class="auth-card card">
+          <h1>회원가입</h1>
+
+          <!-- 이 폼은 Formspree로 데이터를 전송만 할 뿐, 실제 로그인 인증 기능은
+               없음. 비밀번호가 평문으로 전송되므로 실서비스 전환 시 별도 인증
+               백엔드(예: Firebase Auth, Supabase Auth) 및 비밀번호 해싱 도입이
+               필요함. -->
+          <form id="signupForm" class="auth-form" action="https://formspree.io/f/xljdgben" method="POST">
+            <div class="filter-field">
+              <label for="nickname">닉네임</label>
+              <input type="text" id="nickname" name="nickname" required />
+            </div>
+            <div class="filter-field">
+              <label for="birthdate">생년월일</label>
+              <input type="date" id="birthdate" name="birthdate" required />
+            </div>
+            <div class="filter-field">
+              <label for="signupUsername">아이디</label>
+              <input type="text" id="signupUsername" name="username" autocomplete="username" required />
+            </div>
+            <div class="filter-field">
+              <label for="signupPassword">비밀번호</label>
+              <input type="password" id="signupPassword" name="password" autocomplete="new-password" required />
+            </div>
+
+            <div class="auth-terms">
+              <label class="auth-terms-check">
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" required />
+                이용약관에 동의합니다
+              </label>
+              <button type="button" class="auth-terms-toggle" id="termsToggle" aria-expanded="false" aria-controls="termsPanel">
+                약관 보기
+              </button>
+              <div class="auth-terms-panel" id="termsPanel" inert>
+                <div class="auth-terms-panel-inner">
+                  <p>[더미 약관] 제1조(목적) 이 약관은 StockLens(이하 "회사")가 제공하는 서비스의 이용조건 및 절차, 회사와 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                  <p>제2조(회원가입) 이용자는 회사가 정한 가입 양식에 따라 회원정보를 기입한 후 이 약관에 동의한다는 의사표시를 함으로써 회원가입을 신청하며, 회사가 이를 승인함으로써 회원가입이 완료됩니다.</p>
+                  <p>제3조(개인정보 보호) 회사는 관계 법령이 정하는 바에 따라 회원의 개인정보를 보호하기 위해 노력하며, 개인정보의 수집·이용·제공에 관한 사항은 별도의 개인정보처리방침을 따릅니다.</p>
+                  <p>제4조(면책) 이 약관은 데모 목적의 더미 텍스트이며 실제 법적 효력을 갖지 않습니다.</p>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit" disabled>가입하기</button>
+            <p class="auth-message" id="signupMessage" role="status" aria-live="polite"></p>
+          </form>
+          <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <span>&copy; 2026 StockLens</span>
+      <ul class="footer-links">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+    <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
+  </footer>
+
+  <script src="signup.js"></script>
+</body>
+</html>
