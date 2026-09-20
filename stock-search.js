@@ -265,6 +265,15 @@ const marketFilter = document.getElementById("marketFilter");
 const sectorFilter = document.getElementById("sectorFilter");
 
 function runSearch() {
+  // 검색어를 입력하기 전에는 결과 상자를 아예 띄우지 않는다 -- 검색을
+  // 시작해야 그때 결과(또는 "검색 결과가 없습니다")가 나타난다.
+  if (!searchInput.value.trim()) {
+    resultList.innerHTML = "";
+    emptyMessage.hidden = true;
+    hideAnalysis();
+    return;
+  }
+
   renderResults(
     searchStocks(searchInput.value, {
       market: marketFilter.value,
