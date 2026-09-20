@@ -7,6 +7,7 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  sendEmailVerification,
   onAuthStateChanged,
   signOut,
 } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
@@ -35,6 +36,7 @@ export const db = getFirestore(app);
 export {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  sendEmailVerification,
   onAuthStateChanged,
   signOut,
   doc,
