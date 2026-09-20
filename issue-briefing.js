@@ -25,6 +25,20 @@ function getTodaysSummary() {
 
 document.getElementById("briefingSummaryText").textContent = getTodaysSummary();
 
+// up/down/neutral(방향성이 뚜렷하지 않은 이벤트, 예: 자기주식 취득 공시)
+// 세 가지를 표시하는 공용 헬퍼. 종합 신호/개별 이벤트 양쪽에서 같이 쓴다.
+function directionArrow(direction) {
+  if (direction === "up") return "↑";
+  if (direction === "down") return "↓";
+  return "→";
+}
+
+function directionLabel(direction) {
+  if (direction === "up") return "상승";
+  if (direction === "down") return "하락";
+  return "보합";
+}
+
 // ---------------------------------------------------------------------------
 // ① 종합 신호 섹션
 // ---------------------------------------------------------------------------
@@ -92,8 +106,8 @@ function renderSignalCard(sector) {
       <li class="signal-event-item">
         <span class="signal-event-name">${e.name}</span>
         <span class="signal-event-arrow ${e.direction}">
-          <span class="visually-hidden">${e.direction === "up" ? "상승" : "하락"}</span>
-          <span aria-hidden="true">${e.direction === "up" ? "↑" : "↓"}</span>
+          <span class="visually-hidden">${directionLabel(e.direction)}</span>
+          <span aria-hidden="true">${directionArrow(e.direction)}</span>
         </span>
         <span class="signal-event-strength">${e.strength}</span>
       </li>`
@@ -296,7 +310,7 @@ const EVENTS = [
 // 이 두 함수만 각자 다른 위치에 붙이면 된다.
 function renderEventRow(event) {
   const chipsHtml = event.chips
-    .map((c) => `<span class="briefing-chip ${c.direction}">${c.sector}${c.direction === "up" ? "↑" : "↓"}</span>`)
+    .map((c) => `<span class="briefing-chip ${c.direction}">${c.sector}${directionArrow(c.direction)}</span>`)
     .join("");
 
   const button = document.createElement("button");
@@ -317,7 +331,7 @@ function renderEventDiagram(event) {
       (s) => `
       <div class="briefing-diagram-node briefing-diagram-node--sector ${s.direction}">
         <span>${s.name}</span>
-        <span class="briefing-diagram-arrow-inline" aria-hidden="true">${s.direction === "up" ? "↑" : "↓"}</span>
+        <span class="briefing-diagram-arrow-inline" aria-hidden="true">${directionArrow(s.direction)}</span>
       </div>`
     )
     .join("");
@@ -416,4 +430,57 @@ function buildEventList(events) {
   });
 }
 
-buildEventList(EVENTS);
+// ---------------------------------------------------------------------------
+// 실제 데이터 연동 (DART 수집 파이프라인, scripts/dart/collect-events.mjs가
+// data/latest.json을 만들어 둔다)
+// ---------------------------------------------------------------------------
+
+// DART 파이프라인이 만든 이벤트를 이 페이지의 렌더링 함수가 기대하는 모양
+// (org/decision/chips/cause/mechanism/sectors/explain/counterpoint)으로
+// 바꾼다. impact.affected_sectors가 이미 {sector, direction} 형태라
+// chips/sectors 둘 다 그대로 재사용한다.
+function mapDartEventToBriefingEvent(dartEvent) {
+  const eventDate = new Date(dartEvent.event_datetime);
+  const dateLabel = `${eventDate.getFullYear()}.${String(eventDate.getMonth() + 1).padStart(2, "0")}.${String(
+    eventDate.getDate()
+  ).padStart(2, "0")}`;
+  const todayLabel = new Date().toISOString().slice(0, 10).replace(/-/g, ".");
+  const dateGroup = dateLabel === todayLabel ? "오늘" : dateLabel;
+
+  return {
+    id: dartEvent.id,
+    dateGroup,
+    dateLabel,
+    org: dartEvent.subject.name,
+    decision: dartEvent.content.headline.replace(`${dartEvent.subject.name}, `, ""),
+    chips: dartEvent.impact.affected_sectors,
+    cause: dartEvent.content.headline,
+    mechanism: dartEvent.content.horizon.short_term,
+    sectors: dartEvent.impact.affected_sectors.map((s) => ({ name: s.sector, direction: s.direction })),
+    // "설명"/"반대 시각" 슬롯에 잠정적으로 단기/중장기 해설을 매핑해뒀다 --
+    // 실제 "반대 시각" 전용 문구가 생기면 교체할 자리.
+    explain: dartEvent.content.horizon.short_term,
+    counterpoint: dartEvent.content.horizon.long_term,
+  };
+}
+
+// data/latest.json이 있으면(수집 스크립트를 이미 돌렸으면) 그 데이터를
+// 쓰고, 없거나 비어 있거나 형식이 안 맞으면 더미 데이터(EVENTS)로
+// 되돌아간다 -- 수집 스크립트를 아직 안 돌린 상태에서도 페이지가 깨지지
+// 않아야 하기 때문.
+async function loadEvents() {
+  try {
+    const response = await fetch("./data/latest.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    if (!Array.isArray(payload.events) || payload.events.length === 0) {
+      throw new Error("이벤트가 비어 있음");
+    }
+    return payload.events.map(mapDartEventToBriefingEvent);
+  } catch (error) {
+    console.warn("실제 이벤트 데이터를 불러오지 못해 더미 데이터로 표시합니다:", error.message);
+    return EVENTS;
+  }
+}
+
+loadEvents().then(buildEventList);

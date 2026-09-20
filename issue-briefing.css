@@ -304,6 +304,14 @@
   color: var(--color-briefing-down);
 }
 
+/* 실제 공시 데이터에는 상승/하락으로 단정하기 어려운("중립") 이벤트도
+   섞여 있어서(예: 자기주식 취득 공시 자체는 방향성이 뚜렷하지 않음) 세
+   번째 상태가 필요하다. */
+.briefing-chip.neutral {
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+}
+
 /* 인라인 아코디언: 팝업/라이트박스가 아니라 문서 흐름 안에서 그대로
    펼쳐진다(빅 이벤트 섹션의 고정 위치 라이트박스와는 다른 방식). */
 .briefing-event-detail {
@@ -380,6 +388,11 @@
 .briefing-diagram-node--sector.down {
   color: var(--color-briefing-down);
   border-color: var(--color-briefing-down);
+}
+
+.briefing-diagram-node--sector.neutral {
+  color: var(--color-text-muted);
+  border-color: var(--color-card-border);
 }
 
 .briefing-explain,
