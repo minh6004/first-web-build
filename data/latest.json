@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-20T21:15:27.034Z",
+  "generated_at": "2026-09-20T23:55:09.941Z",
   "summary": [],
   "events": [
     {
@@ -12,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-21T12:00:00+09:00",
-      "collected_at": "2026-09-20T21:15:27.034Z",
+      "collected_at": "2026-09-20T23:55:04.107Z",
       "type": "disclosure",
       "category": "주요사항",
       "subject": {
@@ -46,6 +46,65 @@
       "content": {
         "meta_line": "엠젠솔루션 · 09.21 · 주요사항",
         "headline": "엠젠솔루션, 주요사항보고서(자기전환사채만기전취득결정)",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
+          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20260921-000504",
+      "source": {
+        "type": "dart",
+        "ref_id": "20260918000504",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000504",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-21T12:00:00+09:00",
+      "collected_at": "2026-09-20T23:55:04.107Z",
+      "type": "disclosure",
+      "category": "지분공시",
+      "subject": {
+        "entity_type": "stock",
+        "code": "247540",
+        "name": "에코프로비엠",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 0
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "지분공시"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에코프로비엠 · 09.21 · 지분공시",
+        "headline": "에코프로비엠, 주식등의대량보유상황보고서(일반)",
         "chips": [
           "미분류→"
         ],

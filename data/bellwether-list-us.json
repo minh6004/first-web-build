@@ -1,0 +1,8 @@
+{
+  "반도체": ["NVIDIA", "Intel Corp", "QUALCOMM", "Advanced Micro Devices", "Broadcom"],
+  "IT/플랫폼": ["Apple Inc", "Microsoft Corp", "Alphabet Inc", "Meta Platforms", "Amazon.com"],
+  "2차전지": ["Tesla"],
+  "금융": ["JPMorgan Chase", "Goldman Sachs", "Berkshire Hathaway", "Bank of America"],
+  "바이오": ["Pfizer", "Moderna", "Johnson & Johnson"],
+  "에너지": ["Exxon Mobil", "Chevron"]
+}

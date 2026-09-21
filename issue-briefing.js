@@ -439,12 +439,24 @@ function buildEventList(events) {
 // (org/decision/chips/cause/mechanism/sectors/explain/counterpoint)으로
 // 바꾼다. impact.affected_sectors가 이미 {sector, direction} 형태라
 // chips/sectors 둘 다 그대로 재사용한다.
+// event_datetime을 항상 KST(UTC+9) 달력 기준으로 "YYYY.MM.DD"로 바꾼다.
+// Date의 getFullYear()/getMonth()/getDate()는 "보는 사람 브라우저의 로컬
+// 시간대"를 쓰기 때문에, 그걸 그대로 썼더니 실제로 문제가 있었다: Fed
+// 이벤트의 UTC 타임스탬프(18:00Z)가 KST에서는 다음 날 새벽(03:00)으로
+// 넘어가는데, 로컬 getter는 브라우저 시간대에 따라 하루가 밀리거나 안
+// 밀리거나 제각각으로 나왔다. UTC 타임스탬프에 9시간을 더한 뒤 UTC
+// getter로 읽으면 어떤 브라우저에서 봐도 항상 같은 KST 날짜가 나온다.
+function toKstDateLabel(date) {
+  const kst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+  const y = kst.getUTCFullYear();
+  const m = String(kst.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(kst.getUTCDate()).padStart(2, "0");
+  return `${y}.${m}.${d}`;
+}
+
 function mapDartEventToBriefingEvent(dartEvent) {
-  const eventDate = new Date(dartEvent.event_datetime);
-  const dateLabel = `${eventDate.getFullYear()}.${String(eventDate.getMonth() + 1).padStart(2, "0")}.${String(
-    eventDate.getDate()
-  ).padStart(2, "0")}`;
-  const todayLabel = new Date().toISOString().slice(0, 10).replace(/-/g, ".");
+  const dateLabel = toKstDateLabel(new Date(dartEvent.event_datetime));
+  const todayLabel = toKstDateLabel(new Date());
   const dateGroup = dateLabel === todayLabel ? "오늘" : dateLabel;
 
   return {

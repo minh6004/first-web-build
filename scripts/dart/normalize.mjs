@@ -1,6 +1,7 @@
 // 원본 DART 공시(list.json 항목)를 스펙에 정의된 정규화 이벤트 스키마로
 // 바꾸는 모듈: 분류 -> (실적이면) 재무제표 조회 -> 영향/스코어링/문구 생성.
 import { fetchFinancials } from "./dart-client.mjs";
+import { computeImpactFromMetrics, computeScoring, surpriseScoreFromValues } from "../lib/impact.mjs";
 
 // ---------------------------------------------------------------------------
 // 1. 공시 제목 기반 분류
@@ -108,49 +109,24 @@ export async function fetchEarningsMetrics({ corpCode, reportName, filingDate })
 }
 
 // ---------------------------------------------------------------------------
-// 3. 영향(impact)/스코어링(scoring)/문구(content) 생성 -- 전부 규칙 기반
+// 3. 영향(impact)/스코어링(scoring)/문구(content) 생성 -- 전부 규칙 기반.
+//    방향 판정(up/down/neutral)과 우선순위 점수 공식은 scripts/lib/impact.mjs
+//    공용 헬퍼를 그대로 쓴다 -- 소스마다 따로 구현하면 지난번(프런트엔드에서
+//    neutral이 조용히 down으로 표시되던) 같은 버그가 재발하기 쉽다.
 // ---------------------------------------------------------------------------
 
-function computeImpact(type, category, metrics, sectors) {
+function computeImpact(category, metrics, sectors) {
   const primary = metrics.operating_profit_yoy_pct ?? metrics.revenue_yoy_pct ?? metrics.net_income_yoy_pct ?? null;
-
-  let direction = "neutral";
-  if (primary != null) {
-    direction = primary > 0 ? "up" : primary < 0 ? "down" : "neutral";
-  }
-
-  const absVal = primary != null ? Math.abs(primary) : 0;
-  const strength = absVal >= 20 ? "strong" : absVal >= 5 ? "medium" : "weak";
-
-  return {
-    direction,
-    strength,
-    affected_sectors: sectors.map((sector) => ({ sector, direction, note: category })),
-  };
+  return computeImpactFromMetrics([primary], sectors, category);
 }
 
-function computeScoring(type, metrics, isBellwether) {
-  const yoyValues = [metrics.revenue_yoy_pct, metrics.operating_profit_yoy_pct, metrics.net_income_yoy_pct].filter(
-    (value) => value != null
-  );
-  const maxAbsYoy = yoyValues.length ? Math.max(...yoyValues.map(Math.abs)) : 0;
-  // 초안 가중치: |YoY| 50%면 서프라이즈 점수 1.0으로 포화. 나중에 실제
-  // 컨센서스 데이터가 들어오면 이 자리를 대체한다.
-  const surpriseScore = Math.min(maxAbsYoy / 50, 1);
-
-  let priority = surpriseScore * 60;
-  if (isBellwether) priority += 25;
-  if (type === "ma") priority += 10;
-  if (type === "contract") priority += 5;
-  priority = Math.round(Math.min(priority, 100));
-
-  return {
-    surprise_score: Math.round(surpriseScore * 100) / 100,
-    price_trigger: false,
-    price_change_pct: null,
-    watchlist_boost: false,
-    priority_score: priority,
-  };
+function computeEventScoring(type, metrics, isBellwether) {
+  const surpriseScore = surpriseScoreFromValues([
+    metrics.revenue_yoy_pct,
+    metrics.operating_profit_yoy_pct,
+    metrics.net_income_yoy_pct,
+  ]);
+  return computeScoring({ surpriseScore, isBellwether, type });
 }
 
 function formatMonthDay(filingDate) {
@@ -243,8 +219,8 @@ export async function normalizeDisclosure(raw, bellwetherMap) {
     if (financials) metrics = financials;
   }
 
-  const impact = computeImpact(classification.type, classification.category, metrics, sectors);
-  const scoring = computeScoring(classification.type, metrics, isBellwether);
+  const impact = computeImpact(classification.category, metrics, sectors);
+  const scoring = computeEventScoring(classification.type, metrics, isBellwether);
   const content = buildContent({
     type: classification.type,
     category: classification.category,
