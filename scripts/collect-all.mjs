@@ -3,8 +3,11 @@
 // 소스를 전부 모아서 같은 정규화 스키마로 병합하고, 우선순위 상위 5~8건만
 // data/events/YYYY/MM/YYYY-MM-DD.json + data/latest.json에 저장한다.
 //
-// 사용법: node scripts/collect-all.mjs [YYYY-MM-DD]
-//   DART_API_KEY 환경변수가 필요하다(Fed/SEC는 공개 API라 키가 필요 없음).
+// 사용법: node --env-file=.env scripts/collect-all.mjs [YYYY-MM-DD]
+//   (또는 .env 없이 DART_API_KEY=발급받은키 node scripts/collect-all.mjs 로 인라인 전달해도 됨)
+//   DART_API_KEY가 필요하다(Fed/SEC는 공개 API라 키가 필요 없음). 프로젝트
+//   루트의 .env.example을 복사해 .env를 만들고 실제 키를 채워 넣을 것 --
+//   .env는 .gitignore에 이미 제외되어 있어 커밋되지 않는다.
 //   날짜를 생략하면 오늘(KST) 날짜로 수집한다.
 //
 // ECOS(한국은행)는 아직 API 키가 없어서 이번 범위에서 빠져 있다 -- 키를

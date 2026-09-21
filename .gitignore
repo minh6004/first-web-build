@@ -1,0 +1,7 @@
+# 비밀값 -- 절대 커밋하지 않는다 (.env.example만 커밋 대상)
+.env
+.env.*
+!.env.example
+
+# 혹시 나중에 npm 의존성이 생길 경우를 대비
+node_modules/

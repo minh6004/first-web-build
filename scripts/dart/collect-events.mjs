@@ -4,7 +4,8 @@
 // 병합 저장은 scripts/collect-all.mjs를 쓸 것.
 //
 // 사용법:
-//   DART_API_KEY=발급받은키 node scripts/dart/collect-events.mjs [YYYY-MM-DD]
+//   node --env-file=.env scripts/dart/collect-events.mjs [YYYY-MM-DD]
+//   (또는 DART_API_KEY=발급받은키 node scripts/dart/collect-events.mjs 로 인라인 전달)
 //   날짜를 생략하면 오늘(KST) 날짜로 수집한다.
 import { writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
