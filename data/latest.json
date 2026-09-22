@@ -1,7 +1,29 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T08:47:35.024Z",
-  "summary": [],
+  "generated_at": "2026-09-22T08:55:30.079Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.1%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "SK하이닉스, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202608-8542",
@@ -12,7 +34,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:32.242Z",
+      "collected_at": "2026-09-22T08:55:25.672Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +99,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:32.478Z",
+      "collected_at": "2026-09-22T08:55:25.905Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +164,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:32.373Z",
+      "collected_at": "2026-09-22T08:55:25.791Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -199,6 +221,70 @@
       "status": "active"
     },
     {
+      "id": "dart-20260922-000530",
+      "source": {
+        "type": "dart",
+        "ref_id": "20260922000530",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000530",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-22T12:00:00+09:00",
+      "collected_at": "2026-09-22T08:55:28.294Z",
+      "type": "earnings",
+      "category": "기업실적",
+      "subject": {
+        "entity_type": "stock",
+        "code": "348950",
+        "name": "제이알글로벌리츠",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {
+        "revenue_yoy_pct": 21.3,
+        "operating_profit_yoy_pct": 27.9,
+        "net_income_yoy_pct": -720.9,
+        "fs_div": "CFS"
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 60
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "up",
+            "note": "기업실적"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "제이알글로벌리츠 · 09.22 · 기업실적",
+        "headline": "제이알글로벌리츠, 영업이익 전년 대비 27.9% 증가",
+        "chips": [
+          "미분류↑"
+        ],
+        "horizon": {
+          "short_term": "영업이익이 전년 대비 27.9% 증가해 단기적으로 긍정적인 주가 반응이 나올 수 있어요.",
+          "long_term": "이 증가세가 다음 분기에도 이어지는지가 중장기 주가의 핵심 변수가 될 거예요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "dart-20260922-000435",
       "source": {
         "type": "dart",
@@ -207,7 +293,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:35.022Z",
+      "collected_at": "2026-09-22T08:55:28.621Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -271,7 +357,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:32.587Z",
+      "collected_at": "2026-09-22T08:55:26.027Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -336,7 +422,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:34.888Z",
+      "collected_at": "2026-09-22T08:55:28.499Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -400,7 +486,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:35.023Z",
+      "collected_at": "2026-09-22T08:55:28.622Z",
       "type": "disclosure",
       "category": "지분공시",
       "subject": {
@@ -434,65 +520,6 @@
       "content": {
         "meta_line": "삼성전자 · 09.22 · 지분공시",
         "headline": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "dart-20260922-000361",
-      "source": {
-        "type": "dart",
-        "ref_id": "20260922000361",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000361",
-        "tier": 1
-      },
-      "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:47:35.023Z",
-      "type": "disclosure",
-      "category": "지분공시",
-      "subject": {
-        "entity_type": "stock",
-        "code": "000660",
-        "name": "SK하이닉스",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 25
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral",
-            "note": "지분공시"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "SK하이닉스 · 09.22 · 지분공시",
-        "headline": "SK하이닉스, 임원ㆍ주요주주특정증권등소유상황보고서",
         "chips": [
           "반도체→"
         ],

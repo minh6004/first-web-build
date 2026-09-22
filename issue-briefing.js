@@ -132,8 +132,10 @@ function renderSignalCard(sector) {
   return card;
 }
 
-const signalGrid = document.getElementById("signalGrid");
-SIGNAL_SECTORS.forEach((sector) => signalGrid.appendChild(renderSignalCard(sector)));
+function renderSignals(sectors) {
+  const signalGrid = document.getElementById("signalGrid");
+  sectors.forEach((sector) => signalGrid.appendChild(renderSignalCard(sector)));
+}
 
 // ---------------------------------------------------------------------------
 // ② 개별 이벤트 리스트
@@ -477,22 +479,29 @@ function mapDartEventToBriefingEvent(dartEvent) {
 }
 
 // data/latest.json이 있으면(수집 스크립트를 이미 돌렸으면) 그 데이터를
-// 쓰고, 없거나 비어 있거나 형식이 안 맞으면 더미 데이터(EVENTS)로
+// 쓰고, 없거나 요청 자체가 실패하면 더미 데이터(EVENTS/SIGNAL_SECTORS)로
 // 되돌아간다 -- 수집 스크립트를 아직 안 돌린 상태에서도 페이지가 깨지지
-// 않아야 하기 때문.
-async function loadEvents() {
+// 않아야 하기 때문. summary/events는 서로 독립적으로 비어 있을 수 있어서
+// (예: 오늘은 섹터당 겹치는 이벤트가 적어 종합 신호가 적더라도 개별 이벤트는
+// 있을 수 있음) 각자 따로 폴백을 판단한다.
+async function loadBriefingPayload() {
   try {
     const response = await fetch("./data/latest.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    if (!Array.isArray(payload.events) || payload.events.length === 0) {
-      throw new Error("이벤트가 비어 있음");
-    }
-    return payload.events.map(mapDartEventToBriefingEvent);
+    return await response.json();
   } catch (error) {
-    console.warn("실제 이벤트 데이터를 불러오지 못해 더미 데이터로 표시합니다:", error.message);
-    return EVENTS;
+    console.warn("실제 브리핑 데이터를 불러오지 못해 더미 데이터로 표시합니다:", error.message);
+    return null;
   }
 }
 
-loadEvents().then(buildEventList);
+loadBriefingPayload().then((payload) => {
+  const sectors = Array.isArray(payload?.summary) && payload.summary.length > 0 ? payload.summary : SIGNAL_SECTORS;
+  renderSignals(sectors);
+
+  const events =
+    Array.isArray(payload?.events) && payload.events.length > 0
+      ? payload.events.map(mapDartEventToBriefingEvent)
+      : EVENTS;
+  buildEventList(events);
+});

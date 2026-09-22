@@ -21,6 +21,7 @@ import { collectDartEvents } from "./dart/collect.mjs";
 import { collectFedEvents } from "./fed/collect.mjs";
 import { collectSecEvents } from "./sec/collect.mjs";
 import { collectCustomsEvents } from "./kdata/collect.mjs";
+import { buildSummary } from "./lib/summary.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -81,10 +82,16 @@ async function main() {
   }
   console.log(`우선순위 상위 ${top.length}건 선정 (소스: ${top.map((e) => e.source.type).join(", ") || "없음"})`);
 
+  // 종합 신호는 top(상위 8건)이 아니라 allEvents(전체 합산본) 기준으로 집계한다
+  // -- top 8건만 보면 한 섹터에 이벤트가 여러 건 겹쳐도 상위 스코어 몇 건만
+  // 남아 "여러 이벤트가 겹치는 섹터"를 제대로 찾을 수 없다.
+  const summary = buildSummary(allEvents);
+  console.log(`종합 신호 섹터 ${summary.length}개 선정 (${summary.map((s) => s.name).join(", ") || "없음"})`);
+
   const payload = {
     date: isoDate,
     generated_at: new Date().toISOString(),
-    summary: [], // 종합 신호 집계 로직은 다음 단계 범위
+    summary,
     events: top,
   };
 
