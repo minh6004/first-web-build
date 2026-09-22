@@ -1,19 +1,16 @@
 #!/usr/bin/env node
 // 이슈 브리핑 데이터 파이프라인 -- 실제 운영용 진입점. DART/Fed/SEC/관세청
-// (data.go.kr) 네 소스를 전부 모아서 같은 정규화 스키마로 병합하고, 우선순위
-// 상위 5~8건만 data/events/YYYY/MM/YYYY-MM-DD.json + data/latest.json에
-// 저장한다.
+// (data.go.kr)/ECOS(한국은행) 다섯 소스를 전부 모아서 같은 정규화 스키마로
+// 병합하고, 우선순위 상위 5~8건만 data/events/YYYY/MM/YYYY-MM-DD.json +
+// data/latest.json에 저장한다. 이걸로 1군(공식) 소스 확장이 전부 끝난다.
 //
 // 사용법: node --env-file=.env scripts/collect-all.mjs [YYYY-MM-DD]
 //   (또는 .env 없이 DART_API_KEY=발급받은키 ... node scripts/collect-all.mjs 로 인라인 전달해도 됨)
-//   DART_API_KEY, DATA_GO_KR_API_KEY가 필요하다(Fed/SEC는 공개 API라 키가
-//   필요 없음). 프로젝트 루트의 .env.example을 복사해 .env를 만들고 실제
-//   키를 채워 넣을 것 -- .env는 .gitignore에 이미 제외되어 있어 커밋되지 않는다.
+//   DART_API_KEY, DATA_GO_KR_API_KEY, ECOS_API_KEY가 필요하다(Fed/SEC는
+//   공개 API라 키가 필요 없음). 프로젝트 루트의 .env.example을 복사해 .env를
+//   만들고 실제 키를 채워 넣을 것 -- .env는 .gitignore에 이미 제외되어 있어
+//   커밋되지 않는다.
 //   날짜를 생략하면 오늘(KST) 날짜로 수집한다.
-//
-// ECOS(한국은행)는 아직 API 키가 없어서 이번 범위에서 빠져 있다 -- 키를
-// 받으면 scripts/ecos/ 아래에 같은 구조(client/normalize/collect.mjs)로
-// 추가하고 아래 SOURCES 배열에 한 줄만 더하면 된다.
 import { writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -21,6 +18,7 @@ import { collectDartEvents } from "./dart/collect.mjs";
 import { collectFedEvents } from "./fed/collect.mjs";
 import { collectSecEvents } from "./sec/collect.mjs";
 import { collectCustomsEvents } from "./kdata/collect.mjs";
+import { collectEcosEvents } from "./ecos/collect.mjs";
 import { buildSummary } from "./lib/summary.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -65,14 +63,15 @@ async function main() {
   console.log(`[전체 수집] 대상 날짜: ${isoDate}`);
 
   console.log("소스별 수집 중...");
-  const [dartEvents, fedEvents, secEvents, kdataEvents] = await Promise.all([
+  const [dartEvents, fedEvents, secEvents, kdataEvents, ecosEvents] = await Promise.all([
     runSource("DART", () => collectDartEvents(compactDate)),
     runSource("Fed", () => collectFedEvents(compactDate)),
     runSource("SEC", () => collectSecEvents(isoDate)),
     runSource("관세청", () => collectCustomsEvents(compactDate.slice(0, 6))),
+    runSource("ECOS", () => collectEcosEvents(compactDate)),
   ]);
 
-  const allEvents = [...dartEvents, ...fedEvents, ...secEvents, ...kdataEvents];
+  const allEvents = [...dartEvents, ...fedEvents, ...secEvents, ...kdataEvents, ...ecosEvents];
   console.log(`전체 소스 합산 ${allEvents.length}건`);
 
   allEvents.sort((a, b) => b.scoring.priority_score - a.scoring.priority_score);

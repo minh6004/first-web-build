@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T08:55:30.079Z",
+  "generated_at": "2026-09-22T09:47:11.959Z",
   "summary": [
     {
       "id": "sector-0",
@@ -34,7 +34,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:25.672Z",
+      "collected_at": "2026-09-22T09:47:03.021Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -99,7 +99,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:25.905Z",
+      "collected_at": "2026-09-22T09:47:03.290Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -164,7 +164,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:25.791Z",
+      "collected_at": "2026-09-22T09:47:03.153Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -229,7 +229,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:28.294Z",
+      "collected_at": "2026-09-22T09:47:05.646Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -293,7 +293,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:28.621Z",
+      "collected_at": "2026-09-22T09:47:05.912Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -357,7 +357,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:26.027Z",
+      "collected_at": "2026-09-22T09:47:03.416Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -414,6 +414,68 @@
       "status": "active"
     },
     {
+      "id": "ecos-cpi-202608",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202608",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-08-01T12:00:00+09:00",
+      "collected_at": "2026-09-22T09:47:03.545Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 3.1,
+        "cpi_yoy_pct_prev_month": 2.8,
+        "cpi_yoy_accel_pct_point": 0.3
+      },
+      "scoring": {
+        "surprise_score": 0.3,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 51
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 08월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 3.1% (전월 2.8%에서 가속)",
+        "chips": [
+          "성장주↓"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 3.1%)이 전월보다 더 높아져 단기적으로 금리 인상 우려가 커질 수 있어요.",
+          "long_term": "물가 상승세가 다음 달에도 이어지는지가 통화정책 방향을 좌우하는 핵심 변수예요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "dart-20260922-000499",
       "source": {
         "type": "dart",
@@ -422,7 +484,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:28.499Z",
+      "collected_at": "2026-09-22T09:47:05.803Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -467,65 +529,6 @@
         "horizon": {
           "short_term": "영업이익이 전년 대비 38.7% 증가해 단기적으로 긍정적인 주가 반응이 나올 수 있어요.",
           "long_term": "이 증가세가 다음 분기에도 이어지는지가 중장기 주가의 핵심 변수가 될 거예요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "dart-20260922-000524",
-      "source": {
-        "type": "dart",
-        "ref_id": "20260922000524",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000524",
-        "tier": 1
-      },
-      "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T08:55:28.622Z",
-      "type": "disclosure",
-      "category": "지분공시",
-      "subject": {
-        "entity_type": "stock",
-        "code": "005930",
-        "name": "삼성전자",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 25
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral",
-            "note": "지분공시"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "삼성전자 · 09.22 · 지분공시",
-        "headline": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
         }
       },
       "reliability": {
