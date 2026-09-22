@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20260922-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260922",
+        "url": "https://kr.aving.net/news/articleView.html?idxno=1814702",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-22T19:28:00+09:00",
+      "collected_at": "2026-09-22T10:32:23.463Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.22 · 뉴스 화제성",
+        "headline": "KES 2026 이노베이션 어워즈, 6개 분야 42개 혁신 제품·기술 선정… 10월...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "KES 2026 이노베이션 어워즈, 6개 분야 42개 혁신 제품·기술 선정… 10월..."
+      ],
+      "snippets": [
+        "이 외에도 ▲호주 'Airwallex'(AI 기반 글로벌 금융 운영 플랫폼 'Airwallex') ▲이탈리아 'Video Systems'(코딩 없는 실시간 머신비전 검사 'Ingenium AI eco-system') ▲스페인 'AiMA'(음성 기반 AI 생활 돌봄 'AiMA digital... "
+      ],
+      "media_domains": [
+        "kr.aving.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "'금융' 칩 분류가 부적절함. 증거는 KES 2026 혁신 어워즈 전반에 관한 내용이며, 스니펫에서 금융 관련 사항은 Airwallex 한 사례일 뿐 핵심 내용이 아님. 교차확인 매체도 1개로 낮음."
+  },
+  {
+    "event": {
+      "id": "naver-20260922-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20260922",
+        "url": "https://kr.aving.net/news/articleView.html?idxno=1814702",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-22T19:28:00+09:00",
+      "collected_at": "2026-09-22T10:32:23.606Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 09.22 · 뉴스 화제성",
+        "headline": "KES 2026 이노베이션 어워즈, 6개 분야 42개 혁신 제품·기술 선정… 10월...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "KES 2026 이노베이션 어워즈, 6개 분야 42개 혁신 제품·기술 선정… 10월..."
+      ],
+      "snippets": [
+        "AI 플랫폼이다. ▲'에어렛'의 'AiRET AX1'은 온디바이스 비전 AI가 신발의 종류와 소재를 스스로 판단해... 전자·IT 산업 종합 전시회로, 10월 13일(화)부터 16일(금)까지 나흘간 서울 코엑스 Hall A·B에서 500개사... "
+      ],
+      "media_domains": [
+        "kr.aving.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "금융 카드와 동일한 출처(KES 2026 이노베이션 어워즈)인데 동일 헤드라인으로 중복 생성됨. 교차확인 매체 1개이고, 'IT/플랫폼' 분류가 너무 광범위하여 뉴스의 실질적 신의미를 전달하기 어려움. 중복 카드로 판단됨."
+  }
+]

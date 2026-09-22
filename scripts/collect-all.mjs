@@ -1,14 +1,23 @@
 #!/usr/bin/env node
-// 이슈 브리핑 데이터 파이프라인 -- 실제 운영용 진입점. DART/Fed/SEC/관세청
-// (data.go.kr)/ECOS(한국은행) 다섯 소스를 전부 모아서 같은 정규화 스키마로
+// 이슈 브리핑 데이터 파이프라인 -- 실제 운영용 진입점.
+// 1군(공식) 소스 DART/Fed/SEC/관세청(data.go.kr)/ECOS(한국은행)와 2군
+// (비공식) 소스 GDELT/네이버뉴스를 전부 모아서 같은 정규화 스키마로
 // 병합하고, 우선순위 상위 5~8건만 data/events/YYYY/MM/YYYY-MM-DD.json +
-// data/latest.json에 저장한다. 이걸로 1군(공식) 소스 확장이 전부 끝난다.
+// data/latest.json에 저장한다.
+//
+// 2군 소스는 신뢰도가 낮아(reliability.tier: 2) AI 검수 게이트를 반드시
+// 거친다: 그날 수집된 2군 후보 전체를 한 번의 배치 호출로 Haiku급 모델에
+// 보내 승인/반려를 받고, 승인된 것만 needs_review를 false로 바꿔 최종
+// 목록에 포함한다. 반려된 것은 발행하지 않고 data/rejected/에 사유와 함께
+// 남긴다. 검수 프롬프트에는 이 스크립트의 생성 로직/추론을 전혀 넘기지
+// 않고, 원본 증거와 생성된 카드 내용만 준다(scripts/review/gate.mjs).
 //
 // 사용법: node --env-file=.env scripts/collect-all.mjs [YYYY-MM-DD]
 //   (또는 .env 없이 DART_API_KEY=발급받은키 ... node scripts/collect-all.mjs 로 인라인 전달해도 됨)
-//   DART_API_KEY, DATA_GO_KR_API_KEY, ECOS_API_KEY가 필요하다(Fed/SEC는
-//   공개 API라 키가 필요 없음). 프로젝트 루트의 .env.example을 복사해 .env를
-//   만들고 실제 키를 채워 넣을 것 -- .env는 .gitignore에 이미 제외되어 있어
+//   DART_API_KEY, DATA_GO_KR_API_KEY, ECOS_API_KEY, NCP_API_KEY_ID/
+//   NCP_API_KEY, ANTHROPIC_API_KEY가 필요하다(Fed/SEC/GDELT는 공개 API라
+//   키가 필요 없음). 프로젝트 루트의 .env.example을 복사해 .env를 만들고
+//   실제 키를 채워 넣을 것 -- .env는 .gitignore에 이미 제외되어 있어
 //   커밋되지 않는다.
 //   날짜를 생략하면 오늘(KST) 날짜로 수집한다.
 import { writeFile, mkdir } from "node:fs/promises";
@@ -19,6 +28,9 @@ import { collectFedEvents } from "./fed/collect.mjs";
 import { collectSecEvents } from "./sec/collect.mjs";
 import { collectCustomsEvents } from "./kdata/collect.mjs";
 import { collectEcosEvents } from "./ecos/collect.mjs";
+import { collectGdeltCandidates } from "./gdelt/collect.mjs";
+import { collectNaverCandidates } from "./naver/collect.mjs";
+import { reviewCandidates } from "./review/gate.mjs";
 import { buildSummary } from "./lib/summary.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -57,22 +69,86 @@ async function runSource(label, fn) {
   }
 }
 
+// 2군 소스(GDELT/네이버)는 { event, evidence } 쌍을 반환한다 -- 로그
+// 형식만 다르고 실패 격리 원칙은 runSource와 동일하다.
+async function runCandidateSource(label, fn) {
+  try {
+    const candidates = await fn();
+    console.log(`  [${label}] ${candidates.length}건(검수 대기)`);
+    return candidates;
+  } catch (error) {
+    console.warn(`  [${label}] 수집 실패, 이 소스는 건너뜁니다: ${error.message}`);
+    return [];
+  }
+}
+
+// 2군 후보 전체를 AI 검수 게이트에 한 번에(배치) 보내고, 승인된 이벤트와
+// 반려 기록을 나눠서 돌려준다. 검수 게이트 자체가 실패하면(키 누락,
+// API 장애 등) "일단 통과시킨다"가 아니라 이번 배치 전체를 안전하게
+// 반려 처리한다 -- 검수를 못 받은 tier:2 이벤트가 그냥 발행되면 안 된다.
+async function runReviewGate(candidates) {
+  if (candidates.length === 0) return { approvedEvents: [], rejectedRecords: [] };
+
+  const reviewInput = candidates.map(({ event, evidence }) => ({
+    id: event.id,
+    evidence,
+    card: { headline: event.content.headline, chips: event.content.chips, horizon: event.content.horizon },
+  }));
+
+  let verdictMap;
+  try {
+    verdictMap = await reviewCandidates(reviewInput);
+  } catch (error) {
+    console.warn(`  ⚠ AI 검수 게이트 호출 실패, 이번 배치는 전부 반려 처리: ${error.message}`);
+    verdictMap = new Map(reviewInput.map((c) => [c.id, { verdict: "reject", reason: `검수 게이트 호출 실패: ${error.message}` }]));
+  }
+
+  const approvedEvents = [];
+  const rejectedRecords = [];
+  for (const { event, evidence } of candidates) {
+    const result = verdictMap.get(event.id) ?? { verdict: "reject", reason: "검수 결과 없음(안전 기본값)" };
+    if (result.verdict === "approve") {
+      approvedEvents.push({ ...event, reliability: { ...event.reliability, needs_review: false } });
+    } else {
+      rejectedRecords.push({ event, evidence, reason: result.reason });
+    }
+  }
+  return { approvedEvents, rejectedRecords };
+}
+
 async function main() {
   const isoDate = parseDateArg(process.argv[2]);
   const compactDate = isoDate.replace(/-/g, "");
   console.log(`[전체 수집] 대상 날짜: ${isoDate}`);
 
   console.log("소스별 수집 중...");
-  const [dartEvents, fedEvents, secEvents, kdataEvents, ecosEvents] = await Promise.all([
+  const [dartEvents, fedEvents, secEvents, kdataEvents, ecosEvents, gdeltCandidates, naverCandidates] = await Promise.all([
     runSource("DART", () => collectDartEvents(compactDate)),
     runSource("Fed", () => collectFedEvents(compactDate)),
     runSource("SEC", () => collectSecEvents(isoDate)),
     runSource("관세청", () => collectCustomsEvents(compactDate.slice(0, 6))),
     runSource("ECOS", () => collectEcosEvents(compactDate)),
+    runCandidateSource("GDELT", () => collectGdeltCandidates(compactDate)),
+    runCandidateSource("네이버뉴스", () => collectNaverCandidates(compactDate)),
   ]);
 
-  const allEvents = [...dartEvents, ...fedEvents, ...secEvents, ...kdataEvents, ...ecosEvents];
-  console.log(`전체 소스 합산 ${allEvents.length}건`);
+  const tier1Events = [...dartEvents, ...fedEvents, ...secEvents, ...kdataEvents, ...ecosEvents];
+  const tier2Candidates = [...gdeltCandidates, ...naverCandidates];
+
+  console.log(`2군 후보 ${tier2Candidates.length}건 AI 검수 게이트 통과 중...`);
+  const { approvedEvents, rejectedRecords } = await runReviewGate(tier2Candidates);
+  console.log(`  승인 ${approvedEvents.length}건 / 반려 ${rejectedRecords.length}건`);
+
+  if (rejectedRecords.length > 0) {
+    const rejectedDir = path.join(DATA_DIR, "rejected");
+    await mkdir(rejectedDir, { recursive: true });
+    const rejectedFile = path.join(rejectedDir, `${isoDate}.json`);
+    await writeFile(rejectedFile, JSON.stringify(rejectedRecords, null, 2), "utf-8");
+    console.log(`  반려 로그 저장: ${path.relative(ROOT_DIR, rejectedFile)}`);
+  }
+
+  const allEvents = [...tier1Events, ...approvedEvents];
+  console.log(`전체 소스 합산(검수 통과분 포함) ${allEvents.length}건`);
 
   allEvents.sort((a, b) => b.scoring.priority_score - a.scoring.priority_score);
   const top = allEvents.slice(0, MAX_EVENTS);

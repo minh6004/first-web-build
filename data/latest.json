@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T09:47:11.959Z",
+  "generated_at": "2026-09-22T10:33:41.291Z",
   "summary": [
     {
       "id": "sector-0",
@@ -12,6 +12,11 @@
           "strength": "강함"
         },
         {
+          "name": "농협은행·전남광주통합특별시… 반도체 특화도시 조성에 맞손",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
           "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
           "direction": "neutral",
           "strength": "약함"
@@ -20,6 +25,38 @@
           "name": "SK하이닉스, 임원ㆍ주요주주특정증권등소유상황보고서",
           "direction": "neutral",
           "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "에너지",
+      "events": [
+        {
+          "name": "에너지(HS 2709) 수입 전년 동월 대비 +21.1%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "MS와 인프라-AI 맞교환… 구광모 '원LG 글로벌 혈맹' 속도",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-2",
+      "name": "2차전지",
+      "events": [
+        {
+          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +24%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "KAIST, 전기차 배터리 더 작고 가볍게 할 기반 기술 개발",
+          "direction": "neutral",
+          "strength": "중간"
         }
       ]
     }
@@ -34,7 +71,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:03.021Z",
+      "collected_at": "2026-09-22T10:32:23.313Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -99,7 +136,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:03.290Z",
+      "collected_at": "2026-09-22T10:32:23.549Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -164,7 +201,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:03.153Z",
+      "collected_at": "2026-09-22T10:32:23.437Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -229,7 +266,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:05.646Z",
+      "collected_at": "2026-09-22T10:32:25.824Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -293,7 +330,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:05.912Z",
+      "collected_at": "2026-09-22T10:32:26.122Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -357,7 +394,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:03.416Z",
+      "collected_at": "2026-09-22T10:32:23.666Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -422,7 +459,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:03.545Z",
+      "collected_at": "2026-09-22T10:32:23.877Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -484,7 +521,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-22T12:00:00+09:00",
-      "collected_at": "2026-09-22T09:47:05.803Z",
+      "collected_at": "2026-09-22T10:32:26.013Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
