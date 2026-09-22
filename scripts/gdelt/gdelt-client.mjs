@@ -5,10 +5,15 @@
 // (query/mode/format/startdatetime/enddatetime/maxrecords)과 응답 JSON 구조
 // (ArtList: {articles:[{url,title,domain,seendate,...}]}, Timeline:
 // {timeline:[{series, data:[{date,value}]}]})를 확인했다 -- 짐작으로 구현하지
-// 않았다. 이 네트워크 환경에서는 공유 IP가 GDELT의 요청 빈도 제한에 걸려
-// 라이브 응답을 직접 못 받아봤지만(별도로 사용자에게 보고), 파라미터/응답
-// 구조 자체는 실제 클라이언트 코드에서 그대로 가져온 것이라 추측이 아니다.
+// 않았다. 이 네트워크 환경에서는 공유 IP가 계속 "요청 제한" 응답(429, 실제로는
+// 5초 간격을 지켜도 나옴)을 받아서 라이브 응답을 직접 못 받아봤다(별도로
+// 사용자에게 보고). 같은 클라이언트의 GitHub 이슈(#22)에 따르면 GDELT가
+// User-Agent 헤더 없는 요청을 이 동일한 "요청 제한" 문구로 거부하기 시작했다는
+// 보고가 있어 SEC 클라이언트와 같은 방식으로 User-Agent를 추가해뒀지만, 그
+// 이후에도 이 환경에서는 여전히 막혀 있다 -- 공유 IP 자체가 포화 상태일
+// 가능성이 커 보인다.
 const BASE_URL = "https://api.gdeltproject.org/api/v2/doc/doc";
+const USER_AGENT = "StockLens issue-briefing collector (contact: research@example.com)";
 
 // GDELT는 "5초에 한 번" 요청 제한이 있고, 어기면 200 상태코드에 JSON이
 // 아닌 안내 텍스트를 돌려준다 -- 이 프로세스 안에서 순차적으로 호출할 때
@@ -21,7 +26,7 @@ async function throttledFetchJson(url) {
   if (waitMs > 0) await new Promise((resolve) => setTimeout(resolve, waitMs));
   lastRequestAt = Date.now();
 
-  const response = await fetch(url);
+  const response = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!response.ok) throw new Error(`GDELT API 요청 실패 (status ${response.status})`);
   const text = await response.text();
   try {

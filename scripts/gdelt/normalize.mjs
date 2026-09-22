@@ -56,18 +56,32 @@ function buildBuzzHorizon(direction, spikeRatio) {
   };
 }
 
+// GDELT는 너무 짧거나 흔한 단일 키워드를 거부한다("Your search contained a
+// keyword that was too short" -- 실제 라이브 호출로 확인함, "금융"에서 발생).
+// 공용 섹터 이름(data/bellwether-list.json, DART/네이버가 같이 씀)은 그대로
+// 두고, GDELT에 보내는 질의어만 여기서 더 구체적인 문구로 바꾼다.
+const GDELT_QUERY_OVERRIDES = {
+  금융: "금융권",
+  "IT/플랫폼": "IT 플랫폼", // 슬래시(/)가 쿼리 파서에서 특수문자로 오인될 수 있어 공백으로 대체
+};
+
+function toGdeltQuery(sectorName) {
+  return GDELT_QUERY_OVERRIDES[sectorName] ?? sectorName;
+}
+
 /**
  * @param {string} sectorName 예: "반도체"
  * @param {string} dateStr YYYYMMDD(KST)
  * @returns {Promise<{event: object, evidence: object} | null>}
  */
 export async function normalizeSectorBuzzCandidate(sectorName, dateStr) {
+  const queryKeyword = toGdeltQuery(sectorName);
   const { start: todayStart, end: todayEnd } = kstDayUtcRange(dateStr);
   const baselineStartDateStr = shiftKstDate(dateStr, -BASELINE_DAYS);
   const { start: baselineStart } = kstDayUtcRange(baselineStartDateStr);
 
-  const volSeries = await fetchTimeline("timelinevol", sectorName, baselineStart, todayEnd);
-  const toneSeries = await fetchTimeline("timelinetone", sectorName, baselineStart, todayEnd);
+  const volSeries = await fetchTimeline("timelinevol", queryKeyword, baselineStart, todayEnd);
+  const toneSeries = await fetchTimeline("timelinetone", queryKeyword, baselineStart, todayEnd);
 
   const volByDay = averageByDay(volSeries);
   const toneByDay = averageByDay(toneSeries);
@@ -88,7 +102,7 @@ export async function normalizeSectorBuzzCandidate(sectorName, dateStr) {
   const direction = computeDirection(todayTone);
   const strength = buzzStrength(spikeRatio);
 
-  const articles = await fetchArtList(sectorName, todayStart, todayEnd, 10);
+  const articles = await fetchArtList(queryKeyword, todayStart, todayEnd, 10);
   const distinctMedia = [...new Set(articles.map((a) => a.domain).filter(Boolean))];
 
   const scoring = computeScoring({
