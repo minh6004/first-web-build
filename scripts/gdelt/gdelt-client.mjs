@@ -21,19 +21,59 @@ const USER_AGENT = "StockLens issue-briefing collector (contact: research@exampl
 const MIN_REQUEST_INTERVAL_MS = 5200;
 let lastRequestAt = 0;
 
-async function throttledFetchJson(url) {
+// 429(또는 200 + 비-JSON 안내문, 사실상 같은 요청 제한 신호)를 받으면
+// 즉시 포기하지 않고 지수 백오프로 재시도한다: 10s -> 20s -> 40s.
+// 주의: 이건 "너무 자주 요청해서" 걸리는 일시적 제한에는 도움이 되지만,
+// 공유 IP 자체가 GDELT에 장시간(수십 분 이상) 차단된 경우에는 이 정도
+// 백오프로는 해결되지 않는다 -- 실제로 이 프로젝트의 클라우드 샌드박스
+// 환경에서는 세션 내내(30분 이상) 재시도해도 풀리지 않았다. GitHub
+// Actions처럼 매번 다른 IP를 쓰는 환경에서는 이 백오프가 실질적으로
+// 도움이 될 가능성이 더 크다.
+const MAX_RETRIES = 3;
+const BASE_BACKOFF_MS = 10000;
+
+async function throttledFetchJson(url, attempt = 0) {
   const waitMs = MIN_REQUEST_INTERVAL_MS - (Date.now() - lastRequestAt);
   if (waitMs > 0) await new Promise((resolve) => setTimeout(resolve, waitMs));
   lastRequestAt = Date.now();
 
-  const response = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+  const retryIfPossible = async (reasonForLog) => {
+    if (attempt >= MAX_RETRIES) return null;
+    const backoffMs = BASE_BACKOFF_MS * 2 ** attempt;
+    console.warn(`  ⚠ GDELT ${reasonForLog} -- ${Math.round(backoffMs / 1000)}초 대기 후 재시도(${attempt + 1}/${MAX_RETRIES})`);
+    await new Promise((resolve) => setTimeout(resolve, backoffMs));
+    return throttledFetchJson(url, attempt + 1);
+  };
+
+  // fetch() 자체가 던지는 네트워크 오류(연결 끊김/타임아웃 등, 실제로
+  // "fetch failed"가 이 프로젝트 테스트 중에도 반복 관찰됨)는 응답 객체를
+  // 아예 못 받는 경우라 아래 status 체크로는 못 잡는다 -- try/catch로 감싸서
+  // 같은 재시도 경로를 타게 한다.
+  let response;
+  try {
+    response = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+  } catch (error) {
+    const retried = await retryIfPossible(`네트워크 오류(${error.message})`);
+    if (retried) return retried;
+    throw new Error(`GDELT API 요청 실패(네트워크 오류, ${MAX_RETRIES}회 재시도 후에도 실패): ${error.message}`);
+  }
+
+  if (response.status === 429) {
+    const retried = await retryIfPossible("요청 제한(429)");
+    if (retried) return retried;
+    throw new Error(`GDELT API 요청 실패 (status 429, ${MAX_RETRIES}회 재시도 후에도 실패)`);
+  }
   if (!response.ok) throw new Error(`GDELT API 요청 실패 (status ${response.status})`);
+
   const text = await response.text();
   try {
     return JSON.parse(text);
   } catch {
-    // 요청 제한에 걸리면 200 + 평문 안내 메시지를 준다(JSON 파싱 실패로 감지).
-    throw new Error(`GDELT API가 JSON이 아닌 응답을 반환함(요청 제한 가능성): ${text.slice(0, 200)}`);
+    // 요청 제한에 걸리면 200 + 평문 안내 메시지를 준다(JSON 파싱 실패로 감지)
+    // -- 상태 코드는 200이라 위 429 분기를 안 타므로 여기서도 같은 재시도를 적용한다.
+    const retried = await retryIfPossible("비-JSON 응답(요청 제한 추정)");
+    if (retried) return retried;
+    throw new Error(`GDELT API가 JSON이 아닌 응답을 반환함(${MAX_RETRIES}회 재시도 후에도 실패): ${text.slice(0, 200)}`);
   }
 }
 
