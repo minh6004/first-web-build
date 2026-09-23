@@ -1,93 +1,15 @@
 [
   {
     "event": {
-      "id": "naver-20260923-반도체",
-      "source": {
-        "type": "naver",
-        "ref_id": "반도체-20260923",
-        "url": "https://n.news.naver.com/mnews/article/018/0006374926?sid=101",
-        "tier": 2
-      },
-      "event_datetime": "2026-09-23T12:39:00+09:00",
-      "collected_at": "2026-09-23T03:41:30.826Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "반도체",
-        "name": "반도체",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 1
-      },
-      "scoring": {
-        "surprise_score": 0.13,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 33
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "반도체 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "\"AI 전력난에 가속화되는 中SMR·핵융합 기술\"",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": true,
-        "corroboration_count": 1
-      },
-      "updates": [],
-      "status": "active"
-    },
-    "evidence": {
-      "source": "naver",
-      "sector": "반도체",
-      "headlines": [
-        "\"AI 전력난에 가속화되는 中SMR·핵융합 기술\""
-      ],
-      "snippets": [
-        "중국은 여전히 미국이 설계한 AI 반도체에 상당 부분 의존하고 있지만, 중앙집권적 경제 시스템을 바탕으로 AI 산업에 필요한 발전소와 전력망 등 인프라를 빠르게 구축할 수 있다는 점에서는 상대적으로 유리하다고 FT는... "
-      ],
-      "media_domains": [
-        "edaily.co.kr"
-      ],
-      "corroboration_count": 1
-    },
-    "reason": "교차확인 매체 수가 1개로 매우 적으며, 중장기 해설이 '여러 매체가 같은 내용을 이어서 다루는지'를 기준으로 제시하는데 실제로는 단일 매체만 존재함. 해설 내용이 증거 상황과 불일치"
-  },
-  {
-    "event": {
       "id": "naver-20260923-바이오",
       "source": {
         "type": "naver",
         "ref_id": "바이오-20260923",
-        "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=615965",
+        "url": "https://n.news.naver.com/mnews/article/277/0005820496?sid=102",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:40:00+09:00",
-      "collected_at": "2026-09-23T03:41:34.301Z",
+      "event_datetime": "2026-09-23T12:45:00+09:00",
+      "collected_at": "2026-09-23T04:00:16.511Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -122,7 +44,7 @@
       },
       "content": {
         "meta_line": "바이오 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "태아기·생후 초기 설탕 노출, 성인기 불안장애 위험 높여",
+        "headline": "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영",
         "chips": [
           "바이오→"
         ],
@@ -143,17 +65,95 @@
       "source": "naver",
       "sector": "바이오",
       "headlines": [
-        "태아기·생후 초기 설탕 노출, 성인기 불안장애 위험 높여"
+        "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영"
       ],
       "snippets": [
-        "영국 바이오뱅크(UK Biobank) 참가자 4만5000여 명의 의료 자료를 분석했다. 참가자들은 태아기에만 배급제를... 영국 바이오뱅크가 설탕 노출과 정신건강의 관계를 연구할 수 있는 드문 기회를 제공했다고 평가했다. 이어... "
+        "한국청소년활동진흥원이 운영하는 국립청소년바이오생명센터는 한국에너지공단과 연계해 인구감소지역... 김성학 국립청소년바이오생명센터 원장은 \"다양한 전문기관과 협력해 청소년들이 바이오생명과학을 비롯한... "
       ],
       "media_domains": [
-        "mdtoday.co.kr"
+        "view.asiae.co.kr"
       ],
       "corroboration_count": 1
     },
-    "reason": "교차확인 매체 수가 1개로 매우 적으며, '여러 매체가 같은 내용을 이어서 다루는지'라는 중장기 해설이 실제 상황과 불일치. 의학 연구 기사가 투자 화제성 카드로 적절한지 의문"
+    "reason": "단일 매체(1개) 출처인데 스니펫에서 주식시장 관련성이 보이지 않음. 교육/청소년 정책 뉴스로 '바이오' 칩이 과도하게 광범위하며, 산업 영향력이 명확하지 않음."
+  },
+  {
+    "event": {
+      "id": "naver-20260923-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260923",
+        "url": "http://www.finomy.com/news/articleView.html?idxno=262295",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T12:50:00+09:00",
+      "collected_at": "2026-09-23T04:00:17.194Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시"
+      ],
+      "snippets": [
+        "맞아 금융상품 자산을 늘리거나 애프터마켓을 이용하는 고객을 대상으로 투자지원금과 모바일상품권 등을 제공한다. 한국투자증권은 뱅키스 고객을 대상으로 '추석 맞이 금융상품 가입 이벤트'와 '애프터마켓 이벤트... "
+      ],
+      "media_domains": [
+        "finomy.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체(1개) 출처의 증권사 이벤트 소식으로, 시장 화제성이 낮음. '금융' 칩의 범주가 과도하게 넓고 뉴스 중요도가 부족함."
   },
   {
     "event": {
@@ -161,11 +161,11 @@
       "source": {
         "type": "naver",
         "ref_id": "에너지-20260923",
-        "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500241",
+        "url": "https://n.news.naver.com/mnews/article/081/0003683052?sid=104",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:40:00+09:00",
-      "collected_at": "2026-09-23T03:41:37.480Z",
+      "event_datetime": "2026-09-23T12:51:00+09:00",
+      "collected_at": "2026-09-23T04:00:17.886Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -200,7 +200,7 @@
       },
       "content": {
         "meta_line": "에너지 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "유니스 해체 앞 커리어 하이, '밀키 웨이'로 아름다운 쉼표",
+        "headline": "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박...",
         "chips": [
           "에너지→"
         ],
@@ -221,16 +221,16 @@
       "source": "naver",
       "sector": "에너지",
       "headlines": [
-        "유니스 해체 앞 커리어 하이, '밀키 웨이'로 아름다운 쉼표"
+        "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박..."
       ],
       "snippets": [
-        "유니스는 시대에 맞게 가사를 바꾸고 통통 튀는 매력과 발랄한 에너지를 청량하게 풀어 리메이크했다. 세대를 막론하고 누구나 즐길 수 있다는 점이 특징이다. 유니스는 원곡 특유의 중독성, 자신들만의 키치한 하이틴... "
+        "러·우, 에너지 휴전할까 한편 도널드 트럼프 미국 대통령은 우크라이나의 러시아 정유시설 타격으로 전 세계 경윳값이 급등했다며 에너지 휴전을 촉구해 왔다. 러시아와 우크라이나는 트럼프 대통령의 촉구에도 서로의... "
       ],
       "media_domains": [
-        "newsq.co.kr"
+        "nownews.seoul.co.kr"
       ],
       "corroboration_count": 1
     },
-    "reason": "교차확인 매체 수 1개이며, 제공된 스니펫 내용이 '유니스'라는 음악 그룹 재활동 뉴스로 에너지(산업) 섹터와 무관. 카드 분류 자체가 부적절"
+    "reason": "헤드라인(우크라 드론 공격)과 칩(에너지) 간의 연결이 부적절함. 스니펫에서 에너지는 부차적 언급이며, 단일 매체(1개) 출처로 신뢰도가 낮음."
   }
 ]
