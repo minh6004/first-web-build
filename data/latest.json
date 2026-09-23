@@ -1,8 +1,187 @@
 {
   "date": "2026-09-23",
-  "generated_at": "2026-09-23T04:11:36.087Z",
-  "summary": [],
+  "generated_at": "2026-09-23T09:43:59.121Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.1%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "ADB, 올해 한국 성장률 전망치 3.2%로 상향",
+          "direction": "neutral",
+          "strength": "중간"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "에너지",
+      "events": [
+        {
+          "name": "에너지(HS 2709) 수입 전년 동월 대비 +21.1%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "고려아연, 한국경영대상 환경경영 부문 2년 연속 수상",
+          "direction": "neutral",
+          "strength": "중간"
+        }
+      ]
+    },
+    {
+      "id": "sector-2",
+      "name": "바이오",
+      "events": [
+        {
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 +11.4%",
+          "direction": "up",
+          "strength": "중간"
+        },
+        {
+          "name": "셀트리온, 주식등의대량보유상황보고서(일반)",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
+    {
+      "id": "kdata-202608-8542",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8542-202608",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-08-01T12:00:00+09:00",
+      "collected_at": "2026-09-23T09:30:37.604Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8542",
+        "name": "반도체(집적회로(반도체))",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 38235698070,
+        "import_value_usd": 9621754312,
+        "trade_balance_usd": 28613943758,
+        "export_value_yoy_pct": 203.1,
+        "import_value_yoy_pct": 85.5
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 · 2026.08 · 수출입동향",
+        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +203.1%",
+        "chips": [
+          "반도체↑"
+        ],
+        "horizon": {
+          "short_term": "반도체 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202608-2709",
+      "source": {
+        "type": "kdata",
+        "ref_id": "2709-202608",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-08-01T12:00:00+09:00",
+      "collected_at": "2026-09-23T09:30:38.695Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2709",
+        "name": "에너지(원유)",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 0,
+        "import_value_usd": 8282353489,
+        "trade_balance_usd": -8282353489,
+        "export_value_yoy_pct": -100,
+        "import_value_yoy_pct": 21.1
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 · 2026.08 · 수출입동향",
+        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +21.1%",
+        "chips": [
+          "에너지↑"
+        ],
+        "horizon": {
+          "short_term": "에너지 수입이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
     {
       "id": "ecos-fx-20260923",
       "source": {
@@ -12,7 +191,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-23T12:00:00+09:00",
-      "collected_at": "2026-09-23T04:00:14.501Z",
+      "collected_at": "2026-09-23T09:30:37.590Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -71,62 +250,66 @@
       "status": "active"
     },
     {
-      "id": "naver-20260923-2차전지",
+      "id": "kdata-202608-8507",
       "source": {
-        "type": "naver",
-        "ref_id": "2차전지-20260923",
-        "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065577692726481",
-        "tier": 2
+        "type": "kdata",
+        "ref_id": "8507-202608",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
       },
-      "event_datetime": "2026-09-23T10:50:00+09:00",
-      "collected_at": "2026-09-23T04:00:15.823Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
+      "event_datetime": "2026-08-01T12:00:00+09:00",
+      "collected_at": "2026-09-23T09:30:38.147Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
       "subject": {
         "entity_type": "sector",
-        "code": "2차전지",
-        "name": "2차전지",
+        "code": "8507",
+        "name": "2차전지(축전지(2차전지))",
         "is_bellwether": true,
         "sectors": [
           "2차전지"
         ]
       },
       "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 6
+        "export_value_usd": 601506935,
+        "import_value_usd": 583026268,
+        "trade_balance_usd": 18480667,
+        "export_value_yoy_pct": 24,
+        "import_value_yoy_pct": 22.8
       },
       "scoring": {
-        "surprise_score": 0.75,
+        "surprise_score": 0.48,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 70
+        "priority_score": 62
       },
       "impact": {
-        "direction": "neutral",
+        "direction": "up",
         "strength": "strong",
         "affected_sectors": [
           {
             "sector": "2차전지",
-            "direction": "neutral"
+            "direction": "up",
+            "note": "수출입동향"
           }
         ]
       },
       "content": {
-        "meta_line": "2차전지 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "동원그룹, ‘필요에 답하다’ 세 번째 광고 공개…단백질·2차전지·물류...",
+        "meta_line": "2차전지 · 2026.08 · 수출입동향",
+        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +24%",
         "chips": [
-          "2차전지→"
+          "2차전지↑"
         ],
         "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+          "short_term": "2차전지 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
         }
       },
       "reliability": {
-        "tier": 2,
+        "tier": 1,
         "needs_review": false,
-        "corroboration_count": 6
+        "corroboration_count": 0
       },
       "updates": [],
       "status": "active"
@@ -140,7 +323,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-23T12:00:00+09:00",
-      "collected_at": "2026-09-23T04:00:18.120Z",
+      "collected_at": "2026-09-23T09:30:54.243Z",
       "type": "earnings",
       "category": "기업실적",
       "subject": {
@@ -196,6 +379,71 @@
       "status": "active"
     },
     {
+      "id": "kdata-202608-3004",
+      "source": {
+        "type": "kdata",
+        "ref_id": "3004-202608",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-08-01T12:00:00+09:00",
+      "collected_at": "2026-09-23T09:30:39.244Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "3004",
+        "name": "바이오(의약품)",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 69801512,
+        "import_value_usd": 590021577,
+        "trade_balance_usd": -520220065,
+        "export_value_yoy_pct": 11.4,
+        "import_value_yoy_pct": 14.7
+      },
+      "scoring": {
+        "surprise_score": 0.29,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 51
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 · 2026.08 · 수출입동향",
+        "headline": "바이오(HS 3004) 수출 전년 동월 대비 +11.4%",
+        "chips": [
+          "바이오↑"
+        ],
+        "horizon": {
+          "short_term": "바이오 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "ecos-cpi-202608",
       "source": {
         "type": "ecos",
@@ -204,7 +452,7 @@
         "tier": 1
       },
       "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-09-23T04:00:15.030Z",
+      "collected_at": "2026-09-23T09:30:38.151Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -262,11 +510,11 @@
       "source": {
         "type": "naver",
         "ref_id": "반도체-20260923",
-        "url": "https://www.theguru.co.kr/news/article.html?no=107528",
+        "url": "https://n.news.naver.com/mnews/article/422/0000909189?sid=101",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:48:00+09:00",
-      "collected_at": "2026-09-23T04:00:15.060Z",
+      "event_datetime": "2026-09-23T18:19:00+09:00",
+      "collected_at": "2026-09-23T09:30:37.679Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -280,18 +528,18 @@
       },
       "metrics": {
         "article_count": 20,
-        "distinct_media_count": 1
+        "distinct_media_count": 2
       },
       "scoring": {
-        "surprise_score": 0.13,
+        "surprise_score": 0.25,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 33
+        "priority_score": 40
       },
       "impact": {
         "direction": "neutral",
-        "strength": "weak",
+        "strength": "medium",
         "affected_sectors": [
           {
             "sector": "반도체",
@@ -301,7 +549,7 @@
       },
       "content": {
         "meta_line": "반도체 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "SK실트론CSS 美 미시간 공장 청산 막바지…130명 고용 종료",
+        "headline": "ADB, 올해 한국 성장률 전망치 3.2%로 상향",
         "chips": [
           "반도체→"
         ],
@@ -313,186 +561,7 @@
       "reliability": {
         "tier": 2,
         "needs_review": false,
-        "corroboration_count": 1
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20260923-IT/플랫폼",
-      "source": {
-        "type": "naver",
-        "ref_id": "IT/플랫폼-20260923",
-        "url": "https://www.techm.kr/news/articleView.html?idxno=155524",
-        "tier": 2
-      },
-      "event_datetime": "2026-09-23T12:30:00+09:00",
-      "collected_at": "2026-09-23T04:00:18.568Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "IT/플랫폼",
-        "name": "IT/플랫폼",
-        "is_bellwether": true,
-        "sectors": [
-          "IT/플랫폼"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 1
-      },
-      "scoring": {
-        "surprise_score": 0.13,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 33
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "IT/플랫폼",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "IT/플랫폼 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "티베로, 인니 국세청 DB 7노드로 확대...더존은 키르기즈 디지털전환 협...",
-        "chips": [
-          "IT/플랫폼→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 1
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "dart-20260923-000545",
-      "source": {
-        "type": "dart",
-        "ref_id": "20260922000545",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000545",
-        "tier": 1
-      },
-      "event_datetime": "2026-09-23T12:00:00+09:00",
-      "collected_at": "2026-09-23T04:00:19.291Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "229000",
-        "name": "젠큐릭스",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "젠큐릭스 · 09.23 · 인수합병",
-        "headline": "젠큐릭스, [기재정정]주요사항보고서(회사합병결정)",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "인수합병·분할 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래가 실제로 완료되는지, 사업 구조가 어떻게 재편되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "dart-20260923-000258",
-      "source": {
-        "type": "dart",
-        "ref_id": "20260923000258",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000258",
-        "tier": 1
-      },
-      "event_datetime": "2026-09-23T12:00:00+09:00",
-      "collected_at": "2026-09-23T04:00:19.291Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "002810",
-        "name": "삼영무역",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "삼영무역 · 09.23 · 인수합병",
-        "headline": "삼영무역, 합병등종료보고서(합병)",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "인수합병·분할 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래가 실제로 완료되는지, 사업 구조가 어떻게 재편되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
+        "corroboration_count": 2
       },
       "updates": [],
       "status": "active"

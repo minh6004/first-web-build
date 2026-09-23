@@ -1,15 +1,96 @@
 [
   {
     "event": {
+      "id": "naver-20260923-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260923",
+        "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=64845",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T17:44:00+09:00",
+      "collected_at": "2026-09-23T09:30:38.524Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "용인시, 간부공무원 배터리 화재 진압 실습",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "용인시, 간부공무원 배터리 화재 진압 실습",
+        "용인특례시, 간부공무원 대상 리튬이온배터리 화재 대응·진압 실습"
+      ],
+      "snippets": [
+        "리튬이온배터리는 전기를 저장했다 사용하는 2차전지로, 에너지 밀도가 높아 전기차는 물론 스마트폰, 보조배터리, 노트북, 전동공구, 무선청소기 등 다양한 제품에 쓰인다. 그러나 화재가 발생하면 온도가 순간적으로 1000... ",
+        "리튬이온배터리는 전기를 생성하고 저장하는 2차전지다. 에너지 밀도가 높아 전기차뿐 아니라 스마트폰, 보조 배터리, 노트북, 전동공구, 무선청소기 등 다양한 제품에 쓰인다. 화재가 나면 온도가 순간적으로 1000℃ 이상... "
+      ],
+      "media_domains": [
+        "newsroad.co.kr",
+        "m-i.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "증거의 스니펫은 배터리 화재 대응 실습 소식이 아닌 2차전지 기술 설명만 포함. 헤드라인과 실제 증거 콘텐츠 간 연결성이 약함. 화재 진압 실습이라는 헤드라인 주장이 스니펫으로 뒷받침되지 않음."
+  },
+  {
+    "event": {
       "id": "naver-20260923-바이오",
       "source": {
         "type": "naver",
         "ref_id": "바이오-20260923",
-        "url": "https://n.news.naver.com/mnews/article/277/0005820496?sid=102",
+        "url": "https://www.pharmnews.com/news/articleView.html?idxno=306515",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:45:00+09:00",
-      "collected_at": "2026-09-23T04:00:16.511Z",
+      "event_datetime": "2026-09-23T18:22:00+09:00",
+      "collected_at": "2026-09-23T09:30:39.230Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -44,7 +125,7 @@
       },
       "content": {
         "meta_line": "바이오 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영",
+        "headline": "카디스바이오, 45억원 규모 산업부 국책과제 주관기관 선정",
         "chips": [
           "바이오→"
         ],
@@ -65,17 +146,17 @@
       "source": "naver",
       "sector": "바이오",
       "headlines": [
-        "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영"
+        "카디스바이오, 45억원 규모 산업부 국책과제 주관기관 선정"
       ],
       "snippets": [
-        "한국청소년활동진흥원이 운영하는 국립청소년바이오생명센터는 한국에너지공단과 연계해 인구감소지역... 김성학 국립청소년바이오생명센터 원장은 \"다양한 전문기관과 협력해 청소년들이 바이오생명과학을 비롯한... "
+        "카디스바이오가 45억원 규모 국책과제 주관기관으로 선정됐다. 카디스바이오는 산업통상자원부가 지원하는 총 사업규모 45억원의 'iPSC 세포치료제 배양용 디지털 트윈 기술 개발 및 검증' 국가연구개발과제의... "
       ],
       "media_domains": [
-        "view.asiae.co.kr"
+        "pharmnews.com"
       ],
       "corroboration_count": 1
     },
-    "reason": "단일 매체(1개) 출처인데 스니펫에서 주식시장 관련성이 보이지 않음. 교육/청소년 정책 뉴스로 '바이오' 칩이 과도하게 광범위하며, 산업 영향력이 명확하지 않음."
+    "reason": "교차확인 매체 수가 1개로 단일 출처. 판단 기준 3에서 교차 확인의 중요성을 강조했으나 충족되지 않음. 중장기 해설이 '여러 매체'를 언급하지만 실제로는 단일 출처."
   },
   {
     "event": {
@@ -83,11 +164,11 @@
       "source": {
         "type": "naver",
         "ref_id": "금융-20260923",
-        "url": "http://www.finomy.com/news/articleView.html?idxno=262295",
+        "url": "https://slownews.kr/166852",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:50:00+09:00",
-      "collected_at": "2026-09-23T04:00:17.194Z",
+      "event_datetime": "2026-09-23T18:28:00+09:00",
+      "collected_at": "2026-09-23T09:30:40.071Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -122,7 +203,7 @@
       },
       "content": {
         "meta_line": "금융 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시",
+        "headline": "서울 주택연금 지급액 20% 상승할 때, 전국은 고작 2.4% 증가.",
         "chips": [
           "금융→"
         ],
@@ -143,94 +224,16 @@
       "source": "naver",
       "sector": "금융",
       "headlines": [
-        "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시"
+        "서울 주택연금 지급액 20% 상승할 때, 전국은 고작 2.4% 증가."
       ],
       "snippets": [
-        "맞아 금융상품 자산을 늘리거나 애프터마켓을 이용하는 고객을 대상으로 투자지원금과 모바일상품권 등을 제공한다. 한국투자증권은 뱅키스 고객을 대상으로 '추석 맞이 금융상품 가입 이벤트'와 '애프터마켓 이벤트... "
+        "“거주지역에 따른 노후소득 격차 더 커져.” 한국주택금융공사가 운영하는 주택연금의 평균... 국민의힘 김재섭 의원실(서울 도봉갑)이 주택금융공사 자료를 분석했다. 억울하면 서울 아파트 사시던가?... "
       ],
       "media_domains": [
-        "finomy.com"
+        "slownews.kr"
       ],
       "corroboration_count": 1
     },
-    "reason": "단일 매체(1개) 출처의 증권사 이벤트 소식으로, 시장 화제성이 낮음. '금융' 칩의 범주가 과도하게 넓고 뉴스 중요도가 부족함."
-  },
-  {
-    "event": {
-      "id": "naver-20260923-에너지",
-      "source": {
-        "type": "naver",
-        "ref_id": "에너지-20260923",
-        "url": "https://n.news.naver.com/mnews/article/081/0003683052?sid=104",
-        "tier": 2
-      },
-      "event_datetime": "2026-09-23T12:51:00+09:00",
-      "collected_at": "2026-09-23T04:00:17.886Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "에너지",
-        "name": "에너지",
-        "is_bellwether": true,
-        "sectors": [
-          "에너지"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 1
-      },
-      "scoring": {
-        "surprise_score": 0.13,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 33
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "에너지",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "에너지 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박...",
-        "chips": [
-          "에너지→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": true,
-        "corroboration_count": 1
-      },
-      "updates": [],
-      "status": "active"
-    },
-    "evidence": {
-      "source": "naver",
-      "sector": "에너지",
-      "headlines": [
-        "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박..."
-      ],
-      "snippets": [
-        "러·우, 에너지 휴전할까 한편 도널드 트럼프 미국 대통령은 우크라이나의 러시아 정유시설 타격으로 전 세계 경윳값이 급등했다며 에너지 휴전을 촉구해 왔다. 러시아와 우크라이나는 트럼프 대통령의 촉구에도 서로의... "
-      ],
-      "media_domains": [
-        "nownews.seoul.co.kr"
-      ],
-      "corroboration_count": 1
-    },
-    "reason": "헤드라인(우크라 드론 공격)과 칩(에너지) 간의 연결이 부적절함. 스니펫에서 에너지는 부차적 언급이며, 단일 매체(1개) 출처로 신뢰도가 낮음."
+    "reason": "교차확인 매체 수가 1개로 단일 출처. 헤드라인은 의원실 분석 기사인데, 정책적 영향력이나 신뢰성 판단이 불충분. 중장기 해설이 실제 상황과 맞지 않음."
   }
 ]
