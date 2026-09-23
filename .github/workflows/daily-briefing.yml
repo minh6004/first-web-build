@@ -48,8 +48,36 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/collect-all.mjs
 
+      # stefanzweifel/git-auto-commit-action은 push 전에 pull을 하지 않는다
+      # (README에 명시됨: "No git pull ... before doing the git push") --
+      # collect-all.mjs가 GDELT 재시도 때문에 몇 분~몇십 분 걸릴 수 있어서,
+      # 그 사이 로컬 개발자가 같은 브랜치에 직접 push하면(실제로 이 프로젝트
+      # 작업 중에 겪었음) non-fast-forward로 거부당한다. 그래서 이 액션 대신
+      # push 직전에 pull --rebase로 최신 상태를 받고, 그래도 경합이 나면
+      # 짧게 재시도하는 걸 직접 구현한다.
       - name: Commit and push updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: daily issue briefing data update"
-          file_pattern: "data/**"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "변경된 data/ 파일 없음 -- 커밋 건너뜀"
+            exit 0
+          fi
+
+          git commit -m "chore: daily issue briefing data update"
+
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "push 성공(시도 $i)"
+              exit 0
+            fi
+            echo "push 실패(시도 $i/5) -- pull --rebase 후 재시도"
+            git pull --rebase origin main
+            sleep 5
+          done
+
+          echo "5회 재시도 후에도 push 실패"
+          exit 1
