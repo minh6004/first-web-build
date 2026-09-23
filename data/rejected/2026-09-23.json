@@ -1,0 +1,236 @@
+[
+  {
+    "event": {
+      "id": "naver-20260923-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20260923",
+        "url": "https://www.veritas-a.com/news/articleView.html?idxno=629406",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T12:26:00+09:00",
+      "collected_at": "2026-09-23T03:34:26.630Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "동남보건대 '혁신지원사업 전공역량 페스티벌' 1000여명 방문.. '16개 전...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "동남보건대 '혁신지원사업 전공역량 페스티벌' 1000여명 방문.. '16개 전..."
+      ],
+      "snippets": [
+        "페스티벌에는 방사선학과, 임상병리학과, 식품영양학과, 바이오제약학과, 물리치료학과, 유아교육학과, 간호학부, 치기공학과, 치위생학과, 안경광학과, 의료융합관광과, 응급구조학과, 뷰티케어과, 작업치료학과... "
+      ],
+      "media_domains": [
+        "veritas-a.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체(1개)만 확인. 더 중요한 문제로, 대학 페스티벌 행사 기사가 바이오 산업 뉴스가 아니며, 투자/주가 관련성이 명확하지 않음. 칩 분류 부적절."
+  },
+  {
+    "event": {
+      "id": "naver-20260923-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260923",
+        "url": "https://www.eroun.net/news/articleView.html?idxno=90884",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T12:28:00+09:00",
+      "collected_at": "2026-09-23T03:34:27.358Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "구세군, 금천·관악에 추석 희망키트 200세트 전달",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "구세군, 금천·관악에 추석 희망키트 200세트 전달"
+      ],
+      "snippets": [
+        "금융권 나눔 자원에 지역 상공회·지자체 협력 더해 지역 이웃 지원 이로운넷 = 이수진 에디터 구세군이 금융권의 나눔 자원과 지역 상공회·지자체의 협력을 연결해 금천구와 관악구에서 추석 나눔을 이어갔다. 구세군은... "
+      ],
+      "media_domains": [
+        "eroun.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체(1개)만 확인. 구세군의 추석 나눔 행사 기사로, 금융 산업 뉴스가 아님. 칩 분류(금융→)가 부적절하며 투자 관련성 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20260923-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20260923",
+        "url": "https://www.hidomin.com/news/articleView.html?idxno=722461",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T12:26:00+09:00",
+      "collected_at": "2026-09-23T03:34:28.230Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "김민석 \"조희대, 내란세력 마지막 외톨이가 돌출 행동\"",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "김민석 \"조희대, 내란세력 마지막 외톨이가 돌출 행동\""
+      ],
+      "snippets": [
+        "이재명 대통령의 유엔총회 기조연설에 대해서는\"유엔 다자주의의 소중함을 제기하고 도널드 트럼프 미국 대통령의 국제관과는 차별화된 입장을 잘 담아냈다\"며 \"특히 호르무즈 해협 등 글로벌 에너지 공급망 해법으로... "
+      ],
+      "media_domains": [
+        "hidomin.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체(1개)만 확인. 정치인 발언 기사로, 에너지 산업 뉴스가 아님. 헤드라인과 칩(에너지→)이 불일치. 스니펫에서 에너지는 부수적 언급일 뿐 주요 내용이 아님."
+  }
+]
