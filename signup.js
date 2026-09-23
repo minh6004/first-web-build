@@ -31,16 +31,6 @@ agreeCheckbox.addEventListener("change", () => {
   signupSubmit.disabled = !agreeCheckbox.checked;
 });
 
-// 약관 보기 -- 모달 대신 인라인 아코디언으로 더미 약관을 펼친다.
-const termsToggle = document.getElementById("termsToggle");
-const termsPanel = document.getElementById("termsPanel");
-
-termsToggle.addEventListener("click", () => {
-  const isOpen = termsPanel.classList.toggle("is-open");
-  termsToggle.setAttribute("aria-expanded", String(isOpen));
-  termsPanel.inert = !isOpen;
-});
-
 const SIGNUP_ERROR_MESSAGES = {
   "auth/email-already-in-use": "이미 가입된 아이디(이메일)입니다.",
   "auth/invalid-email": "이메일 형식이 올바르지 않습니다.",

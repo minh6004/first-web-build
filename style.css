@@ -886,6 +886,17 @@ select {
   gap: var(--space-3);
 }
 
+/* 약관을 안 읽어도 눈에 띄게, 투자 자문이 아니라는 점을 사이트 전체
+   푸터에서 한 번 더 강조한다(이용약관 제9조 면책조항과 별개 위치). */
+.footer-disclaimer {
+  max-width: var(--container-max);
+  margin: var(--space-2) auto 0;
+  padding-inline: var(--space-3);
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: var(--fs-small);
+}
+
 .ai-credit {
   max-width: var(--container-max);
   margin: var(--space-2) auto 0;

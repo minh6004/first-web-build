@@ -65,17 +65,7 @@
                 <input type="checkbox" id="agreeTerms" name="agreeTerms" required />
                 이용약관에 동의합니다
               </label>
-              <button type="button" class="auth-terms-toggle" id="termsToggle" aria-expanded="false" aria-controls="termsPanel">
-                약관 보기
-              </button>
-              <div class="auth-terms-panel" id="termsPanel" inert>
-                <div class="auth-terms-panel-inner">
-                  <p>[더미 약관] 제1조(목적) 이 약관은 StockLens(이하 "회사")가 제공하는 서비스의 이용조건 및 절차, 회사와 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.</p>
-                  <p>제2조(회원가입) 이용자는 회사가 정한 가입 양식에 따라 회원정보를 기입한 후 이 약관에 동의한다는 의사표시를 함으로써 회원가입을 신청하며, 회사가 이를 승인함으로써 회원가입이 완료됩니다.</p>
-                  <p>제3조(개인정보 보호) 회사는 관계 법령이 정하는 바에 따라 회원의 개인정보를 보호하기 위해 노력하며, 개인정보의 수집·이용·제공에 관한 사항은 별도의 개인정보처리방침을 따릅니다.</p>
-                  <p>제4조(면책) 이 약관은 데모 목적의 더미 텍스트이며 실제 법적 효력을 갖지 않습니다.</p>
-                </div>
-              </div>
+              <a class="auth-terms-toggle" href="terms.html" target="_blank" rel="noopener">약관 보기</a>
             </div>
 
             <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit" disabled>가입하기</button>
@@ -91,10 +81,11 @@
     <div class="container">
       <span>&copy; 2026 StockLens</span>
       <ul class="footer-links">
-        <li><a href="#">이용약관</a></li>
+        <li><a href="terms.html">이용약관</a></li>
         <li><a href="#">개인정보처리방침</a></li>
       </ul>
     </div>
+    <p class="footer-disclaimer">본 서비스는 투자 자문을 제공하지 않으며, 모든 콘텐츠는 정보 제공 목적입니다.</p>
     <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
   </footer>
 

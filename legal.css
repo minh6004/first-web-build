@@ -1,0 +1,87 @@
+/* 이용약관/개인정보처리방침 등 긴 텍스트 위주 페이지 전용 스타일.
+   style.css의 토큰(:root)/.container/.card를 그대로 재사용하고, 이 페이지군
+   에만 필요한 문서 레이아웃(조항 간격, 목록, 하단 메타 정보)만 여기에 둔다. */
+
+.legal {
+  padding-block: var(--space-8);
+}
+
+.legal .container {
+  display: flex;
+  justify-content: center;
+}
+
+.legal-card {
+  width: 100%;
+  max-width: 44rem;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.legal-card h1 {
+  font-size: var(--fs-h2);
+  font-weight: 900;
+}
+
+/* 약관 본문과 별개로, 안 읽어도 바로 눈에 띄게 하는 강조 문구 */
+.legal-disclaimer {
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-card);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.legal-article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.legal-article h2 {
+  font-size: var(--fs-h3);
+}
+
+.legal-article p,
+.legal-article li {
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.legal-article ol {
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.legal-sublist {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: var(--space-1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.legal-meta {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.legal-meta a {
+  color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+  .legal-card {
+    padding: var(--space-3);
+  }
+}
