@@ -3,7 +3,8 @@
 // 1군(공식) 소스 DART/Fed/SEC/관세청(data.go.kr)/ECOS(한국은행)와 2군
 // (비공식) 소스 GDELT/네이버뉴스를 전부 모아서 같은 정규화 스키마로
 // 병합하고, 우선순위 상위 5~8건만 data/events/YYYY/MM/YYYY-MM-DD.json +
-// data/latest.json에 저장한다.
+// data/latest.json에 저장한다. GDELT는 현재 GDELT_ENABLED 상수로
+// 비활성화되어 있음(요청 제한 문제, 아래 상수 정의부 주석 참고).
 //
 // 2군 소스는 신뢰도가 낮아(reliability.tier: 2) AI 검수 게이트를 반드시
 // 거친다: 그날 수집된 2군 후보 전체를 한 번의 배치 호출로 Haiku급 모델에
@@ -39,6 +40,13 @@ const DATA_DIR = path.join(ROOT_DIR, "data");
 
 const MAX_EVENTS = 8;
 const MIN_EVENTS_TARGET = 5; // 참고용 -- 결과가 이보다 적어도 그대로 저장한다.
+
+// GDELT는 이 프로젝트가 도는 환경(로컬 샌드박스, GitHub Actions 러너 둘 다)에서
+// 요청 제한에 100% 막힌다 -- 재시도/백오프(scripts/gdelt/gdelt-client.mjs)를
+// 다 거쳐도 매번 실패하고, 그 재시도 대기 시간만 매일 ~13분씩 허비한다(실측).
+// 프록시 등 다른 우회 방법을 찾기 전까지 통째로 건너뛴다. scripts/gdelt/
+// 코드 자체는 그대로 남아있으니, 우회 방법이 생기면 이 값만 true로 바꾸면 된다.
+const GDELT_ENABLED = false;
 
 function todayKst() {
   const now = new Date(Date.now() + 9 * 60 * 60 * 1000);
@@ -87,6 +95,11 @@ async function runCandidateSource(label, fn) {
     console.warn(`  [${label}] 수집 실패, 이 소스는 건너뜁니다: ${error.message}`);
     return [];
   }
+}
+
+function skippedSource(label, reason) {
+  console.log(`  [${label}] 건너뜀(${reason})`);
+  return Promise.resolve([]);
 }
 
 // 2군 후보 전체를 AI 검수 게이트에 한 번에(배치) 보내고, 승인된 이벤트와
@@ -148,7 +161,9 @@ async function main() {
     runSource("SEC", () => collectSecEvents(usBusinessIsoDate)),
     runSource("관세청", () => collectCustomsEvents(compactDate.slice(0, 6))),
     runSource("ECOS", () => collectEcosEvents(compactDate)),
-    runCandidateSource("GDELT", () => collectGdeltCandidates(compactDate)),
+    GDELT_ENABLED
+      ? runCandidateSource("GDELT", () => collectGdeltCandidates(compactDate))
+      : skippedSource("GDELT", "요청 제한 우회 방법을 찾기 전까지 비활성화"),
     runCandidateSource("네이버뉴스", () => collectNaverCandidates(compactDate)),
   ]);
 

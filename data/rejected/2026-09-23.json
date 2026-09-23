@@ -1,15 +1,96 @@
 [
   {
     "event": {
+      "id": "naver-20260923-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260923",
+        "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=64845",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-23T17:44:00+09:00",
+      "collected_at": "2026-09-23T09:47:28.683Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.23 · 뉴스 화제성",
+        "headline": "용인시, 간부공무원 배터리 화재 진압 실습",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "용인시, 간부공무원 배터리 화재 진압 실습",
+        "용인특례시, 간부공무원 대상 리튬이온배터리 화재 대응·진압 실습"
+      ],
+      "snippets": [
+        "리튬이온배터리는 전기를 저장했다 사용하는 2차전지로, 에너지 밀도가 높아 전기차는 물론 스마트폰, 보조배터리, 노트북, 전동공구, 무선청소기 등 다양한 제품에 쓰인다. 그러나 화재가 발생하면 온도가 순간적으로 1000... ",
+        "리튬이온배터리는 전기를 생성하고 저장하는 2차전지다. 에너지 밀도가 높아 전기차뿐 아니라 스마트폰, 보조 배터리, 노트북, 전동공구, 무선청소기 등 다양한 제품에 쓰인다. 화재가 나면 온도가 순간적으로 1000℃ 이상... "
+      ],
+      "media_domains": [
+        "newsroad.co.kr",
+        "m-i.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "헤드라인과 칩('2차전지')의 관련성이 약함. 기사 내용은 용인시의 화재 진압 실습(행정 뉴스)이며, 2차전지 산업·기업과의 직접적 연관이 증거에 없음. 단순 소재 언급만으로는 산업 화제로 적절하지 않음."
+  },
+  {
+    "event": {
       "id": "naver-20260923-바이오",
       "source": {
         "type": "naver",
         "ref_id": "바이오-20260923",
-        "url": "https://n.news.naver.com/mnews/article/277/0005820496?sid=102",
+        "url": "https://www.tournews21.com/news/articleView.html?idxno=144237",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:45:00+09:00",
-      "collected_at": "2026-09-23T04:00:16.511Z",
+      "event_datetime": "2026-09-23T18:44:00+09:00",
+      "collected_at": "2026-09-23T09:47:28.744Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -44,7 +125,7 @@
       },
       "content": {
         "meta_line": "바이오 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영",
+        "headline": "\"미술관은 문 닫은 뒤, 기차는 한 칸 통째로, 단 6석 오마카세까지\"…미...",
         "chips": [
           "바이오→"
         ],
@@ -65,17 +146,17 @@
       "source": "naver",
       "sector": "바이오",
       "headlines": [
-        "청소년바이오생명센터-에너지공단, 미래세대 에너지캠프 운영"
+        "\"미술관은 문 닫은 뒤, 기차는 한 칸 통째로, 단 6석 오마카세까지\"…미..."
       ],
       "snippets": [
-        "한국청소년활동진흥원이 운영하는 국립청소년바이오생명센터는 한국에너지공단과 연계해 인구감소지역... 김성학 국립청소년바이오생명센터 원장은 \"다양한 전문기관과 협력해 청소년들이 바이오생명과학을 비롯한... "
+        "투손의 캐니언 랜치(Canyon Ranch)는 보다 전문적인 건강 관리에 초점을 맞춘다. '롱제비티8(Longevity8)'은 8가지 핵심 건강 요소를 기반으로 18회의 일대일 전문가 상담과 200개 이상의 바이오마커 진단을 진행한다."
       ],
       "media_domains": [
-        "view.asiae.co.kr"
+        "tournews21.com"
       ],
       "corroboration_count": 1
     },
-    "reason": "단일 매체(1개) 출처인데 스니펫에서 주식시장 관련성이 보이지 않음. 교육/청소년 정책 뉴스로 '바이오' 칩이 과도하게 광범위하며, 산업 영향력이 명확하지 않음."
+    "reason": "칩과 헤드라인의 관련성이 극히 약함. 기사는 럭셔리 웰니스 리조트 소개 콘텐츠이며, '바이오마커 진단' 언급만으로는 바이오 산업 뉴스로 보기 어려움. 교차확인 매체가 1개뿐으로 신뢰도도 낮음."
   },
   {
     "event": {
@@ -83,11 +164,11 @@
       "source": {
         "type": "naver",
         "ref_id": "금융-20260923",
-        "url": "http://www.finomy.com/news/articleView.html?idxno=262295",
+        "url": "https://n.news.naver.com/mnews/article/021/0002820999?sid=100",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:50:00+09:00",
-      "collected_at": "2026-09-23T04:00:17.194Z",
+      "event_datetime": "2026-09-23T18:44:00+09:00",
+      "collected_at": "2026-09-23T09:47:28.807Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -122,7 +203,7 @@
       },
       "content": {
         "meta_line": "금융 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시",
+        "headline": "[이슈]대통령 기자회견? 부정 57.1%-조원씨앤아이",
         "chips": [
           "금융→"
         ],
@@ -143,17 +224,17 @@
       "source": "naver",
       "sector": "금융",
       "headlines": [
-        "한투증권, 추석 맞이 금융상품·국내주식 거래 이벤트 실시"
+        "[이슈]대통령 기자회견? 부정 57.1%-조원씨앤아이"
       ],
       "snippets": [
-        "맞아 금융상품 자산을 늘리거나 애프터마켓을 이용하는 고객을 대상으로 투자지원금과 모바일상품권 등을 제공한다. 한국투자증권은 뱅키스 고객을 대상으로 '추석 맞이 금융상품 가입 이벤트'와 '애프터마켓 이벤트... "
+        "‘주가 하락 등 금융시장 불안’은 6.2%, ‘대통령의 소통·통합 노력 부족’ 5.7%, ‘물가·일자리 등 민생경제’ 5.4%였다. 기타는 8.5%, 모름은 4.4%로 집계됐다. 이번 조사는 스트레이트뉴스 의뢰로 ARS 여론조사... "
       ],
       "media_domains": [
-        "finomy.com"
+        "munhwa.com"
       ],
       "corroboration_count": 1
     },
-    "reason": "단일 매체(1개) 출처의 증권사 이벤트 소식으로, 시장 화제성이 낮음. '금융' 칩의 범주가 과도하게 넓고 뉴스 중요도가 부족함."
+    "reason": "칩('금융')과 헤드라인의 연결이 부적절함. 기사는 대통령 기자회견 여론조사이며, 금융시장 뉴스가 아님. 스니펫에 '주가 하락' 언급이 있지만 이는 조사 항목의 일부일 뿐 기사의 핵심 주제가 아님. 교차확인 매체 1개."
   },
   {
     "event": {
@@ -161,11 +242,11 @@
       "source": {
         "type": "naver",
         "ref_id": "에너지-20260923",
-        "url": "https://n.news.naver.com/mnews/article/081/0003683052?sid=104",
+        "url": "http://www.queen.co.kr/news/articleView.html?idxno=463869",
         "tier": 2
       },
-      "event_datetime": "2026-09-23T12:51:00+09:00",
-      "collected_at": "2026-09-23T04:00:17.886Z",
+      "event_datetime": "2026-09-23T18:40:00+09:00",
+      "collected_at": "2026-09-23T09:47:28.865Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -200,7 +281,7 @@
       },
       "content": {
         "meta_line": "에너지 관련 뉴스 · 09.23 · 뉴스 화제성",
-        "headline": "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박...",
+        "headline": "OECD, 한국 올해 성장률 전망 3.7%로 대폭 상향 \"G20 중 최대 상승\"",
         "chips": [
           "에너지→"
         ],
@@ -221,16 +302,16 @@
       "source": "naver",
       "sector": "에너지",
       "headlines": [
-        "[포착] 살며시 따라가 ‘쾅’…러군 ‘미행’한 우크라 드론, 탄약고 박..."
+        "OECD, 한국 올해 성장률 전망 3.7%로 대폭 상향 \"G20 중 최대 상승\""
       ],
       "snippets": [
-        "러·우, 에너지 휴전할까 한편 도널드 트럼프 미국 대통령은 우크라이나의 러시아 정유시설 타격으로 전 세계 경윳값이 급등했다며 에너지 휴전을 촉구해 왔다. 러시아와 우크라이나는 트럼프 대통령의 촉구에도 서로의... "
+        "재정경제부는 국제 에너지 가격 상승 전망이 물가 상향의 주요 요인으로 작용했다고 설명했다. 세계 경제... OECD는 국제 에너지 가격 상승세와 엘니뇨 등 기상 악화, 장기 국채금리 상승을 주요 하방 위험 요인으로... "
       ],
       "media_domains": [
-        "nownews.seoul.co.kr"
+        "queen.co.kr"
       ],
       "corroboration_count": 1
     },
-    "reason": "헤드라인(우크라 드론 공격)과 칩(에너지) 간의 연결이 부적절함. 스니펫에서 에너지는 부차적 언급이며, 단일 매체(1개) 출처로 신뢰도가 낮음."
+    "reason": "칩('에너지')과 헤드라인의 관련성 미흡. 기사의 주제는 OECD 경제성장률 전망(반도체 수출이 주요 요인)이며, 에너지는 물가 하방 위험 요인으로만 언급됨. 에너지 산업 뉴스로 보기 어려움. 교차확인 매체 1개."
   }
 ]
