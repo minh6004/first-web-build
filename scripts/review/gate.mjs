@@ -15,6 +15,44 @@ function getApiKey() {
   return key;
 }
 
+// 네트워크 오류나 429/5xx(일시적일 수 있는 오류)는 짧게 재시도한다. 실제로
+// 이 배치 호출 자체가 "fetch failed"로 실패해서 정상적인 2군 후보가 전부
+// 안전 기본값(reject)으로 처리된 적이 있었다 -- 검수 게이트 호출이 아예
+// 안 되는 것과 검수 결과 자체가 나쁜 것은 다른 상황이라, 호출 실패는
+// 재시도로 먼저 구제한다(401/400 같은 요청 자체의 문제는 재시도해도
+// 의미가 없어서 즉시 실패 처리).
+const MAX_RETRIES = 2;
+const BASE_BACKOFF_MS = 3000;
+
+async function callAnthropicWithRetry(body, attempt = 0) {
+  const retryIfPossible = async (reasonForLog) => {
+    if (attempt >= MAX_RETRIES) return null;
+    const backoffMs = BASE_BACKOFF_MS * 2 ** attempt;
+    console.warn(`  ⚠ AI 검수 게이트 ${reasonForLog} -- ${Math.round(backoffMs / 1000)}초 대기 후 재시도(${attempt + 1}/${MAX_RETRIES})`);
+    await new Promise((resolve) => setTimeout(resolve, backoffMs));
+    return callAnthropicWithRetry(body, attempt + 1);
+  };
+
+  let response;
+  try {
+    response = await fetch(ANTHROPIC_API_URL, {
+      method: "POST",
+      headers: { "x-api-key": getApiKey(), "anthropic-version": "2023-06-01", "content-type": "application/json" },
+      body: JSON.stringify(body),
+    });
+  } catch (error) {
+    const retried = await retryIfPossible(`네트워크 오류(${error.message})`);
+    if (retried) return retried;
+    throw new Error(`AI 검수 게이트 API 요청 실패(네트워크 오류, ${MAX_RETRIES}회 재시도 후에도 실패): ${error.message}`);
+  }
+
+  if (response.status === 429 || response.status >= 500) {
+    const retried = await retryIfPossible(`요청 실패(status ${response.status})`);
+    if (retried) return retried;
+  }
+  return response;
+}
+
 function formatEvidenceBlock({ id, evidence, card }) {
   const lines = [`[증거 ${id}] (소스: ${evidence.source})`];
 
@@ -72,18 +110,10 @@ function extractJsonArray(text) {
 export async function reviewCandidates(candidates) {
   if (candidates.length === 0) return new Map();
 
-  const response = await fetch(ANTHROPIC_API_URL, {
-    method: "POST",
-    headers: {
-      "x-api-key": getApiKey(),
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
-      model: REVIEW_MODEL,
-      max_tokens: 2000,
-      messages: [{ role: "user", content: buildPrompt(candidates) }],
-    }),
+  const response = await callAnthropicWithRetry({
+    model: REVIEW_MODEL,
+    max_tokens: 2000,
+    messages: [{ role: "user", content: buildPrompt(candidates) }],
   });
   if (!response.ok) {
     const text = await response.text();

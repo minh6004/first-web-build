@@ -53,6 +53,13 @@ function parseDateArg(arg) {
   return isoDate;
 }
 
+function shiftIsoDate(isoDate, days) {
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  dt.setUTCDate(dt.getUTCDate() + days);
+  return dt.toISOString().slice(0, 10);
+}
+
 // 소스별로 날짜 형식이 다르다(DART/Fed는 YYYYMMDD 압축형, SEC는
 // YYYY-MM-DD) -- 각자 이미 그 형식으로 테스트/검증된 상태라 여기서
 // 억지로 통일하지 않고 호출 시점에 필요한 형식으로만 변환해서 넘긴다.
@@ -121,11 +128,24 @@ async function main() {
   const compactDate = isoDate.replace(/-/g, "");
   console.log(`[전체 수집] 대상 날짜: ${isoDate}`);
 
+  // Fed/SEC는 미국 동부 시각 기준 날짜로 필터링하는데, 이 파이프라인은
+  // KST 07:00에 매일 도는 스케줄이다(.github/workflows/daily-briefing.yml).
+  // 그 시점의 미국 동부는 전날 저녁(~18시, DST와 무관하게 항상 전날)이라,
+  // "오늘(KST)" 날짜에 해당하는 미국 영업일은 그 시점에 아직 시작도 안 한
+  // 상태다 -- 그래서 isoDate를 그대로 넘기면 Fed/SEC가 항상 0건만 반환한다
+  // (실제 라이브 확인: SEC는 KST 어제 날짜로 조회하면 118건이 나오는데
+  // KST 오늘 날짜로는 0건). Fed/SEC만 하루 전(그 시점 기준 "가장 최근에
+  // 끝난" 미국 영업일)을 조회하도록 보정한다. 각 이벤트의 event_datetime은
+  // API가 주는 실제 타임스탬프를 그대로 쓰므로, 화면의 날짜 그룹핑
+  // (issue-briefing.js의 toKstDateLabel)은 이 보정과 무관하게 항상 정확하다.
+  const usBusinessIsoDate = shiftIsoDate(isoDate, -1);
+  const usBusinessCompactDate = usBusinessIsoDate.replace(/-/g, "");
+
   console.log("소스별 수집 중...");
   const [dartEvents, fedEvents, secEvents, kdataEvents, ecosEvents, gdeltCandidates, naverCandidates] = await Promise.all([
     runSource("DART", () => collectDartEvents(compactDate)),
-    runSource("Fed", () => collectFedEvents(compactDate)),
-    runSource("SEC", () => collectSecEvents(isoDate)),
+    runSource("Fed", () => collectFedEvents(usBusinessCompactDate)),
+    runSource("SEC", () => collectSecEvents(usBusinessIsoDate)),
     runSource("관세청", () => collectCustomsEvents(compactDate.slice(0, 6))),
     runSource("ECOS", () => collectEcosEvents(compactDate)),
     runCandidateSource("GDELT", () => collectGdeltCandidates(compactDate)),
