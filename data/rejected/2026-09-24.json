@@ -1,0 +1,314 @@
+[
+  {
+    "event": {
+      "id": "naver-20260924-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260924",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490119",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-24T07:04:00+09:00",
+      "collected_at": "2026-09-23T22:13:49.567Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 7,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.24 · 뉴스 화제성",
+        "headline": "[주간 코스닥 기관] ISC·브이엠·파두 사고 실리콘투·SFA반도체 팔았다",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[주간 코스닥 기관] ISC·브이엠·파두 사고 실리콘투·SFA반도체 팔았다"
+      ],
+      "snippets": [
+        "기관 순매도 종목에서는 바이오와 2차전지 관련주도 적지 않았다. 에코프로비엠과 에코프로가 모두 순매도 상위권에 올랐고, 올릭스와 에이비엘바이오, 알테오젠, 디앤디파마텍, 펩트론, 오름테라퓨틱, 휴젤 등... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 '2차전지'는 부적절. 스니펫에서 2차전지 관련주(에코프로비엠, 에코프로)는 '기관 순매도' 상위권이므로, 2차전지 섹터의 긍정적 신호가 아님. 헤드라인은 기관의 매도/매수 종목 전반을 다루고 있어 2차전지 섹터만 강조하기 부적절."
+  },
+  {
+    "event": {
+      "id": "naver-20260924-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20260924",
+        "url": "https://n.news.naver.com/mnews/article/659/0000047193?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-24T07:05:00+09:00",
+      "collected_at": "2026-09-23T22:13:50.310Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 09.24 · 뉴스 화제성",
+        "headline": "윤준병, ‘농림축산부산물 재활용 촉진에 관한 법안’ 발의",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "윤준병, ‘농림축산부산물 재활용 촉진에 관한 법안’ 발의"
+      ],
+      "snippets": [
+        "국회 윤준병 의원은 농촌과 산촌, 축산 현장에서 발생하는 부산물이 단순 폐기물이 아닌 식품과 비료, 사료, 바이오연료 등 친환경 고부가가치 자원으로 거듭날 수 있도록 제도적 기반을 마련하는 ‘농림축산 부산물... "
+      ],
+      "media_domains": [
+        "jmbc.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 '바이오'는 부적절. 뉴스는 농림축산 부산물 재활용 촉진 법안 발의로, 바이오 산업 전반의 투자 신호가 아닌 정책 뉴스. 주가 변동성과의 직접적 연관성이 희박하며, 증거에서 개별 바이오 기업이나 섹터 영향을 암시하는 내용 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20260924-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20260924",
+        "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065608",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-24T07:10:00+09:00",
+      "collected_at": "2026-09-23T22:13:51.816Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 09.24 · 뉴스 화제성",
+        "headline": "귀성길 800㎞, 가솔린·하이브리드·전기차 뭐가 이득",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "귀성길 800㎞, 가솔린·하이브리드·전기차 뭐가 이득"
+      ],
+      "snippets": [
+        "서울-부산 왕복 800㎞에서 에너지 비용만 따지면 전기차가 가장 적게 들고 하이브리드, 가솔린 순으로 부담이 커진다. 가솔린과 아이오닉 9의 차이는 약 4만8000원, 하이브리드와 아이오닉 9의 차이는 약... "
+      ],
+      "media_domains": [
+        "shinailbo.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 '에너지'는 부적절. 뉴스는 귀성길 차량 연비 비교 기사로, 에너지 산업 투자 신호가 아닌 소비자 정보성 기사. 에너지 섹터 주가와의 직접적 연관성 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20260924-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20260924",
+        "url": "https://dealsite.co.kr/articles/169081",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-24T07:02:00+09:00",
+      "collected_at": "2026-09-23T22:13:52.585Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 6,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 09.24 · 뉴스 화제성",
+        "headline": "[로보택시 공습, 흔들리는 안방] \"韓은 무주공산\"…美·中 '빅4' 속속 상...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[로보택시 공습, 흔들리는 안방] \"韓은 무주공산\"…美·中 '빅4' 속속 상..."
+      ],
+      "snippets": [
+        "자국 내 치열한 검증을 거친 완전 무인(레벨4) 기술력을 앞세워, IT 인프라가 잘 갖춰지고 교통이 복잡한... 지난 2013년부터 자율주행 연구개발에 착수한 바이두는 2017년 오픈소스 자율주행 플랫폼 '아폴로'를 공개했다.... "
+      ],
+      "media_domains": [
+        "dealsite.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 'IT/플랫폼'은 부적절. 뉴스는 로보택시 기술 경쟁 현황으로 미래 산업 분석 기사이며, 단기 시장 반응을 예측할 수 있는 구체적 기업 뉴스나 수급 신호가 없음. 증거 헤드라인 자체가 '흔들리는 안방'으로 한국 기업의 약점을 강조하는 부정적 톤."
+  }
+]
