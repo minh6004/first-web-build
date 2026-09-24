@@ -1,0 +1,14 @@
+{
+  "name": "stocklens-functions",
+  "description": "회원가입 전화번호 SMS 인증(OTP) 전용 Cloud Functions. 정적 사이트 본체(프론트엔드)와는 별개의 Node 프로젝트 -- Solapi API 시크릿을 안전하게 보관하려면 서버가 필요해서 여기만 예외적으로 npm 의존성을 쓴다.",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "solapi": "^5.5.1"
+  },
+  "private": true
+}

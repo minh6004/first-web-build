@@ -4,7 +4,7 @@
 // 이메일 기준이라(login.js 변경 없음), 여기서 받는 "아이디"는 인증 자격이
 // 아니라 프로필에 딸린 별도 필드다 -- 중복만 막으면 되므로
 // usernames/{username} 예약 문서로 유일성을 보장한다.
-import { auth, db, createUserWithEmailAndPassword, sendEmailVerification, signOut, doc, getDoc, writeBatch } from "./firebase-init.js";
+import { auth, db, functions, createUserWithEmailAndPassword, sendEmailVerification, signOut, doc, getDoc, writeBatch, httpsCallable } from "./firebase-init.js";
 import { initNavAuth } from "./nav-auth.js";
 
 // ---------------------------------------------------------------------------
@@ -35,6 +35,12 @@ navToggle.addEventListener("click", () => {
 const form = document.getElementById("signupInfoForm");
 const nameInput = document.getElementById("name");
 const phoneInput = document.getElementById("phone");
+const requestOtpBtn = document.getElementById("requestOtpBtn");
+const otpRow = document.getElementById("otpRow");
+const otpCodeInput = document.getElementById("otpCode");
+const verifyOtpBtn = document.getElementById("verifyOtpBtn");
+const otpTimer = document.getElementById("otpTimer");
+const otpHint = document.getElementById("otpHint");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 const passwordConfirmInput = document.getElementById("passwordConfirm");
@@ -58,6 +64,124 @@ function formatPhone(raw) {
 
 phoneInput.addEventListener("input", () => {
   phoneInput.value = formatPhone(phoneInput.value);
+  refreshPhoneVerifiedState(); // 인증된 번호를 나중에 바꾸면 인증을 무효화한다
+});
+
+// ---------------------------------------------------------------------------
+// 전화번호 SMS 인증(OTP). 실제 SMS 발송/검증은 Cloud Functions
+// (functions/index.js의 requestPhoneOtp/verifyPhoneOtp)가 서버 측에서
+// 처리한다 -- Solapi API 키는 절대 이 프론트엔드 코드에 두면 안 되는
+// 진짜 비밀값이라, 정적 사이트에서 직접 호출할 수 없다.
+//
+// verifiedPhoneValue: 인증에 성공한 "그 시점의" phoneInput 값(하이픈 포함
+// 형식)을 그대로 기억해둔다. 인증 후 사용자가 번호를 다시 고치면
+// 더 이상 이 값과 같지 않게 되므로 자동으로 인증이 무효화된다 -- 인증
+// 절차를 우회해서 다른 번호로 가입하는 걸 막기 위함.
+const requestPhoneOtpCallable = httpsCallable(functions, "requestPhoneOtp");
+const verifyPhoneOtpCallable = httpsCallable(functions, "verifyPhoneOtp");
+
+let verifiedPhoneValue = null;
+let countdownTimerId = null;
+let countdownEndsAt = null;
+
+function isPhoneVerified() {
+  return verifiedPhoneValue !== null && verifiedPhoneValue === phoneInput.value;
+}
+
+function refreshSubmitAvailability() {
+  submitBtn.disabled = !isPhoneVerified();
+}
+
+function refreshPhoneVerifiedState() {
+  refreshSubmitAvailability();
+  if (!isPhoneVerified() && otpHint.dataset.verified === "true") {
+    otpHint.textContent = "전화번호가 변경되어 다시 인증해야 합니다.";
+    otpHint.dataset.verified = "";
+  }
+}
+
+function stopCountdown() {
+  clearInterval(countdownTimerId);
+  countdownTimerId = null;
+  otpTimer.textContent = "";
+}
+
+function startCountdown(durationMs) {
+  countdownEndsAt = Date.now() + durationMs;
+  const tick = () => {
+    const remainingMs = countdownEndsAt - Date.now();
+    if (remainingMs <= 0) {
+      stopCountdown();
+      otpRow.hidden = true;
+      otpHint.textContent = "인증번호 유효시간이 만료되었습니다. 다시 요청해주세요.";
+      requestOtpBtn.disabled = false;
+      return;
+    }
+    const totalSeconds = Math.ceil(remainingMs / 1000);
+    const mm = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
+    const ss = String(totalSeconds % 60).padStart(2, "0");
+    otpTimer.textContent = `${mm}:${ss}`;
+  };
+  tick();
+  countdownTimerId = setInterval(tick, 1000);
+}
+
+// Cloud Functions가 직접 만들어 던진 에러(functions/index.js의 HttpsError)만
+// 그 메시지를 그대로 보여준다 -- "functions/internal" 같은 SDK 자체
+// 일반 에러 코드(배포 안 됨/네트워크 문제 등)는 사용자에게 의미 없는
+// 문자열이라 항상 우리가 정한 안내 문구로 대체한다.
+const OTP_KNOWN_ERROR_CODES = ["functions/invalid-argument", "functions/resource-exhausted", "functions/deadline-exceeded", "functions/permission-denied", "functions/not-found"];
+
+function describeOtpError(error, fallback) {
+  return OTP_KNOWN_ERROR_CODES.includes(error.code) && error.message ? error.message : fallback;
+}
+
+requestOtpBtn.addEventListener("click", async () => {
+  const phoneError = validatePhone();
+  if (phoneError) {
+    otpHint.textContent = phoneError;
+    return;
+  }
+
+  requestOtpBtn.disabled = true;
+  otpHint.textContent = "";
+  otpHint.dataset.verified = "";
+  try {
+    const result = await requestPhoneOtpCallable({ phone: phoneInput.value });
+    otpRow.hidden = false;
+    otpCodeInput.value = "";
+    otpCodeInput.focus();
+    otpHint.textContent = "인증번호를 보냈습니다. 3분 안에 입력해주세요.";
+    startCountdown(result.data.expiresInMs);
+  } catch (error) {
+    console.error("인증번호 요청 실패:", error);
+    otpHint.textContent = describeOtpError(error, "인증번호 발송에 실패했습니다. 잠시 후 다시 시도해주세요.");
+    requestOtpBtn.disabled = false;
+  }
+});
+
+verifyOtpBtn.addEventListener("click", async () => {
+  const code = otpCodeInput.value.trim();
+  if (!code) {
+    otpHint.textContent = "인증번호를 입력해주세요.";
+    return;
+  }
+
+  verifyOtpBtn.disabled = true;
+  try {
+    await verifyPhoneOtpCallable({ phone: phoneInput.value, code });
+    stopCountdown();
+    verifiedPhoneValue = phoneInput.value;
+    otpRow.hidden = true;
+    otpHint.textContent = "휴대폰 인증이 완료되었습니다.";
+    otpHint.dataset.verified = "true";
+    refreshSubmitAvailability();
+  } catch (error) {
+    console.error("인증번호 확인 실패:", error);
+    otpHint.textContent = describeOtpError(error, "인증번호 확인 중 오류가 발생했습니다.");
+  } finally {
+    verifyOtpBtn.disabled = false;
+  }
 });
 
 // ---------------------------------------------------------------------------
@@ -216,8 +340,18 @@ form.addEventListener("submit", async (event) => {
   signupMessage.classList.remove("is-error");
 
   // 필수 항목 누락/형식 오류를 한 번에 모아서, 첫 번째 문제를 사용자가 알기
-  // 쉬운 문구로 보여준다.
-  const errors = [validateName(), validatePhone(), validateUsernameFormat(), validatePassword(), validatePasswordConfirm(), validateEmail(), validateAddress()];
+  // 쉬운 문구로 보여준다. 전화번호 인증 여부는 버튼 disabled로 이미 막혀
+  // 있지만, 혹시 모를 우회에 대비해 제출 시점에도 한 번 더 확인한다.
+  const errors = [
+    validateName(),
+    validatePhone(),
+    isPhoneVerified() ? null : "전화번호 인증을 완료해주세요.",
+    validateUsernameFormat(),
+    validatePassword(),
+    validatePasswordConfirm(),
+    validateEmail(),
+    validateAddress(),
+  ];
   const firstError = errors.find((e) => e !== null);
   if (firstError) {
     signupMessage.textContent = firstError;
@@ -272,11 +406,19 @@ form.addEventListener("submit", async (event) => {
     signupMessage.classList.remove("is-error");
     signupMessage.textContent = "입력하신 Gmail로 인증 메일을 보냈습니다. 메일함에서 링크를 클릭해 인증을 완료해주세요.";
     form.reset();
+    // form.reset()으로 phoneInput도 비워졌으니 전화번호 인증 상태도 같이
+    // 초기화한다 -- 안 그러면 이 페이지에 남아있는 동안 인증 없이 다시
+    // 제출할 수 있는 것처럼 버튼이 활성화돼 버린다.
+    verifiedPhoneValue = null;
+    stopCountdown();
+    otpRow.hidden = true;
+    otpHint.textContent = "";
+    otpHint.dataset.verified = "";
   } catch (error) {
     console.error(error);
     signupMessage.textContent = describeSignupError(error);
     signupMessage.classList.add("is-error");
   } finally {
-    submitBtn.disabled = false;
+    refreshSubmitAvailability(); // 무조건 활성화가 아니라 실제 인증 상태를 반영
   }
 });

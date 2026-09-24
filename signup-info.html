@@ -58,8 +58,18 @@
 
             <div class="filter-field">
               <label for="phone">전화번호</label>
-              <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="010-1234-5678" maxlength="13" required />
-              <p class="field-hint" id="phoneHint">숫자만 입력하면 자동으로 하이픈이 붙어요.</p>
+              <div class="phone-row">
+                <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="010-1234-5678" maxlength="13" required />
+                <button type="button" class="btn btn-secondary" id="requestOtpBtn">인증번호 받기</button>
+              </div>
+              <p class="field-hint" id="phoneHint">숫자만 입력하면 자동으로 하이픈이 붙어요. 인증번호를 받아 본인 확인을 완료해야 가입할 수 있어요.</p>
+
+              <div class="otp-row" id="otpRow" hidden>
+                <input type="text" id="otpCode" inputmode="numeric" maxlength="6" placeholder="인증번호" aria-label="인증번호 6자리" autocomplete="one-time-code" />
+                <button type="button" class="btn btn-secondary" id="verifyOtpBtn">확인</button>
+                <span class="otp-timer" id="otpTimer" aria-live="polite"></span>
+              </div>
+              <p class="field-hint" id="otpHint"></p>
             </div>
 
             <div class="filter-field">
@@ -96,7 +106,7 @@
               <input type="text" id="addressDetail" name="addressDetail" placeholder="상세주소를 입력해주세요" />
             </div>
 
-            <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit">가입 완료</button>
+            <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit" disabled>가입 완료</button>
             <p class="auth-message" id="signupMessage" role="status" aria-live="polite"></p>
           </form>
           <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
@@ -110,7 +120,7 @@
       <span>&copy; 2026 StockLens</span>
       <ul class="footer-links">
         <li><a href="terms.html">이용약관</a></li>
-        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
       </ul>
     </div>
     <p class="footer-disclaimer">본 서비스는 투자 자문을 제공하지 않으며, 모든 콘텐츠는 정보 제공 목적입니다.</p>

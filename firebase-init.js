@@ -18,6 +18,7 @@ import {
   getDoc,
   writeBatch,
 } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
+import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-functions.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDOB_oiypB822OiVmllah3jFk7Lpi5Av2c",
@@ -33,6 +34,7 @@ const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+export const functions = getFunctions(app);
 
 export {
   createUserWithEmailAndPassword,
@@ -44,4 +46,5 @@ export {
   setDoc,
   getDoc,
   writeBatch,
+  httpsCallable,
 };

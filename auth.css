@@ -79,19 +79,53 @@
   min-height: 1.2em;
 }
 
-.address-row {
+.address-row,
+.phone-row,
+.otp-row {
   display: flex;
   gap: 0.5rem;
 }
 
-.address-row input {
+.address-row input,
+.phone-row input,
+.otp-row input {
   flex: 1;
 }
 
-.address-row .btn {
+.address-row .btn,
+.phone-row .btn,
+.otp-row .btn {
   flex-shrink: 0;
   padding-inline: 1.1rem;
   font-size: var(--fs-small);
+}
+
+.otp-row {
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.otp-timer {
+  flex-shrink: 0;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  color: var(--color-text);
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+/* 좁은 화면에서는 "인증번호 받기"(주소 검색보다 긴 라벨) 버튼이 입력칸을
+   너무 밀어붙여 전화번호(010-1234-5678, 13자)가 잘려 보인다 -- 버튼을
+   아래로 내려서 입력칸이 한 줄을 다 쓰게 한다. */
+@media (max-width: 480px) {
+  .phone-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .phone-row .btn {
+    width: 100%;
+  }
 }
 
 .auth-form {
