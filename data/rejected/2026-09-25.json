@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20260925-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260925",
+        "url": "https://n.news.naver.com/mnews/article/262/0000019717?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-25T07:01:00+09:00",
+      "collected_at": "2026-09-24T22:14:10.080Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 1,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.25 · 뉴스 화제성",
+        "headline": "신용한 “충북을 ‘창업특별도’로…다음 10년 먹거리 준비하겠다”",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "신용한 “충북을 ‘창업특별도’로…다음 10년 먹거리 준비하겠다”"
+      ],
+      "snippets": [
+        "1인당 지역내총생산(GRDP)이 5위권이고 반도체·바이오·2차전지 등 산업기반도 탄탄하지만, 외지인은 물론 도민들조차 잘 모르는 경우가 많다. 도민들이 자부심을 느끼려면 ‘내 삶이 나아졌다’는 실감이 있어야 한다.... "
+      ],
+      "media_domains": [
+        "shindonga.donga.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "스니펫에서 2차전지는 충북의 산업기반 중 하나로만 언급되며, 실질적인 정책 내용이나 2차전지 산업에 대한 구체적 뉴스는 없음. 단순히 산업명이 포함되어 있다는 이유로 '2차전지' 칩을 붙이는 것은 과도한 추론임. 내용상 이 기사는 충북 도지사의 창업특별도 정책 기사이지 2차전지 산업 뉴스가 아님."
+  },
+  {
+    "event": {
+      "id": "naver-20260925-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260925",
+        "url": "https://n.news.naver.com/mnews/article/119/0003136277?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-25T07:13:00+09:00",
+      "collected_at": "2026-09-24T22:14:11.584Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.25 · 뉴스 화제성",
+        "headline": "[통장잔GO] \"엄마가 보관할게\"는 옛말…추석 쌈짓돈, '내 손으로' 불린다",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "[통장잔GO] \"엄마가 보관할게\"는 옛말…추석 쌈짓돈, '내 손으로' 불린다"
+      ],
+      "snippets": [
+        "자연스럽게 금융을 배울 수 있는 이색 적금 상품들이 주목받고 있다. 수백원에서 수천원 수준의 소액으로 부담 없이 시작할 수 있는 데다, 캐릭터 육성이나 게임, 문화 콘텐츠 등 흥미 요소를 결합해 자녀 금융... "
+      ],
+      "media_domains": [
+        "dailian.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "기사는 자녀 금융교육용 적금 상품에 관한 생활금융 뉴스이며, 금융 산업 전반이나 금융시장에 영향을 미치는 실질적 뉴스가 아님. '금융' 칩을 붙이기에는 너무 광범위하고, 실제 내용은 소비자 트렌드 기사에 가까움. 투자 화제성 카드로서 타당성이 부족함."
+  }
+]
