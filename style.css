@@ -612,6 +612,7 @@ input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="email"],
+input[type="tel"],
 select {
   font-family: inherit;
   font-size: var(--fs-body);

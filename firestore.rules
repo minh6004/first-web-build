@@ -4,5 +4,15 @@ service cloud.firestore {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
     }
+
+    // 회원가입 2단계의 아이디 중복 확인용 예약 문서. 이 존재 여부 조회는
+    // 계정 생성 "전"(미인증 상태)에 일어나야 하므로 공개 읽기를 허용한다 --
+    // 문서 내용은 비워두므로(존재 여부만 의미 있음) 노출돼도 민감정보가 아니다.
+    // 실제 예약(생성)은 Firebase Auth 계정 생성 직후, 인증된 사용자 본인만
+    // 할 수 있다.
+    match /usernames/{username} {
+      allow read: if true;
+      allow create: if request.auth != null;
+    }
   }
 }

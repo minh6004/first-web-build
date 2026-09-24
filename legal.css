@@ -85,3 +85,22 @@
     padding: var(--space-3);
   }
 }
+
+/* signup.html이 이 페이지를 <iframe src="terms.html?embed=1">로 그대로
+   끌어다 쓸 때(terms.js가 URL 파라미터를 보고 body에 이 클래스를 붙임):
+   헤더/푸터를 숨기고 .legal-card 자체 보더/배경을 없애서, iframe을 감싸는
+   바깥 박스(.terms-embed-wrap) 보더와 이중으로 겹치지 않게 한다. */
+body.is-embedded .site-header,
+body.is-embedded .site-footer {
+  display: none;
+}
+
+body.is-embedded .legal {
+  padding-block: var(--space-3);
+}
+
+body.is-embedded .legal-card {
+  border: none;
+  border-radius: 0;
+  padding: var(--space-3);
+}

@@ -1,6 +1,7 @@
-/* 로그인/회원가입 페이지 전용 스타일. style.css의 토큰(:root)/.container/.card/
-   .btn/.filter-field/input 스타일 등을 그대로 재사용하고, 이 두 페이지에만
-   필요한 카드 레이아웃/약관 동의 체크박스/상태 메시지만 여기에 둔다. */
+/* 로그인/회원가입(1·2단계) 페이지 전용 스타일. style.css의 토큰(:root)/
+   .container/.card/.btn/.filter-field/input 스타일 등을 그대로 재사용하고,
+   이 페이지군에만 필요한 카드 레이아웃/단계 표시/약관 동의/주소 검색/
+   상태 메시지만 여기에 둔다. */
 
 .auth {
   padding-block: var(--space-8);
@@ -23,6 +24,74 @@
 .auth-card h1 {
   font-size: var(--fs-h2);
   font-weight: 900;
+}
+
+/* 회원가입 2단계 진행 표시("1. 약관 동의 → 2. 정보 입력"). 화살표는
+   ::after 가상 요소로 넣어서 마크업엔 순수 목록만 남긴다. */
+.signup-steps {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+
+.signup-steps li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.signup-steps li:not(:last-child)::after {
+  content: "→";
+  color: var(--color-text-muted);
+}
+
+.signup-steps li.is-current {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+/* 약관 전문을 페이지 이동 없이 훑어볼 수 있는 스크롤 박스(iframe으로
+   terms.html을 그대로 끌어와서, 약관 내용을 이 페이지에 다시 옮겨 적어
+   두 곳을 따로 관리하지 않는다). */
+.terms-embed-wrap {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.terms-embed {
+  display: block;
+  width: 100%;
+  height: 16rem;
+  border: none;
+}
+
+/* 입력 필드 아래 짧은 안내/검증 문구. 성공/실패를 색으로 구분하지 않고
+   문구로만 구분한다(.auth-message와 같은 원칙 -- 재무 등락 색상을 폼
+   상태에 재사용하지 않는다). */
+.field-hint {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  min-height: 1.2em;
+}
+
+.address-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.address-row input {
+  flex: 1;
+}
+
+.address-row .btn {
+  flex-shrink: 0;
+  padding-inline: 1.1rem;
+  font-size: var(--fs-small);
 }
 
 .auth-form {

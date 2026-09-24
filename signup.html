@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>회원가입 · StockLens</title>
+  <title>회원가입 (1/2) 약관 동의 · StockLens</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="style.css" />
@@ -38,39 +38,33 @@
         <div class="auth-card card">
           <h1>회원가입</h1>
 
-          <!-- Firebase Authentication(이메일/비밀번호)으로 실제 계정을 만들고,
-               Firestore users/{uid} 문서에 닉네임/생년월일을 저장한다
-               (signup.js 참고). 보안 규칙(firestore.rules)이 본인 문서만
-               읽고 쓸 수 있도록 제한한다. -->
-          <form id="signupForm" class="auth-form">
-            <div class="filter-field">
-              <label for="nickname">닉네임</label>
-              <input type="text" id="nickname" name="nickname" required />
-            </div>
-            <div class="filter-field">
-              <label for="birthdate">생년월일</label>
-              <input type="date" id="birthdate" name="birthdate" required />
-            </div>
-            <div class="filter-field">
-              <label for="email">아이디</label>
-              <input type="email" id="email" name="email" autocomplete="email" placeholder="example@email.com" required />
-            </div>
-            <div class="filter-field">
-              <label for="signupPassword">비밀번호</label>
-              <input type="password" id="signupPassword" name="password" autocomplete="new-password" required />
-            </div>
+          <ol class="signup-steps" aria-label="회원가입 진행 단계">
+            <li class="is-current">1. 약관 동의</li>
+            <li>2. 정보 입력</li>
+          </ol>
 
-            <div class="auth-terms">
-              <label class="auth-terms-check">
-                <input type="checkbox" id="agreeTerms" name="agreeTerms" required />
-                이용약관에 동의합니다
-              </label>
-              <a class="auth-terms-toggle" href="terms.html" target="_blank" rel="noopener">약관 보기</a>
-            </div>
+          <!-- 1단계: 약관 동의. 여기서 체크한 사실은 sessionStorage에만
+               표시해두고(signupTermsAgreed=true), 2단계(signup-info.html)는
+               로드 시 이 값이 없으면 여기로 되돌려보낸다 -- 이 단계를
+               건너뛰고 URL로 바로 접근하지 못하게 하기 위함. 서버 세션이
+               아니라 클라이언트 sessionStorage라 완전한 보안 장치는 아니지만
+               (직접 콘솔로 값을 조작하면 우회 가능), 실수로 URL을 북마크해
+               건너뛰는 일반적인 경우는 확실히 막는다. -->
+          <div class="terms-embed-wrap">
+            <iframe class="terms-embed" src="terms.html?embed=1" title="이용약관 전문"></iframe>
+          </div>
+          <a class="auth-terms-toggle" href="terms.html" target="_blank" rel="noopener">전문 새 창에서 보기</a>
 
-            <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit" disabled>가입하기</button>
-            <p class="auth-message" id="signupMessage" role="status" aria-live="polite"></p>
-          </form>
+          <div class="auth-terms">
+            <label class="auth-terms-check">
+              <input type="checkbox" id="agreeTerms" name="agreeTerms" />
+              이용약관에 동의합니다 (필수)
+            </label>
+          </div>
+
+          <button type="button" class="btn btn-primary auth-submit" id="nextStepBtn" disabled>다음</button>
+          <p class="auth-message" id="stepMessage" role="status" aria-live="polite"></p>
+
           <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
         </div>
       </div>

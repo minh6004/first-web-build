@@ -17,17 +17,17 @@ export function initNavAuth() {
       return;
     }
 
-    let nickname = user.email;
+    let displayName = user.email;
     try {
       const snap = await getDoc(doc(db, "users", user.uid));
-      if (snap.exists() && snap.data().nickname) {
-        nickname = snap.data().nickname;
+      if (snap.exists() && snap.data().name) {
+        displayName = snap.data().name;
       }
     } catch (error) {
       console.error("프로필 조회 실패:", error);
     }
 
-    navAuthLink.textContent = nickname;
+    navAuthLink.textContent = displayName;
     navAuthLink.href = "#";
     navAuthLink.title = "로그아웃";
     navAuthLink.removeAttribute("aria-current"); // login.html이 이 링크를 "현재 페이지"로 표시해뒀을 수 있는데, 이제 로그아웃 버튼 역할이라 더 이상 맞지 않음

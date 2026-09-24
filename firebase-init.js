@@ -16,6 +16,7 @@ import {
   doc,
   setDoc,
   getDoc,
+  writeBatch,
 } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -42,4 +43,5 @@ export {
   doc,
   setDoc,
   getDoc,
+  writeBatch,
 };
