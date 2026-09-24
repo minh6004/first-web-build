@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>회원가입 (4/4) 가입완료 · StockLens</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="auth.css" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <a class="skip-link" href="#auth-main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <a class="logo" href="index.html">StockLens</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="메뉴 열기">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <!-- '나의 계좌' 네비게이션 항목은 잠시 숨김 처리(코드/페이지는 그대로 유지, 나중에 다시 노출 가능):
+          <li><a href="my-account.html">나의 계좌</a></li>
+          -->
+          <li><a href="stock-search.html">주식 검색</a></li>
+          <li><a href="issue-briefing.html">이슈 브리핑</a></li>
+          <li><a href="login.html" id="navAuthLink">로그인</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="auth-main">
+    <section class="auth" id="auth">
+      <div class="container">
+        <ol class="signup-steps" aria-label="회원가입 진행 단계">
+          <li class="is-done">✓ 약관 동의</li>
+          <li class="is-done">✓ 정보 입력</li>
+          <li class="is-done">✓ 본인인증</li>
+          <li class="is-current">4. 가입완료</li>
+        </ol>
+
+        <div class="auth-card card">
+          <h1>회원가입이 완료되었습니다</h1>
+          <p>입력하신 Gmail로 인증 메일을 보냈습니다. 메일함에서 링크를 클릭해 인증을 완료한 뒤 로그인해주세요.</p>
+
+          <div class="auth-actions">
+            <a class="btn btn-primary" href="login.html">로그인하기</a>
+            <a class="btn btn-secondary" href="index.html">홈으로</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <span>&copy; 2026 StockLens</span>
+      <ul class="footer-links">
+        <li><a href="terms.html">이용약관</a></li>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+      </ul>
+    </div>
+    <p class="footer-disclaimer">본 서비스는 투자 자문을 제공하지 않으며, 모든 콘텐츠는 정보 제공 목적입니다.</p>
+    <p class="ai-credit">Powered by [AI 이름 · 버전 플레이스홀더]</p>
+  </footer>
+
+  <script type="module" src="signup-complete.js"></script>
+</body>
+</html>

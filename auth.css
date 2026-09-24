@@ -1,4 +1,4 @@
-/* 로그인/회원가입(1·2단계) 페이지 전용 스타일. style.css의 토큰(:root)/
+/* 로그인/회원가입(1~4단계) 페이지 전용 스타일. style.css의 토큰(:root)/
    .container/.card/.btn/.filter-field/input 스타일 등을 그대로 재사용하고,
    이 페이지군에만 필요한 카드 레이아웃/단계 표시/약관 동의/주소 검색/
    상태 메시지만 여기에 둔다. */
@@ -7,9 +7,14 @@
   padding-block: var(--space-8);
 }
 
+/* flex-direction: column으로 바꿔서 .signup-steps(단계 표시)를 .auth-card
+   "바깥 위쪽"에 별도 요소로 쌓을 수 있게 한다(로그인처럼 .auth-card
+   하나만 있는 페이지에서는 이전과 시각적으로 동일 -- 자식이 하나뿐이라
+   row든 column이든 가운데 정렬 결과가 같음). */
 .auth .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .auth-card {
@@ -26,16 +31,42 @@
   font-weight: 900;
 }
 
-/* 회원가입 2단계 진행 표시("1. 약관 동의 → 2. 정보 입력"). 화살표는
-   ::after 가상 요소로 넣어서 마크업엔 순수 목록만 남긴다. */
+/* 1단계만 다른 단계보다 훨씬 넓은 카드를 쓴다(약관/개인정보처리방침
+   전문을 좁은 박스에서 스크롤하며 읽기 불편하지 않게) -- legal.css의
+   .legal-card와 같은 폭을 재사용해서 사이트 안에서 "넓은 카드"의 기준을
+   통일한다. */
+.auth-card--wide {
+  max-width: 64rem;
+}
+
+/* .auth-card--wide 안에서 체크박스/버튼 같은 좁은 요소들만 이 클래스로
+   감싸서 기존 카드 폭(26rem)만큼만 쓰고 가운데 정렬되게 한다 -- 같은
+   와이드 카드 안에서도 "약관 전문 박스는 넓게, 체크박스는 좁게"가
+   번갈아 나오는 구조를 만든다. */
+.step1-narrow {
+  width: 100%;
+  max-width: 26rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+/* 회원가입 4단계 진행 표시("1. 약관 동의 → 2. 정보 입력 → 3. 본인인증 →
+   4. 가입완료"). 화살표는 ::after 가상 요소로 넣어서 마크업엔 순수
+   목록만 남긴다. .auth-card "바깥 위쪽"에 별도로 떠 있는 요소라
+   margin-bottom으로 카드와의 간격을 직접 준다. */
 .signup-steps {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   list-style: none;
   padding: 0;
+  margin-bottom: var(--space-3);
   font-size: var(--fs-small);
   color: var(--color-text-muted);
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .signup-steps li {
@@ -52,6 +83,12 @@
 .signup-steps li.is-current {
   color: var(--color-text);
   font-weight: 700;
+}
+
+/* 완료된 단계는 브랜드 색으로 -- 진행 중(굵은 기본 텍스트)과는 다른
+   신호를 줘서 "이미 끝났다"는 게 한눈에 구분되게 한다. */
+.signup-steps li.is-done {
+  color: var(--color-accent);
 }
 
 /* 약관 전문을 페이지 이동 없이 훑어볼 수 있는 스크롤 박스(iframe으로
@@ -137,6 +174,32 @@
 .auth-submit {
   width: 100%;
   margin-top: var(--space-1);
+}
+
+/* 3단계: 2단계에서 입력받은 전화번호를 마스킹해서 보여주는 안내 문구. */
+.verify-phone-display {
+  text-align: center;
+  color: var(--color-text);
+}
+
+/* 4단계: "로그인하기"/"홈으로" 두 버튼을 나란히. */
+.auth-actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.auth-actions .btn {
+  flex: 1;
+}
+
+/* 좁은 화면(카드 실폭 기준 ~251px)에서는 flex:1로 반씩 나눈 폭에
+   "로그인하기"(5자)가 한 줄로 안 들어가 버튼 안에서 줄바꿈되고 높이가
+   두 배로 늘어난다 -- .phone-row와 같은 패턴으로 세로로 쌓아서 각
+   버튼이 카드 전체 폭을 쓰게 한다. */
+@media (max-width: 480px) {
+  .auth-actions {
+    flex-direction: column;
+  }
 }
 
 .auth-submit:disabled {

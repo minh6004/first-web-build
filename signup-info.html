@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>회원가입 (2/2) 정보 입력 · StockLens</title>
+  <title>회원가입 (2/4) 정보 입력 · StockLens</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="style.css" />
@@ -35,20 +35,20 @@
   <main id="auth-main">
     <section class="auth" id="auth">
       <div class="container">
+        <ol class="signup-steps" aria-label="회원가입 진행 단계">
+          <li class="is-done">✓ 약관 동의</li>
+          <li class="is-current">2. 정보 입력</li>
+          <li>3. 본인인증</li>
+          <li>4. 가입완료</li>
+        </ol>
+
         <div class="auth-card card">
           <h1>회원가입</h1>
 
-          <ol class="signup-steps" aria-label="회원가입 진행 단계">
-            <li>1. 약관 동의</li>
-            <li class="is-current">2. 정보 입력</li>
-          </ol>
-
-          <!-- Firebase Authentication(이메일/비밀번호)으로 계정을 만들고,
-               Firestore users/{uid} 문서에 나머지 프로필을 저장한다. 아이디
-               (username)는 로그인에 쓰는 값이 아니라(로그인은 여전히 이메일
-               기준) 별도 프로필 필드이며, 중복 방지를 위해
-               usernames/{username} 예약 문서를 함께 만든다(signup-info.js,
-               firestore.rules 참고). -->
+          <!-- 이 단계는 입력값을 검증만 하고 sessionStorage에 저장해뒀다가
+               (signupFormData) 3단계(signup-verify.html)로 넘긴다 -- 실제
+               계정 생성/전화번호 인증은 3단계에서 처리한다(signup-info.js
+               상단 주석 참고). -->
           <form id="signupInfoForm" class="auth-form" novalidate>
             <div class="filter-field">
               <label for="name">이름</label>
@@ -58,18 +58,8 @@
 
             <div class="filter-field">
               <label for="phone">전화번호</label>
-              <div class="phone-row">
-                <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="010-1234-5678" maxlength="13" required />
-                <button type="button" class="btn btn-secondary" id="requestOtpBtn">인증번호 받기</button>
-              </div>
-              <p class="field-hint" id="phoneHint">숫자만 입력하면 자동으로 하이픈이 붙어요. 인증번호를 받아 본인 확인을 완료해야 가입할 수 있어요.</p>
-
-              <div class="otp-row" id="otpRow" hidden>
-                <input type="text" id="otpCode" inputmode="numeric" maxlength="6" placeholder="인증번호" aria-label="인증번호 6자리" autocomplete="one-time-code" />
-                <button type="button" class="btn btn-secondary" id="verifyOtpBtn">확인</button>
-                <span class="otp-timer" id="otpTimer" aria-live="polite"></span>
-              </div>
-              <p class="field-hint" id="otpHint"></p>
+              <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="010-1234-5678" maxlength="13" required />
+              <p class="field-hint" id="phoneHint">숫자만 입력하면 자동으로 하이픈이 붙어요. 본인 확인(인증번호)은 다음 단계에서 진행해요.</p>
             </div>
 
             <div class="filter-field">
@@ -106,7 +96,7 @@
               <input type="text" id="addressDetail" name="addressDetail" placeholder="상세주소를 입력해주세요" />
             </div>
 
-            <button type="submit" class="btn btn-primary auth-submit" id="signupSubmit" disabled>가입 완료</button>
+            <button type="submit" class="btn btn-primary auth-submit" id="nextStepBtn">다음</button>
             <p class="auth-message" id="signupMessage" role="status" aria-live="polite"></p>
           </form>
           <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>

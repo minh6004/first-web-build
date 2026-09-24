@@ -1,19 +1,18 @@
-// 회원가입 2단계(정보 입력) 페이지 전용 스크립트. Firebase Authentication
-// (이메일/비밀번호)으로 계정을 만들고, Firestore의 users/{uid} 문서에
-// 나머지 프로필(이름/전화번호/아이디/주소)을 저장한다. 로그인은 여전히
-// 이메일 기준이라(login.js 변경 없음), 여기서 받는 "아이디"는 인증 자격이
-// 아니라 프로필에 딸린 별도 필드다 -- 중복만 막으면 되므로
-// usernames/{username} 예약 문서로 유일성을 보장한다.
-import { auth, db, functions, createUserWithEmailAndPassword, sendEmailVerification, signOut, doc, getDoc, writeBatch, httpsCallable } from "./firebase-init.js";
+// 회원가입 2단계(정보 입력) 페이지 전용 스크립트. 여기서는 계정을 만들지
+// 않는다 -- 입력값을 검증만 하고 sessionStorage(signupFormData)에 저장해둔
+// 뒤 3단계(signup-verify.html)로 넘긴다. 실제 Firebase Authentication 계정
+// 생성/Firestore 저장/전화번호 SMS 인증은 전부 3단계에서 처리한다(전화번호
+// 본인 확인이 끝나야 가입이 완료되는 흐름이라, 계정 생성을 그 뒤로 미뤘다).
+//
+// "아이디"(username)는 로그인에 쓰는 값이 아니다(로그인은 여전히 이메일
+// 기준) -- 별도 프로필 필드이며, 중복 방지를 위해 usernames/{username}
+// 예약 문서로 유일성을 보장한다(실제 예약은 3단계에서 계정을 만들 때).
+import { db, doc, getDoc } from "./firebase-init.js";
 import { initNavAuth } from "./nav-auth.js";
 
 // ---------------------------------------------------------------------------
-// 1단계를 거치지 않고 이 페이지로 바로 들어온 경우 되돌려보낸다. 스크립트
-// 최상단에서(다른 어떤 UI 초기화보다 먼저) 확인해서, 리다이렉트될 페이지가
-// 잠깐이라도 그려지지 않게 한다. sessionStorage는 클라이언트에만 있는
-// 값이라 개발자도구로 직접 조작하면 우회는 가능하다 -- 이건 서버 세션이
-// 아닌 정적 사이트에서 "실수로 URL을 북마크해 1단계를 건너뛰는" 일반적인
-// 경우를 막기 위한 장치이지, 완전한 접근 제어가 아니다.
+// 1단계를 거치지 않고 이 페이지로 바로 들어온 경우 되돌려보낸다.
+// ---------------------------------------------------------------------------
 if (sessionStorage.getItem("signupTermsAgreed") !== "true") {
   window.location.replace("signup.html");
   throw new Error("1단계(약관 동의)를 거치지 않아 signup.html로 되돌립니다.");
@@ -35,12 +34,6 @@ navToggle.addEventListener("click", () => {
 const form = document.getElementById("signupInfoForm");
 const nameInput = document.getElementById("name");
 const phoneInput = document.getElementById("phone");
-const requestOtpBtn = document.getElementById("requestOtpBtn");
-const otpRow = document.getElementById("otpRow");
-const otpCodeInput = document.getElementById("otpCode");
-const verifyOtpBtn = document.getElementById("verifyOtpBtn");
-const otpTimer = document.getElementById("otpTimer");
-const otpHint = document.getElementById("otpHint");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 const passwordConfirmInput = document.getElementById("passwordConfirm");
@@ -49,7 +42,7 @@ const zonecodeInput = document.getElementById("zonecode");
 const addressInput = document.getElementById("address");
 const addressDetailInput = document.getElementById("addressDetail");
 const addressSearchBtn = document.getElementById("addressSearchBtn");
-const submitBtn = document.getElementById("signupSubmit");
+const nextStepBtn = document.getElementById("nextStepBtn");
 const signupMessage = document.getElementById("signupMessage");
 
 // ---------------------------------------------------------------------------
@@ -64,124 +57,6 @@ function formatPhone(raw) {
 
 phoneInput.addEventListener("input", () => {
   phoneInput.value = formatPhone(phoneInput.value);
-  refreshPhoneVerifiedState(); // 인증된 번호를 나중에 바꾸면 인증을 무효화한다
-});
-
-// ---------------------------------------------------------------------------
-// 전화번호 SMS 인증(OTP). 실제 SMS 발송/검증은 Cloud Functions
-// (functions/index.js의 requestPhoneOtp/verifyPhoneOtp)가 서버 측에서
-// 처리한다 -- Solapi API 키는 절대 이 프론트엔드 코드에 두면 안 되는
-// 진짜 비밀값이라, 정적 사이트에서 직접 호출할 수 없다.
-//
-// verifiedPhoneValue: 인증에 성공한 "그 시점의" phoneInput 값(하이픈 포함
-// 형식)을 그대로 기억해둔다. 인증 후 사용자가 번호를 다시 고치면
-// 더 이상 이 값과 같지 않게 되므로 자동으로 인증이 무효화된다 -- 인증
-// 절차를 우회해서 다른 번호로 가입하는 걸 막기 위함.
-const requestPhoneOtpCallable = httpsCallable(functions, "requestPhoneOtp");
-const verifyPhoneOtpCallable = httpsCallable(functions, "verifyPhoneOtp");
-
-let verifiedPhoneValue = null;
-let countdownTimerId = null;
-let countdownEndsAt = null;
-
-function isPhoneVerified() {
-  return verifiedPhoneValue !== null && verifiedPhoneValue === phoneInput.value;
-}
-
-function refreshSubmitAvailability() {
-  submitBtn.disabled = !isPhoneVerified();
-}
-
-function refreshPhoneVerifiedState() {
-  refreshSubmitAvailability();
-  if (!isPhoneVerified() && otpHint.dataset.verified === "true") {
-    otpHint.textContent = "전화번호가 변경되어 다시 인증해야 합니다.";
-    otpHint.dataset.verified = "";
-  }
-}
-
-function stopCountdown() {
-  clearInterval(countdownTimerId);
-  countdownTimerId = null;
-  otpTimer.textContent = "";
-}
-
-function startCountdown(durationMs) {
-  countdownEndsAt = Date.now() + durationMs;
-  const tick = () => {
-    const remainingMs = countdownEndsAt - Date.now();
-    if (remainingMs <= 0) {
-      stopCountdown();
-      otpRow.hidden = true;
-      otpHint.textContent = "인증번호 유효시간이 만료되었습니다. 다시 요청해주세요.";
-      requestOtpBtn.disabled = false;
-      return;
-    }
-    const totalSeconds = Math.ceil(remainingMs / 1000);
-    const mm = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
-    const ss = String(totalSeconds % 60).padStart(2, "0");
-    otpTimer.textContent = `${mm}:${ss}`;
-  };
-  tick();
-  countdownTimerId = setInterval(tick, 1000);
-}
-
-// Cloud Functions가 직접 만들어 던진 에러(functions/index.js의 HttpsError)만
-// 그 메시지를 그대로 보여준다 -- "functions/internal" 같은 SDK 자체
-// 일반 에러 코드(배포 안 됨/네트워크 문제 등)는 사용자에게 의미 없는
-// 문자열이라 항상 우리가 정한 안내 문구로 대체한다.
-const OTP_KNOWN_ERROR_CODES = ["functions/invalid-argument", "functions/resource-exhausted", "functions/deadline-exceeded", "functions/permission-denied", "functions/not-found"];
-
-function describeOtpError(error, fallback) {
-  return OTP_KNOWN_ERROR_CODES.includes(error.code) && error.message ? error.message : fallback;
-}
-
-requestOtpBtn.addEventListener("click", async () => {
-  const phoneError = validatePhone();
-  if (phoneError) {
-    otpHint.textContent = phoneError;
-    return;
-  }
-
-  requestOtpBtn.disabled = true;
-  otpHint.textContent = "";
-  otpHint.dataset.verified = "";
-  try {
-    const result = await requestPhoneOtpCallable({ phone: phoneInput.value });
-    otpRow.hidden = false;
-    otpCodeInput.value = "";
-    otpCodeInput.focus();
-    otpHint.textContent = "인증번호를 보냈습니다. 3분 안에 입력해주세요.";
-    startCountdown(result.data.expiresInMs);
-  } catch (error) {
-    console.error("인증번호 요청 실패:", error);
-    otpHint.textContent = describeOtpError(error, "인증번호 발송에 실패했습니다. 잠시 후 다시 시도해주세요.");
-    requestOtpBtn.disabled = false;
-  }
-});
-
-verifyOtpBtn.addEventListener("click", async () => {
-  const code = otpCodeInput.value.trim();
-  if (!code) {
-    otpHint.textContent = "인증번호를 입력해주세요.";
-    return;
-  }
-
-  verifyOtpBtn.disabled = true;
-  try {
-    await verifyPhoneOtpCallable({ phone: phoneInput.value, code });
-    stopCountdown();
-    verifiedPhoneValue = phoneInput.value;
-    otpRow.hidden = true;
-    otpHint.textContent = "휴대폰 인증이 완료되었습니다.";
-    otpHint.dataset.verified = "true";
-    refreshSubmitAvailability();
-  } catch (error) {
-    console.error("인증번호 확인 실패:", error);
-    otpHint.textContent = describeOtpError(error, "인증번호 확인 중 오류가 발생했습니다.");
-  } finally {
-    verifyOtpBtn.disabled = false;
-  }
 });
 
 // ---------------------------------------------------------------------------
@@ -264,10 +139,8 @@ passwordConfirmInput.addEventListener("input", refreshPasswordConfirmHint);
 
 // ---------------------------------------------------------------------------
 // 아이디 중복 확인(실시간, 입력을 멈추고 500ms 뒤에 조회). 최종 확정은 항상
-// 제출 시점에 서버(Firestore)에서 다시 한번 확인한다 -- 이 실시간 체크는
-// 사용자 경험을 위한 사전 안내일 뿐, 그 사이 다른 사람이 같은 아이디를
-// 먼저 가져갈 수 있는 경합은 여전히 남아있다(제출 시 배치 쓰기가 최종
-// 방어선).
+// 3단계에서 계정을 실제로 만들기 직전에 서버(Firestore)에서 다시 한번
+// 확인한다 -- 이 실시간 체크는 사용자 경험을 위한 사전 안내일 뿐이다.
 const usernameHint = document.getElementById("usernameHint");
 let usernameCheckToken = 0;
 
@@ -321,37 +194,15 @@ addressSearchBtn.addEventListener("click", () => {
 });
 
 // ---------------------------------------------------------------------------
-// 제출
+// 제출("다음") -- 계정을 만들지 않고, 검증된 값을 sessionStorage에 저장한
+// 뒤 3단계로 이동한다.
 // ---------------------------------------------------------------------------
-const SIGNUP_ERROR_MESSAGES = {
-  "auth/email-already-in-use": "이미 가입된 이메일입니다.",
-  "auth/invalid-email": "이메일 형식이 올바르지 않습니다.",
-  "auth/weak-password": "비밀번호는 6자 이상이어야 합니다.",
-  "auth/network-request-failed": "네트워크 상태를 확인해 주세요.",
-};
-
-function describeSignupError(error) {
-  return SIGNUP_ERROR_MESSAGES[error.code] || "가입 중 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.";
-}
-
-form.addEventListener("submit", async (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
   signupMessage.textContent = "";
   signupMessage.classList.remove("is-error");
 
-  // 필수 항목 누락/형식 오류를 한 번에 모아서, 첫 번째 문제를 사용자가 알기
-  // 쉬운 문구로 보여준다. 전화번호 인증 여부는 버튼 disabled로 이미 막혀
-  // 있지만, 혹시 모를 우회에 대비해 제출 시점에도 한 번 더 확인한다.
-  const errors = [
-    validateName(),
-    validatePhone(),
-    isPhoneVerified() ? null : "전화번호 인증을 완료해주세요.",
-    validateUsernameFormat(),
-    validatePassword(),
-    validatePasswordConfirm(),
-    validateEmail(),
-    validateAddress(),
-  ];
+  const errors = [validateName(), validatePhone(), validateUsernameFormat(), validatePassword(), validatePasswordConfirm(), validateEmail(), validateAddress()];
   const firstError = errors.find((e) => e !== null);
   if (firstError) {
     signupMessage.textContent = firstError;
@@ -359,66 +210,28 @@ form.addEventListener("submit", async (event) => {
     return;
   }
 
-  const name = nameInput.value.trim();
-  const phone = phoneInput.value.trim();
-  const username = usernameInput.value.trim();
-  const password = passwordInput.value;
-  const email = emailInput.value.trim();
-  const zonecode = zonecodeInput.value;
-  const address = addressInput.value;
-  const addressDetail = addressDetailInput.value.trim();
+  const formData = {
+    name: nameInput.value.trim(),
+    phone: phoneInput.value.trim(),
+    username: usernameInput.value.trim(),
+    password: passwordInput.value,
+    email: emailInput.value.trim(),
+    zonecode: zonecodeInput.value,
+    address: addressInput.value,
+    addressDetail: addressDetailInput.value.trim(),
+  };
 
-  submitBtn.disabled = true;
+  // sessionStorage는 이 브라우저 탭에만 저장되고 네트워크로 전송되지
+  // 않는다 -- 서버 세션 없이 여러 페이지에 걸쳐 입력값을 넘기기 위한
+  // 것으로, 지금까지 이 플로우가 써온 것과 같은 신뢰 경계다.
+  //
+  // 뒤로가기로 여기 다시 와서 전화번호 등을 바꾸고 "다음"을 다시 누르는
+  // 경우도 이 한 줄로 자연스럽게 처리된다: 3단계(signup-verify.js)의
+  // 인증 진행 상태는 sessionStorage가 아니라 그 페이지 자바스크립트의
+  // 메모리에만 있다가 페이지를 벗어나면 사라지므로, 새로 저장된
+  // signupFormData로 3단계를 다시 열면 인증은 항상 처음부터 다시
+  // 시작한다(이전에 인증받았던 상태가 남아있을 수 없음).
+  sessionStorage.setItem("signupFormData", JSON.stringify(formData));
 
-  try {
-    // 제출 시점에 아이디를 다시 한번 확인한다(실시간 체크 이후 다른 사람이
-    // 먼저 가져갔을 수 있으므로) -- 이 확인과 그 아래 계정 생성 사이에도
-    // 아주 짧은 경합 창이 남아있지만, Firestore 쓰기 자체는 예약 문서가
-    // 이미 있으면 규칙상 덮어쓸 수 없어 최종적으로는 안전하다.
-    const existing = await getDoc(doc(db, "usernames", username));
-    if (existing.exists()) {
-      signupMessage.textContent = "이미 사용 중인 아이디입니다. 다른 아이디를 입력해주세요.";
-      signupMessage.classList.add("is-error");
-      submitBtn.disabled = false;
-      return;
-    }
-
-    // 비밀번호는 여기서 평문 그대로 Firebase Authentication에 넘긴다 --
-    // Firebase Auth가 서버 측에서 scrypt로 해싱해서 저장하고, 우리 코드나
-    // Firestore 어디에도 평문/해시가 남지 않는다. Firestore에는 프로필
-    // 정보만 저장한다(비밀번호 필드 없음).
-    const credential = await createUserWithEmailAndPassword(auth, email, password);
-
-    const batch = writeBatch(db);
-    batch.set(doc(db, "users", credential.user.uid), {
-      name,
-      phone,
-      username,
-      address: { zonecode, address, addressDetail },
-    });
-    batch.set(doc(db, "usernames", username), {}); // 존재 여부만 의미 있는 예약 문서
-    await batch.commit();
-
-    await sendEmailVerification(credential.user);
-    await signOut(auth); // 인증 완료 전까지는 로그인 상태로 취급하지 않는다
-    sessionStorage.removeItem("signupTermsAgreed");
-
-    signupMessage.classList.remove("is-error");
-    signupMessage.textContent = "입력하신 Gmail로 인증 메일을 보냈습니다. 메일함에서 링크를 클릭해 인증을 완료해주세요.";
-    form.reset();
-    // form.reset()으로 phoneInput도 비워졌으니 전화번호 인증 상태도 같이
-    // 초기화한다 -- 안 그러면 이 페이지에 남아있는 동안 인증 없이 다시
-    // 제출할 수 있는 것처럼 버튼이 활성화돼 버린다.
-    verifiedPhoneValue = null;
-    stopCountdown();
-    otpRow.hidden = true;
-    otpHint.textContent = "";
-    otpHint.dataset.verified = "";
-  } catch (error) {
-    console.error(error);
-    signupMessage.textContent = describeSignupError(error);
-    signupMessage.classList.add("is-error");
-  } finally {
-    refreshSubmitAvailability(); // 무조건 활성화가 아니라 실제 인증 상태를 반영
-  }
+  window.location.href = "signup-verify.html";
 });

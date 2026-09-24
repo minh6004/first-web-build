@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>회원가입 (1/2) 약관 동의 · StockLens</title>
+  <title>회원가입 (1/4) 약관 동의 · StockLens</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="style.css" />
@@ -35,51 +35,64 @@
   <main id="auth-main">
     <section class="auth" id="auth">
       <div class="container">
-        <div class="auth-card card">
+        <ol class="signup-steps" aria-label="회원가입 진행 단계">
+          <li class="is-current">1. 약관 동의</li>
+          <li>2. 정보 입력</li>
+          <li>3. 본인인증</li>
+          <li>4. 가입완료</li>
+        </ol>
+
+        <!-- 1단계: 약관 동의. 이용약관/개인정보처리방침/만 14세 이상 확인
+             셋 다 필수 체크해야 "다음"이 활성화된다(signup.js). 체크한
+             사실은 sessionStorage에만 표시해두고(signupTermsAgreed=true),
+             2단계 이후 페이지들은 로드 시 이 값이 없으면 여기로
+             되돌려보낸다 -- 단계를 건너뛰고 URL로 바로 접근하지 못하게
+             하기 위함. 서버 세션이 아니라 클라이언트 sessionStorage라
+             완전한 보안 장치는 아니지만(직접 콘솔로 값을 조작하면 우회
+             가능), 실수로 URL을 북마크해 건너뛰는 일반적인 경우는
+             확실히 막는다.
+
+             레이아웃: 이 단계만 카드를 훨씬 넓게 쓴다(.auth-card--wide,
+             긴 약관 전문을 좁은 박스에서 스크롤하며 읽기 불편하지 않게).
+             체크박스/버튼 부분만 .step1-narrow로 감싸서 다른 단계와 같은
+             폭(26rem)으로 좁혀 가운데 정렬한다. -->
+        <div class="auth-card card auth-card--wide">
           <h1>회원가입</h1>
 
-          <ol class="signup-steps" aria-label="회원가입 진행 단계">
-            <li class="is-current">1. 약관 동의</li>
-            <li>2. 정보 입력</li>
-          </ol>
-
-          <!-- 1단계: 약관 동의. 이용약관/개인정보처리방침 둘 다 필수 체크
-               해야 "다음"이 활성화된다(signup.js). 체크한 사실은
-               sessionStorage에만 표시해두고(signupTermsAgreed=true),
-               2단계(signup-info.html)는 로드 시 이 값이 없으면 여기로
-               되돌려보낸다 -- 이 단계를 건너뛰고 URL로 바로 접근하지
-               못하게 하기 위함. 서버 세션이 아니라 클라이언트
-               sessionStorage라 완전한 보안 장치는 아니지만(직접 콘솔로
-               값을 조작하면 우회 가능), 실수로 URL을 북마크해 건너뛰는
-               일반적인 경우는 확실히 막는다. -->
           <div class="terms-embed-wrap">
             <iframe class="terms-embed" src="terms.html?embed=1" title="이용약관 전문"></iframe>
           </div>
-          <a class="auth-terms-toggle" href="terms.html" target="_blank" rel="noopener">이용약관 새 창에서 보기</a>
-
-          <div class="auth-terms">
-            <label class="auth-terms-check">
-              <input type="checkbox" id="agreeTerms" name="agreeTerms" />
-              이용약관에 동의합니다 (필수)
-            </label>
+          <div class="step1-narrow">
+            <a class="auth-terms-toggle" href="terms.html" target="_blank" rel="noopener">이용약관 새 창에서 보기</a>
+            <div class="auth-terms">
+              <label class="auth-terms-check">
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" />
+                이용약관에 동의합니다 (필수)
+              </label>
+            </div>
           </div>
 
           <div class="terms-embed-wrap">
             <iframe class="terms-embed" src="privacy.html?embed=1" title="개인정보처리방침 전문"></iframe>
           </div>
-          <a class="auth-terms-toggle" href="privacy.html" target="_blank" rel="noopener">개인정보처리방침 새 창에서 보기</a>
+          <div class="step1-narrow">
+            <a class="auth-terms-toggle" href="privacy.html" target="_blank" rel="noopener">개인정보처리방침 새 창에서 보기</a>
+            <div class="auth-terms">
+              <label class="auth-terms-check">
+                <input type="checkbox" id="agreePrivacy" name="agreePrivacy" />
+                개인정보처리방침에 동의합니다 (필수)
+              </label>
+              <label class="auth-terms-check">
+                <input type="checkbox" id="agreeAge14" name="agreeAge14" />
+                본인은 만 14세 이상입니다 (필수)
+              </label>
+            </div>
 
-          <div class="auth-terms">
-            <label class="auth-terms-check">
-              <input type="checkbox" id="agreePrivacy" name="agreePrivacy" />
-              개인정보처리방침에 동의합니다 (필수)
-            </label>
+            <button type="button" class="btn btn-primary auth-submit" id="nextStepBtn" disabled>다음</button>
+            <p class="auth-message" id="stepMessage" role="status" aria-live="polite"></p>
+
+            <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
           </div>
-
-          <button type="button" class="btn btn-primary auth-submit" id="nextStepBtn" disabled>다음</button>
-          <p class="auth-message" id="stepMessage" role="status" aria-live="polite"></p>
-
-          <p class="auth-switch">이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
         </div>
       </div>
     </section>
