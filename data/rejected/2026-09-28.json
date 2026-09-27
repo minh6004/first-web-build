@@ -1,0 +1,236 @@
+[
+  {
+    "event": {
+      "id": "naver-20260928-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260928",
+        "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=208854",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-28T07:00:00+09:00",
+      "collected_at": "2026-09-27T22:13:05.509Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 10,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.28 · 뉴스 화제성",
+        "headline": "국민참여성장펀드, 왜 돈 몰리나…2차 6000억 규모 국민 투자자 찾는다",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "국민참여성장펀드, 왜 돈 몰리나…2차 6000억 규모 국민 투자자 찾는다"
+      ],
+      "snippets": [
+        "1차 완판에 이어 2차 상품까지 관심을 받는 배경에는 절세혜택과 성장산업 투자 기대, 6000억원으로 제한된 공급량이 자리 잡고 있다. 국민참여성장펀드는 AI·반도체·이차전지·바이오 등 첨단전략산업과 성장기업... "
+      ],
+      "media_domains": [
+        "lcnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "스니펫에서 '2차전지'는 투자 대상 업종 중 하나로만 언급되며, 뉴스의 주요 주제는 국민참여성장펀드 자체임. 칩 분류가 과도하게 특정화됨."
+  },
+  {
+    "event": {
+      "id": "naver-20260928-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20260928",
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246021",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-28T07:08:00+09:00",
+      "collected_at": "2026-09-27T22:13:06.251Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 09.28 · 뉴스 화제성",
+        "headline": "[오늘의 주요일정·28일] 오세훈 서울시장 모아주택 1호 현장방문",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[오늘의 주요일정·28일] 오세훈 서울시장 모아주택 1호 현장방문"
+      ],
+      "snippets": [
+        "기후부, 바이오가스·하수열 활용을 통한 하수처리시설 에너지 자립 기반 조성을 위한 업무협약식(13:30... 13:30 바이오가스·하수열 활용을 통한 하수처리시설 에너지 자립 기반 조성을 위한 업무협약식(세종)... "
+      ],
+      "media_domains": [
+        "safetimes.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인의 주요 내용은 '오세훈 서울시장 모아주택 1호 현장방문'이며, 스니펫의 바이오 관련 내용은 부수적인 일정 항목일 뿐. 칩 분류가 부적절함."
+  },
+  {
+    "event": {
+      "id": "naver-20260928-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260928",
+        "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=64925",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-28T07:10:00+09:00",
+      "collected_at": "2026-09-27T22:13:07.021Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.28 · 뉴스 화제성",
+        "headline": "[주간전망] 美 물가·소비 다시 쓰는 30일… '두 호재'의 함정",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "[주간전망] 美 물가·소비 다시 쓰는 30일… '두 호재'의 함정"
+      ],
+      "snippets": [
+        "기존 방식에서는 주가 변동이 금융서비스 가격에 반영될 수 있었다. BEA 연구보고서 'Alternative Price and Volume... 해당 소비항목의 수치를 금융업 전체의 생산성으로 확대 해석하려면 별도의 산출량·노동시간 자료가... "
+      ],
+      "media_domains": [
+        "newsroad.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 '美 물가·소비' 예측에 관한 것이며, 스니펫의 금융 관련 내용은 기술적 방법론(BEA 연구보고서)에 불과함. 칩 분류가 원본과 부합하지 않음."
+  }
+]
