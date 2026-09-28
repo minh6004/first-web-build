@@ -1,0 +1,314 @@
+[
+  {
+    "event": {
+      "id": "naver-20260929-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20260929",
+        "url": "https://n.news.naver.com/mnews/article/374/0000535201?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-29T06:56:00+09:00",
+      "collected_at": "2026-09-28T22:14:13.642Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 9,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 09.29 · 뉴스 화제성",
+        "headline": "[증시전략] 뉴욕증시, 유가·국채금리 상승에 하락…투자심리 위축",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[증시전략] 뉴욕증시, 유가·국채금리 상승에 하락…투자심리 위축"
+      ],
+      "snippets": [
+        "- 반도체 웃고 차·바이오 울고…3분기 실적 전망 '희비' - 대형 반도체주 이익 전망 소폭 개선…정유주도 높아져 - 자동차·바이오, 일부 2차전지·장비주 전망치 하향 조정 - 3분기 실적 추정치 제시한 기업 55% 영업익... "
+      ],
+      "media_domains": [
+        "biz.sbs.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 뉴욕증시 일반 시장 동향이며, 2차전지는 스니펫에서 '일부 2차전지·장비주 전망치 하향 조정'으로만 언급되어 2차전지가 주요 주제가 아님. 칩 선정이 부적절"
+  },
+  {
+    "event": {
+      "id": "naver-20260929-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20260929",
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246061",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-29T07:04:00+09:00",
+      "collected_at": "2026-09-28T22:14:14.356Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 09.29 · 뉴스 화제성",
+        "headline": "[오늘의 주요일정·29일] 성평등부, 디지털성범죄 대응 국제 콘퍼런스",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[오늘의 주요일정·29일] 성평등부, 디지털성범죄 대응 국제 콘퍼런스"
+      ],
+      "snippets": [
+        "산업부, 바이오 전문가 간담회(14:30 판교) ▲ 국토부, 국무회의(10:00 서울) [소비자경제] ▲ 농식품부... 14:30 바이오 전문가 간담회(판교) ▲ 박정성 통상교섭본부장 미국 출장(~10월 2일) [복지부] ▲ 정은경 장관 10... "
+      ],
+      "media_domains": [
+        "safetimes.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 '성평등부, 디지털성범죄 대응'으로 바이오와 무관하며, 스니펫의 '바이오 전문가 간담회'는 단순 일정 항목일 뿐 뉴스 콘텐츠가 아님. 칩 선정이 부적절"
+  },
+  {
+    "event": {
+      "id": "naver-20260929-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20260929",
+        "url": "http://www.newsian.co.kr/news/articleView.html?idxno=96149",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-29T07:06:00+09:00",
+      "collected_at": "2026-09-28T22:14:15.084Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 09.29 · 뉴스 화제성",
+        "headline": "[초점] 휴머노이드 로봇, 공장으로 간다…K-산업 '실전 경쟁' 막 올랐다",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "[초점] 휴머노이드 로봇, 공장으로 간다…K-산업 '실전 경쟁' 막 올랐다"
+      ],
+      "snippets": [
+        "배경훈(오른쪽 두번째) 부총리 겸 과학기술정보통신부 장관과 이억원 금융위원장과 참석자들이 9월 22일 오후 서울 여의도 산업은행에서 피지컬AI 지역거점 포럼에서 휴머노이드 로봇 시연을 보고 있다. [사진=뉴시스] 국내... "
+      ],
+      "media_domains": [
+        "newsian.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 '휴머노이드 로봇, K-산업 경쟁'으로 로봇/기술 산업 관련이지 금융과 무관함. 금융위원장의 참석만으로는 금융 뉴스로 볼 수 없음. 칩 선정이 부적절"
+  },
+  {
+    "event": {
+      "id": "naver-20260929-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20260929",
+        "url": "https://www.g-enews.com/view.php?ud=20260928230653183fda4f5ab74_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-09-29T07:10:00+09:00",
+      "collected_at": "2026-09-28T22:14:15.796Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 09.29 · 뉴스 화제성",
+        "headline": "\"헬스장·약국서 에너지 대사 자가 측정\"…장수 웰니스 수요 잡는 ‘피...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "\"헬스장·약국서 에너지 대사 자가 측정\"…장수 웰니스 수요 잡는 ‘피..."
+      ],
+      "snippets": [
+        "자가 에너지 대사 검사 기기가 나온다. 미국 헬스케어 분야 스타트업 피노에(PNOE)가 오는 10월 1일 '피노에 2.0'을 출시할 예정이다. 운영자 없는 자가 에너지 대사 검사 마스크 등장 지난 28일(현지시각) 테크크런치에... "
+      ],
+      "media_domains": [
+        "g-enews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 헬스케어/웰니스 분야 스타트업 제품(에너지 대사 검사 기기)으로, '에너지' 산업/에너지 정책과 무관. 단어 중복으로 인한 오분류로 보임"
+  }
+]
