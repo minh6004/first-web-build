@@ -1,0 +1,314 @@
+[
+  {
+    "event": {
+      "id": "naver-20261001-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261001",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16231270",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-01T07:06:00+09:00",
+      "collected_at": "2026-09-30T22:14:53.729Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 9,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.01 · 뉴스 화제성",
+        "headline": "미국증시 혼조마감, 장기금리 급등에도 나스닥 지킨 AI와 반도체 투자심...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "미국증시 혼조마감, 장기금리 급등에도 나스닥 지킨 AI와 반도체 투자심..."
+      ],
+      "snippets": [
+        "미국 10년물과 30년물 금리가 높은 수준을 유지하면 코스닥 성장주와 인터넷, 바이오, 2차전지처럼 장기 성장 기대를 선반영하는 업종에는 할인율 부담으로 작용할 수 있다. 세 번째는 환율이다. 9월 30일 원·달러... "
+      ],
+      "media_domains": [
+        "topstarnews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 분류 오류. 스니펫에서 2차전지는 장기금리 상승의 '부작용을 받을 수 있는' 업종으로만 언급되며, 주요 내용은 미국증시·AI·반도체임. 2차전지를 메인 칩으로 선정한 것은 근거 부족."
+  },
+  {
+    "event": {
+      "id": "naver-20261001-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261001",
+        "url": "https://www.lecturernews.com/news/articleView.html?idxno=211366",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-01T07:10:00+09:00",
+      "collected_at": "2026-09-30T22:14:54.436Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.01 · 뉴스 화제성",
+        "headline": "한국미래기술교육硏, VLA에서 RFM·월드모델 까지 피지컬 AI 로봇 기술과...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "한국미래기술교육硏, VLA에서 RFM·월드모델 까지 피지컬 AI 로봇 기술과..."
+      ],
+      "snippets": [
+        "또한 글로벌 컨설팅 기관들은 AI와 로봇 기반 자율 실험실이 향후 소재와 바이오산업의 연구개발 생산성을 크게 향상하는 핵심 인프라가 될 것으로 전망한다. 2026년 들어 이러한 기술 경쟁은 더 많이 빨라지고 있다.... "
+      ],
+      "media_domains": [
+        "lecturernews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 분류 오류. 스니펫의 주요 내용은 AI 로봇 기술과 자율 실험실이며, 바이오는 '향후 적용될 산업' 중 하나로만 언급됨. 헤드라인의 주제와 칩 불일치."
+  },
+  {
+    "event": {
+      "id": "naver-20261001-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261001",
+        "url": "https://n.news.naver.com/mnews/article/016/0002704002?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-01T07:14:00+09:00",
+      "collected_at": "2026-09-30T22:14:55.182Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.01 · 뉴스 화제성",
+        "headline": "트럼프, 선거 급했나…협의 안끝난 韓투자금으로 격전지 표심 공략 [1일...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "트럼프, 선거 급했나…협의 안끝난 韓투자금으로 격전지 표심 공략 [1일..."
+      ],
+      "snippets": [
+        "트럼프의 한마디에 세계 경제와 금융시장이 출렁이는 시대. 쏟아지는 트럼프 뉴스를 일일이 찾아보기 벅차다면 [1일1트]가 딱입니다. 새벽 5시부터 움직이는 헤럴드경제 국제부가 미국 증시 마감 시황부터 글로벌... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 분류 부정확. 스니펫은 트럼프 뉴스 기사 소개 문구일 뿐 구체적인 금융 사건이나 시장 영향을 설명하지 않음. 내용 부실로 카드화 부적절."
+  },
+  {
+    "event": {
+      "id": "naver-20261001-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261001",
+        "url": "https://www.medigatenews.com/news/2117258143",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-01T07:06:00+09:00",
+      "collected_at": "2026-09-30T22:14:56.628Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 17,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.01 · 뉴스 화제성",
+        "headline": "서울성모병원 \"가장 스마트한 병원=가장 인간적인 병원\"…AI로 의료진 시...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "서울성모병원 \"가장 스마트한 병원=가장 인간적인 병원\"…AI로 의료진 시..."
+      ],
+      "snippets": [
+        "병원과 AI 사이에 공통 AI 플랫폼 또는 AI 게이트웨이가 필요하다. 우리가 구상하는 방향은 병원 내부의 EMR... 그래서 개인적으로 의료 AI 도입을 단순한 IT 구매사업으로 접근해서는 성공하기 어렵다고 생각한다. 결국... "
+      ],
+      "media_domains": [
+        "medigatenews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 분류 오류. 스니펫은 병원의 의료 AI 도입 사례로, IT/플랫폼 시장 뉴스가 아님. 단일 의료기관 사례를 일반화한 시장 화제성 카드로는 부적절."
+  }
+]
