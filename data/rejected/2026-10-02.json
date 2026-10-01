@@ -1,0 +1,242 @@
+[
+  {
+    "event": {
+      "id": "naver-20261002-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261002",
+        "url": "https://n.news.naver.com/mnews/article/001/0016352319?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-02T07:04:00+09:00",
+      "collected_at": "2026-10-01T22:14:00.114Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.02 · 뉴스 화제성",
+        "headline": "서초구, '신성장 산업 유치 기본계획' 만든다…전문자문단 출범",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "서초구, '신성장 산업 유치 기본계획' 만든다…전문자문단 출범",
+        "서초구, ‘신성장 산업 유치 자문단’ 출범…AI 기업 유치 속도"
+      ],
+      "snippets": [
+        "자문단에는 벤처투자·금융 전문가와 대기업 임원, AI 반도체·생성형 AI·로보틱스 등 신성장 분야 기업 대표, AI·소프트웨어 및 국가 AI 연구 전문가, 창업·기업가정신·법률·특허 분야 전문가 등이 참여했다. 자문단은... ",
+        "자문단에는 벤처투자·금융 전문가와 대기업 임원, AI 반도체·생성형 AI·로보틱스 분야 기업 대표 등이 참여한다. AI·소프트웨어(SW)와 국가 AI 연구 전문가, 창업·기업가정신·법률·특허 분야 전문가도 이름을 올렸다.... "
+      ],
+      "media_domains": [
+        "yna.co.kr",
+        "munhwa.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "카드의 칩 라벨이 '반도체→'로 표시되어 있으나, 증거는 서초구의 신성장 산업 유치 계획에 관한 내용으로 반도체 산업 자체의 동향이나 주가 영향과 무관한 지역 정책 뉴스입니다. 칩 라벨이 증거 내용과 부적절하게 매칭되었습니다."
+  },
+  {
+    "event": {
+      "id": "naver-20261002-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261002",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16233492",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-02T07:08:00+09:00",
+      "collected_at": "2026-10-01T22:14:00.888Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 8,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.02 · 뉴스 화제성",
+        "headline": "미국증시 상승 마감…금리 급락에 반도체 반등 SK하이닉스 ADR 5%↑",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "미국증시 상승 마감…금리 급락에 반도체 반등 SK하이닉스 ADR 5%↑"
+      ],
+      "snippets": [
+        "이 흐름이 이어지는지는 코스닥의 바이오·인터넷·2차전지 등 고PER 성장주에 중요한 변수다. 반대로 달러와 유가는 부담이다. DXY가 102선을 넘어선 가운데 원·달러 환율도 1,359원으로 상승했다. 외국인 현물·선물... "
+      ],
+      "media_domains": [
+        "topstarnews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩 라벨이 '2차전지→'이나 헤드라인 및 스니펫의 주요 내용은 반도체 반등과 SK하이닉스에 관한 것입니다. 스니펫에서 2차전지는 '고PER 성장주'로만 언급될 뿐 직접적인 뉴스 대상이 아니며, 칩 라벨과 증거 내용의 연관성이 약합니다."
+  },
+  {
+    "event": {
+      "id": "naver-20261002-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261002",
+        "url": "https://n.news.naver.com/mnews/article/001/0016352319?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-02T07:04:00+09:00",
+      "collected_at": "2026-10-01T22:14:02.426Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.02 · 뉴스 화제성",
+        "headline": "서초구, '신성장 산업 유치 기본계획' 만든다…전문자문단 출범",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "서초구, '신성장 산업 유치 기본계획' 만든다…전문자문단 출범",
+        "서초구, ‘신성장 산업 유치 자문단’ 출범…AI 기업 유치 속도"
+      ],
+      "snippets": [
+        "서울 서초구(구청장 전성수)는 지난 1일 구청에서 '신성장 산업 유치 전문자문단' 위촉식을 열어 투자·금융... 자문단에는 벤처투자·금융 전문가와 대기업 임원, AI 반도체·생성형 AI·로보틱스 등 신성장 분야 기업... ",
+        "서초구는 지난 1일 구청 대회의실에서 ‘신성장 산업 유치 전문자문단’ 위촉식을 열고 투자·금융, 대기업... 자문단에는 벤처투자·금융 전문가와 대기업 임원, AI 반도체·생성형 AI·로보틱스 분야 기업 대표 등이... "
+      ],
+      "media_domains": [
+        "yna.co.kr",
+        "munhwa.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "증거 내용은 서초구의 신성장 산업 유치 계획이며, 금융 분야 산업 동향과 무관한 지역 정책 뉴스입니다. '금융 전문가'가 자문단에 참여한다는 언급이 있지만, 이는 금융 산업 자체의 뉴스가 아니며 칩 라벨 적용이 부적절합니다."
+  }
+]
