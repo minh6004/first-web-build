@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20261003-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261003",
+        "url": "https://n.news.naver.com/mnews/article/008/0005421807?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-03T07:10:00+09:00",
+      "collected_at": "2026-10-02T22:13:47.622Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.03 · 뉴스 화제성",
+        "headline": "두둑해진 곳간에 주주환원 관심↑…삼전닉스 \"주주가치 최우선\"",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "두둑해진 곳간에 주주환원 관심↑…삼전닉스 \"주주가치 최우선\""
+      ],
+      "snippets": [
+        "마이크론은 최근 진행된 실적발표에서 미국 반도체 지원법(CHIPS Act)에 따른 제약이 완화되는 오는 12월부터 자사주 매입을 확대할 계획이라고 밝혔다. 기존 자사주 매입 승인 한도 가운데 약 22억달러가 남아 있으며 추가... "
+      ],
+      "media_domains": [
+        "mt.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인에 '삼전닉스'가 명시되어 있으나, 스니펫은 마이크론의 자사주 매입 계획만 언급하고 있습니다. 헤드라인과 스니펫 내용의 불일치로 인해 카드의 정확성이 의심됩니다."
+  },
+  {
+    "event": {
+      "id": "naver-20261003-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261003",
+        "url": "https://n.news.naver.com/mnews/article/277/0005824324?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-03T07:11:00+09:00",
+      "collected_at": "2026-10-02T22:13:49.213Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.03 · 뉴스 화제성",
+        "headline": "美·英은 개방 vs 中은 여행도 금지…AI 인재 취급 다른 이유 [테크토크...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "美·英은 개방 vs 中은 여행도 금지…AI 인재 취급 다른 이유 [테크토크..."
+      ],
+      "snippets": [
+        "편집자주AI, 반도체, 통신, 바이오에 이르기까지 우리 생활에 꼭 필요하지만 너무나 생소한 기술 이야기를 쉽게 풀어 전해 드립니다 인공지능(AI) 패권을 두고 다투는 미국과 중국. 천문학적인 자본을 결집해 데이터센터... "
+      ],
+      "media_domains": [
+        "view.asiae.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 AI 인재 정책(미국·영국 vs 중국)에 관한 내용이며, 스니펫도 AI 기술을 다루고 있습니다. 바이오 칩과 실제 기사 내용이 부합하지 않습니다."
+  }
+]
