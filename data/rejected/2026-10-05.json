@@ -1,0 +1,314 @@
+[
+  {
+    "event": {
+      "id": "naver-20261005-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261005",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171305",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-05T06:10:00+09:00",
+      "collected_at": "2026-10-04T22:14:05.351Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 3,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.05 · 뉴스 화제성",
+        "headline": "삼전 실적 기대감 커진 코스피… 금리·유가 상승폭 가른다 [주간증시전...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "삼전 실적 기대감 커진 코스피… 금리·유가 상승폭 가른다 [주간증시전..."
+      ],
+      "snippets": [
+        "급락이나 미국 경기 둔화에 따른 금리 인상 기대 약화 등 매크로 환경 개선이 필요하다\"며 \"반도체·IT를 중심으로 대응하는 가운데 2차전지와 방산도 주목할 필요가 있다\"고 조언했다. 유은정 기자 viayou@chosunbiz.com"
+      ],
+      "media_domains": [
+        "it.chosun.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인의 주제는 '코스피·금리·유가'이며, 2차전지는 스니펫에서 '반도체·IT 중심 대응 가운데 2차전지와 방산도 주목할 필요' 정도로만 언급. 칩 매칭이 부적절하게 과장되었으며, 실제 기사의 주요 내용과 맞지 않음."
+  },
+  {
+    "event": {
+      "id": "naver-20261005-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261005",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=612294",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-05T07:10:00+09:00",
+      "collected_at": "2026-10-04T22:14:06.092Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.05 · 뉴스 화제성",
+        "headline": "[로봇 시대] \"공중제비·마라톤 미·중 뒤에서\"…日, '0.1㎜ 오차' 잡는...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[로봇 시대] \"공중제비·마라톤 미·중 뒤에서\"…日, '0.1㎜ 오차' 잡는..."
+      ],
+      "snippets": [
+        "연구원 없는 실험실 현실로…도쿄과학대, 바이오 실험 100% 로봇 자동화 추진 / 손가락의 미세한 움직임이... 간다 교수는 연구실에서 엔비디아의 GPU와 바이오니모(BioNeMo) AI 플랫폼을 활용한 첨단 연구용 AI 모델 개발도... "
+      ],
+      "media_domains": [
+        "cbci.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 일본 로봇 기술(도쿄과학대 바이오 실험 자동화)에 관한 내용이지, 바이오 산업 전반에 대한 뉴스가 아님. 스니펫에서 '바이오 실험 자동화'는 로봇·AI 기술 맥락이며, 바이오 섹터 투자 신호로 일반화하기 부적절."
+  },
+  {
+    "event": {
+      "id": "naver-20261005-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261005",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=612294",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-05T07:10:00+09:00",
+      "collected_at": "2026-10-04T22:14:07.627Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.05 · 뉴스 화제성",
+        "headline": "[로봇 시대] \"공중제비·마라톤 미·중 뒤에서\"…日, '0.1㎜ 오차' 잡는...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[로봇 시대] \"공중제비·마라톤 미·중 뒤에서\"…日, '0.1㎜ 오차' 잡는..."
+      ],
+      "snippets": [
+        "이 로봇 손은 모션 캡처 센서를 이용해 사람의 손 움직임을 정밀하게 따라하며, 빠르고 강한 그립력과 에너지 효율성을 갖췄다. 회사 관계자는 \"중국의 휴머노이드가 사람처럼 움직이는 기능을 내세우지만, 얼마나... "
+      ],
+      "media_domains": [
+        "cbci.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 일본 로봇 손의 정밀도에 관한 기사이며, 스니펫의 '에너지 효율성' 언급은 로봇 손 기술의 기능 중 일부일 뿐. 에너지 섹터 뉴스로 카테고리화하기 부적절하고 칩 매칭이 오도적."
+  },
+  {
+    "event": {
+      "id": "naver-20261005-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261005",
+        "url": "https://www.christiantoday.co.kr/news/377715",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-05T07:12:00+09:00",
+      "collected_at": "2026-10-04T22:14:08.394Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 11,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.05 · 뉴스 화제성",
+        "headline": "CTS, 동아프리카 글로벌 인재 양성 위한 민관 협력",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "CTS, 동아프리카 글로벌 인재 양성 위한 민관 협력"
+      ],
+      "snippets": [
+        "르완다 IT미디어 인프라 구축을 위해 함께 노력할 것”이라고 전했다. 허정애 대사는 특히 교육 분야의... 문화·교육 플랫폼 역할을 하고 있는 점이 자랑스럽고 감사하다”고 화답했다. 안은주 대사는 “앞으로... "
+      ],
+      "media_domains": [
+        "christiantoday.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 CTS(기독교단체)의 르완다 인재양성 협력 뉴스로, IT/플랫폼 섹터의 시장 관련 정보가 아님. 스니펫의 '플랫폼 역할'은 교육적 역할을 의미하며 투자 대상 섹터로 분류하기 부적절."
+  }
+]
