@@ -1,0 +1,240 @@
+[
+  {
+    "event": {
+      "id": "naver-20261004-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261004",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=612293",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-04T11:34:00+09:00",
+      "collected_at": "2026-10-04T02:54:48.211Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 5,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.04 · 뉴스 화제성",
+        "headline": "롯데에너지머티리얼즈 18%대 급등…대주전자재료·SK이노베이션 등 전고...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "롯데에너지머티리얼즈 18%대 급등…대주전자재료·SK이노베이션 등 전고..."
+      ],
+      "snippets": [
+        "국내 2차전지 전고체 관련주들이 지난 2일 정규장에서 일제히 강세를 나타냈다. 롯데에너지머티리얼즈가 18% 넘게 뛰었고 대주전자재료와 SK아이이테크놀로지, SK이노베이션 등도 큰 폭으로 오르면서 관련주... "
+      ],
+      "media_domains": [
+        "cbci.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1개로 단일 출처. 18% 급등이라는 구체적 수치가 있음에도 단기 해설에서 '영향이 명확하지 않다'고 표현한 것은 증거 대비 과도한 신중함. 명확한 주가 움직임 증거가 있으므로 해석이 일관성 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20261004-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261004",
+        "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=91603",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-04T11:46:00+09:00",
+      "collected_at": "2026-10-04T02:54:48.924Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.04 · 뉴스 화제성",
+        "headline": "'2026 고양특례시민의 날' 성료, \"글로벌 AI 표준도시 도약\"",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "'2026 고양특례시민의 날' 성료, \"글로벌 AI 표준도시 도약\""
+      ],
+      "snippets": [
+        "또한 \"민선 9기 고양시는 좋은 일자리 창출에 사활을 걸겠다\"며 \"항공·우주, 의료·바이오, 문화·콘텐츠 3대 핵심 산업을 '글로벌 AI 허브' 유치와 연계해 고양을 글로벌 AI 표준도시로 만들어 가겠다\"는 구상을 밝혔다.... "
+      ],
+      "media_domains": [
+        "mediafine.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1개로 단일 출처. 헤드라인은 고양시 행정 뉴스이며, 바이오 산업에 대한 구체적 투자나 사업 발표가 아닌 정책 구상 수준. 바이오 칩과의 직접적 연결고리가 약함. 구체적 시장 영향 증거 부재."
+  },
+  {
+    "event": {
+      "id": "naver-20261004-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261004",
+        "url": "https://n.news.naver.com/mnews/article/421/0009208812?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-04T11:44:00+09:00",
+      "collected_at": "2026-10-04T02:54:49.650Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.04 · 뉴스 화제성",
+        "headline": "금융권 해킹 '비상'",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "금융권 해킹 '비상'",
+        "'금융권 해킹 비상'",
+        "확산하는 금융권 해킹 피해"
+      ],
+      "snippets": [
+        "시중은행을 덮친 해킹 공격이 저축은행과 캐피탈사 등 2금융권으로 번지고 있다. 신한은행에서는 고객 약... 제2금융권인 예가람저축은행과 현대캐피탈에서도 일부 고객의 개인정보 유출 사실이 드러났다.... ",
+        "시중은행을 덮친 해킹 공격이 저축은행과 캐피탈사 등 2금융권으로 번지고 있다. 신한은행에서는 고객 약... 제2금융권인 예가람저축은행과 현대캐피탈에서도 일부 고객의 개인정보 유출 사실이 드러났다.... ",
+        "시중은행을 덮친 해킹 공격이 저축은행과 캐피탈사 등 2금융권으로 번지고 있다. 신한은행에서는 고객 약... 제2금융권인 예가람저축은행과 현대캐피탈에서도 일부 고객의 개인정보 유출 사실이 드러났다.... "
+      ],
+      "media_domains": [
+        "news1.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1개(news1.kr만 출처 명확, 나머지 2개는 '매체 미상'). 금융권 해킹 피해 뉴스인데, 이것이 주가에 미칠 방향이 명확하지 않음. 부정적 뉴스임에도 단기·중장기 해설이 중립적으로만 표현되어 있음."
+  }
+]
