@@ -1,0 +1,392 @@
+[
+  {
+    "event": {
+      "id": "naver-20261006-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261006",
+        "url": "https://n.news.naver.com/mnews/article/421/0009210491?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-06T07:02:00+09:00",
+      "collected_at": "2026-10-05T22:14:20.339Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 7,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.06 · 뉴스 화제성",
+        "headline": "美 데이터센터 전력난 심화…\"엔비디아보다 메모리칩 타격\"",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "美 데이터센터 전력난 심화…\"엔비디아보다 메모리칩 타격\""
+      ],
+      "snippets": [
+        "엔비디아와 브로드컴은 상대적으로 충격을 피할 수 있지만 메모리와 광통신 등 2차 반도체 부품업체가 더 큰... 데이터센터 자체 발전과 연료전지 등 별도의 전력 확보 방안까지 반영한 수치다. 생성형 AI 열풍으로... "
+      ],
+      "media_domains": [
+        "news1.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 헤드라인은 '메모리칩 타격'을 강조하나 '2차전지' 칩 할당이 부정확함. 스니펫 내용이 2차전지와 직접 연관이 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20261006-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261006",
+        "url": "http://www.e2news.com/news/articleView.html?idxno=334588",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-06T07:06:00+09:00",
+      "collected_at": "2026-10-05T22:14:21.946Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.06 · 뉴스 화제성",
+        "headline": "[기획] 'K-수소 인프라' 보폭 넓히는 한국가스기술공사",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[기획] 'K-수소 인프라' 보폭 넓히는 한국가스기술공사"
+      ],
+      "snippets": [
+        "또한 수전해 기반 생산기지, 보령 바이오가스 활용 청정수소 생산시설, 당진 탄소포집형 생산기지 등 생산방식 다변화를 통해 청정수소 생태계 전환을 앞당기고 있다. 앞으로 가스기술공사는 그동안 축적한 수소충전소... "
+      ],
+      "media_domains": [
+        "e2news.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 헤드라인은 수소 인프라 기획기사로 '바이오' 칩 할당이 부정확함. 생물공학 관련 내용 없음."
+  },
+  {
+    "event": {
+      "id": "naver-20261006-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261006",
+        "url": "https://n.news.naver.com/mnews/article/079/0004195752?sid=100",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-06T07:12:00+09:00",
+      "collected_at": "2026-10-05T22:14:23.550Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.06 · 뉴스 화제성",
+        "headline": "李정부 2년차 국감 돌입…첫날부터 '조희대' 놓고 격돌[오늘아침]",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "李정부 2년차 국감 돌입…첫날부터 '조희대' 놓고 격돌[오늘아침]"
+      ],
+      "snippets": [
+        "AI에 뒷문 털린 금융권…'망분리' 찬반 논쟁 대규모 해킹으로 금융권에서 개인정보가 유출되면서, 외부 인터넷망과 내부 업무망을 분리하는 기존 보안 체계의 한계가 드러났다는 지적이 나오고 있습니다. 특히 해커들은... "
+      ],
+      "media_domains": [
+        "nocutnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 헤드라인은 정치 국감 뉴스로 재정/금융 이슈와 거리 있음. 스니펫의 AI 해킹 내용도 금융 산업 자체보다 보안 정책 논의에 초점."
+  },
+  {
+    "event": {
+      "id": "naver-20261006-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261006",
+        "url": "http://www.e2news.com/news/articleView.html?idxno=334588",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-06T07:06:00+09:00",
+      "collected_at": "2026-10-05T22:14:25.153Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.06 · 뉴스 화제성",
+        "headline": "[기획] 'K-수소 인프라' 보폭 넓히는 한국가스기술공사",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[기획] 'K-수소 인프라' 보폭 넓히는 한국가스기술공사"
+      ],
+      "snippets": [
+        "8km의 수소 배관망을 구축하고 있으며, 평택시 소사벌 레포츠타운 수소에너지 융·복합사업 및 청정수소... 온 에너지 인프라 기술력과 전국적인 건설·운영·유지정비·R&D 노하우를 바탕으로 수소의 생산-공급-활용... "
+      ],
+      "media_domains": [
+        "e2news.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 동일 헤드라인이 '바이오' 카드에도 중복 사용됨. 뉴스 중복 할당 오류."
+  },
+  {
+    "event": {
+      "id": "naver-20261006-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261006",
+        "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610021509198840103981",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-06T07:02:00+09:00",
+      "collected_at": "2026-10-05T22:14:26.769Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.06 · 뉴스 화제성",
+        "headline": "[더벨][스타트업 IR 포인트] '티에스인베 동행' 더휴식, 미드스케일 호...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[더벨][스타트업 IR 포인트] '티에스인베 동행' 더휴식, 미드스케일 호..."
+      ],
+      "snippets": [
+        "운영 IT 솔루션까지 갖춘 오프라인 종합 숙박 플랫폼 회사\"라고 평가했다. 더휴식은 이번 프리IPO 투자금을 기반으로 글로벌 브랜드 호텔 운영 규모를 확대하고 미드스케일 시장에서의 입지를 강화할 계획이다.... "
+      ],
+      "media_domains": [
+        "thebell.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 스타트업 개별 회사 프리IPO 투자 기사로 산업 화제성이 제한적. 시장 영향력 근거 부족."
+  }
+]
