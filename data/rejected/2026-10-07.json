@@ -1,0 +1,398 @@
+[
+  {
+    "event": {
+      "id": "naver-20261007-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261007",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=493141",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-07T06:52:00+09:00",
+      "collected_at": "2026-10-06T22:14:32.660Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 7,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.07 · 뉴스 화제성",
+        "headline": "에코프로, 화학 상장기업 브랜드평판 1위…LG화학·포스코퓨처엠 順",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "에코프로, 화학 상장기업 브랜드평판 1위…LG화학·포스코퓨처엠 順",
+        "[브랜드평판] 에코프로, 화학 상장기업 10월 1위... LG화학, 포스코퓨처..."
+      ],
+      "snippets": [
+        "에코프로는 송호준 대표가 이끄는 기업으로 2차전지 소재 사업과 관련해 시장의 관심을 받고 있다. 이번 조사에서는 미디어지수와 커뮤니티지수가 상대적으로 높게 나타나면서 전체 브랜드평판지수를... ",
+        "2차전지 소재와 친환경 화학 전환이 이어지는 가운데, 전체 빅데이터의 22%대 급감과 브랜드이슈의 44%대 역대급 급락은 화학업계에 대한 언론·소비자 관심이 일시적 소강 국면에 접어든 것으로 풀이된다.... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr",
+        "enetnews.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "교차확인 2개 매체이나, 뉴스 내용이 브랜드평판 순위(정성적 지표)이지 주가/재무 성과와 무관함. 칩과 뉴스 내용의 관련성 부족. 투자 신호로 부적절."
+  },
+  {
+    "event": {
+      "id": "naver-20261007-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261007",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=493147",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-07T07:06:00+09:00",
+      "collected_at": "2026-10-06T22:14:33.384Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.07 · 뉴스 화제성",
+        "headline": "앙방 샴푸 1위 지켰다…헤드앤숄더·케라스타즈 順",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "앙방 샴푸 1위 지켰다…헤드앤숄더·케라스타즈 順"
+      ],
+      "snippets": [
+        "26위 오가니스트, 27위 클로란, 28위 바이오메드, 29위 앙포레, 30위 알페신 샴푸가 이름을 올렸다. 이번 조사에서는 상위권 브랜드 대부분이 전월보다 브랜드평판지수를 끌어올렸다. 앙방 샴푸는 1.70% 하락했지만... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 1개 매체만 존재. 뉴스 내용이 샴푸 브랜드평판 순위로, '바이오' 섹터와 무관함. 칩 지정이 부정확하고 투자 정보로서의 가치 부재."
+  },
+  {
+    "event": {
+      "id": "naver-20261007-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261007",
+        "url": "https://www.ngonews.kr/news/articleView.html?idxno=239967",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-07T07:12:00+09:00",
+      "collected_at": "2026-10-06T22:14:34.142Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.07 · 뉴스 화제성",
+        "headline": "금융권 개인정보 유출 '도미노'…경실련 \"보안 사각지대부터 없애라\"",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "금융권 개인정보 유출 '도미노'…경실련 \"보안 사각지대부터 없애라\""
+      ],
+      "snippets": [
+        "금융회사에서 고객 개인정보가 잇따라 새어나오면서 금융권의 보안 체계를 근본적으로 다시 점검해야 한다는 목소리가 커지고 있다. 경제정의실천시민연합(경실련)은 6일 성명을 내고 최근 시중은행을 비롯해 저축은행... "
+      ],
+      "media_domains": [
+        "ngonews.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 1개 매체만 존재. 뉴스가 개인정보 유출 보안 이슈로, 긍정적/부정적 주가 신호가 명확하지 않은 규제/리스크성 뉴스. 신뢰도 기준 미달."
+  },
+  {
+    "event": {
+      "id": "naver-20261007-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261007",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16240144",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-07T07:10:00+09:00",
+      "collected_at": "2026-10-06T22:14:34.874Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.07 · 뉴스 화제성",
+        "headline": "KO1KEYZ, 한일 동시 데뷔…데뷔 싱글로 '새로운 세계' 연다",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "KO1KEYZ, 한일 동시 데뷔…데뷔 싱글로 '새로운 세계' 연다",
+        "코이키즈, 첫 싱글 'KO1KEYZ'로 한일 동시 데뷔"
+      ],
+      "snippets": [
+        "타이틀곡 'KO1KEYZ'는 90년대를 연상시키는 사운드를 기반으로 첫사랑의 설렘을 청량하면서도 아련한 에너지로 풀어낸 곡이다. 'KEY'를 중심으로 한 가사에서는 사랑이 시작되는 순간의 두근거림을 세밀하게... ",
+        "타이틀곡은 1990년대를 연상시키는 사운드와 청량하면서도 아련한 에너지로 첫사랑의 설렘을 풀어냈다. KEY를 테마로 한 가사로 사랑이 시작되는 순간의 두근거림을 전한다. 수록곡 '恋GAME'(코이게임)은 게임... "
+      ],
+      "media_domains": [
+        "topstarnews.net",
+        "slist.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "교차확인 2개 매체이나, 뉴스 내용이 아이돌 그룹 데뷔 소식으로 에너지 섹터와 무관함. 칩 지정 오류. 투자 뉴스가 아님."
+  },
+  {
+    "event": {
+      "id": "naver-20261007-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261007",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171433",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-07T07:12:00+09:00",
+      "collected_at": "2026-10-06T22:14:35.613Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.07 · 뉴스 화제성",
+        "headline": "[에이전틱 AI 맵 2026] 업스테이지, 솔라·문서 AI로 업무 자동화…모델...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[에이전틱 AI 맵 2026] 업스테이지, 솔라·문서 AI로 업무 자동화…모델..."
+      ],
+      "snippets": [
+        "IT조선은 한국지능정보사회진흥원(NIA)과 공동기획으로 국내 AI 에이전트 산업의 현주소를 살펴보기 위한... 글로벌 모델을 연결해 사용하는 플랫폼인 오픈라우터를 통해 해외 개발자에게도 제공한다. 솔라 자체는... "
+      ],
+      "media_domains": [
+        "it.chosun.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 1개 매체만 존재. 뉴스 내용이 업스테이지의 AI 모델 소개로, 정보성은 있으나 주가 영향 근거 부족. 신뢰도 기준 미달."
+  }
+]
