@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20261010-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261010",
+        "url": "https://n.news.naver.com/mnews/article/008/0005424294?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-10T07:00:00+09:00",
+      "collected_at": "2026-10-09T22:14:34.142Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 4,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.10 · 뉴스 화제성",
+        "headline": "흔들리는 코스피에도 10%수익 낸 ETF투자자, 비결은",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "흔들리는 코스피에도 10%수익 낸 ETF투자자, 비결은"
+      ],
+      "snippets": [
+        "TIGER 2차전지TOP10이 높은 수익률의 기반이 됐다. 글로벌형에서는 닉네임 '긍정적사고'가 2.1% 수익률로 수위를 기록했다. KODEX 미국AI광통신네트워크, SOL글로벌QI반도체탑픽액티브 등에 투자했다. 대회... "
+      ],
+      "media_domains": [
+        "mt.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "스니펫에서 2차전지는 주요 내용이 아니며, ETF 수익률 기사일 뿐 2차전지 산업 자체의 호재를 직접 뒷받침하지 않음. 칩 연결이 부정확함."
+  },
+  {
+    "event": {
+      "id": "naver-20261010-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261010",
+        "url": "https://www.g-enews.com/view.php?ud=2026101007024740652bd56fbc3c_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-10T07:12:00+09:00",
+      "collected_at": "2026-10-09T22:14:35.671Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.10 · 뉴스 화제성",
+        "headline": "트럼프, 푸틴과 디젤 공급 합의…미 재무부, 제재 일시 면제",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "트럼프, 푸틴과 디젤 공급 합의…미 재무부, 제재 일시 면제"
+      ],
+      "snippets": [
+        "미국의 글로벌 경제·금융 전문 뉴스 방송 매체 CNBC는 9일 이 물량을 모두 합산해 총 400만 톤 이상이라고 보도했다. 푸틴 대통령의 특사인 키릴 드미트리예프는 통화 직후 소셜 미디어에서 러시아와 미국의 디젤 에너지... "
+      ],
+      "media_domains": [
+        "g-enews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체가 1개로 단일 출처. 금융 섹터 전반의 영향을 다루는 기사라기보다 특정 정치외교 뉴스로, '금융' 칩 연결이 약함."
+  }
+]
