@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20261011-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261011",
+        "url": "https://www.g-enews.com/view.php?ud=2026101107033122382bd56fbc3c_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-11T07:08:00+09:00",
+      "collected_at": "2026-10-10T22:12:48.538Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.11 · 뉴스 화제성",
+        "headline": "엔비디아, 리플렉션 AI 인수·투자 협상…'인수 후 고용' 방식도 검토",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "엔비디아, 리플렉션 AI 인수·투자 협상…'인수 후 고용' 방식도 검토"
+      ],
+      "snippets": [
+        "영국 경제·금융 전문매체 파이낸셜타임스는 10월 10일(현지시각) 사안에 정통한 소식통을 인용해 이 같은 사실을 보도했고, 로이터가 11일 이를 전재했다. 로이터는 11일 엔비디아가 사안에 정통한 소식통을 인용해 한... "
+      ],
+      "media_domains": [
+        "g-enews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 엔비디아 인수 협상 뉴스인데, 이는 기술/반도체 뉴스이지 금융 섹터 뉴스가 아님. 칩 지정이 증거와 불일치."
+  },
+  {
+    "event": {
+      "id": "naver-20261011-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261011",
+        "url": "https://m.sports.naver.com/wfootball/article/343/0000148034",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-11T07:11:00+09:00",
+      "collected_at": "2026-10-10T22:12:49.402Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.11 · 뉴스 화제성",
+        "headline": "\"틸레만스·마이누 조합, EPL급 중원 아니다\"… 맨유 레전드 네빌, 10명 ...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "\"틸레만스·마이누 조합, EPL급 중원 아니다\"… 맨유 레전드 네빌, 10명 ..."
+      ],
+      "snippets": [
+        "네빌은 카를로스 발레바가 교체 투입된 뒤에는 중원에 더 많은 에너지가 생긴 듯했다고 평가하며, 중원... 그는 팬들이 선수단의 '에너지'와 '투지 부족'을 감지하고 있다고 진단했다. 그는 \"맨유 팬들은 감독과... "
+      ],
+      "media_domains": [
+        "besteleven.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 맨유 축구 경기 분석 기사인데, 에너지 섹터와 무관함. 에너지라는 단어가 스니펫에 나타나지만 에너지 산업이나 주식 섹터를 의미하지 않음. 칩 지정이 부적절."
+  }
+]
