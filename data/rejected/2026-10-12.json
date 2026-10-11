@@ -1,0 +1,236 @@
+[
+  {
+    "event": {
+      "id": "naver-20261012-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261012",
+        "url": "https://n.news.naver.com/mnews/article/243/0000104084?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-12T07:01:00+09:00",
+      "collected_at": "2026-10-11T22:13:55.120Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 10,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.12 · 뉴스 화제성",
+        "headline": "ETF 리밸런싱이 바꾼 반도체 수급…소부장 ‘패시브 효과’ 이어질까",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "ETF 리밸런싱이 바꾼 반도체 수급…소부장 ‘패시브 효과’ 이어질까"
+      ],
+      "snippets": [
+        "2차전지 관련 ETF가 1조6000억원, 로봇과 원자력이 각각 6000억원, 금융과 화장품이 각각 3000억원 규모다. 이번 리밸런싱의 핵심은 반도체 ETF다. 특히 삼성전자가 일부 ETF에서 종목별 편입 한도를 넘어선 만큼 이를... "
+      ],
+      "media_domains": [
+        "economist.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 '반도체 수급' 관련 ETF 리밸런싱을 다루고 있으나, 칩이 '2차전지'로 설정됨. 스니펫에서 2차전지 ETF가 언급되지만 헤드라인의 핵심은 반도체임. 칩 분류가 증거와 불일치."
+  },
+  {
+    "event": {
+      "id": "naver-20261012-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261012",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494240",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-12T07:12:00+09:00",
+      "collected_at": "2026-10-11T22:13:55.892Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.12 · 뉴스 화제성",
+        "headline": "롯데정밀화학 브랜드평판 26.45% 상승… 대동·남해화학 제치고 추격",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "롯데정밀화학 브랜드평판 26.45% 상승… 대동·남해화학 제치고 추격"
+      ],
+      "snippets": [
+        "인바이오, NH농우바이오, 동방아그로, 포메탈, 우진비앤지, SB성보 순으로 나타났다. 한국기업평판연구소 구창환 소장은 대동이 10월 농업 관련 상장기업 브랜드평판 1위를 기록했다고 밝혔다. 구 소장은... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "롯데정밀화학은 화학 회사이며, 기사는 농업 관련 상장기업 브랜드평판을 다루고 있음. 이는 '바이오' 분야 뉴스로 분류하기 부적절하며, 칩 설정이 증거와 맞지 않음."
+  },
+  {
+    "event": {
+      "id": "naver-20261012-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261012",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=447396",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-12T07:02:00+09:00",
+      "collected_at": "2026-10-11T22:13:58.304Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 15,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.12 · 뉴스 화제성",
+        "headline": "[Who Is ?] 권혁빈 스마일게이트홀딩스 최고비전제시책임자",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[Who Is ?] 권혁빈 스마일게이트홀딩스 최고비전제시책임자"
+      ],
+      "snippets": [
+        "스마일게이트스토브는 2016년 메가포트에서 플랫폼 부문을 떼어내 설립한 회사로 게임 플랫폼 '스토브'를... 주요 IT·게임사들이 특정 사업 부문을 자회사로 분리시키는 것과 반대로 사업 체계를 하나로 묶는 조직... "
+      ],
+      "media_domains": [
+        "businesspost.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 스마일게이트홀딩스 임원 소개 기사이며, 스니펫도 조직 구조 변화에 관한 설명. 이는 회사 뉴스일 뿐 시장 화제성이나 투자 영향도를 판단할 근거가 불충분하며, 부채 '화제성 카드'로 부적절함."
+  }
+]

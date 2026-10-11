@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-10T22:12:57.338Z",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-11T22:14:06.937Z",
   "summary": [
     {
       "id": "sector-0",
       "name": "반도체",
       "events": [
         {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.1%",
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "엔비디아, 리플렉션 AI 인수·투자 협상…'인수 후 고용' 방식도 검토",
+          "name": "텐센트, 9조원 들여 美 규제 밖 오라클 칩 빌리자 한국 메모리 공급망 ...",
           "direction": "neutral",
           "strength": "약함"
         }
@@ -20,48 +20,32 @@
     },
     {
       "id": "sector-1",
-      "name": "2차전지",
+      "name": "에너지",
       "events": [
         {
-          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +24%",
+          "name": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "코스피 제친 코스닥…반도체 소부장發 랠리 이어질까[선데이머니카페]",
+          "name": "트럼프 \"러·우 에너지 휴전 합의\"…젤렌스키 \"처음 듣는 얘기\"",
           "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    },
-    {
-      "id": "sector-2",
-      "name": "바이오",
-      "events": [
-        {
-          "name": "바이오(HS 3004) 수출 전년 동월 대비 +11.4%",
-          "direction": "up",
           "strength": "중간"
-        },
-        {
-          "name": "[임상 업데이트] HK이노엔 GLP-1 신약, 비만 청소년 임상서 효과 확인",
-          "direction": "neutral",
-          "strength": "약함"
         }
       ]
     }
   ],
   "events": [
     {
-      "id": "kdata-202608-8542",
+      "id": "kdata-202609-8542",
       "source": {
         "type": "kdata",
-        "ref_id": "8542-202608",
+        "ref_id": "8542-202609",
         "url": "https://unipass.customs.go.kr/ets/index_.do",
         "tier": 1
       },
-      "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:46.435Z",
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-11T22:13:53.916Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -74,11 +58,11 @@
         ]
       },
       "metrics": {
-        "export_value_usd": 38235698070,
-        "import_value_usd": 9621754312,
-        "trade_balance_usd": 28613943758,
-        "export_value_yoy_pct": 203.1,
-        "import_value_yoy_pct": 85.5
+        "export_value_usd": 43116428429,
+        "import_value_usd": 10953267598,
+        "trade_balance_usd": 32163160831,
+        "export_value_yoy_pct": 216.5,
+        "import_value_yoy_pct": 115.7
       },
       "scoring": {
         "surprise_score": 1,
@@ -99,8 +83,8 @@
         ]
       },
       "content": {
-        "meta_line": "반도체 · 2026.08 · 수출입동향",
-        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +203.1%",
+        "meta_line": "반도체 · 2026.09 · 수출입동향",
+        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
         "chips": [
           "반도체↑"
         ],
@@ -118,15 +102,15 @@
       "status": "active"
     },
     {
-      "id": "kdata-202608-2709",
+      "id": "kdata-202609-2709",
       "source": {
         "type": "kdata",
-        "ref_id": "2709-202608",
+        "ref_id": "2709-202609",
         "url": "https://unipass.customs.go.kr/ets/index_.do",
         "tier": 1
       },
-      "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:47.721Z",
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-11T22:13:54.908Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -139,18 +123,18 @@
         ]
       },
       "metrics": {
-        "export_value_usd": 0,
-        "import_value_usd": 8282353489,
-        "trade_balance_usd": -8282353489,
-        "export_value_yoy_pct": -100,
-        "import_value_yoy_pct": 21.1
+        "export_value_usd": 153,
+        "import_value_usd": 7961010070,
+        "trade_balance_usd": -7961009917,
+        "export_value_yoy_pct": null,
+        "import_value_yoy_pct": 38.4
       },
       "scoring": {
-        "surprise_score": 1,
+        "surprise_score": 0.77,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 93
+        "priority_score": 79
       },
       "impact": {
         "direction": "up",
@@ -164,8 +148,8 @@
         ]
       },
       "content": {
-        "meta_line": "에너지 · 2026.08 · 수출입동향",
-        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +21.1%",
+        "meta_line": "에너지 · 2026.09 · 수출입동향",
+        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
         "chips": [
           "에너지↑"
         ],
@@ -183,15 +167,15 @@
       "status": "active"
     },
     {
-      "id": "kdata-202608-8507",
+      "id": "kdata-202609-8507",
       "source": {
         "type": "kdata",
-        "ref_id": "8507-202608",
+        "ref_id": "8507-202609",
         "url": "https://unipass.customs.go.kr/ets/index_.do",
         "tier": 1
       },
-      "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:47.062Z",
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-11T22:13:54.411Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -204,22 +188,22 @@
         ]
       },
       "metrics": {
-        "export_value_usd": 601506935,
-        "import_value_usd": 583026268,
-        "trade_balance_usd": 18480667,
-        "export_value_yoy_pct": 24,
-        "import_value_yoy_pct": 22.8
+        "export_value_usd": 723652254,
+        "import_value_usd": 675535070,
+        "trade_balance_usd": 48117184,
+        "export_value_yoy_pct": 14,
+        "import_value_yoy_pct": 13.3
       },
       "scoring": {
-        "surprise_score": 0.48,
+        "surprise_score": 0.28,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 62
+        "priority_score": 50
       },
       "impact": {
         "direction": "up",
-        "strength": "strong",
+        "strength": "medium",
         "affected_sectors": [
           {
             "sector": "2차전지",
@@ -229,8 +213,8 @@
         ]
       },
       "content": {
-        "meta_line": "2차전지 · 2026.08 · 수출입동향",
-        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +24%",
+        "meta_line": "2차전지 · 2026.09 · 수출입동향",
+        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
         "chips": [
           "2차전지↑"
         ],
@@ -248,15 +232,15 @@
       "status": "active"
     },
     {
-      "id": "kdata-202608-3004",
+      "id": "kdata-202609-3004",
       "source": {
         "type": "kdata",
-        "ref_id": "3004-202608",
+        "ref_id": "3004-202609",
         "url": "https://unipass.customs.go.kr/ets/index_.do",
         "tier": 1
       },
-      "event_datetime": "2026-08-01T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:48.341Z",
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-11T22:13:55.407Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -269,39 +253,39 @@
         ]
       },
       "metrics": {
-        "export_value_usd": 69801512,
-        "import_value_usd": 590021577,
-        "trade_balance_usd": -520220065,
-        "export_value_yoy_pct": 11.4,
-        "import_value_yoy_pct": 14.7
+        "export_value_usd": 81983317,
+        "import_value_usd": 513504841,
+        "trade_balance_usd": -431521524,
+        "export_value_yoy_pct": -12.9,
+        "import_value_yoy_pct": 1.8
       },
       "scoring": {
-        "surprise_score": 0.29,
+        "surprise_score": 0.26,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 51
+        "priority_score": 48
       },
       "impact": {
-        "direction": "up",
+        "direction": "down",
         "strength": "medium",
         "affected_sectors": [
           {
             "sector": "바이오",
-            "direction": "up",
+            "direction": "down",
             "note": "수출입동향"
           }
         ]
       },
       "content": {
-        "meta_line": "바이오 · 2026.08 · 수출입동향",
-        "headline": "바이오(HS 3004) 수출 전년 동월 대비 +11.4%",
+        "meta_line": "바이오 · 2026.09 · 수출입동향",
+        "headline": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
         "chips": [
-          "바이오↑"
+          "바이오↓"
         ],
         "horizon": {
-          "short_term": "바이오 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
-          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+          "short_term": "바이오 수출이 전년 동월 대비 줄어 관련 업종에 단기적으로 부담이 될 수 있어요.",
+          "long_term": "일시적 둔화인지 추세적 하락인지 다음 달 실적과 함께 확인할 필요가 있어요."
         }
       },
       "reliability": {
@@ -321,7 +305,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:46.795Z",
+      "collected_at": "2026-10-11T22:13:54.749Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -383,7 +367,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-08T12:00:00+09:00",
-      "collected_at": "2026-10-10T22:12:46.319Z",
+      "collected_at": "2026-10-11T22:13:54.251Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -442,15 +426,76 @@
       "status": "active"
     },
     {
-      "id": "naver-20261011-반도체",
+      "id": "naver-20261012-에너지",
       "source": {
         "type": "naver",
-        "ref_id": "반도체-20261011",
-        "url": "https://www.g-enews.com/view.php?ud=2026101107033122382bd56fbc3c_1",
+        "ref_id": "에너지-20261012",
+        "url": "https://n.news.naver.com/mnews/article/015/0005341309?sid=104",
         "tier": 2
       },
-      "event_datetime": "2026-10-11T07:08:00+09:00",
-      "collected_at": "2026-10-10T22:12:46.395Z",
+      "event_datetime": "2026-10-12T07:08:00+09:00",
+      "collected_at": "2026-10-11T22:13:57.545Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.12 · 뉴스 화제성",
+        "headline": "트럼프 \"러·우 에너지 휴전 합의\"…젤렌스키 \"처음 듣는 얘기\"",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261012-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261012",
+        "url": "https://www.g-enews.com/view.php?ud=202610120701146726fbbec65dfb_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-12T07:08:00+09:00",
+      "collected_at": "2026-10-11T22:13:54.207Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -484,71 +529,10 @@
         ]
       },
       "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.11 · 뉴스 화제성",
-        "headline": "엔비디아, 리플렉션 AI 인수·투자 협상…'인수 후 고용' 방식도 검토",
+        "meta_line": "반도체 관련 뉴스 · 10.12 · 뉴스 화제성",
+        "headline": "텐센트, 9조원 들여 美 규제 밖 오라클 칩 빌리자 한국 메모리 공급망 ...",
         "chips": [
           "반도체→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 1
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261011-2차전지",
-      "source": {
-        "type": "naver",
-        "ref_id": "2차전지-20261011",
-        "url": "https://n.news.naver.com/mnews/article/011/0004669894?sid=101",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-11T07:01:00+09:00",
-      "collected_at": "2026-10-10T22:12:47.132Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "2차전지",
-        "name": "2차전지",
-        "is_bellwether": true,
-        "sectors": [
-          "2차전지"
-        ]
-      },
-      "metrics": {
-        "article_count": 7,
-        "distinct_media_count": 1
-      },
-      "scoring": {
-        "surprise_score": 0.13,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 33
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "2차전지",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "2차전지 관련 뉴스 · 10.11 · 뉴스 화제성",
-        "headline": "코스피 제친 코스닥…반도체 소부장發 랠리 이어질까[선데이머니카페]",
-        "chips": [
-          "2차전지→"
         ],
         "horizon": {
           "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
