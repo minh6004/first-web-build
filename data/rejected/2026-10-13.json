@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20261013-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261013",
+        "url": "https://n.news.naver.com/mnews/article/374/0000537430?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-13T07:09:00+09:00",
+      "collected_at": "2026-10-12T22:13:49.164Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 6,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.13 · 뉴스 화제성",
+        "headline": "[증시전략] 中 'CXMT 쇼크' 메모리주 강타…마이크론 등 하락",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[증시전략] 中 'CXMT 쇼크' 메모리주 강타…마이크론 등 하락"
+      ],
+      "snippets": [
+        "- 외국인·기관 동반 매도에 코스피 '회복 탄력성' 약화 - 메모리 편중·수급 공백에 글로벌 AI 랠리서 소외 - 반도체 소부장·2차전지·전력 업종 등으로 분산 필요 (자세한 내용은 동영상을 시청하시기 바랍니다.)"
+      ],
+      "media_domains": [
+        "biz.sbs.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "칩(2차전지)과 헤드라인 내용이 불일치. 헤드라인은 메모리주 하락을 주제로 하며, 스니펫에서 2차전지는 '분산 필요 업종'으로만 언급될 뿐 직접적인 영향 관계가 증거에 없음. 헤드라인 내용상 반도체 칩이 더 적절함."
+  },
+  {
+    "event": {
+      "id": "naver-20261013-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261013",
+        "url": "http://www.bizwnews.com/news/articleView.html?idxno=148665",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-13T07:10:00+09:00",
+      "collected_at": "2026-10-12T22:13:49.891Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.13 · 뉴스 화제성",
+        "headline": "인천시, '제12회 바이오헬스밸리 추진협의회' 개최…글로벌 바이오 혁신...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "인천시, '제12회 바이오헬스밸리 추진협의회' 개최…글로벌 바이오 혁신..."
+      ],
+      "snippets": [
+        "인천시(시장 박찬대)는 지난 12일 시청에서 '제12회 인천바이오헬스밸리 추진협의회'를 개최했다고 밝혔다. 사진=인천시  인천시가 생산 중심의 바이오산업 패러다임을 넘어 연구개발(R&D)과 전문인재 양성이 어우러지는... "
+      ],
+      "media_domains": [
+        "bizwnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인은 인천시의 정책 발표(협의회 개최)로, 시장 뉴스성이 약함. 스니펫에서 R&D와 인재양성 방향성만 언급되어 있을 뿐 투자·거래 영향을 추측할 구체적 근거가 없음. 증거 부족으로 화제성 카드로 부적절."
+  }
+]
