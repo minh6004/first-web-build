@@ -1,0 +1,236 @@
+[
+  {
+    "event": {
+      "id": "naver-20261014-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261014",
+        "url": "https://www.g-enews.com/view.php?ud=2026101322385334310c8c1c064d_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T06:26:00+09:00",
+      "collected_at": "2026-10-13T22:22:26.215Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 2,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "日 NTT 데이터, 美 앤트로픽 전용 '日 최대 AI 데이터센터' 짓는다",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "日 NTT 데이터, 美 앤트로픽 전용 '日 최대 AI 데이터센터' 짓는다"
+      ],
+      "snippets": [
+        "일본 정부는 데이터센터, 클라우드, 산업용 2차전지를 국가 17대 핵심 전략 기술로 지정하고, 오는 2035 회계연도까지 민관 합동으로 총 32.7조 엔(약 290조 원) 규모의 대대적인 투자를 이끌어내겠다는 청사진을... "
+      ],
+      "media_domains": [
+        "g-enews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 헤드라인은 'AI 데이터센터' 건설이지만 칩은 '2차전지'로 불일치. 스니펫에서 2차전지는 '국가 전략 기술'로만 언급되고 본 기사 내용과 직결되지 않음."
+  },
+  {
+    "event": {
+      "id": "naver-20261014-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261014",
+        "url": "https://www.medipana.com/news/articleView.html?idxno=419240",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:20:00+09:00",
+      "collected_at": "2026-10-13T22:22:26.982Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "싱가포르, 신약 임상심사 30일→15일 단축 추진",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "싱가포르, 신약 임상심사 30일→15일 단축 추진"
+      ],
+      "snippets": [
+        "특히 신약 허가심사와 의료기술평가를 병행하는 싱가포르의 접근 방식은 국내 신약의 환자 접근성 개선과 제약·바이오기업의 해외시장 진출 전략에도 참고 사례가 될 것으로 보인다."
+      ],
+      "media_domains": [
+        "medipana.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 스니펫 내용이 '참고 사례가 될 것으로 보인다'는 추측적 표현으로, 국내 바이오 기업에 대한 직접적인 영향을 단정하기 어려움. 뉘앙스가 불확실함."
+  },
+  {
+    "event": {
+      "id": "naver-20261014-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261014",
+        "url": "https://www.ceoscoredaily.com/page/view/2026101315574747654",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:29.429Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 13,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "롯데하이마트, 온라인 사업 재편…AI 추가하고 라이브커머스 6년 만 종료",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "롯데하이마트, 온라인 사업 재편…AI 추가하고 라이브커머스 6년 만 종료"
+      ],
+      "snippets": [
+        "또 롯데하이마트는 최근 플랫폼·AI 전문가를 새로운 수장으로 발탁, AI를 활용한 이커머스 플랫폼 고도화도... 롯데하이마트 측은 “지난해 말 ‘IT·AI 부문을 신설, AI 기술과 데이터 활용 역량을 바탕으로 고객의... "
+      ],
+      "media_domains": [
+        "ceoscoredaily.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "단일 매체만 교차확인. 스니펫이 'AI 활용', '플랫폼 고도화' 등 향후 계획만 담고 있으며, 주가 영향을 판단할 구체적 실적이나 수치 부족."
+  }
+]

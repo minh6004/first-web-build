@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-12T22:14:01.404Z",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-13T22:22:37.350Z",
   "summary": [
     {
       "id": "sector-0",
@@ -12,9 +12,9 @@
           "strength": "강함"
         },
         {
-          "name": "IMF, AI 투자 호황으로 세계 성장률 3% 버팀목…반면, 일자리 40% 영향",
+          "name": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
           "direction": "neutral",
-          "strength": "약함"
+          "strength": "중간"
         }
       ]
     },
@@ -28,9 +28,9 @@
           "strength": "강함"
         },
         {
-          "name": "SNT에너지 카타르 NFW에 193억원 에어쿨러 공급",
+          "name": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
           "direction": "neutral",
-          "strength": "약함"
+          "strength": "중간"
         }
       ]
     }
@@ -45,7 +45,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:47.715Z",
+      "collected_at": "2026-10-13T22:22:25.323Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +110,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:48.649Z",
+      "collected_at": "2026-10-13T22:22:26.398Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +175,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:48.182Z",
+      "collected_at": "2026-10-13T22:22:25.861Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -240,7 +240,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:49.118Z",
+      "collected_at": "2026-10-13T22:22:26.934Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -297,24 +297,24 @@
       "status": "active"
     },
     {
-      "id": "naver-20261013-IT/플랫폼",
+      "id": "naver-20261014-반도체",
       "source": {
         "type": "naver",
-        "ref_id": "IT/플랫폼-20261013",
-        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494620",
+        "ref_id": "반도체-20261014",
+        "url": "https://n.news.naver.com/mnews/article/366/0001197767?sid=104",
         "tier": 2
       },
-      "event_datetime": "2026-10-13T06:40:00+09:00",
-      "collected_at": "2026-10-12T22:13:52.310Z",
+      "event_datetime": "2026-10-14T07:08:00+09:00",
+      "collected_at": "2026-10-13T22:22:25.360Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
         "entity_type": "sector",
-        "code": "IT/플랫폼",
-        "name": "IT/플랫폼",
+        "code": "반도체",
+        "name": "반도체",
         "is_bellwether": true,
         "sectors": [
-          "IT/플랫폼"
+          "반도체"
         ]
       },
       "metrics": {
@@ -333,16 +333,16 @@
         "strength": "medium",
         "affected_sectors": [
           {
-            "sector": "IT/플랫폼",
+            "sector": "반도체",
             "direction": "neutral"
           }
         ]
       },
       "content": {
-        "meta_line": "IT/플랫폼 관련 뉴스 · 10.13 · 뉴스 화제성",
-        "headline": "산업 전시회 5곳, AI로 묶는다…산업부 'K 커넥트 AI' 출범",
+        "meta_line": "반도체 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
         "chips": [
-          "IT/플랫폼→"
+          "반도체→"
         ],
         "horizon": {
           "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
@@ -366,7 +366,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:48.085Z",
+      "collected_at": "2026-10-13T22:22:25.836Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -420,119 +420,52 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261012",
-      "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261012",
-        "url": "https://ecos.bok.or.kr/",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-12T12:00:00+09:00",
-      "collected_at": "2026-10-12T22:13:47.540Z",
-      "type": "macro_indicator",
-      "category": "환율",
-      "subject": {
-        "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
-        "is_bellwether": true,
-        "sectors": [
-          "수출주",
-          "여행"
-        ]
-      },
-      "metrics": {
-        "fx_value_krw": 1338,
-        "fx_change_pct": -0.1
-      },
-      "scoring": {
-        "surprise_score": 0.05,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 36
-      },
-      "impact": {
-        "direction": "down",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "down"
-          },
-          {
-            "sector": "여행",
-            "direction": "up"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 10.12 · 환율",
-        "headline": "원/달러 환율 1338원 (전일 대비 -0.1%)",
-        "chips": [
-          "수출주↓",
-          "여행↑"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
-          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261013-반도체",
+      "id": "naver-20261014-금융",
       "source": {
         "type": "naver",
-        "ref_id": "반도체-20261013",
-        "url": "https://www.g-enews.com/view.php?ud=202610121758175733fda4f5ab74_1",
+        "ref_id": "금융-20261014",
+        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601138",
         "tier": 2
       },
-      "event_datetime": "2026-10-13T07:12:00+09:00",
-      "collected_at": "2026-10-12T22:13:48.219Z",
+      "event_datetime": "2026-10-14T07:20:00+09:00",
+      "collected_at": "2026-10-13T22:22:27.763Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
         "entity_type": "sector",
-        "code": "반도체",
-        "name": "반도체",
+        "code": "금융",
+        "name": "금융",
         "is_bellwether": true,
         "sectors": [
-          "반도체"
+          "금융"
         ]
       },
       "metrics": {
         "article_count": 20,
-        "distinct_media_count": 1
+        "distinct_media_count": 2
       },
       "scoring": {
-        "surprise_score": 0.13,
+        "surprise_score": 0.25,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 33
+        "priority_score": 40
       },
       "impact": {
         "direction": "neutral",
-        "strength": "weak",
+        "strength": "medium",
         "affected_sectors": [
           {
-            "sector": "반도체",
+            "sector": "금융",
             "direction": "neutral"
           }
         ]
       },
       "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.13 · 뉴스 화제성",
-        "headline": "IMF, AI 투자 호황으로 세계 성장률 3% 버팀목…반면, 일자리 40% 영향",
+        "meta_line": "금융 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "정의선·모디 총리 면담⋯현대차그룹, 인도에 7년간 155억달러 투자",
         "chips": [
-          "반도체→"
+          "금융→"
         ],
         "horizon": {
           "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
@@ -542,7 +475,68 @@
       "reliability": {
         "tier": 2,
         "needs_review": false,
-        "corroboration_count": 1
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261014-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261014",
+        "url": "https://n.news.naver.com/mnews/article/119/0003142453?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:21:00+09:00",
+      "collected_at": "2026-10-13T22:22:28.517Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
       },
       "updates": [],
       "status": "active"

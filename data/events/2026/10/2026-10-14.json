@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-13T22:22:37.350Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
+          "direction": "neutral",
+          "strength": "중간"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "에너지",
+      "events": [
+        {
+          "name": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
+          "direction": "neutral",
+          "strength": "중간"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kdata-202609-8542",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8542-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:25.323Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8542",
+        "name": "반도체(집적회로(반도체))",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 43116428429,
+        "import_value_usd": 10953267598,
+        "trade_balance_usd": 32163160831,
+        "export_value_yoy_pct": 216.5,
+        "import_value_yoy_pct": 115.7
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 · 2026.09 · 수출입동향",
+        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+        "chips": [
+          "반도체↑"
+        ],
+        "horizon": {
+          "short_term": "반도체 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-2709",
+      "source": {
+        "type": "kdata",
+        "ref_id": "2709-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:26.398Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2709",
+        "name": "에너지(원유)",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 153,
+        "import_value_usd": 7961010070,
+        "trade_balance_usd": -7961009917,
+        "export_value_yoy_pct": null,
+        "import_value_yoy_pct": 38.4
+      },
+      "scoring": {
+        "surprise_score": 0.77,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 79
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 · 2026.09 · 수출입동향",
+        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
+        "chips": [
+          "에너지↑"
+        ],
+        "horizon": {
+          "short_term": "에너지 수입이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-8507",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8507-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:25.861Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8507",
+        "name": "2차전지(축전지(2차전지))",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 723652254,
+        "import_value_usd": 675535070,
+        "trade_balance_usd": 48117184,
+        "export_value_yoy_pct": 14,
+        "import_value_yoy_pct": 13.3
+      },
+      "scoring": {
+        "surprise_score": 0.28,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 50
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 · 2026.09 · 수출입동향",
+        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
+        "chips": [
+          "2차전지↑"
+        ],
+        "horizon": {
+          "short_term": "2차전지 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-3004",
+      "source": {
+        "type": "kdata",
+        "ref_id": "3004-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:26.934Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "3004",
+        "name": "바이오(의약품)",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 81983317,
+        "import_value_usd": 513504841,
+        "trade_balance_usd": -431521524,
+        "export_value_yoy_pct": -12.9,
+        "import_value_yoy_pct": 1.8
+      },
+      "scoring": {
+        "surprise_score": 0.26,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "down",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 · 2026.09 · 수출입동향",
+        "headline": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+        "chips": [
+          "바이오↓"
+        ],
+        "horizon": {
+          "short_term": "바이오 수출이 전년 동월 대비 줄어 관련 업종에 단기적으로 부담이 될 수 있어요.",
+          "long_term": "일시적 둔화인지 추세적 하락인지 다음 달 실적과 함께 확인할 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261014-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261014",
+        "url": "https://n.news.naver.com/mnews/article/366/0001197767?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:08:00+09:00",
+      "collected_at": "2026-10-13T22:22:25.360Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-13T22:22:25.836Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261014-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261014",
+        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601138",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:20:00+09:00",
+      "collected_at": "2026-10-13T22:22:27.763Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "정의선·모디 총리 면담⋯현대차그룹, 인도에 7년간 155억달러 투자",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261014-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261014",
+        "url": "https://n.news.naver.com/mnews/article/119/0003142453?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-14T07:21:00+09:00",
+      "collected_at": "2026-10-13T22:22:28.517Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.14 · 뉴스 화제성",
+        "headline": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}
