@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-13T22:22:37.350Z",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-14T22:24:30.019Z",
   "summary": [
     {
       "id": "sector-0",
@@ -12,23 +12,7 @@
           "strength": "강함"
         },
         {
-          "name": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
-          "direction": "neutral",
-          "strength": "중간"
-        }
-      ]
-    },
-    {
-      "id": "sector-1",
-      "name": "에너지",
-      "events": [
-        {
-          "name": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
+          "name": "뉴욕증시, 물가 충격ㆍAI 반도체주 약세에 하락⋯나스닥 1.88%↓[종합]",
           "direction": "neutral",
           "strength": "중간"
         }
@@ -45,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-13T22:22:25.323Z",
+      "collected_at": "2026-10-14T22:23:52.914Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-13T22:22:26.398Z",
+      "collected_at": "2026-10-14T22:23:53.854Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-13T22:22:25.861Z",
+      "collected_at": "2026-10-14T22:23:53.375Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -240,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-13T22:22:26.934Z",
+      "collected_at": "2026-10-14T22:23:54.292Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -297,15 +281,15 @@
       "status": "active"
     },
     {
-      "id": "naver-20261014-반도체",
+      "id": "naver-20261015-반도체",
       "source": {
         "type": "naver",
-        "ref_id": "반도체-20261014",
-        "url": "https://n.news.naver.com/mnews/article/366/0001197767?sid=104",
+        "ref_id": "반도체-20261015",
+        "url": "https://www.etoday.co.kr/news/view/2635928",
         "tier": 2
       },
-      "event_datetime": "2026-10-14T07:08:00+09:00",
-      "collected_at": "2026-10-13T22:22:25.360Z",
+      "event_datetime": "2026-10-15T07:22:00+09:00",
+      "collected_at": "2026-10-14T22:23:53.373Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -319,14 +303,14 @@
       },
       "metrics": {
         "article_count": 20,
-        "distinct_media_count": 3
+        "distinct_media_count": 2
       },
       "scoring": {
-        "surprise_score": 0.38,
+        "surprise_score": 0.25,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 48
+        "priority_score": 40
       },
       "impact": {
         "direction": "neutral",
@@ -339,8 +323,8 @@
         ]
       },
       "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.14 · 뉴스 화제성",
-        "headline": "뉴욕증시, 美 은행 실적 혼조·반도체주 약세에 하락 마감",
+        "meta_line": "반도체 관련 뉴스 · 10.15 · 뉴스 화제성",
+        "headline": "뉴욕증시, 물가 충격ㆍAI 반도체주 약세에 하락⋯나스닥 1.88%↓[종합]",
         "chips": [
           "반도체→"
         ],
@@ -352,63 +336,60 @@
       "reliability": {
         "tier": 2,
         "needs_review": false,
-        "corroboration_count": 3
+        "corroboration_count": 2
       },
       "updates": [],
       "status": "active"
     },
     {
-      "id": "ecos-cpi-202609",
+      "id": "sec-0001326706-0001493152-26-047063",
       "source": {
-        "type": "ecos",
-        "ref_id": "cpi-202609",
-        "url": "https://ecos.bok.or.kr/",
+        "type": "sec",
+        "ref_id": "0001326706",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326706/000149315226047063/0001493152-26-047063-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-13T22:22:25.836Z",
-      "type": "macro_indicator",
-      "category": "소비자물가",
+      "event_datetime": "2026-10-14T16:00:00-04:00",
+      "collected_at": "2026-10-14T22:23:53.849Z",
+      "type": "ma",
+      "category": "인수합병",
       "subject": {
-        "entity_type": "macro",
-        "code": "KR-CPI",
-        "name": "소비자물가지수(CPI)",
-        "is_bellwether": true,
+        "entity_type": "stock",
+        "code": "0001326706",
+        "name": "ENvue Medical, Inc.",
+        "is_bellwether": false,
         "sectors": [
-          "성장주"
+          "미분류"
         ]
       },
-      "metrics": {
-        "cpi_yoy_pct": 2.9,
-        "cpi_yoy_pct_prev_month": 3.1,
-        "cpi_yoy_accel_pct_point": -0.2
-      },
+      "metrics": {},
       "scoring": {
-        "surprise_score": 0.2,
+        "surprise_score": 0,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 45
+        "priority_score": 10
       },
       "impact": {
-        "direction": "down",
-        "strength": "medium",
+        "direction": "neutral",
+        "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "성장주",
-            "direction": "up"
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
-        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "meta_line": "ENvue Medical, Inc. · 10.14 · 인수합병",
+        "headline": "ENvue Medical, Inc., 8-K 공시",
         "chips": [
-          "성장주↑"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
-          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
@@ -420,123 +401,119 @@
       "status": "active"
     },
     {
-      "id": "naver-20261014-금융",
+      "id": "sec-0001956741-0001213900-26-109483",
       "source": {
-        "type": "naver",
-        "ref_id": "금융-20261014",
-        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601138",
-        "tier": 2
+        "type": "sec",
+        "ref_id": "0001956741",
+        "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026109483/0001213900-26-109483-index.htm",
+        "tier": 1
       },
-      "event_datetime": "2026-10-14T07:20:00+09:00",
-      "collected_at": "2026-10-13T22:22:27.763Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
+      "event_datetime": "2026-10-14T16:00:00-04:00",
+      "collected_at": "2026-10-14T22:23:53.849Z",
+      "type": "ma",
+      "category": "인수합병",
       "subject": {
-        "entity_type": "sector",
-        "code": "금융",
-        "name": "금융",
-        "is_bellwether": true,
+        "entity_type": "stock",
+        "code": "0001956741",
+        "name": "Zone Frontier Inc.",
+        "is_bellwether": false,
         "sectors": [
-          "금융"
+          "미분류"
         ]
       },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 2
-      },
+      "metrics": {},
       "scoring": {
-        "surprise_score": 0.25,
+        "surprise_score": 0,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 40
+        "priority_score": 10
       },
       "impact": {
         "direction": "neutral",
-        "strength": "medium",
+        "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "금융",
-            "direction": "neutral"
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "금융 관련 뉴스 · 10.14 · 뉴스 화제성",
-        "headline": "정의선·모디 총리 면담⋯현대차그룹, 인도에 7년간 155억달러 투자",
+        "meta_line": "Zone Frontier Inc. · 10.14 · 인수합병",
+        "headline": "Zone Frontier Inc., 8-K 공시",
         "chips": [
-          "금융→"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
-        "tier": 2,
+        "tier": 1,
         "needs_review": false,
-        "corroboration_count": 2
+        "corroboration_count": 0
       },
       "updates": [],
       "status": "active"
     },
     {
-      "id": "naver-20261014-에너지",
+      "id": "sec-0001331520-0001331520-26-000117",
       "source": {
-        "type": "naver",
-        "ref_id": "에너지-20261014",
-        "url": "https://n.news.naver.com/mnews/article/119/0003142453?sid=104",
-        "tier": 2
+        "type": "sec",
+        "ref_id": "0001331520",
+        "url": "https://www.sec.gov/Archives/edgar/data/1331520/000133152026000117/0001331520-26-000117-index.htm",
+        "tier": 1
       },
-      "event_datetime": "2026-10-14T07:21:00+09:00",
-      "collected_at": "2026-10-13T22:22:28.517Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
+      "event_datetime": "2026-10-14T16:00:00-04:00",
+      "collected_at": "2026-10-14T22:23:53.849Z",
+      "type": "ma",
+      "category": "인수합병",
       "subject": {
-        "entity_type": "sector",
-        "code": "에너지",
-        "name": "에너지",
-        "is_bellwether": true,
+        "entity_type": "stock",
+        "code": "0001331520",
+        "name": "HOME BANCSHARES INC",
+        "is_bellwether": false,
         "sectors": [
-          "에너지"
+          "미분류"
         ]
       },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 2
-      },
+      "metrics": {},
       "scoring": {
-        "surprise_score": 0.25,
+        "surprise_score": 0,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 40
+        "priority_score": 10
       },
       "impact": {
         "direction": "neutral",
-        "strength": "medium",
+        "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "에너지",
-            "direction": "neutral"
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "에너지 관련 뉴스 · 10.14 · 뉴스 화제성",
-        "headline": "백악관 새 대변인, 첫 브리핑서 \"韓 알래스카에 540억 달러 투자\"",
+        "meta_line": "HOME BANCSHARES INC · 10.14 · 인수합병",
+        "headline": "HOME BANCSHARES INC, 8-K 공시",
         "chips": [
-          "에너지→"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
-        "tier": 2,
+        "tier": 1,
         "needs_review": false,
-        "corroboration_count": 2
+        "corroboration_count": 0
       },
       "updates": [],
       "status": "active"
