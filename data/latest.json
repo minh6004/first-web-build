@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-15",
-  "generated_at": "2026-10-14T22:24:30.019Z",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-15T22:24:44.620Z",
   "summary": [
     {
       "id": "sector-0",
@@ -12,7 +12,7 @@
           "strength": "강함"
         },
         {
-          "name": "뉴욕증시, 물가 충격ㆍAI 반도체주 약세에 하락⋯나스닥 1.88%↓[종합]",
+          "name": "애플 CEO, 중국산 반도체 사용 시사…“메모리 제약 절대적 위기”",
           "direction": "neutral",
           "strength": "중간"
         }
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-14T22:23:52.914Z",
+      "collected_at": "2026-10-15T22:24:33.141Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-14T22:23:53.854Z",
+      "collected_at": "2026-10-15T22:24:34.281Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-14T22:23:53.375Z",
+      "collected_at": "2026-10-15T22:24:33.734Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-14T22:23:54.292Z",
+      "collected_at": "2026-10-15T22:24:34.833Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -281,15 +281,77 @@
       "status": "active"
     },
     {
-      "id": "naver-20261015-반도체",
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-15T22:24:33.468Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261016-반도체",
       "source": {
         "type": "naver",
-        "ref_id": "반도체-20261015",
-        "url": "https://www.etoday.co.kr/news/view/2635928",
+        "ref_id": "반도체-20261016",
+        "url": "https://n.news.naver.com/mnews/article/032/0003476660?sid=105",
         "tier": 2
       },
-      "event_datetime": "2026-10-15T07:22:00+09:00",
-      "collected_at": "2026-10-14T22:23:53.373Z",
+      "event_datetime": "2026-10-16T07:19:00+09:00",
+      "collected_at": "2026-10-15T22:24:33.345Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
@@ -323,8 +385,8 @@
         ]
       },
       "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.15 · 뉴스 화제성",
-        "headline": "뉴욕증시, 물가 충격ㆍAI 반도체주 약세에 하락⋯나스닥 1.88%↓[종합]",
+        "meta_line": "반도체 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "애플 CEO, 중국산 반도체 사용 시사…“메모리 제약 절대적 위기”",
         "chips": [
           "반도체→"
         ],
@@ -342,54 +404,62 @@
       "status": "active"
     },
     {
-      "id": "sec-0001326706-0001493152-26-047063",
+      "id": "ecos-fx-20261015",
       "source": {
-        "type": "sec",
-        "ref_id": "0001326706",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326706/000149315226047063/0001493152-26-047063-index.htm",
+        "type": "ecos",
+        "ref_id": "fx-usd-20261015",
+        "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-10-14T16:00:00-04:00",
-      "collected_at": "2026-10-14T22:23:53.849Z",
-      "type": "ma",
-      "category": "인수합병",
+      "event_datetime": "2026-10-15T12:00:00+09:00",
+      "collected_at": "2026-10-15T22:24:32.967Z",
+      "type": "macro_indicator",
+      "category": "환율",
       "subject": {
-        "entity_type": "stock",
-        "code": "0001326706",
-        "name": "ENvue Medical, Inc.",
-        "is_bellwether": false,
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
         "sectors": [
-          "미분류"
+          "수출주",
+          "여행"
         ]
       },
-      "metrics": {},
+      "metrics": {
+        "fx_value_krw": 1338.6,
+        "fx_change_pct": -0.1
+      },
       "scoring": {
-        "surprise_score": 0,
+        "surprise_score": 0.05,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 10
+        "priority_score": 36
       },
       "impact": {
-        "direction": "neutral",
+        "direction": "down",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
           }
         ]
       },
       "content": {
-        "meta_line": "ENvue Medical, Inc. · 10.14 · 인수합병",
-        "headline": "ENvue Medical, Inc., 8-K 공시",
+        "meta_line": "원/달러 환율 · 10.15 · 환율",
+        "headline": "원/달러 환율 1338.6원 (전일 대비 -0.1%)",
         "chips": [
-          "미분류→"
+          "수출주↓",
+          "여행↑"
         ],
         "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
         }
       },
       "reliability": {
@@ -401,21 +471,21 @@
       "status": "active"
     },
     {
-      "id": "sec-0001956741-0001213900-26-109483",
+      "id": "sec-0001163370-0001163370-26-000032",
       "source": {
         "type": "sec",
-        "ref_id": "0001956741",
-        "url": "https://www.sec.gov/Archives/edgar/data/1956741/000121390026109483/0001213900-26-109483-index.htm",
+        "ref_id": "0001163370",
+        "url": "https://www.sec.gov/Archives/edgar/data/1163370/000116337026000032/0001163370-26-000032-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-10-14T16:00:00-04:00",
-      "collected_at": "2026-10-14T22:23:53.849Z",
+      "event_datetime": "2026-10-15T16:00:00-04:00",
+      "collected_at": "2026-10-15T22:24:32.693Z",
       "type": "ma",
       "category": "인수합병",
       "subject": {
         "entity_type": "stock",
-        "code": "0001956741",
-        "name": "Zone Frontier Inc.",
+        "code": "0001163370",
+        "name": "NORTHRIM BANCORP INC",
         "is_bellwether": false,
         "sectors": [
           "미분류"
@@ -441,67 +511,8 @@
         ]
       },
       "content": {
-        "meta_line": "Zone Frontier Inc. · 10.14 · 인수합병",
-        "headline": "Zone Frontier Inc., 8-K 공시",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001331520-0001331520-26-000117",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001331520",
-        "url": "https://www.sec.gov/Archives/edgar/data/1331520/000133152026000117/0001331520-26-000117-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-14T16:00:00-04:00",
-      "collected_at": "2026-10-14T22:23:53.849Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001331520",
-        "name": "HOME BANCSHARES INC",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "HOME BANCSHARES INC · 10.14 · 인수합병",
-        "headline": "HOME BANCSHARES INC, 8-K 공시",
+        "meta_line": "NORTHRIM BANCORP INC · 10.15 · 인수합병",
+        "headline": "NORTHRIM BANCORP INC, 8-K 공시",
         "chips": [
           "미분류→"
         ],

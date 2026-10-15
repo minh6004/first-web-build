@@ -1,0 +1,395 @@
+[
+  {
+    "event": {
+      "id": "naver-20261016-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261016",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16248513",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-16T07:00:00+09:00",
+      "collected_at": "2026-10-15T22:24:34.194Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 10,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "미국증시, 다우 556P 급등·나스닥 강보합…국채금리 하락에 반전",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "미국증시, 다우 556P 급등·나스닥 강보합…국채금리 하락에 반전"
+      ],
+      "snippets": [
+        "코스닥의 바이오·인터넷·2차전지 등 금리에 민감한 성장주에는 외부 환경의 부담을 낮추는 요인이 될 수 있다. 다만 미국 반도체주의 부진은 삼성전자와 SK하이닉스에 대한 투자심리를 제한할 가능성이 있다. 특히... "
+      ],
+      "media_domains": [
+        "topstarnews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1곳만 존재. 스니펫에서 2차전지는 부수적 언급일 뿐 헤드라인의 주요 내용(미국증시 급등)과의 직접적 연결성 미흡. 신뢰도 기준 미달"
+  },
+  {
+    "event": {
+      "id": "naver-20261016-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261016",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026101514573945982",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-16T07:22:00+09:00",
+      "collected_at": "2026-10-15T22:24:34.970Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "SK바이오사이언스, '폐렴구균 백신' 앞세워 반등 '승부수'",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "SK바이오사이언스, '폐렴구균 백신' 앞세워 반등 '승부수'"
+      ],
+      "snippets": [
+        "SK바이오사이언스가 기존 백신사업의 부진 속에 차세대 폐렴구균 백신 'PCV21'을 중심으로 새로운 성장동력 확보에 착수했다. 독일 위탁개발생산(CDMO) 자회사 IDT바이오로지카가 받쳐주고 있지만, 백신사업의 수익성... "
+      ],
+      "media_domains": [
+        "newsway.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1곳만 존재. 중장기 해설에서 '여러 매체가 다루는지가 기준'이라고 언급하면서도 실제 교차확인은 1곳에 불과해 모순. 신뢰도 기준 미달"
+  },
+  {
+    "event": {
+      "id": "naver-20261016-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261016",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16248533",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-16T07:22:00+09:00",
+      "collected_at": "2026-10-15T22:24:35.872Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "코인거래 39.3% 급증…리플XRP 2615억 1위·퍼퍼 26% 급락",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "코인거래 39.3% 급증…리플XRP 2615억 1위·퍼퍼 26% 급락"
+      ],
+      "snippets": [
+        "글로벌 금융시장에서는 미국의 예상보다 높은 물가 상승률과 인공지능 관련 기술주 불안이 위험자산... ○ 미국 물가 상승에 금리 불확실성…현물 ETF 자금 유출 국내 거래대금 증가와 별개로 글로벌 금융시장에서... "
+      ],
+      "media_domains": [
+        "topstarnews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1곳만 존재. 칩 레이블 '금융'이 부적절 - 내용은 암호화폐 거래량 증감이며 일반 금융시장과 구분 필요. 신뢰도 기준 미달"
+  },
+  {
+    "event": {
+      "id": "naver-20261016-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261016",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16248532",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-16T07:20:00+09:00",
+      "collected_at": "2026-10-15T22:24:36.659Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "트리플에스, 24인 완전체 신곡 'Andless' 공개",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "트리플에스, 24인 완전체 신곡 'Andless' 공개",
+        "트리플에스, 24인 완전체 신곡 발매"
+      ],
+      "snippets": [
+        "서로를 이어주는 접속사 'AND'에 영원히 끝나지 않는 순간과 무한한 가능성이라는 의미를 더해 만든 이름으로, 24명이 하나가 됐을 때의 에너지와 확장성을 강조한다. 음악 작업에는 넷플릭스 영화 '케이팝... ",
+        "24명 멤버가 함께 만들어내는 역동적인 에너지와 새로운 음악적 색깔을 강조했다. 트리플에스는 이번 신곡을 통해 완전체 프로젝트의 연결성을 이어가는 동시에 한층 확장된 음악적 스펙트럼을 보여줄... "
+      ],
+      "media_domains": [
+        "topstarnews.net",
+        "bntnews.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "칩 레이블 '에너지'가 부적절 - 증거는 아이돌 그룹 트리플에스의 음악 신곡 발매 뉴스로 에너지 산업/시장과 무관. 잘못된 태깅"
+  },
+  {
+    "event": {
+      "id": "naver-20261016-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261016",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026101515080970946",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-16T07:10:00+09:00",
+      "collected_at": "2026-10-15T22:24:37.437Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 17,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.16 · 뉴스 화제성",
+        "headline": "SKT·KT·카카오 '모두의 AI' 베타 돌입…전화·검색·카톡으로 승부수",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "SKT·KT·카카오 '모두의 AI' 베타 돌입…전화·검색·카톡으로 승부수"
+      ],
+      "snippets": [
+        "16일 정보기술(IT) 업계에 따르면 SK텔레콤·KT·카카오 컨소시엄은 이날부터 '모두의 AI' 비공개 베타 테스트... 각사가 보유한 플랫폼과 이용자 기반을 활용해 차별화를 꾀하는 구조다. SK텔레콤 컨소시엄은 전화와 문자를... "
+      ],
+      "media_domains": [
+        "newsway.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 1곳만 존재. 중장기 해설에서 '여러 매체 확인'을 신뢰도 기준으로 제시하면서도 실제로는 단일 출처만 보유. 신뢰도 기준 미달"
+  }
+]
