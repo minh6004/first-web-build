@@ -1,0 +1,380 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-17T23:52:53.968Z",
+  "summary": [],
+  "events": [
+    {
+      "id": "ecos-fx-20261016",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261016",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-16T12:00:00+09:00",
+      "collected_at": "2026-10-17T23:52:04.397Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1348.5,
+        "fx_change_pct": 0.7
+      },
+      "scoring": {
+        "surprise_score": 0.35,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 54
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "up"
+          },
+          {
+            "sector": "여행",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.16 · 환율",
+        "headline": "원/달러 환율 1348.5원 (전일 대비 +0.7%)",
+        "chips": [
+          "수출주↑",
+          "여행↓"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.7% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-17T23:52:04.894Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261018-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261018",
+        "url": "https://n.news.naver.com/mnews/article/029/0003053595?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T08:47:00+09:00",
+      "collected_at": "2026-10-17T23:52:06.378Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "삼전닉스, 19년만 최대 하락폭… “과도” vs “단기 반등 어려워”",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261018-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261018",
+        "url": "https://n.news.naver.com/mnews/article/023/0004004428?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T08:51:00+09:00",
+      "collected_at": "2026-10-17T23:52:11.567Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "SK하이닉스, 美 솔리다임 상장 추진에 ‘중복상장’ 논란",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261018-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261018",
+        "url": "https://www.g-enews.com/view.php?ud=2026101808470255720c8c1c064d_1",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T08:50:00+09:00",
+      "collected_at": "2026-10-17T23:52:13.234Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "효성중공업, 美 빅테크 AI 데이터센터에 2억 8500만 달러 변압기 공급",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261018-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261018",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026101510342107184",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T07:18:00+09:00",
+      "collected_at": "2026-10-17T23:52:14.927Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 7,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "계열사 넘어 해외로…삼성SDS·LG CNS, AI로 고객 넓힌다",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}

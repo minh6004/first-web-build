@@ -1,0 +1,158 @@
+[
+  {
+    "event": {
+      "id": "naver-20261018-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261018",
+        "url": "https://n.news.naver.com/mnews/article/030/0003475973?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T08:41:00+09:00",
+      "collected_at": "2026-10-17T23:52:08.297Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 8,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "롯데, '러브 패밀리 페스티벌' 개최…임직원·가족 1만7000명 초청",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "롯데, '러브 패밀리 페스티벌' 개최…임직원·가족 1만7000명 초청"
+      ],
+      "snippets": [
+        "바이오와 2차전지 소재 등 신성장 사업을 주제로 한 대형 그림 도안을 설치해 참가자들이 함께 색칠하도록 했다. 계열사별 가치와 개성을 담은 메시지 배너도 행사장 곳곳에 전시했다. 다자녀 임직원과 장애인 스포츠단... "
+      ],
+      "media_domains": [
+        "etnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "카테고리 '2차전지'와 콘텐츠의 연관성이 약함. 뉴스는 롯데의 사내 행사(패밀리 페스티벌) 개최에 관한 것이며, 2차전지는 행사 배경 요소일 뿐 주요 내용이 아님. 투자자 관심사와 직결된 사업 성과, 공시, 실적 등의 실질적 뉴스로 보기 어려움."
+  },
+  {
+    "event": {
+      "id": "naver-20261018-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261018",
+        "url": "http://www.kjdaily.com/article.php?aid=1792280595689375276",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-18T08:44:00+09:00",
+      "collected_at": "2026-10-17T23:52:09.937Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.18 · 뉴스 화제성",
+        "headline": "SK하이닉스·삼성전자 거래대금 59조원 육박…외국인 8조8천억원 순매도",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "SK하이닉스·삼성전자 거래대금 59조원 육박…외국인 8조8천억원 순매도"
+      ],
+      "snippets": [
+        "속 바이오주 상승 지난 한 주 국내 증시에서 SK하이닉스와 삼성전자에 59조원에 육박하는 거래대금이... 26~30위는 NAVER, HD현대중공업, 셀트리온, 삼성바이오로직스, HD현대일렉트릭 순이다. 26위 NAVER는... "
+      ],
+      "media_domains": [
+        "kjdaily.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "헤드라인이 반도체(SK하이닉스, 삼성전자) 거래대금에 관한 내용인데, 카테고리를 '바이오'로 분류한 것이 부적절. 스니펫에서 바이오 관련 내용은 매우 제한적이며(셀트리온, 삼성바이오로직스 언급만 있음), 뉴스의 주요 초점이 아님."
+  }
+]
