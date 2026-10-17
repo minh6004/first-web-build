@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-16",
-  "generated_at": "2026-10-15T22:24:44.620Z",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T00:13:07.525Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "반도체",
+      "name": "바이오",
       "events": [
         {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
-          "direction": "up",
-          "strength": "강함"
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+          "direction": "down",
+          "strength": "중간"
         },
         {
-          "name": "애플 CEO, 중국산 반도체 사용 시사…“메모리 제약 절대적 위기”",
+          "name": "\"한일정상회담 계기, 투자로 잇는다\"…경북도, 日 기업 공략",
           "direction": "neutral",
-          "strength": "중간"
+          "strength": "약함"
         }
       ]
     }
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:33.141Z",
+      "collected_at": "2026-10-17T00:12:56.133Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:34.281Z",
+      "collected_at": "2026-10-17T00:12:57.228Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -151,6 +151,73 @@
       "status": "active"
     },
     {
+      "id": "ecos-fx-20261016",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261016",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-16T12:00:00+09:00",
+      "collected_at": "2026-10-17T00:12:56.257Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1348.5,
+        "fx_change_pct": 0.7
+      },
+      "scoring": {
+        "surprise_score": 0.35,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 54
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "up"
+          },
+          {
+            "sector": "여행",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.16 · 환율",
+        "headline": "원/달러 환율 1348.5원 (전일 대비 +0.7%)",
+        "chips": [
+          "수출주↑",
+          "여행↓"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.7% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "kdata-202609-8507",
       "source": {
         "type": "kdata",
@@ -159,7 +226,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:33.734Z",
+      "collected_at": "2026-10-17T00:12:56.682Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +291,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:34.833Z",
+      "collected_at": "2026-10-17T00:12:57.772Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -289,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:33.468Z",
+      "collected_at": "2026-10-17T00:12:56.780Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -343,52 +410,52 @@
       "status": "active"
     },
     {
-      "id": "naver-20261016-반도체",
+      "id": "naver-20261017-바이오",
       "source": {
         "type": "naver",
-        "ref_id": "반도체-20261016",
-        "url": "https://n.news.naver.com/mnews/article/032/0003476660?sid=105",
+        "ref_id": "바이오-20261017",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3724037",
         "tier": 2
       },
-      "event_datetime": "2026-10-16T07:19:00+09:00",
-      "collected_at": "2026-10-15T22:24:33.345Z",
+      "event_datetime": "2026-10-17T09:04:00+09:00",
+      "collected_at": "2026-10-17T00:12:58.152Z",
       "type": "industry_news",
       "category": "뉴스 화제성",
       "subject": {
         "entity_type": "sector",
-        "code": "반도체",
-        "name": "반도체",
+        "code": "바이오",
+        "name": "바이오",
         "is_bellwether": true,
         "sectors": [
-          "반도체"
+          "바이오"
         ]
       },
       "metrics": {
         "article_count": 20,
-        "distinct_media_count": 2
+        "distinct_media_count": 1
       },
       "scoring": {
-        "surprise_score": 0.25,
+        "surprise_score": 0.13,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 40
+        "priority_score": 33
       },
       "impact": {
         "direction": "neutral",
-        "strength": "medium",
+        "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "반도체",
+            "sector": "바이오",
             "direction": "neutral"
           }
         ]
       },
       "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.16 · 뉴스 화제성",
-        "headline": "애플 CEO, 중국산 반도체 사용 시사…“메모리 제약 절대적 위기”",
+        "meta_line": "바이오 관련 뉴스 · 10.17 · 뉴스 화제성",
+        "headline": "\"한일정상회담 계기, 투자로 잇는다\"…경북도, 日 기업 공략",
         "chips": [
-          "반도체→"
+          "바이오→"
         ],
         "horizon": {
           "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
@@ -398,133 +465,68 @@
       "reliability": {
         "tier": 2,
         "needs_review": false,
-        "corroboration_count": 2
+        "corroboration_count": 1
       },
       "updates": [],
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261015",
+      "id": "naver-20261017-금융",
       "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261015",
-        "url": "https://ecos.bok.or.kr/",
-        "tier": 1
+        "type": "naver",
+        "ref_id": "금융-20261017",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=616535",
+        "tier": 2
       },
-      "event_datetime": "2026-10-15T12:00:00+09:00",
-      "collected_at": "2026-10-15T22:24:32.967Z",
-      "type": "macro_indicator",
-      "category": "환율",
+      "event_datetime": "2026-10-17T09:08:00+09:00",
+      "collected_at": "2026-10-17T00:12:58.885Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
       "subject": {
-        "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
         "is_bellwether": true,
         "sectors": [
-          "수출주",
-          "여행"
+          "금융"
         ]
       },
       "metrics": {
-        "fx_value_krw": 1338.6,
-        "fx_change_pct": -0.1
+        "article_count": 20,
+        "distinct_media_count": 1
       },
       "scoring": {
-        "surprise_score": 0.05,
+        "surprise_score": 0.13,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 36
-      },
-      "impact": {
-        "direction": "down",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "down"
-          },
-          {
-            "sector": "여행",
-            "direction": "up"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 10.15 · 환율",
-        "headline": "원/달러 환율 1338.6원 (전일 대비 -0.1%)",
-        "chips": [
-          "수출주↓",
-          "여행↑"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
-          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001163370-0001163370-26-000032",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001163370",
-        "url": "https://www.sec.gov/Archives/edgar/data/1163370/000116337026000032/0001163370-26-000032-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-15T16:00:00-04:00",
-      "collected_at": "2026-10-15T22:24:32.693Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001163370",
-        "name": "NORTHRIM BANCORP INC",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
+        "priority_score": 33
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
+            "sector": "금융",
+            "direction": "neutral"
           }
         ]
       },
       "content": {
-        "meta_line": "NORTHRIM BANCORP INC · 10.15 · 인수합병",
-        "headline": "NORTHRIM BANCORP INC, 8-K 공시",
+        "meta_line": "금융 관련 뉴스 · 10.17 · 뉴스 화제성",
+        "headline": "[뉴욕증시 혼조] 코어위브 7.6% 급락·반도체 약세…뉴욕증시, AI 신용 우...",
         "chips": [
-          "미분류→"
+          "금융→"
         ],
         "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
         }
       },
       "reliability": {
-        "tier": 1,
+        "tier": 2,
         "needs_review": false,
-        "corroboration_count": 0
+        "corroboration_count": 1
       },
       "updates": [],
       "status": "active"
