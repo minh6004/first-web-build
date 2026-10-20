@@ -1,0 +1,326 @@
+[
+  {
+    "event": {
+      "id": "naver-20261020-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261020",
+        "url": "https://n.news.naver.com/mnews/article/008/0005428771?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:25:00+09:00",
+      "collected_at": "2026-10-20T00:58:15.202Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "휴림로봇 子 이큐셀, 700만달러 규모 태양전지 양산 장비 수주",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "휴림로봇 子 이큐셀, 700만달러 규모 태양전지 양산 장비 수주",
+        "휴림로봇 子 이큐셀, 93억 규모 페로브스카이트 장비 수주",
+        "휴림로봇 \"이큐셀, 글로벌 C사에 93억원 규모 태양전지 장비 공급\"",
+        "이큐셀, 93억 규모 페로브스카이트 태양전지 양산 장비 수주"
+      ],
+      "snippets": [
+        "태양전지' 대량 양산 라인의 핵심 설비인 NPS(New Plasma Source System) 장비를 수주하는 데 성공했다고 20일... 이큐셀은 지난 △2022년 파일럿 라인을 시작으로 △2023년 R&D 1차 라인 △2024년 R&D 2차 라인 장비를 잇달아... ",
+        "2024년 11월 주식양수도 계약을 통해 이큐셀 최대주주에 올랐다. 이큐셀은 반도체·디스플레이·에너지 분야 공정 장비와 2차전지 제조공정 자동화 장비 사업을 영위한다.",
+        "태양전지 양산 장비를 수주했다고 20일 밝혔다. 이번에 수주한 장비는 페로브스카이트 태양전지 대량 양산... 이큐셀은 2022년 파일럿 라인을 시작으로 2023년 연구개발(R&D) 1차 라인, 2024년 R&D 2차 라인에 관련 장비를... ",
+        "태양전지’ 대량 양산 라인의 핵심 설비인 NPS(New Plasma Source System) 장비를 약 93억원(약 700만 달러) 규모로... 앞서 회사는 지난 2022년 파일럿 라인을 시작으로 2023년 R&D 1차 라인, 2024년 R&D 2차 라인 장비를 잇달아... "
+      ],
+      "media_domains": [
+        "mt.co.kr",
+        "sentv.co.kr",
+        "newspim.com",
+        "edaily.co.kr"
+      ],
+      "corroboration_count": 4
+    },
+    "reason": "칩 라벨이 '2차전지'이지만 증거에서 다루는 실제 사업은 '페로브스카이트 태양전지 양산 장비'이며, 이큐셀은 '2차전지 제조공정 자동화 장비' 사업을 영위하나 이번 수주는 태양전지 장비임. 산업 분류 오류."
+  },
+  {
+    "event": {
+      "id": "naver-20261020-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261020",
+        "url": "https://www.hidomin.com/news/articleView.html?idxno=725599",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:56:00+09:00",
+      "collected_at": "2026-10-20T00:58:18.516Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "美 기술주 반등에도 코스피 2%대 급락…삼전·닉스 동반 약세",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "美 기술주 반등에도 코스피 2%대 급락…삼전·닉스 동반 약세"
+      ],
+      "snippets": [
+        "삼성전자가 1%대, SK하이닉스가 4% 안팎의 하락률을 보이는 가운데 SK스퀘어(-2.95%), 삼성전기(-2.74%), LG에너지솔루션(-2.43%), 현대차(-1.99%), 삼성생명(-1.02%), KB금융(-0.55%) 등도 내리고 있다. 업종별로는 의료... "
+      ],
+      "media_domains": [
+        "hidomin.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 수가 1개로 단일 출처이며, 헤드라인 내용(시장 급락 뉴스)이 화제성 카드로서의 신뢰도가 낮음. 또한 단기 영향이 '명확하지 않다'는 해설과 달리 급락률이 명시되어 있어 불일치."
+  },
+  {
+    "event": {
+      "id": "naver-20261020-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261020",
+        "url": "https://n.news.naver.com/mnews/article/310/0000140961?sid=100",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:56:00+09:00",
+      "collected_at": "2026-10-20T00:58:20.198Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "정부 DMZ 환경·역사 조사, 유엔사 거부로 2년5개월째 중단",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "정부 DMZ 환경·역사 조사, 유엔사 거부로 2년5개월째 중단",
+        "DMZ 조사 유엔사 거부로 2년 5개월 중단"
+      ],
+      "snippets": [
+        "20일 통일부와 기후에너지환경부 등에 따르면 2020년 시작된 통일부·기후부·국가유산청·산림청 등의 DMZ 내부 조사가 2024년 5월 중단돼 현재까지 재개되지 못하고 있다. 정부의 DMZ 내부 조사는 2018년... ",
+        "20일 통일부와 기후에너지환경부 등에 따르면 2020년 5월 시작된 DMZ 내부 조사는 2024년 5월 이후 재개되지... 통일부는 DMZ 내 사라진 마을을, 기후에너지환경부는 생태계를, 국가유산청은 유네스코 세계유산 잠정목록... "
+      ],
+      "media_domains": [
+        "womennews.co.kr",
+        "gokorea.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "칩 라벨이 '에너지'이지만 증거의 실제 내용은 DMZ 환경·역사 조사 중단에 관한 정치·통일 이슈로, 에너지 산업과 무관함. 주제 분류 오류."
+  },
+  {
+    "event": {
+      "id": "naver-20261020-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261020",
+        "url": "https://www.news2day.co.kr/article/20261020500063",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:56:00+09:00",
+      "collected_at": "2026-10-20T00:58:21.900Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "[신센최변의 AI파도(2)] 아이를 파도 쪽으로 보내며 — 아이들은 어디에...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[신센최변의 AI파도(2)] 아이를 파도 쪽으로 보내며 — 아이들은 어디에..."
+      ],
+      "snippets": [
+        "플랫폼센터장과 최신영 변호사(법무법인 LKB평산)가 공동필자로 참여해 격주로 번갈아 펜을 드는 이례적인 시도다. 신 센터장은 IT산업 현장에서 쌓아온 경험을 바탕으로 AI 기술의 가능성과 한계를 탐색하고, 최 변호사는... "
+      ],
+      "media_domains": [
+        "news2day.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "교차확인 매체 수가 1개로 단일 출처이며, 제시된 스니펫은 AI에 관한 칼럼/에세이로 화제성 뉴스 카드의 기준(기업 뉴스, 시장 이슈)에 부합하지 않음. 의견성 콘텐츠."
+  }
+]

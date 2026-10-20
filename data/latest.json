@@ -1,51 +1,35 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T00:00:19.207Z",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T00:58:30.645Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "에너지",
+      "name": "반도체",
       "events": [
         {
-          "name": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "구광모, LG 전 계열사 성과·전략 점검…사업보고회 돌입",
+          "name": "이 대통령, 23일 규제합리화위 2차 회의 주재…첨단산업 육성 등 논의",
           "direction": "neutral",
-          "strength": "강함"
-        }
-      ]
-    },
-    {
-      "id": "sector-1",
-      "name": "2차전지",
-      "events": [
-        {
-          "name": "신한운용 “SOL 전고체배터리 ETF, 3개월 수익률 1위”",
-          "direction": "neutral",
-          "strength": "강함"
-        },
-        {
-          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
-          "direction": "up",
           "strength": "중간"
         }
       ]
     },
     {
-      "id": "sector-2",
+      "id": "sector-1",
       "name": "바이오",
       "events": [
         {
-          "name": "삼성바이오로직스, 월드 ADC서 전 주기 서비스 역량 강조",
-          "direction": "neutral",
-          "strength": "강함"
-        },
-        {
           "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
           "direction": "down",
+          "strength": "중간"
+        },
+        {
+          "name": "삼성전자가 1대 주주인 美 엘리먼트, 서울서 차세대 유전체 분석 기술 ...",
+          "direction": "neutral",
           "strength": "중간"
         }
       ]
@@ -61,7 +45,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-19T00:00:03.687Z",
+      "collected_at": "2026-10-20T00:58:11.447Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -126,7 +110,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-19T00:00:04.659Z",
+      "collected_at": "2026-10-20T00:58:12.382Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -183,198 +167,15 @@
       "status": "active"
     },
     {
-      "id": "naver-20261019-에너지",
-      "source": {
-        "type": "naver",
-        "ref_id": "에너지-20261019",
-        "url": "https://daily.hankooki.com/news/articleView.html?idxno=1415913",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-19T08:56:00+09:00",
-      "collected_at": "2026-10-19T00:00:07.544Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "에너지",
-        "name": "에너지",
-        "is_bellwether": true,
-        "sectors": [
-          "에너지"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 6
-      },
-      "scoring": {
-        "surprise_score": 0.75,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 70
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "strong",
-        "affected_sectors": [
-          {
-            "sector": "에너지",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "에너지 관련 뉴스 · 10.19 · 뉴스 화제성",
-        "headline": "구광모, LG 전 계열사 성과·전략 점검…사업보고회 돌입",
-        "chips": [
-          "에너지→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 6
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261019-2차전지",
-      "source": {
-        "type": "naver",
-        "ref_id": "2차전지-20261019",
-        "url": "https://n.news.naver.com/mnews/article/011/0004672566?sid=101",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-19T08:55:00+09:00",
-      "collected_at": "2026-10-19T00:00:05.238Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "2차전지",
-        "name": "2차전지",
-        "is_bellwether": true,
-        "sectors": [
-          "2차전지"
-        ]
-      },
-      "metrics": {
-        "article_count": 19,
-        "distinct_media_count": 5
-      },
-      "scoring": {
-        "surprise_score": 0.63,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 63
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "strong",
-        "affected_sectors": [
-          {
-            "sector": "2차전지",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "2차전지 관련 뉴스 · 10.19 · 뉴스 화제성",
-        "headline": "신한운용 “SOL 전고체배터리 ETF, 3개월 수익률 1위”",
-        "chips": [
-          "2차전지→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 5
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261019-바이오",
-      "source": {
-        "type": "naver",
-        "ref_id": "바이오-20261019",
-        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728258",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-19T08:58:00+09:00",
-      "collected_at": "2026-10-19T00:00:05.955Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "바이오",
-        "name": "바이오",
-        "is_bellwether": true,
-        "sectors": [
-          "바이오"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 5
-      },
-      "scoring": {
-        "surprise_score": 0.63,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 63
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "strong",
-        "affected_sectors": [
-          {
-            "sector": "바이오",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "바이오 관련 뉴스 · 10.19 · 뉴스 화제성",
-        "headline": "삼성바이오로직스, 월드 ADC서 전 주기 서비스 역량 강조",
-        "chips": [
-          "바이오→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 5
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "ecos-fx-20261016",
+      "id": "ecos-fx-20261020",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261016",
+        "ref_id": "fx-usd-20261020",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-10-16T12:00:00+09:00",
-      "collected_at": "2026-10-19T00:00:04.848Z",
+      "event_datetime": "2026-10-20T12:00:00+09:00",
+      "collected_at": "2026-10-20T00:58:11.571Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -388,40 +189,40 @@
         ]
       },
       "metrics": {
-        "fx_value_krw": 1348.5,
-        "fx_change_pct": 0.7
+        "fx_value_krw": 1332.1,
+        "fx_change_pct": -0.8
       },
       "scoring": {
-        "surprise_score": 0.35,
+        "surprise_score": 0.4,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 54
+        "priority_score": 57
       },
       "impact": {
-        "direction": "up",
+        "direction": "down",
         "strength": "medium",
         "affected_sectors": [
           {
             "sector": "수출주",
-            "direction": "up"
+            "direction": "down"
           },
           {
             "sector": "여행",
-            "direction": "down"
+            "direction": "up"
           }
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 10.16 · 환율",
-        "headline": "원/달러 환율 1348.5원 (전일 대비 +0.7%)",
+        "meta_line": "원/달러 환율 · 10.20 · 환율",
+        "headline": "원/달러 환율 1332.1원 (전일 대비 -0.8%)",
         "chips": [
-          "수출주↑",
-          "여행↓"
+          "수출주↓",
+          "여행↑"
         ],
         "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.7% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+          "short_term": "원/달러 환율이 전일 대비 0.8% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
         }
       },
       "reliability": {
@@ -441,7 +242,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-19T00:00:04.185Z",
+      "collected_at": "2026-10-20T00:58:11.912Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -506,7 +307,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-19T00:00:05.171Z",
+      "collected_at": "2026-10-20T00:58:12.870Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -558,6 +359,190 @@
         "tier": 1,
         "needs_review": false,
         "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-20T00:58:12.133Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261020-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261020",
+        "url": "https://n.news.naver.com/mnews/article/056/0012276900?sid=100",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:56:00+09:00",
+      "collected_at": "2026-10-20T00:58:12.890Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "이 대통령, 23일 규제합리화위 2차 회의 주재…첨단산업 육성 등 논의",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261020-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261020",
+        "url": "https://n.news.naver.com/mnews/article/366/0001199016?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-20T09:57:00+09:00",
+      "collected_at": "2026-10-20T00:58:16.878Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.20 · 뉴스 화제성",
+        "headline": "삼성전자가 1대 주주인 美 엘리먼트, 서울서 차세대 유전체 분석 기술 ...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 2
       },
       "updates": [],
       "status": "active"
