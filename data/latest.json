@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T00:58:30.645Z",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T00:27:25.175Z",
   "summary": [
     {
       "id": "sector-0",
@@ -12,7 +12,7 @@
           "strength": "강함"
         },
         {
-          "name": "이 대통령, 23일 규제합리화위 2차 회의 주재…첨단산업 육성 등 논의",
+          "name": "美 금리·유가 안정에 삼전·하닉 반등…코스피 2%대 강세",
           "direction": "neutral",
           "strength": "중간"
         }
@@ -20,6 +20,22 @@
     },
     {
       "id": "sector-1",
+      "name": "2차전지",
+      "events": [
+        {
+          "name": "삼성자산, KODEX 전고체배터리ESS TOP2플러스 순자산 2000억 돌파",
+          "direction": "neutral",
+          "strength": "중간"
+        },
+        {
+          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
+          "direction": "up",
+          "strength": "중간"
+        }
+      ]
+    },
+    {
+      "id": "sector-2",
       "name": "바이오",
       "events": [
         {
@@ -28,7 +44,7 @@
           "strength": "중간"
         },
         {
-          "name": "삼성전자가 1대 주주인 美 엘리먼트, 서울서 차세대 유전체 분석 기술 ...",
+          "name": "삼성바이오에피스, '1호 신약' 미국 FDA 패스트트랙 지정",
           "direction": "neutral",
           "strength": "중간"
         }
@@ -45,7 +61,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:11.447Z",
+      "collected_at": "2026-10-21T00:27:11.340Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +126,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:12.382Z",
+      "collected_at": "2026-10-21T00:27:12.265Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +191,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-20T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:11.571Z",
+      "collected_at": "2026-10-21T00:27:11.302Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -234,6 +250,67 @@
       "status": "active"
     },
     {
+      "id": "naver-20261021-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261021",
+        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=323003",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-21T09:16:00+09:00",
+      "collected_at": "2026-10-21T00:27:12.142Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.21 · 뉴스 화제성",
+        "headline": "삼성자산, KODEX 전고체배터리ESS TOP2플러스 순자산 2000억 돌파",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "kdata-202609-8507",
       "source": {
         "type": "kdata",
@@ -242,7 +319,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:11.912Z",
+      "collected_at": "2026-10-21T00:27:11.804Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -307,7 +384,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:12.870Z",
+      "collected_at": "2026-10-21T00:27:12.730Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -364,6 +441,67 @@
       "status": "active"
     },
     {
+      "id": "naver-20261021-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261021",
+        "url": "https://new.dailypharm.com/user/news/343637?REFERER=NP",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-21T09:24:00+09:00",
+      "collected_at": "2026-10-21T00:27:13.000Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.21 · 뉴스 화제성",
+        "headline": "삼성바이오에피스, '1호 신약' 미국 FDA 패스트트랙 지정",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "ecos-cpi-202609",
       "source": {
         "type": "ecos",
@@ -372,7 +510,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-20T00:58:12.133Z",
+      "collected_at": "2026-10-21T00:27:11.803Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -421,128 +559,6 @@
         "tier": 1,
         "needs_review": false,
         "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261020-반도체",
-      "source": {
-        "type": "naver",
-        "ref_id": "반도체-20261020",
-        "url": "https://n.news.naver.com/mnews/article/056/0012276900?sid=100",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-20T09:56:00+09:00",
-      "collected_at": "2026-10-20T00:58:12.890Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "반도체",
-        "name": "반도체",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 2
-      },
-      "scoring": {
-        "surprise_score": 0.25,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 40
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "medium",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "반도체 관련 뉴스 · 10.20 · 뉴스 화제성",
-        "headline": "이 대통령, 23일 규제합리화위 2차 회의 주재…첨단산업 육성 등 논의",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 2
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "naver-20261020-바이오",
-      "source": {
-        "type": "naver",
-        "ref_id": "바이오-20261020",
-        "url": "https://n.news.naver.com/mnews/article/366/0001199016?sid=105",
-        "tier": 2
-      },
-      "event_datetime": "2026-10-20T09:57:00+09:00",
-      "collected_at": "2026-10-20T00:58:16.878Z",
-      "type": "industry_news",
-      "category": "뉴스 화제성",
-      "subject": {
-        "entity_type": "sector",
-        "code": "바이오",
-        "name": "바이오",
-        "is_bellwether": true,
-        "sectors": [
-          "바이오"
-        ]
-      },
-      "metrics": {
-        "article_count": 20,
-        "distinct_media_count": 2
-      },
-      "scoring": {
-        "surprise_score": 0.25,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 40
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "medium",
-        "affected_sectors": [
-          {
-            "sector": "바이오",
-            "direction": "neutral"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "바이오 관련 뉴스 · 10.20 · 뉴스 화제성",
-        "headline": "삼성전자가 1대 주주인 美 엘리먼트, 서울서 차세대 유전체 분석 기술 ...",
-        "chips": [
-          "바이오→"
-        ],
-        "horizon": {
-          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
-          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 2,
-        "needs_review": false,
-        "corroboration_count": 2
       },
       "updates": [],
       "status": "active"
