@@ -1,0 +1,80 @@
+[
+  {
+    "event": {
+      "id": "naver-20261022-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261022",
+        "url": "https://m.entertain.naver.com/article/408/0000325183",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-22T09:29:00+09:00",
+      "collected_at": "2026-10-22T00:29:55.542Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.22 · 뉴스 화제성",
+        "headline": "신지, 결혼 5개월 만에 부부상담…\"내 음악에 남편 관여 안 했으면\" [소...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "신지, 결혼 5개월 만에 부부상담…\"내 음악에 남편 관여 안 했으면\" [소..."
+      ],
+      "snippets": [
+        "신지는 \"밖에서 에너지를 100% 쓰기 때문에 일을 끝내고 오면 집에서 아무것도 안 하는 걸 좋아한다. TV 보거나 남편, 강아지 옆에 있을 때 충전이 많이 되는데 남편은 내가 무기력하다고 생각한다\"고 고민을 털어놓았다.... "
+      ],
+      "media_domains": [
+        "enews.imbc.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "카드 내용이 증거와 완전히 불일치. '에너지' 칩은 연예인 신지의 부부상담 뉘앙스 개인생활 기사로, 에너지 산업/기업뉴스와 무관함. 단 1개 매체만 확인. 오분류된 콘텐츠"
+  }
+]

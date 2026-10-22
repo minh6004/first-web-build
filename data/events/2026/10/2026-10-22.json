@@ -1,0 +1,577 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T00:30:02.593Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "2차전지",
+      "events": [
+        {
+          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
+          "direction": "up",
+          "strength": "중간"
+        },
+        {
+          "name": "자비스, 글로벌 2차전지 제조사에 34억 X-ray 검사장비 공급",
+          "direction": "neutral",
+          "strength": "중간"
+        },
+        {
+          "name": "Tesla, Inc., 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "바이오",
+      "events": [
+        {
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+          "direction": "down",
+          "strength": "중간"
+        },
+        {
+          "name": "코오롱바이오텍, 'BIX 2026' 참가... 세포·유전자치료제 CDMO 역량 소개",
+          "direction": "neutral",
+          "strength": "중간"
+        },
+        {
+          "name": "JOHNSON & JOHNSON, 10-Q 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-2",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "권형택 기보 이사장 취임 100일…\"기관체계 개편해 기술혁신 지원기반 ...",
+          "direction": "neutral",
+          "strength": "중간"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kdata-202609-8542",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8542-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:52.300Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8542",
+        "name": "반도체(집적회로(반도체))",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 43116428429,
+        "import_value_usd": 10953267598,
+        "trade_balance_usd": 32163160831,
+        "export_value_yoy_pct": 216.5,
+        "import_value_yoy_pct": 115.7
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 · 2026.09 · 수출입동향",
+        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+        "chips": [
+          "반도체↑"
+        ],
+        "horizon": {
+          "short_term": "반도체 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-2709",
+      "source": {
+        "type": "kdata",
+        "ref_id": "2709-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:53.400Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2709",
+        "name": "에너지(원유)",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 153,
+        "import_value_usd": 7961010070,
+        "trade_balance_usd": -7961009917,
+        "export_value_yoy_pct": null,
+        "import_value_yoy_pct": 38.4
+      },
+      "scoring": {
+        "surprise_score": 0.77,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 79
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 · 2026.09 · 수출입동향",
+        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +38.4%",
+        "chips": [
+          "에너지↑"
+        ],
+        "horizon": {
+          "short_term": "에너지 수입이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-8507",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8507-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:52.849Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8507",
+        "name": "2차전지(축전지(2차전지))",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 723652254,
+        "import_value_usd": 675535070,
+        "trade_balance_usd": 48117184,
+        "export_value_yoy_pct": 14,
+        "import_value_yoy_pct": 13.3
+      },
+      "scoring": {
+        "surprise_score": 0.28,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 50
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 · 2026.09 · 수출입동향",
+        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +14%",
+        "chips": [
+          "2차전지↑"
+        ],
+        "horizon": {
+          "short_term": "2차전지 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202609-3004",
+      "source": {
+        "type": "kdata",
+        "ref_id": "3004-202609",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:53.951Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "3004",
+        "name": "바이오(의약품)",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 81983317,
+        "import_value_usd": 513504841,
+        "trade_balance_usd": -431521524,
+        "export_value_yoy_pct": -12.9,
+        "import_value_yoy_pct": 1.8
+      },
+      "scoring": {
+        "surprise_score": 0.26,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "down",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 · 2026.09 · 수출입동향",
+        "headline": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+        "chips": [
+          "바이오↓"
+        ],
+        "horizon": {
+          "short_term": "바이오 수출이 전년 동월 대비 줄어 관련 업종에 단기적으로 부담이 될 수 있어요.",
+          "long_term": "일시적 둔화인지 추세적 하락인지 다음 달 실적과 함께 확인할 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261022-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261022",
+        "url": "https://www.pharmnews.com/news/articleView.html?idxno=307176",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-22T09:28:00+09:00",
+      "collected_at": "2026-10-22T00:29:54.051Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.22 · 뉴스 화제성",
+        "headline": "코오롱바이오텍, 'BIX 2026' 참가... 세포·유전자치료제 CDMO 역량 소개",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "naver-20261022-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261022",
+        "url": "https://n.news.naver.com/mnews/article/366/0001199538?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-22T09:28:00+09:00",
+      "collected_at": "2026-10-22T00:29:56.304Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.22 · 뉴스 화제성",
+        "headline": "로앤컴퍼니, 일본 IT 박람회서 ‘렉스팬드 AI’ 선보여…현지 시장 공략",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": false,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:52.776Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-fx-20261021",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261021",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-21T12:00:00+09:00",
+      "collected_at": "2026-10-22T00:29:52.237Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1328,
+        "fx_change_pct": -0.3
+      },
+      "scoring": {
+        "surprise_score": 0.15,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 42
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.21 · 환율",
+        "headline": "원/달러 환율 1328원 (전일 대비 -0.3%)",
+        "chips": [
+          "수출주↓",
+          "여행↑"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.3% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}
