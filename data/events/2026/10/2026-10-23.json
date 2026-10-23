@@ -1,0 +1,490 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T00:28:27.180Z",
+  "summary": [],
+  "events": [
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-23T00:27:46.887Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-fx-20261022",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261022",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T12:00:00+09:00",
+      "collected_at": "2026-10-23T00:27:46.223Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1325.5,
+        "fx_change_pct": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 39
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.22 · 환율",
+        "headline": "원/달러 환율 1325.5원 (전일 대비 -0.2%)",
+        "chips": [
+          "수출주↓",
+          "여행↑"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.2% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001318605-0001628280-26-066775",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001318605",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/0001628280-26-066775-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T16:00:00-04:00",
+      "collected_at": "2026-10-23T00:27:46.996Z",
+      "type": "earnings",
+      "category": "분기보고서",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001318605",
+        "name": "Tesla, Inc.",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral",
+            "note": "분기보고서"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Tesla, Inc. · 10.22 · 분기보고서",
+        "headline": "Tesla, Inc., 10-Q 공시",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001326801-0001628280-26-066773",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001326801",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T16:00:00-04:00",
+      "collected_at": "2026-10-23T00:27:46.996Z",
+      "type": "earnings",
+      "category": "분기보고서",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001326801",
+        "name": "Meta Platforms, Inc.",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral",
+            "note": "분기보고서"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Meta Platforms, Inc. · 10.22 · 분기보고서",
+        "headline": "Meta Platforms, Inc., 10-Q 공시",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20261023-000513",
+      "source": {
+        "type": "dart",
+        "ref_id": "20261022000513",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000513",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-23T12:00:00+09:00",
+      "collected_at": "2026-10-23T00:27:48.333Z",
+      "type": "ma",
+      "category": "인수합병",
+      "subject": {
+        "entity_type": "stock",
+        "code": "006980",
+        "name": "우성",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 10
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "우성 · 10.23 · 인수합병",
+        "headline": "우성, [기재정정]주요사항보고서(회사합병결정)",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "인수합병·분할 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래가 실제로 완료되는지, 사업 구조가 어떻게 재편되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001506983-0001493152-26-048139",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001506983",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226048139/0001493152-26-048139-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T16:00:00-04:00",
+      "collected_at": "2026-10-23T00:27:46.994Z",
+      "type": "ma",
+      "category": "인수합병",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001506983",
+        "name": "Glucotrack, Inc.",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 10
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Glucotrack, Inc. · 10.22 · 인수합병",
+        "headline": "Glucotrack, Inc., 8-K 공시",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001903382-0001104659-26-118199",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001903382",
+        "url": "https://www.sec.gov/Archives/edgar/data/1903382/000110465926118199/0001104659-26-118199-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T16:00:00-04:00",
+      "collected_at": "2026-10-23T00:27:46.994Z",
+      "type": "ma",
+      "category": "지배구조 변경",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001903382",
+        "name": "Bluerock Homes Trust, Inc.",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 10
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "지배구조 변경"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Bluerock Homes Trust, Inc. · 10.22 · 지배구조 변경",
+        "headline": "Bluerock Homes Trust, Inc., 8-K 공시",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001826011-0001437749-26-033292",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001826011",
+        "url": "https://www.sec.gov/Archives/edgar/data/1826011/000143774926033292/0001437749-26-033292-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-22T16:00:00-04:00",
+      "collected_at": "2026-10-23T00:27:46.994Z",
+      "type": "ma",
+      "category": "지배구조 변경",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001826011",
+        "name": "Banzai International, Inc.",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 10
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "지배구조 변경"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Banzai International, Inc. · 10.22 · 지배구조 변경",
+        "headline": "Banzai International, Inc., 8-K 공시",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}

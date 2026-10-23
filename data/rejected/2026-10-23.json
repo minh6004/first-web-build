@@ -1,0 +1,499 @@
+[
+  {
+    "event": {
+      "id": "naver-20261023-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261023",
+        "url": "https://www.m-economynews.com/news/article.html?no=72013",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:24:00+09:00",
+      "collected_at": "2026-10-23T00:27:46.924Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "코스피, 美 반도체주 급락에 3% 가까이 하락...5400선 붕괴",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "코스피, 美 반도체주 급락에 3% 가까이 하락...5400선 붕괴",
+        "코스피, 美 반도체주 급락에 휘청…양대 지수 3%대 하락"
+      ],
+      "snippets": [
+        "코스피와 코스닥이 미국 증시의 인공지능(AI)·반도체주 급락 여파로 23일 장 초반 동반 하락하며 약세를... 특히 필라델피아 반도체지수는 6.72% 급락했으며 엔비디아(-4.40%), 마이크론(-6.26%), 인텔(-8.04%) 등 주요... ",
+        "미국 반도체주 급락 여파로 국내 증시가 장 초반부터 큰 폭으로 하락하고 있다. 삼성전자와 SK하이닉스 등 반도체 대형주가 약세를 보이면서 코스피가 3%대 하락한 데 이어 코스닥도 3%대 내림세를 나타내고... "
+      ],
+      "media_domains": [
+        "m-economynews.com",
+        "ziksir.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261023-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261023",
+        "url": "https://n.news.naver.com/mnews/article/014/0005593429?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:26:00+09:00",
+      "collected_at": "2026-10-23T00:27:47.749Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 7
+      },
+      "scoring": {
+        "surprise_score": 0.88,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 78
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "SM국일, ESS 장비업체 대진기계 인수 우선협상대상자 선정",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 7
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "SM국일, ESS 장비업체 대진기계 인수 우선협상대상자 선정",
+        "SM국일, ESS 장비 전문 대진기계 인수 우선협상대상자 선정…“신성장동...",
+        "SM국일, 대진기계 인수 우협 선정…ESS·반도체 장비로 영역 확장",
+        "SM국일, ESS 장비 전문 대진기계 인수 우선협상대상자 선정",
+        "SM국일, 2차전지·반도체 장비업체 대진기계 인수 우선협상자 선정"
+      ],
+      "snippets": [
+        "SM그룹 제조·서비스부문 계열사 SM국일(옛 국일제지)은 2차전지 및 반도체 생산장비 전문기업 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다. 지난 1980년 설립된 대진기계는 2차전지 배터리 모듈·팩... ",
+        "SM그룹의 제조∙서비스부문 계열사 SM국일(구 국일제지)은 2차전지 및 반도체 생산장비 전문기업 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다. 이번 우선협상대상자 선정은 SM국일이 최근 새롭게... ",
+        "SM그룹 제조·서비스부문 계열사 SM국일(옛 국일제지)이 2차전지·반도체 생산장비 전문기업 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다. SM국일은 새 경영체제를 꾸린 뒤 신사업 발굴과 사업... ",
+        "SM그룹의 제조·서비스부문 계열사 SM국일(옛 국일제지)이 2차전지·반도체 생산장비 전문기업 대진기계 인수를 위한 우선협상대상자로 선정됐다고 23일 밝혔다. 1980년 설립된 대진기계는 산업용 생산장비... ",
+        "SM그룹(회장 우오현) 제조·서비스부문 계열사 SM국일(옛 국일제지)이 이차전지 및 반도체 생산장비 전문기업... 1980년 설립된 대진기계는 이차전지 배터리 모듈·팩 조립 자동화설비와 반도체 웨이퍼 제조용 잉곳 성장기... "
+      ],
+      "media_domains": [
+        "fnnews.com",
+        "biz.heraldcorp.com",
+        "mt.co.kr",
+        "yna.co.kr",
+        "pinpointnews.co.kr",
+        "klnews.co.kr",
+        "view.asiae.co.kr"
+      ],
+      "corroboration_count": 7
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261023-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261023",
+        "url": "https://www.m-economynews.com/news/article.html?no=72013",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:24:00+09:00",
+      "collected_at": "2026-10-23T00:27:48.457Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "코스피, 美 반도체주 급락에 3% 가까이 하락...5400선 붕괴",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "코스피, 美 반도체주 급락에 3% 가까이 하락...5400선 붕괴",
+        "코스피, 美 반도체주 급락에 휘청…양대 지수 3%대 하락"
+      ],
+      "snippets": [
+        "반면 삼성바이오로직스(3.16%)는 상승했다. 코스닥시장에서도 원익IPS(-5.34%), 리노공업(-5.30%), 레인보우로보틱스(-5.21%), 에코프로비엠(-4.99%) 등 주요 종목이 일제히 하락했다. 국내 증시의 약세는 간밤... ",
+        "반면 삼성바이오로직스는 전 거래일 대비 3.53% 오른 140만9000원에 거래되고 있다. 수급별로는 개인과 기관이 각각 336억원, 1355억원 순매수하며 지수 상승을 뒷받침하고 있는 반면 외국인이 1750억원... "
+      ],
+      "media_domains": [
+        "m-economynews.com",
+        "ziksir.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261023-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261023",
+        "url": "http://www.newscape.co.kr/news/articleView.html?idxno=125294",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:26:00+09:00",
+      "collected_at": "2026-10-23T00:27:49.172Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "SK하이닉스, 솔리다임 IPO 중단 결정…\"반도체 시장 조정 중\"",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "SK하이닉스, 솔리다임 IPO 중단 결정…\"반도체 시장 조정 중\""
+      ],
+      "snippets": [
+        "SK하이닉스의 주주들 의견과 함께 최근 금융당국이 중복상장을 통한 총수에게 이익이 집중된다는 지적을... 금융당국 또한 솔라다임의 중복 상장이 결국에는 오너에게 더 큰 이익을 몰아줄 것으로 봤다. SK하이닉스는... "
+      ],
+      "media_domains": [
+        "newscape.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261023-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261023",
+        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=158442",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:26:00+09:00",
+      "collected_at": "2026-10-23T00:27:49.937Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "삼양식품, 평창서 '불닭 버닝 페스타' 개최…러닝·캠핑·웰니스 결합",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "삼양식품, 평창서 '불닭 버닝 페스타' 개최…러닝·캠핑·웰니스 결합",
+        "삼양식품, 평창서 '불닭 버닝 페스타' 개최…트레일런·캠핑 운영",
+        "삼양식품, 평창서 '불닭 버닝 페스타' 개최…트레일런·캠핑 결합"
+      ],
+      "snippets": [
+        "'RUN, BURN, RETREAT'를 주제로 낮에는 초원과 능선을 달리고, 저녁에는 불닭의 에너지를 담은 프로그램을... 페포는 자유롭고 예측하기 어려운 에너지를 바탕으로 일상의 답답함을 해소하고 유쾌한 해방감을 전달하는... ",
+        "삼양식품 관계자는 \"불닭 버닝 페스타는 불닭 특유의 강렬한 에너지를 통해 일상의 스트레스를 시원하게 날려버리고, 새로운 활력과 해방감을 느낄 수 있도록 기획한 행사\"라며 \"대관령의 아름다운 자연 속에서... ",
+        "삼양식품 관계자는 \"불닭 버닝 페스타는 불닭 특유의 강렬한 에너지를 통해 일상의 스트레스를 시원하게 날려버리고, 새로운 활력과 해방감을 느낄 수 있도록 기획한 행사\"라며 \"대관령의 아름다운 자연 속에서... "
+      ],
+      "media_domains": [
+        "koreaittimes.com",
+        "cstimes.com",
+        "dailysmart.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261023-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261023",
+        "url": "https://m.entertain.naver.com/article/410/0001144335",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-23T09:19:00+09:00",
+      "collected_at": "2026-10-23T00:27:50.692Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.23 · 뉴스 화제성",
+        "headline": "‘BTS 프로듀서’ 엘캐피탄, 첫 정규 선공개 ‘Don’t Say Love’ 발매",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "‘BTS 프로듀서’ 엘캐피탄, 첫 정규 선공개 ‘Don’t Say Love’ 발매",
+        "엘캐피탄, 목소리 잃은 뒤 쓴 자전적 록 싱글 'Don't Say Love' 발매"
+      ],
+      "snippets": [
+        "엘캐피탄은 23일 각 국가 및 지역의 현지 시간 기준 자정, 주요 음원 플랫폼을 통해 ‘Don’t Say Love’를... ‘Say love’라는 외침은 ‘No you don’t’, ‘You can’t’에 끊기지만, 그 사이로 ‘I still want it’이라는... ",
+        "엘캐피탄은 10월 23일 각 국가 및 지역의 현지 시간 기준 자정, 주요 음원 플랫폼을 통해 'Don't Say Love... 'Say love'라는 외침은 'No you don't', 'You can't'에 번번이 가로막히지만, 그 사이로 'I still want it'이라는... "
+      ],
+      "media_domains": [
+        "mk.co.kr",
+        "topstarnews.net"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJDr7KRtWwGdFghXndCq\"}"
+  }
+]
