@@ -1,0 +1,473 @@
+[
+  {
+    "event": {
+      "id": "naver-20261024-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261024",
+        "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=434782",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:20:00+09:00",
+      "collected_at": "2026-10-24T00:23:26.688Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "국제유가 급등에 뉴욕증시 일제히 하락",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "국제유가 급등에 뉴욕증시 일제히 하락",
+        "뉴욕증시, 중동 긴장·유가 급등에 일제히 하락…다우 1.23%↓"
+      ],
+      "snippets": [
+        "반도체 기업 마이크론테크놀로지는 2.5% 상승했고, AMD 역시 1.7% 오르며 반등했다. 채권시장에서는 미국 국채금리가 상승세로 돌아섰다. 전날 국채금리가 급락하고 국채 가격이 급등한 데 따른 반작용으로 풀이된다.... ",
+        "개별 종목에서는 아메리칸익스프레스가 3% 넘게 하락했고 캐터필러와 골드만삭스도 각각 2.4%, 1.8% 내렸다. 반면 반도체업체 마이크론테크놀로지는 2.5%, AMD는 1.7% 상승하며 일부 기술주는 반등했다."
+      ],
+      "media_domains": [
+        "dailysportshankook.co.kr",
+        "sentv.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261024-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261024",
+        "url": "https://n.news.naver.com/mnews/article/648/0000051899?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:00:00+09:00",
+      "collected_at": "2026-10-24T00:23:27.533Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 5,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "[ETF워치]中로봇 날고 방산 추락…개인은 코스피200 담아",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[ETF워치]中로봇 날고 방산 추락…개인은 코스피200 담아"
+      ],
+      "snippets": [
+        "2차전지 관련 레버리지 ETF도 약세를 보였어요. 삼성자산운용의 KODEX 2차전지산업레버리지는 16.62%, 미래에셋자산운용의 TIGER 2차전지TOP10레버리지도 15.44% 떨어졌습니다. 개인투자자는 이번주 국내 대표지수 ETF를... "
+      ],
+      "media_domains": [
+        "news.bizwatch.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261024-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261024",
+        "url": "https://n.news.naver.com/mnews/article/003/0014275426?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:08:00+09:00",
+      "collected_at": "2026-10-24T00:23:28.278Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "김해 1인창조기업센터, 입주 기업 성과 '중기부 장관상'",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "김해 1인창조기업센터, 입주 기업 성과 '중기부 장관상'"
+      ],
+      "snippets": [
+        "차세대 메타볼라이트 신바이오 소재의 발굴부터 효능 검증까지 수행할 수 있는 역량을 바탕으로 고기능성 제품의 상용화와 사업 확장을 추진하고 있다. 특히 독점적 바이오 소재와 고마진·고기능성 제품을 기반으로 한... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261024-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261024",
+        "url": "https://www.thepublic.kr/news/articleView.html?idxno=323450",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:22:00+09:00",
+      "collected_at": "2026-10-24T00:23:29.176Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "BNK경남은행, 한화오션 협력사 금융지원...조선업 자금 접근성 높인다",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "BNK경남은행, 한화오션 협력사 금융지원...조선업 자금 접근성 높인다"
+      ],
+      "snippets": [
+        "BNK경남은행이 한화오션 사내협력회사협의회와 협력사 금융지원을 위한 업무협약을 체결했다고 23일 밝혔다. 협약에 따라 BNK경남은행은 협의회가 추천한 기업과 금융 수요기업을 대상으로 금융지원 서비스 우대와 금융... "
+      ],
+      "media_domains": [
+        "thepublic.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261024-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261024",
+        "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=368003",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:20:00+09:00",
+      "collected_at": "2026-10-24T00:23:29.950Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "기술주 한숨 돌렸지만 유가가 덮쳤다…뉴욕증시 일제히 하락",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "기술주 한숨 돌렸지만 유가가 덮쳤다…뉴욕증시 일제히 하락"
+      ],
+      "snippets": [
+        "블룸에너지는 11.24% 급락했다. 미국 국채 10년물 금리는 4.99% 안팎으로 반등했다. 금 현물가격은 유가 상승에 따른 인플레이션 우려와 추가 증거금 마련을 위한 매도 등의 영향으로 장중 온스당 4000달러 아래까지... "
+      ],
+      "media_domains": [
+        "ftoday.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261024-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261024",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=216604",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-24T09:06:00+09:00",
+      "collected_at": "2026-10-24T00:23:30.725Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.24 · 뉴스 화제성",
+        "headline": "구글 '제미나이 4 카본' 외부 테스트설…\"3D 개선됐지만 속도 느려\"",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "구글 '제미나이 4 카본' 외부 테스트설…\"3D 개선됐지만 속도 느려\""
+      ],
+      "snippets": [
+        "비교 플랫폼 LM아레나에서도 시험되고 있다고 전했다. 카본은 이달 초 구글 내부 코딩 도구... It seems like Google is currently focusing on improving that domain before moving on to frontend/UI https://t.co/2SSFlH0JRo pic.... "
+      ],
+      "media_domains": [
+        "aitimes.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL7HBWLRBjLYbf37yPqe\"}"
+  }
+]
