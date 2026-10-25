@@ -1,0 +1,493 @@
+[
+  {
+    "event": {
+      "id": "naver-20261025-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261025",
+        "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313858",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T09:02:00+09:00",
+      "collected_at": "2026-10-25T00:06:06.749Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "미국, 바이오도 대외투자 규제 대상에…의약품·실험실 기술까지 겨눈다",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "미국, 바이오도 대외투자 규제 대상에…의약품·실험실 기술까지 겨눈다"
+      ],
+      "snippets": [
+        "규정안은 기존 반도체·인공지능·양자정보 기술 등에 더해 고성능 컴퓨팅과 극초음속 기술을 다루고, 바이오 분야에서는 국가안보 위험과 관련된 기술을 금지 기술로 규정했다. 다만 이번 안은 아직 확정된 규정이... "
+      ],
+      "media_domains": [
+        "straightnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261025-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261025",
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875959",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T08:50:00+09:00",
+      "collected_at": "2026-10-25T00:06:07.664Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 6,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "전북도의회, 공공기관 전북 우선 배치 촉구…국가 균형 발전 강조",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "전북도의회, 공공기관 전북 우선 배치 촉구…국가 균형 발전 강조"
+      ],
+      "snippets": [
+        "도의회 제공 | 전주=한스경제 이인호 기자 | 전북특별자치도의회가 정부의 제2차 공공기관 이전 계획에 맞춰... 도의회는 금융과 자산 운용, 농생명·바이오, 피지컬 AI·로봇·이차전지 등 지역 특화산업과 연계 가능한 핵심... "
+      ],
+      "media_domains": [
+        "hansbiz.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261025-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261025",
+        "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313858",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T09:02:00+09:00",
+      "collected_at": "2026-10-25T00:06:08.440Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "미국, 바이오도 대외투자 규제 대상에…의약품·실험실 기술까지 겨눈다",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "미국, 바이오도 대외투자 규제 대상에…의약품·실험실 기술까지 겨눈다"
+      ],
+      "snippets": [
+        "[사진=챗GPT] 미국이 국가안보를 이유로 대외투자 규제 범위를 바이오 분야까지 확대하는 방안을 내놨다. 의약품과 세포·유전자 치료제뿐 아니라 바이오 제조장비, 유전자 분석기술, 생물정보학 도구, 실험 자동화... "
+      ],
+      "media_domains": [
+        "straightnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261025-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261025",
+        "url": "https://www.etoday.co.kr/news/view/2639695",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T09:02:00+09:00",
+      "collected_at": "2026-10-25T00:06:09.224Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "우리금융미래재단, 동작구 취약계층 100가구 친환경 보일러 교체 지원",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "우리금융미래재단, 동작구 취약계층 100가구 친환경 보일러 교체 지원",
+        "우리금융미래재단, 동작구 취약계층 난방기 교체 지원",
+        "우리금융, 동작구 취약계층 100가구 친환경 보일러 교체 지원"
+      ],
+      "snippets": [
+        "우리금융미래재단은 23일 동작구청, 서울특별시사회복지협의회와 함께 동작구 취약계층 100가구의 친환경 보일러 교체를 돕기 위한 후원금 3000만원을 전달했다고 25일 밝혔다. 전달식에는 장광익 우리금융미래재단... ",
+        "장광익 우리금융미래재단 사무국장(왼쪽부터), 류삼영 동작구청 구청장, 조남범 서울특별시사회복지협의회 회장이 기념촬영을 하고 있다./우리금융 우리금융이 취약계층의 겨울나기를 지원했다. 우리금융미래재단은... ",
+        "우리금융미래재단(이사장 임종룡)이 동작구 취약계층 100가구의 친환경 보일러 교체를 지원하며 겨울철 에너지 비용 부담 완화에 나섰다. 우리금융미래재단은 지난 23일 동작구청, 서울특별시사회복지협의회와 함께... "
+      ],
+      "media_domains": [
+        "etoday.co.kr",
+        "metroseoul.co.kr",
+        "joseilbo.com"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261025-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261025",
+        "url": "https://www.etoday.co.kr/news/view/2639695",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T09:02:00+09:00",
+      "collected_at": "2026-10-25T00:06:10.022Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 7
+      },
+      "scoring": {
+        "surprise_score": 0.88,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 78
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "우리금융미래재단, 동작구 취약계층 100가구 친환경 보일러 교체 지원",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 7
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "우리금융미래재단, 동작구 취약계층 100가구 친환경 보일러 교체 지원",
+        "우리금융미래재단, 동작구 취약계층 난방기 교체 지원",
+        "우리금융, 동작구 취약계층 100가구 친환경 보일러 교체 지원",
+        "우리금융미래재단, 동작구 취약계층 친환경 보일러 교체에 3000만원 지원",
+        "우리금융, 동작구 취약계층 100가구 난방비 부담 낮춘다…친환경 보일러..."
+      ],
+      "snippets": [
+        "친환경 보일러는 일반 보일러보다 에너지 효율이 높아 난방비를 아낄 수 있고, 대기오염물질 배출도 줄일 수 있다. 이번 지원으로 취약계층이 경제적 부담을 덜고 겨울철을 보다 안전하고 쾌적하게 보낼 수 있을 것으로... ",
+        "교체를 지원하는 친환경 보일러는 일반 보일러보다 에너지 효율이 높아 난방비 절감에 도움이 되며, 대기오염물질 배출도 줄일 수 있다. 참여기관들은 이번 지원으로 취약계층의 경제적 부담을 덜고 겨울철에 더욱... ",
+        "겨울철 에너지 비용 부담 완화에 나섰다. 우리금융미래재단은 지난 23일 동작구청... 친환경 보일러는 일반 보일러보다 에너지 효율이 높아 난방비 절감에 도움이 되며, 대기오염물질 배출을 줄이는 효과도 기대할 수 있다.... ",
+        "친환경 보일러는 일반 보일러 대비 에너지 효율이 높아 난방비를 절감하고 대기오염물질 배출량을 줄이는 효과가 있다. 재단은 이번 사업을 통해 취약계층의 겨울철 난방비 부담을 낮추고 주거 안전성을 높일 것으로... ",
+        "에너지 효율이 높은 난방설비로 주거환경을 개선하면서 대기오염물질 배출도 줄이는 생활밀착형... 질소산화물 등 대기오염물질 배출을 줄이는 특성도 있어 가계의 에너지 비용 절감과 생활환경 개선을 함께 기대할 수... "
+      ],
+      "media_domains": [
+        "etoday.co.kr",
+        "metroseoul.co.kr",
+        "joseilbo.com",
+        "etnews.com",
+        "e-science.co.kr",
+        "news.bbsi.co.kr",
+        "4th.kr"
+      ],
+      "corroboration_count": 7
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261025-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261025",
+        "url": "https://n.news.naver.com/mnews/article/092/0002442256?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-25T08:02:00+09:00",
+      "collected_at": "2026-10-25T00:06:10.947Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 13,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.25 · 뉴스 화제성",
+        "headline": "오라클 AI 월드 2026, 25일 개막…AI 사업 성과 입증 나선다",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "오라클 AI 월드 2026, 25일 개막…AI 사업 성과 입증 나선다",
+        "‘오라클 AI 월드 2026’ 개봉박두…AI투자 성과 입증할까"
+      ],
+      "snippets": [
+        "개발과 데이터, 보안, 인프라 등 기업 정보기술(IT) 환경 전반으로 AI 활용이 확대되는 상황에서 기업이... 데이터 관리와 오라클 클라우드 인프라스트럭처(OCI), 오라클 퓨전 애플리케이션, AI 데이터 플랫폼 등을... ",
+        "회사 측은 전 세계 기업고객, 파트너, 개발자, IT전문가 등 약 2만명이 참석할 것으로 예상했다. 오라클과 AI... 데이터 관리, 오라클 클라우드 인프라스트럭처(OCI), 퓨전 애플리케이션, AI 데이터 플랫폼 등의 기술 전략과... "
+      ],
+      "media_domains": [
+        "zdnet.co.kr",
+        "dt.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMyp6ioKzTxvDpMBaMmh\"}"
+  }
+]

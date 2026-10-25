@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T00:06:46.992Z",
+  "summary": [],
+  "events": [
+    {
+      "id": "ecos-cpi-202609",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202609",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-09-01T12:00:00+09:00",
+      "collected_at": "2026-10-25T00:06:06.828Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.9,
+        "cpi_yoy_pct_prev_month": 3.1,
+        "cpi_yoy_accel_pct_point": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.2,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 45
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-fx-20261023",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261023",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-23T12:00:00+09:00",
+      "collected_at": "2026-10-25T00:06:06.250Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1324.6,
+        "fx_change_pct": -0.1
+      },
+      "scoring": {
+        "surprise_score": 0.05,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 36
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.23 · 환율",
+        "headline": "원/달러 환율 1324.6원 (전일 대비 -0.1%)",
+        "chips": [
+          "수출주↓",
+          "여행↑"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}
