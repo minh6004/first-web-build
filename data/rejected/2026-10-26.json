@@ -1,0 +1,497 @@
+[
+  {
+    "event": {
+      "id": "naver-20261026-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261026",
+        "url": "https://www.viva100.com/article/20261026500063",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:56:00+09:00",
+      "collected_at": "2026-10-25T23:57:11.103Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "한투운용, 홍콩 ETF 시장 진출…CUAM HK와 첫 상품 상장",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "한투운용, 홍콩 ETF 시장 진출…CUAM HK와 첫 상품 상장",
+        "한투운용, 中 CUAM HK와 홍콩서 반도체 ETF 첫 상장"
+      ],
+      "snippets": [
+        "글로벌 반도체 기업에 투자하는 공동 상품을 선보인 데 이어 중국 본토 투자자를 대상으로 사업... 해당 ETF는 엔비디아와 TSMC, 삼성전자, ASML, 브로드컴 등 글로벌 반도체 기업과 중국·홍콩 기술기업 30개... ",
+        "이 ETF는 중국·홍콩과 글로벌 주요 반도체 및 관련 기술기업에 분산 투자하는 상품이다. 독일... 엔비디아, TSMC, 삼성전자, ASML, 브로드컴 등 글로벌 반도체 선도기업과 중국·홍콩 기술기업이 주요 투자 종목에... "
+      ],
+      "media_domains": [
+        "viva100.com",
+        "sentv.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261026-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261026",
+        "url": "https://n.news.naver.com/mnews/article/008/0005431412?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:52:00+09:00",
+      "collected_at": "2026-10-25T23:57:11.827Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 17,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "'배터리 검사 1위' 이노메트리의 진화, 배터리서 유리기판·HBM까지",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "'배터리 검사 1위' 이노메트리의 진화, 배터리서 유리기판·HBM까지"
+      ],
+      "snippets": [
+        "이노메트리는 올해 상반기 공시 기준 약 220억원 규모의 2차전지 검사장비를 신규 수주한 데 이어, 지난 8월에는 미국향 ESS 검사장비 약 49억6000만원 규모의 공급계약을 체결했다. 해당 장비는 삼성SDI의 미국... "
+      ],
+      "media_domains": [
+        "mt.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261026-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261026",
+        "url": "https://n.news.naver.com/mnews/article/119/0003146812?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:56:00+09:00",
+      "collected_at": "2026-10-25T23:57:12.576Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "태광산업·대한화섬, 친환경 원사 확대…바이오·폐섬유 재활용 추진",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "태광산업·대한화섬, 친환경 원사 확대…바이오·폐섬유 재활용 추진",
+        "태광산업·대한화섬, 재활용 넘어 바이오 소재로…친환경 원사 사업 확..."
+      ],
+      "snippets": [
+        "태광산업과 대한화섬이 리사이클 원사에서 바이오 기반 소재와 폐섬유 재활용까지 친환경 소재 사업을... 양사는 기존 리사이클 소재에서 바이오 기반 소재로 제품군을 확대하고 있다. 폐섬유를 다시 섬유로 만드는... ",
+        "이투데이=정진용 기자 | '에이스포라 에코' 제품군 다변화 폐섬유 재활용·바이오 원료 개발 추진 태광산업과 대한화섬이 재활용 섬유를 넘어 바이오 기반 소재까지 친환경 원사 사업을 확대한다. 글로벌 섬유시장에서... "
+      ],
+      "media_domains": [
+        "dailian.co.kr",
+        "etoday.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261026-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261026",
+        "url": "https://n.news.naver.com/mnews/article/030/0003478442?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:55:00+09:00",
+      "collected_at": "2026-10-25T23:57:13.305Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "JB금융, 300억원 규모 AI 펀드 결성…첫 투자로 보안기업 '사이퍼데이터...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "JB금융, 300억원 규모 AI 펀드 결성…첫 투자로 보안기업 '사이퍼데이터...",
+        "JB금융, 최대 300억원 AI 펀드 결성…보안기업 ‘사이퍼데이터’ 첫 투자"
+      ],
+      "snippets": [
+        "JB금융그룹이 그룹 인공지능전환(AX)을 가속하기 위해 300억원 규모 전략투자 펀드를 결성하고, 첫 투자처로 인공지능(AI) 보안 기업 '사이퍼데이터'를 선정했다. 26일 JB금융그룹에 따르면 전북은행, 광주은행... ",
+        "JB금융그룹이 최대 300억원 규모의 인공지능(AI) 전략투자 펀드를 결성하고 AI 보안기업에 첫 투자를 집행했다. 유망 AI 기업에 대한 투자를 확대하고 금융 계열사와의 사업 협력을 통해 그룹 차원의 인공지능 전환(AX)에... "
+      ],
+      "media_domains": [
+        "etnews.com",
+        "sentv.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261026-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261026",
+        "url": "http://www.4th.kr/news/articleView.html?idxno=2120373",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:52:00+09:00",
+      "collected_at": "2026-10-25T23:57:14.031Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "삼성SDI, 미국 ESS 수주 확대…AOP에 총 1.5GWh 공급",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "삼성SDI, 미국 ESS 수주 확대…AOP에 총 1.5GWh 공급",
+        "삼성SDI, 美 ESS 시장 공략 속도…AOP에 1.5GWh 공급",
+        "삼성SDI, 美 ESS 1GWh 추가 수주…누적 1.5GWh 공급"
+      ],
+      "snippets": [
+        "포쓰저널 박소연 기자 삼성SDI의 일체형 ESS 솔루션 'SBB(Samsung Battery Box) 1.7'/삼성SDI 삼성SDI가 미국 현지 생산을 기반으로 에너지저장장치(ESS) 공급을 확대한다. 미국 에너지 기업 알파오메가파워(AOP)와 추가... ",
+        "삼성SDI가 미국 에너지 기업 알파오메가파워(AOP)와 에너지저장장치(ESS) 공급 계약을 추가로 체결했다. 지난해 말 맺은 계약에 이어 공급 물량을 늘리면서 AOP에 공급하는 ESS 솔루션 규모는 총 1.5기가와트시(GWh)가... ",
+        "사진=삼성SDI 제공 삼성SDI가 미국에서 1GWh 규모의 에너지저장장치(ESS) 공급 계약을 추가로 확보했다.... 삼성SDI는 미국 법인 삼성SDI아메리카(SDIA)가 현지 에너지 전문기업 알파오메가파워(AOP)와 1GWh 규모의 ESS... "
+      ],
+      "media_domains": [
+        "4th.kr",
+        "ekn.kr",
+        "daily.hankooki.com"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261026-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261026",
+        "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=715884",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-26T08:46:00+09:00",
+      "collected_at": "2026-10-25T23:57:14.889Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 5
+      },
+      "scoring": {
+        "surprise_score": 0.63,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 63
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.26 · 뉴스 화제성",
+        "headline": "빗썸, 사내 첫 AI 공모전…활용 사례 107건 발굴",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 5
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "빗썸, 사내 첫 AI 공모전…활용 사례 107건 발굴",
+        "빗썸, 사내 첫 AI 공모전⋯업무 혁신 사례 107건 발굴",
+        "빗썸, 첫 사내 AI 공모전서 업무 개선 사례 발굴…비용 절감·자동화 성...",
+        "\"AI로 업무 방식 바꾼다\"…빗썸, 사내 첫 AI 공모전서 107건 혁신 사례 ...",
+        "빗썸, 사내 AI 공모전…AI 활용사례 107건 발굴"
+      ],
+      "snippets": [
+        "2등상인 'AI Power User'에는 엄성렬 빗썸 IT부문 과장의 'AI 기반 SRE 장애 대응 자동화 플랫폼'이 선정됐다. 서비스 장애 발생 때 반복 업무를 AI로 자동화해 담당자가 원인 분석과 복구에 집중하도록 한 점을... ",
+        "2등 ‘AI Power User’에는 IT부문 엄성렬 과장의 ‘AI 기반 SRE 장애 대응 자동화 플랫폼’이 선정됐다. 서비스 장애 발생 시 반복적으로 수행하던 업무를 AI로 자동화해 담당자가 원인 파악과 복구에 집중할 수 있도록... ",
+        "2등상 'AI Power User'는 엄성렬 IT부문 과장의 'AI 기반 서비스 신뢰성 엔지니어링(SRE) 장애 대응 자동화 플랫폼'이 차지했다. 서비스 장애 발생 시 반복적으로 수행하던 작업을 자동화해 담당자가 원인 분석과 복구에... ",
+        "2등상인 'AI Power User'는 장애 발생 시 반복 업무를 AI로 자동화해 신속한 복구를 돕는 'AI 기반 SRE 장애 대응 자동화 플랫폼'을 구축한 IT부문 엄성렬 과장이 차지했다. 이어 사내 지식 중앙화, 정보유출 모니터링... ",
+        "2등상은 서비스 장애 시 수행하던 반복 업무를 AI로 자동화한 IT 부문의 엄성렬 과장에게 주어졌다. 3등상은 AI 기반 정보유출 모니터링 플랫폼 등 조직의 변화를 이끈 5개 작품이 받았다. 상금은 1등상 1000만원... "
+      ],
+      "media_domains": [
+        "newsfreezone.co.kr",
+        "etoday.co.kr",
+        "megaeconomy.co.kr",
+        "thefairnews.co.kr",
+        "view.asiae.co.kr"
+      ],
+      "corroboration_count": 5
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPrtrEjLuWqtwbdBFXi2\"}"
+  }
+]
