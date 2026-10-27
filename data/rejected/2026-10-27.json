@@ -1,0 +1,485 @@
+[
+  {
+    "event": {
+      "id": "naver-20261027-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261027",
+        "url": "https://n.news.naver.com/mnews/article/001/0016402231?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T10:16:00+09:00",
+      "collected_at": "2026-10-27T01:17:52.650Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "수원시-성균관대-한국나노기술원, 반도체 연구개발 업무협약",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "수원시-성균관대-한국나노기술원, 반도체 연구개발 업무협약",
+        "수원시·성균관대·한국나노기술원, 반도체 산업 육성 맞손"
+      ],
+      "snippets": [
+        "첨단 반도체 연구개발과 지역 산업 생태계 조성을 위한 업무협약을 체결했다고 27일 밝혔다. 협약에 따라 세 기관은 시의 산업 육성 정책과 성균관대·한국나노기술원의 연구 인프라 및 전문 인력을 연계해 관내 반도체... ",
+        "지역 반도체 기업의 기술 경쟁력을 높이고 전문인력을 양성하기 위해 성균관대학교, 한국나노기술원과 협력체계를 구축한다. 27일 수원시에 따르면 전날 시청 중회의실에서 성균관대, 한국나노기술원과 첨단 반도체... "
+      ],
+      "media_domains": [
+        "yna.co.kr",
+        "shinailbo.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261027-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261027",
+        "url": "https://www.sentv.co.kr/article/view/sentv202610270061",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T10:10:00+09:00",
+      "collected_at": "2026-10-27T01:17:53.565Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "베노티앤알, 글로벌 배터리 제조사향 美 생산시설 프로젝트 수주",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "베노티앤알, 글로벌 배터리 제조사향 美 생산시설 프로젝트 수주",
+        "베노티앤알, 반도체사업부 신설 후 첫 수주…북미 배터리 생산시설 참여"
+      ],
+      "snippets": [
+        "회사는 해당 계약 체결을 공시하고, 미국 현지에서 2차전지 제어 컨트롤러 설치 및 유틸리티 훅업에 착수한단 계획이다. 회사 측은 이번 수주는 미래 핵심사업으로 육성 중인 반도체사업부가 따낸 신규 수주라는 점에서... ",
+        "해당 계약은 미국 내 베터리 제조사 생산시설에 설치될 예정이며, 2차전지 제어 컨트롤러 설치 및 유틸리티 훅업까지 진행되는 프로젝트다. 이번 수주는 베노티앤알이 최근 반도체사업부를 신설한 이후 거둔 첫 성과다.... "
+      ],
+      "media_domains": [
+        "sentv.co.kr",
+        "mt.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261027-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261027",
+        "url": "https://www.tfmedia.co.kr/news/article.html?no=208388",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T10:16:00+09:00",
+      "collected_at": "2026-10-27T01:17:54.513Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "동아에스티, 건선 치료제 ‘이코트로킨라’ 외용제 개발 가능성 확인",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "동아에스티, 건선 치료제 ‘이코트로킨라’ 외용제 개발 가능성 확인",
+        "동아ST·동아제약, 건선 치료 '이코트로킨라' 외용제 개발 가능성 확인..."
+      ],
+      "snippets": [
+        "AAPS PharmSci 360은 미국약학과학자협회(AAPS)가 주관하는 국제 학술대회로, 글로벌 제약·바이오 업계와 학계, 연구기관 전문가들이 최신 연구 성과와 기술 동향을 공유하는 행사다. 이번 학회에서 동아에스티... ",
+        "AAPS PharmSci 360은 미국약학과학자협회(AAPS)가 주관하는 국제 학술대회로, 전 세계 제약ㆍ바이오 산업계와 학계, 정부 및 연구기관의 의약품 연구개발 전문가들이 참여해 최신 연구 성과와 기술 동향을... "
+      ],
+      "media_domains": [
+        "tfmedia.co.kr",
+        "wsobi.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261027-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261027",
+        "url": "http://www.metroseoul.co.kr/article/20261027500122",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T10:16:00+09:00",
+      "collected_at": "2026-10-27T01:17:55.271Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "장병들 통장 지킨다…금투협, ‘군테크’ 금융예능 제작",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "장병들 통장 지킨다…금투협, ‘군테크’ 금융예능 제작"
+      ],
+      "snippets": [
+        "‘통장방어사령부 시즌2’ 공동 제작 주식부터 연금까지…장병들 재테크 고민에 금융전문가 출동 군테크, 통장방어사령부/KFNplus 영상 캡쳐 금융투자협회가 국방홍보원과 경제예능 프로그램 '군테크, 통장방어사령부... "
+      ],
+      "media_domains": [
+        "metroseoul.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261027-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261027",
+        "url": "https://www.idaegu.com/news/articleView.html?idxno=666520",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T10:16:00+09:00",
+      "collected_at": "2026-10-27T01:17:56.059Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "한국전력기술, '2026 K-ESG 경영대상' 종합 ESG 대상 수상",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "한국전력기술, '2026 K-ESG 경영대상' 종합 ESG 대상 수상"
+      ],
+      "snippets": [
+        "한전기술은 친환경 에너지사업과 탄소중립 기술개발, 안전과 상생을 위한 노력, 투명하고 책임 있는... 친환경 에너지 보급 확대에 크게 기여했다. 한림해상풍력은 연간 약 253GWh의 전력 생산과 약 12만 톤의 탄소저감... "
+      ],
+      "media_domains": [
+        "idaegu.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261027-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261027",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259088",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-27T09:38:00+09:00",
+      "collected_at": "2026-10-27T01:17:56.847Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.27 · 뉴스 화제성",
+        "headline": "투모로우바이투게더, 미니 9집 'PERFECT STORM' 스포티파이 사전 저장 1위",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "투모로우바이투게더, 미니 9집 'PERFECT STORM' 스포티파이 사전 저장 1위",
+        "투모로우바이투게더, 스포티파이 사전 저장 1위…미니 9집 기대감 ('PERF...",
+        "투바투, 신보 'PERFECT STORM' 스포티파이 사전 저장 1위"
+      ],
+      "snippets": [
+        "투모로우바이투게더가 미니 9집 발매를 앞두고 글로벌 음원 플랫폼에서 사전 저장 1위를 기록했다.... Sky', 'Hate It or Love It'까지 총 6곡이 수록된다. 타이틀곡 'Angel Bite'는 별 볼 일 없는 현실에서 느끼는... ",
+        "투모로우바이투게더가 새 앨범 발매 전부터 글로벌 음원 플랫폼 스포티파이에서 사전 저장 수... Sky', 'Hate It or Love It'까지 총 6곡이 담긴다. 특히 타이틀곡 'Angel Bite'는 현실의 고통과 박탈감 속에서도... ",
+        "그룹 투모로우바이투게더(TXT)가 새 앨범 발매를 앞두고 글로벌 음원 플랫폼 스포티파이의 사전 저장... Sky', 'Hate It or Love It' 등이 수록된다. 컴백을 앞두고 앨범의 핵심 소재인 '폭풍'을 활용한 콘셉트... "
+      ],
+      "media_domains": [
+        "topstarnews.net",
+        "mhnse.com",
+        "slist.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRrrghCeFbDois4QHGU7\"}"
+  }
+]

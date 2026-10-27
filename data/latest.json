@@ -1,7 +1,40 @@
 {
-  "date": "2026-10-26",
-  "generated_at": "2026-10-25T23:57:14.987Z",
-  "summary": [],
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T01:17:56.901Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "바이오",
+      "events": [
+        {
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+          "direction": "down",
+          "strength": "중간"
+        },
+        {
+          "name": "JOHNSON & JOHNSON, 13F-HR 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "금융",
+      "events": [
+        {
+          "name": "STRATS SM TRUST FOR Goldman Sachs Cap I SEC SERIES 2005-3, 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "STRATS(SM) Trust For Goldman Sachs Capital I Securities, Series 2005-1, 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202609-8542",
@@ -12,7 +45,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:10.617Z",
+      "collected_at": "2026-10-27T01:17:52.512Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +110,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:11.525Z",
+      "collected_at": "2026-10-27T01:17:53.752Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +175,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:11.074Z",
+      "collected_at": "2026-10-27T01:17:53.132Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +240,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:11.981Z",
+      "collected_at": "2026-10-27T01:17:54.376Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -272,7 +305,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:11.344Z",
+      "collected_at": "2026-10-27T01:17:53.054Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -326,15 +359,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261023",
+      "id": "ecos-fx-20261027",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261023",
+        "ref_id": "fx-usd-20261027",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-10-23T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:10.850Z",
+      "event_datetime": "2026-10-27T12:00:00+09:00",
+      "collected_at": "2026-10-27T01:17:52.489Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -348,7 +381,7 @@
         ]
       },
       "metrics": {
-        "fx_value_krw": 1324.6,
+        "fx_value_krw": 1322.6,
         "fx_change_pct": -0.1
       },
       "scoring": {
@@ -373,8 +406,8 @@
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 10.23 · 환율",
-        "headline": "원/달러 환율 1324.6원 (전일 대비 -0.1%)",
+        "meta_line": "원/달러 환율 · 10.27 · 환율",
+        "headline": "원/달러 환율 1322.6원 (전일 대비 -0.1%)",
         "chips": [
           "수출주↓",
           "여행↑"
@@ -393,24 +426,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261026-000002",
+      "id": "sec-0001339920-0001999371-26-023559",
       "source": {
-        "type": "dart",
-        "ref_id": "20261026000002",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000002",
+        "type": "sec",
+        "ref_id": "0001339920",
+        "url": "https://www.sec.gov/Archives/edgar/data/1339920/000199937126023559/0001999371-26-023559-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-10-26T12:00:00+09:00",
-      "collected_at": "2026-10-25T23:57:12.640Z",
+      "event_datetime": "2026-10-26T16:00:00-04:00",
+      "collected_at": "2026-10-27T01:17:51.585Z",
       "type": "disclosure",
-      "category": "지분공시",
+      "category": "수시공시",
       "subject": {
         "entity_type": "stock",
-        "code": "033290",
-        "name": "로젠",
-        "is_bellwether": false,
+        "code": "0001339920",
+        "name": "STRATS SM TRUST FOR Goldman Sachs Cap I SEC SERIES 2005-3",
+        "is_bellwether": true,
         "sectors": [
-          "미분류"
+          "금융"
         ]
       },
       "metrics": {},
@@ -419,28 +452,87 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 0
+        "priority_score": 25
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "미분류",
+            "sector": "금융",
             "direction": "neutral",
-            "note": "지분공시"
+            "note": "수시공시"
           }
         ]
       },
       "content": {
-        "meta_line": "로젠 · 10.26 · 지분공시",
-        "headline": "로젠, 주식등의대량보유상황보고서(일반)",
+        "meta_line": "STRATS SM TRUST FOR Goldman Sachs Cap I SEC SERIES 2005-3 · 10.26 · 수시공시",
+        "headline": "STRATS SM TRUST FOR Goldman Sachs Cap I SEC SERIES 2005-3, 8-K 공시",
         "chips": [
-          "미분류→"
+          "금융→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "기관 보유 현황(13F) 공개는 대형 투자자들의 포지션 변화를 엿볼 수 있는 참고 자료예요.",
+          "long_term": "이 정보는 최대 45일 지연 공시라 실시간 포지션이 아니라는 점을 감안해서 봐야 해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001328989-0001999371-26-023556",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001328989",
+        "url": "https://www.sec.gov/Archives/edgar/data/1328989/000199937126023556/0001999371-26-023556-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-26T16:00:00-04:00",
+      "collected_at": "2026-10-27T01:17:51.585Z",
+      "type": "disclosure",
+      "category": "수시공시",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001328989",
+        "name": "STRATS(SM) Trust For Goldman Sachs Capital I Securities, Series 2005-1",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral",
+            "note": "수시공시"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "STRATS(SM) Trust For Goldman Sachs Capital I Securities, Series 2005-1 · 10.26 · 수시공시",
+        "headline": "STRATS(SM) Trust For Goldman Sachs Capital I Securities, Series 2005-1, 8-K 공시",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "기관 보유 현황(13F) 공개는 대형 투자자들의 포지션 변화를 엿볼 수 있는 참고 자료예요.",
+          "long_term": "이 정보는 최대 45일 지연 공시라 실시간 포지션이 아니라는 점을 감안해서 봐야 해요."
         }
       },
       "reliability": {
