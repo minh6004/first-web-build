@@ -1,0 +1,510 @@
+[
+  {
+    "event": {
+      "id": "naver-20261029-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261029",
+        "url": "https://n.news.naver.com/mnews/article/008/0005433477?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T10:36:00+09:00",
+      "collected_at": "2026-10-29T01:38:48.325Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "삼성전자 영업익 99% 책임진 반도체…3분기 106.5조 벌었다",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "삼성전자 영업익 99% 책임진 반도체…3분기 106.5조 벌었다",
+        "삼성전자, 3분기 반도체 영업익 106.5조…완제품은 8천억 원",
+        "삼성전자 반도체, 3분기 영업익 106.5조원...\"HBM4가 견인\""
+      ],
+      "snippets": [
+        "삼성전자가 올해 3분기 반도체 사업에서만 106조원 이상의 영업이익을 기록하며 역대 최대 실적을 달성했다. 반도체 사업이 전사 영업이익의 99%를 책임지며 실적 성장을 이끌었다. 삼성전자 DS부문은 올해 3분기... ",
+        "반도체 사업을 담당하는 DS 부문이 사상 최고 실적을 이끌었다. DS부문은 올해 3분기 매출 147조 1천억 원... 삼성전자는 4분기에도 반도체의 호실적이 이어지며 전사 실적이 성장할 것으로 전망했다. DS부문은... ",
+        "삼성전자가 인공지능(AI) 반도체 수요 강세에 힘입어 3분기 반도체 사업에서 100조원이 넘는 영업이익을 올렸다. 역대 최대 실적이다. 올해 84조원의 대규모 시설투자를 단행해 내년에도 이어질 AI 메모리 '초과수요... "
+      ],
+      "media_domains": [
+        "mt.co.kr",
+        "wowtv.co.kr",
+        "zdnet.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261029-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261029",
+        "url": "https://www.ziksir.com/news/articleView.html?idxno=151177",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T09:24:00+09:00",
+      "collected_at": "2026-10-29T01:38:49.216Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 16,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "코스피, 반도체 강세 속 상승 출발…2차전지 약세에 코스닥 하락",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "코스피, 반도체 강세 속 상승 출발…2차전지 약세에 코스닥 하락",
+        "코스피, 반도체 대형주 강세 지속에 상승 출발…코스닥은 약세"
+      ],
+      "snippets": [
+        "[연합뉴스]  국내 증시가 반도체 대형주 강세와 2차전지주 약세 속 엇갈린 흐름을 보이고 있다. 코스피에서는 SK하이닉스와 삼성전자가 상승세를 보이며 지수를 떠받치고 있지만, 코스닥에서는... ",
+        "반면 코스닥은 2차전지와 주요 기술주가 약세를 나타내며 하락하고 있다. 29일 오전 9시10분 현재 코스피는 전 거래일보다 18.47포인트(0.31%) 상승한 6030.91을 기록 중이다. 지수는 이날 6017.22에 출발해 장중 5987.... "
+      ],
+      "media_domains": [
+        "ziksir.com",
+        "hankyung.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261029-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261029",
+        "url": "https://www.econovill.com/news/articleView.html?idxno=755288",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T10:36:00+09:00",
+      "collected_at": "2026-10-29T01:38:50.011Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 5
+      },
+      "scoring": {
+        "surprise_score": 0.63,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 63
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "[인사] 현대백화점그룹",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 5
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[인사] 현대백화점그룹",
+        "[인사] 현대백화점그룹",
+        "[인사]현대백화점그룹",
+        "[인사]현대백화점그룹",
+        "[인사] 현대백화점그룹"
+      ],
+      "snippets": [
+        "이동섭 ▲장식자재사업부장 성재용 ◆현대바이오랜드 ◇상무 ▲경영전략담당 이정민 ▲식품사업부장 오영근 ◆현대이지웰 ◇상무 ▲상품사업부장 박영빈 ◆현대지에프홀딩스 ◇상무 ▲경영개선담당 김택년",
+        "장식자재사업부장 상  무 성재용 ▶ 현대바이오랜드 ▲ 경영전략담당 상  무 이정민 ▲ 식품사업부장 상  무 오영근 ▶ 현대이지웰 ▲ 상품사업부장 상  무 박영빈 ▶ 현대지에프홀딩스 ▲ 경영개선담당 상  무 김택년",
+        "상무 이동섭 ▲장식자재사업부장 상무 성재용 ◆ 현대바이오랜드 ▲경영전략담당 상무 이정민 ▲식품사업부장 상무 오영근 ◆ 현대이지웰 ▲상품사업부장 상무 박영빈 ◆ 현대지에프홀딩스 ▲경영개선담당 상무 김택년",
+        "상 무 성재용 현대바이오랜드 ▲ 경영전략담당 상 무 이정민 ▲ 식품사업부장 상 무 오영근 현대이지웰 ▲ 상품사업부장 상 무 박영빈 현대지에프홀딩스 ▲ 경영개선담당 상 무 김택년 박슬기 한국금융신문 기자",
+        "장식자재사업부장 상무 성재용 [현대바이오랜드] ▲ 경영전략담당 상무 이정민 ▲ 식품사업부장 상무 오영근 [현대이지웰] ▲ 상품사업부장 상무 박영빈 [현대지에프홀딩스] ▲ 경영개선담당 상무 김택년 [뉴스드림]"
+      ],
+      "media_domains": [
+        "econovill.com",
+        "srtimes.kr",
+        "view.asiae.co.kr",
+        "fntimes.com",
+        "newsdream.kr"
+      ],
+      "corroboration_count": 5
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261029-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261029",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026102910325609128",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T10:36:00+09:00",
+      "collected_at": "2026-10-29T01:38:50.739Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "삼성SDS, 3분기 영업익 2410억원…전년比 3.7%↑",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "삼성SDS, 3분기 영업익 2410억원…전년比 3.7%↑",
+        "삼성SDS, 3분기 영업익 2410억원 … 클라우드·물류 성장에 호조"
+      ],
+      "snippets": [
+        "클라우드 관리 서비스(MSP) 사업은 금융권 인공지능 전환(AX)과 조선업종 전사적자원관리(ERP) 사업 확대... 금융권에서는 AI·데이터 플랫폼 구축 사업을 수주했으며 보험사와 금융지주사의 AI 플랫폼 사업에서도... ",
+        "클라우드관리서비스(MSP) 사업은 금융권 AX 프로젝트와 조선업계 전사적자원관리(ERP) 사업 확대 등에... 기업용 AI 사업에서는 금융권을 중심으로 수주 성과를 확보했다. 금융업계의 AI·데이터 플랫폼 구축 사업을... "
+      ],
+      "media_domains": [
+        "newsway.co.kr",
+        "biz.newdaily.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261029-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261029",
+        "url": "https://n.news.naver.com/mnews/article/123/0002392855?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T10:37:00+09:00",
+      "collected_at": "2026-10-29T01:38:51.520Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "LG에너지솔루션, 미래 배터리 기술 찾는다…글로벌 연구 공모 확대",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "LG에너지솔루션, 미래 배터리 기술 찾는다…글로벌 연구 공모 확대",
+        "배터리 혁신기술 발굴···LG엔솔, 글로벌 연구 공모 확대"
+      ],
+      "snippets": [
+        "LG에너지솔루션이 전 세계 대학과 연구기관을 대상으로 차세대 배터리 기술 발굴에 나선다. 올해 10주년을... LG에너지솔루션은 글로벌 연구 공모 프로그램 '배터리 이노베이션 콘테스트(Battery Innovation Contest·BIC) 2026... ",
+        "LG에너지솔루션이 배터리 미래기술 확보를 위해 글로벌 대학 및 연구기관과의 공동 연구를 확대한다.... LG에너지솔루션은 29일 '배터리 이노베이션 콘테스트(Battery Innovation Contest·BIC) 2026'을 개최한다고 밝혔다.... "
+      ],
+      "media_domains": [
+        "joseilbo.com",
+        "energy-news.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261029-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261029",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026102910325609128",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-29T10:36:00+09:00",
+      "collected_at": "2026-10-29T01:38:52.347Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 6
+      },
+      "scoring": {
+        "surprise_score": 0.75,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 70
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.29 · 뉴스 화제성",
+        "headline": "삼성SDS, 3분기 영업익 2410억원…전년比 3.7%↑",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 6
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "삼성SDS, 3분기 영업익 2410억원…전년比 3.7%↑",
+        "삼성SDS, 3분기 영업익 2410억원 … 클라우드·물류 성장에 호조",
+        "삼성SDS, 3분기 영업익 전년比 3.7% 증가...AX 사업 성장 견인",
+        "삼성SDS, 3분기 영업익 2410억 …전년比 3.7%↑",
+        "삼성SDS, 3분기 영업익 2410억원…클라우드·물류 동반 성장"
+      ],
+      "snippets": [
+        "사업별로는 정보기술(IT)서비스 부문 매출이 1조6810억원으로 전년 동기 대비 5.3% 증가했다. 이 가운데 클라우드 매출은 7961억원으로 18% 늘었다. 클라우드 서비스 제공(CSP) 사업은 삼성클라우드플랫폼 수요와 공공... ",
+        "이 가운데 클라우드 사업 매출은 7961억원으로 18% 증가하며 IT서비스 부문의 성장을 이끌었다. 클라우드 사업에서는 삼성클라우드플랫폼(SCP) 수요 확대와 공공·소프트웨어 업종의 서비스형 GPU(GPUaaS) 공급 증가가... ",
+        "특히 인공지능 전환(AX) 사업 호조로 클라우드 매출이 18% 늘어난 7961억원을 기록하며 IT서비스 부문의 성장을 이끌었다는 설명이다. 아울러 클라우드 사업 중 클라우드서비스제공(CSP) 부문은 삼성클라우드플랫폼... ",
+        "IT서비스 부문 매출은 1조6810억원으로 1년 전보다 5.3% 증가했다. 이 가운데 클라우드 매출은 AX(AI 전환)... 클라우드 사업 중 클라우드 서비스 제공(CSP) 부문은 삼성클라우드플랫폼(SCP) 수요와 공공·소프트웨어... ",
+        "IT서비스 사업 매출은 1조6810억원으로 5.3% 증가했습니다. 이 가운데 클라우드 사업 매출은 7961억원으로 18% 성장했습니다. 클라우드 서비스 제공(CSP) 사업은 삼성클라우드플랫폼과 공공·소프트웨어 업종의 GPU... "
+      ],
+      "media_domains": [
+        "newsway.co.kr",
+        "biz.newdaily.co.kr",
+        "thebigdata.co.kr",
+        "newsis.com",
+        "biz.sbs.co.kr",
+        "viva100.com"
+      ],
+      "corroboration_count": 6
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVg54ibjFTjDv8X9dSAV\"}"
+  }
+]

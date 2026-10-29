@@ -1,24 +1,19 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T01:02:56.442Z",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T01:38:52.401Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "반도체",
+      "name": "성장주",
       "events": [
         {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+          "name": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
           "direction": "up",
-          "strength": "강함"
+          "strength": "중간"
         },
         {
-          "name": "Broadcom Inc., 8-K 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "SK하이닉스, 주요사항보고서(자기주식취득결정)",
-          "direction": "neutral",
+          "name": "Federal Reserve issues FOMC statement",
+          "direction": "up",
           "strength": "약함"
         }
       ]
@@ -34,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:51.788Z",
+      "collected_at": "2026-10-29T01:38:47.962Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -99,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:52.835Z",
+      "collected_at": "2026-10-29T01:38:49.212Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -156,6 +151,73 @@
       "status": "active"
     },
     {
+      "id": "ecos-fx-20261029",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261029",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-29T12:00:00+09:00",
+      "collected_at": "2026-10-29T01:38:47.958Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1336.3,
+        "fx_change_pct": 0.9
+      },
+      "scoring": {
+        "surprise_score": 0.45,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 60
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "up"
+          },
+          {
+            "sector": "여행",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 10.29 · 환율",
+        "headline": "원/달러 환율 1336.3원 (전일 대비 +0.9%)",
+        "chips": [
+          "수출주↑",
+          "여행↓"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.9% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "kdata-202609-8507",
       "source": {
         "type": "kdata",
@@ -164,7 +226,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:52.334Z",
+      "collected_at": "2026-10-29T01:38:48.586Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -229,7 +291,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:53.341Z",
+      "collected_at": "2026-10-29T01:38:49.850Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -294,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:52.171Z",
+      "collected_at": "2026-10-29T01:38:48.602Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -348,91 +410,25 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261028",
+      "id": "fed-20261028a",
       "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261028",
-        "url": "https://ecos.bok.or.kr/",
+        "type": "fed",
+        "ref_id": "20261028a",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
         "tier": 1
       },
-      "event_datetime": "2026-10-28T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:51.644Z",
-      "type": "macro_indicator",
-      "category": "환율",
+      "event_datetime": "2026-10-28T18:00:00.000Z",
+      "collected_at": "2026-10-29T01:38:46.705Z",
+      "type": "rate_decision",
+      "category": "통화정책",
       "subject": {
         "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
+        "code": "US-FED",
+        "name": "미국 연방준비제도(Fed)",
         "is_bellwether": true,
         "sectors": [
-          "수출주",
-          "여행"
-        ]
-      },
-      "metrics": {
-        "fx_value_krw": 1324.3,
-        "fx_change_pct": 0.1
-      },
-      "scoring": {
-        "surprise_score": 0.05,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 36
-      },
-      "impact": {
-        "direction": "up",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "up"
-          },
-          {
-            "sector": "여행",
-            "direction": "down"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 10.28 · 환율",
-        "headline": "원/달러 환율 1324.3원 (전일 대비 +0.1%)",
-        "chips": [
-          "수출주↑",
-          "여행↓"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.1% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001730168-0001193125-26-434271",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001730168",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/0001193125-26-434271-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-27T16:00:00-04:00",
-      "collected_at": "2026-10-28T01:02:51.202Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001730168",
-        "name": "Broadcom Inc.",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
+          "금융",
+          "성장주"
         ]
       },
       "metrics": {},
@@ -441,28 +437,32 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 35
+        "priority_score": 40
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "반도체",
-            "direction": "neutral",
-            "note": "인수합병"
+            "sector": "금융",
+            "direction": "neutral"
+          },
+          {
+            "sector": "성장주",
+            "direction": "up"
           }
         ]
       },
       "content": {
-        "meta_line": "Broadcom Inc. · 10.27 · 인수합병",
-        "headline": "Broadcom Inc., 8-K 공시",
+        "meta_line": "미국 연방준비제도(Fed) · 10.28 · 통화정책",
+        "headline": "Federal Reserve issues FOMC statement",
         "chips": [
-          "반도체→"
+          "금융→",
+          "성장주↑"
         ],
         "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+          "short_term": "금리를 동결하면서 불확실성이 일부 해소돼 단기적으로는 안정적인 반응이 나올 수 있어요.",
+          "long_term": "다음 회의에서의 방향 전환 신호(포워드 가이던스)가 중장기적으로 더 중요해요."
         }
       },
       "reliability": {
@@ -474,24 +474,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261028-000014",
+      "id": "sec-0000789019-0001193125-26-436133",
       "source": {
-        "type": "dart",
-        "ref_id": "20261028000014",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000014",
+        "type": "sec",
+        "ref_id": "0000789019",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-10-28T12:00:00+09:00",
-      "collected_at": "2026-10-28T01:02:55.527Z",
-      "type": "disclosure",
-      "category": "주요사항",
+      "event_datetime": "2026-10-28T16:00:00-04:00",
+      "collected_at": "2026-10-29T01:38:47.034Z",
+      "type": "earnings",
+      "category": "분기보고서",
       "subject": {
         "entity_type": "stock",
-        "code": "000660",
-        "name": "SK하이닉스",
+        "code": "0000789019",
+        "name": "MICROSOFT CORP",
         "is_bellwether": true,
         "sectors": [
-          "반도체"
+          "IT/플랫폼"
         ]
       },
       "metrics": {},
@@ -507,21 +507,21 @@
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "반도체",
+            "sector": "IT/플랫폼",
             "direction": "neutral",
-            "note": "주요사항"
+            "note": "분기보고서"
           }
         ]
       },
       "content": {
-        "meta_line": "SK하이닉스 · 10.28 · 주요사항",
-        "headline": "SK하이닉스, 주요사항보고서(자기주식취득결정)",
+        "meta_line": "MICROSOFT CORP · 10.28 · 분기보고서",
+        "headline": "MICROSOFT CORP, 10-Q 공시",
         "chips": [
-          "반도체→"
+          "IT/플랫폼→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
         }
       },
       "reliability": {
