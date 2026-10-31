@@ -1,0 +1,479 @@
+[
+  {
+    "event": {
+      "id": "naver-20261031-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261031",
+        "url": "https://n.news.naver.com/mnews/article/366/0001201682?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T10:13:00+09:00",
+      "collected_at": "2026-10-31T01:27:29.910Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "애플, 엔비디아 제치고 시총 1위 탈환",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "애플, 엔비디아 제치고 시총 1위 탈환",
+        "AI 빅테크 부진에 … 애플, 엔비디아 제치고 시총 1위 탈환"
+      ],
+      "snippets": [
+        "애플은 반도체 공급난 속에서 중저가 스마트폰·PC 등 시장이 붕괴한 가운데 고가 전략으로 오히려 시장 점유율을 확대하고 있다. 애플 주가는 올해 들어 26.8% 상승했는데, 이는 같은 기간 엔비디아 주가 상승률(9.7%)의... ",
+        "AI, 반도체 열풍으로 인해 빅테크들의 주가가 수직 상승했지만 천문학적인 투자 규모와 비교해 수익성에 대한 의구심이 커졌기 때문이다. 특히 인텔은 이날 주가가 28.58% 빠지는 등 반도체주 기업들의 타격이... "
+      ],
+      "media_domains": [
+        "biz.chosun.com",
+        "biz.newdaily.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261031-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261031",
+        "url": "https://n.news.naver.com/mnews/article/024/0000109291?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T10:01:00+09:00",
+      "collected_at": "2026-10-31T01:27:30.736Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 13,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "반도체, 주도주 복귀냐 교체냐",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "반도체, 주도주 복귀냐 교체냐"
+      ],
+      "snippets": [
+        "주도주 다변화 전망도 2차전지, 넥스트 주자 물망 반도체가 숨을 고르는 동안 주목할 업종으로는 2차전지가 꼽힌다. 전기차 시장에서 부진했던 2차전지가 에너지저장장치(ESS)와 피지컬 AI를 새로운 수요처로 확보할 수... "
+      ],
+      "media_domains": [
+        "mk.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261031-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261031",
+        "url": "https://www.bosa.co.kr/news/articleView.html?idxno=3015325",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T10:12:00+09:00",
+      "collected_at": "2026-10-31T01:27:31.495Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "보건의료단체 홍보인 한자리...소통·협력 다져",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "보건의료단체 홍보인 한자리...소통·협력 다져"
+      ],
+      "snippets": [
+        "이해를 높이고 지속적인 교류와 협력의 필요성을 확인했다. 한편 협의회에는 대한간호협회, 대한병원협회, 대한약사회, 대한의사협회, 대한치과의사협회, 대한한의사협회, 한국제약바이오협회 등 7개 단체가 참여하고 있다."
+      ],
+      "media_domains": [
+        "bosa.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261031-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261031",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500202",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T10:26:00+09:00",
+      "collected_at": "2026-10-31T01:27:32.271Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "삼성에스디에스, 3분기 매출 11% 증가…클라우드가 실적 이끌었다",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "삼성에스디에스, 3분기 매출 11% 증가…클라우드가 실적 이끌었다"
+      ],
+      "snippets": [
+        "금융 업종의 AI 전환(AX) 사업과 조선 업종의 전사적자원관리(ERP) 사업 매출이 확대됐고, 글로벌 기업들의 AI... 삼성에스디에스는 GPUaaS 공급 확대와 금융·조선 업종의 AX 및 ERP 사업을 통해 이러한 수요에 대응하고... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261031-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261031",
+        "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005951741",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T10:26:00+09:00",
+      "collected_at": "2026-10-31T01:27:33.159Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "유로존 3분기 경제, 0.4% 성장…시위 겪은 프랑스 0.1% 역성장",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "유로존 3분기 경제, 0.4% 성장…시위 겪은 프랑스 0.1% 역성장"
+      ],
+      "snippets": [
+        "에너지 가격 상승 등에 따른 인플레이션과 프랑스 경제의 위축 등으로 2분기의 0.6%에서 성장세가 다소... 블룸벅 통신은 이번 결과가 중동 전쟁으로 인한 에너지 가격 상승에 따른 물가 상승 압박과 올여름 폭염과... "
+      ],
+      "media_domains": [
+        "mbnmoney.mbn.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261031-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261031",
+        "url": "https://www.tfmedia.co.kr/news/article.html?no=208529",
+        "tier": 2
+      },
+      "event_datetime": "2026-10-31T07:30:00+09:00",
+      "collected_at": "2026-10-31T01:27:33.913Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 10.31 · 뉴스 화제성",
+        "headline": "메타, 'SNS중독·우울증' 청소년 원고와 합의…스냅은 재판 진행",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "메타, 'SNS중독·우울증' 청소년 원고와 합의…스냅은 재판 진행",
+        "메타, ‘SNS중독·우울증’ 청소년 원고와 합의 마쳐",
+        "메타, 'SNS중독·우울증' 청소년 원고와 합의…스냅은 재판 진행"
+      ],
+      "snippets": [
+        "페이스북과 인스타그램을 운영하는 IT기업 메타플랫폼(이하 메타)이 '사회관계망서비스(SNS) 중독' 소송에서 청소년 원고들과 합의했다. 30일(현지시간) 연합뉴스는 로이터 통신 보도를 인용, 메타가 이날... ",
+        "페이스북과 인스타그램을 운영하는 IT기업 메타플랫폼(이하 메타)이 '사회관계망서비스(SNS) 중독' 소송에서 청소년 원고들과 합의했습니다. 로이터 통신은 현지시간 30일, 메타가 캘리포니아주 로스앤젤레스 카운티... ",
+        "김경윤 특파원 = 페이스북과 인스타그램을 운영하는 IT기업 메타플랫폼(이하 메타)이 '사회관계망서비스(SNS) 중독' 소송에서 청소년 원고들과 합의했다. 로이터 통신은 30일(현지시간) 메타가 캘리포니아주... "
+      ],
+      "media_domains": [
+        "tfmedia.co.kr",
+        "news.kbs.co.kr",
+        "yna.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZSptiSvTT5pDZvjwewD\"}"
+  }
+]
