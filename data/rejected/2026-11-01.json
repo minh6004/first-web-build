@@ -1,0 +1,490 @@
+[
+  {
+    "event": {
+      "id": "naver-20261101-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261101",
+        "url": "https://n.news.naver.com/mnews/article/057/0001976125?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:47:00+09:00",
+      "collected_at": "2026-11-01T00:48:43.239Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "한국 수출 사상 첫 9천억 달러 돌파…연내 '1조 달러 수출' 가시권",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "한국 수출 사상 첫 9천억 달러 돌파…연내 '1조 달러 수출' 가시권",
+        "[속보] 1~10월 누적 수출 9천억 달러 첫 돌파…'연 1조 달러' 청신호"
+      ],
+      "snippets": [
+        "10월 수출 호조는 반도체가 이끌었습니다. 반도체 수출은 564억 4천만 달러로 작년 동월 대비 259.4% 급증하며 두 달 연속 500억 달러를 넘어섰습니다. 반도체를 제외한 품목의 수출도 34% 늘었습니다. 20대 주력... ",
+        "10월 반도체 수출은 564억4천만 달러로 작년 10월 대비 259.4% 증가하며 두 달 연속 500억 달러 이상을 기록했다. 20대 주력 수출품목 중에서는 18개 품목의 수출이 증가했다. 지역별로는 9개 지역 중 7개 지역에서... "
+      ],
+      "media_domains": [
+        "mbn.mk.co.kr",
+        "nocutnews.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261101-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261101",
+        "url": "https://n.news.naver.com/mnews/article/029/0003056324?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:11:00+09:00",
+      "collected_at": "2026-11-01T00:48:44.089Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 8,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "석탄·암모니아 혼소 제외…수소발전 1430GWh 입찰",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "석탄·암모니아 혼소 제외…수소발전 1430GWh 입찰"
+      ],
+      "snippets": [
+        "2차 평가에서는 가격과 비가격 비중을 각각 50%로 적용한다. 청정수소 활용 등급과 연료 도입 안정성... 일반 수소발전은 연료전지 등을 활용한 분산형 전원 확대에 초점을 맞췄다. 올해는 이산화탄소 포집·활용·저장... "
+      ],
+      "media_domains": [
+        "dt.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261101-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261101",
+        "url": "https://n.news.naver.com/mnews/article/421/0009262531?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:39:00+09:00",
+      "collected_at": "2026-11-01T00:48:44.833Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "韓 수출 첫 9000억 달러 돌파…\"11월 중 1조 돌파 확실시\"(상보)",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "韓 수출 첫 9000억 달러 돌파…\"11월 중 1조 돌파 확실시\"(상보)",
+        "수출 1조달러까지 700억달러…11월 중 사상 첫 돌파 확실시",
+        "10월 수출, 1152.8억 달러… “11월 1조 달러 돌파 확실시”"
+      ],
+      "snippets": [
+        "소비재는 화장품·농수산식품·바이오헬스 모두 10월 기준 역대 최대 실적을 기록했다. 화장품은 57.5% 늘어난 14억 4000만 달러, 농수산식품은 11.6% 증가한 11억 1000만 달러였다. 바이오헬스는 위탁생산(CMO) 다년... ",
+        "바이오헬스 수출 역시 30.2% 증가한 15억3000만달러를 기록했다. 세 품목 모두 역대 10월 기준 최대 실적을 경신했다. 전체 20대 주요 수출품목 가운데 수출이 감소한 품목은 선박과 생활용품 2개에 그쳤다.... ",
+        "소비재인 화장품·농수산식품·바이오헬스 모두 역대 10월 중 최대 실적을 경신했다. 화장품은 57.5% 증가한 14억4000만 달러를, 농수산식품은 11.6% 늘어난 11억1000만 달러로 호조세를 보였다. 바이오헬스 역시 30.2... "
+      ],
+      "media_domains": [
+        "news1.kr",
+        "edaily.co.kr",
+        "viva100.com"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261101-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261101",
+        "url": "https://n.news.naver.com/mnews/article/003/0014292535?sid=004",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:45:00+09:00",
+      "collected_at": "2026-11-01T00:48:45.601Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "6개월만에 감소 전환했던 가계대출, 한 달 만에 다시 증가세로",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "6개월만에 감소 전환했던 가계대출, 한 달 만에 다시 증가세로",
+        "6개월만에 감소 전환했던 가계대출, 한 달 만에 다시 증가세로",
+        "6개월만에 감소 전환했던 가계대출, 한 달 만에 다시 증가세로",
+        "6개월만에 감소 전환했던 가계대출, 한 달 만에 다시 증가세로",
+        "5대 은행 가계대출 한 달 만에 다시 증가세로 돌아서"
+      ],
+      "snippets": [
+        "1일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행의 지난달 29일 기준 가계대출 잔액은 783조987억원으로 전월 말 대비 2조2647억원 증가했다. 지난 9월 1조2852억원 줄어들면서 6개월 만에 감소... ",
+        "1일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행의 지난달 29일 기준 가계대출 잔액은 783조987억원으로 전월 말 대비 2조2647억원 증가했다. 지난 9월 1조2852억원 줄어들면서 6개월 만에 감소... ",
+        "1일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행의 지난달 29일 기준 가계대출 잔액은 783조987억원으로 전월 말 대비 2조2647억원 증가했다. 지난 9월 1조2852억원 줄어들면서 6개월 만에 감소... ",
+        "1일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행의 지난달 29일 기준 가계대출 잔액은 783조987억원으로 전월 말 대비 2조2647억원 증가했다. 지난 9월 1조2852억원 줄어들면서 6개월 만에 감소... ",
+        "1일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행의 지난달 29일 기준 가계대출 잔액은 783조987억원으로 전월 말 대비 2조2647억원 증가했다. 지난 9월 1조2852억원 줄어들면서 6개월 만에 감소... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261101-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261101",
+        "url": "https://n.news.naver.com/mnews/article/018/0006401136?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:42:00+09:00",
+      "collected_at": "2026-11-01T00:48:46.503Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "수출 1조달러까지 700억달러…11월 중 사상 첫 돌파 확실시",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "수출 1조달러까지 700억달러…11월 중 사상 첫 돌파 확실시",
+        "韓 수출 첫 9000억 달러 돌파…\"11월 중 1조 돌파 확실시\"(상보)"
+      ],
+      "snippets": [
+        "에너지 수입액은 164억9000만달러로 63.1% 늘었다. 특히 원유 수입물량은 6.3% 감소했지만 수입단가가 62.0% 상승하면서 원유 수입액은 51.9% 증가한 107억달러로 집계됐다. 에너지를 제외한 수입도 반도체 장비와 자동차... ",
+        "수입은 에너지가 63.1% 늘어난 164억 9000만 달러, 에너지 외 품목이 29.7% 증가한 562억 9000만 달러였다. 원유 수입은 물량이 6.3% 줄었지만 단가가 62.0% 오르면서 금액은 51.9% 늘어난 107억 달러를 기록했다.... "
+      ],
+      "media_domains": [
+        "edaily.co.kr",
+        "news1.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261101-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261101",
+        "url": "https://n.news.naver.com/mnews/article/018/0006401126?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-01T09:22:00+09:00",
+      "collected_at": "2026-11-01T00:48:47.287Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 17,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.01 · 뉴스 화제성",
+        "headline": "AI 시대, 전문가는 지고 고수가 뜬다 [김현아의 IT세상읽기]",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "AI 시대, 전문가는 지고 고수가 뜬다 [김현아의 IT세상읽기]"
+      ],
+      "snippets": [
+        "대신 운영 플랫폼 ‘록스(LOX)’와 캐릭터 에이전트 ‘루카(LUCA)’를 개발해 다양한 로봇에 적용한다. 중국 하이토크 로보틱스의 소형 로봇에 적용한 데 이어 유니트리 등으로 확대를 추진하고 있다. 10년간 쌓은 콘텐츠... "
+      ],
+      "media_domains": [
+        "edaily.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbHgJ84Mh9bbkebziDq7\"}"
+  }
+]

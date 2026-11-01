@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T01:27:34.083Z",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T00:48:47.340Z",
   "summary": [],
   "events": [
     {
@@ -12,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:29.883Z",
+      "collected_at": "2026-11-01T00:48:43.324Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +77,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:30.887Z",
+      "collected_at": "2026-11-01T00:48:44.841Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +142,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:30.385Z",
+      "collected_at": "2026-11-01T00:48:44.085Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +207,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:31.388Z",
+      "collected_at": "2026-11-01T00:48:45.600Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -272,7 +272,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:30.283Z",
+      "collected_at": "2026-11-01T00:48:43.489Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -334,7 +334,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-30T12:00:00+09:00",
-      "collected_at": "2026-10-31T01:27:29.733Z",
+      "collected_at": "2026-11-01T00:48:42.974Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -382,124 +382,6 @@
         "horizon": {
           "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
           "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0000070858-0000070858-26-000548",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000070858",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/0000070858-26-000548-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-30T16:00:00-04:00",
-      "collected_at": "2026-10-31T01:27:29.306Z",
-      "type": "earnings",
-      "category": "분기보고서",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000070858",
-        "name": "BANK OF AMERICA CORP /DE/",
-        "is_bellwether": true,
-        "sectors": [
-          "금융"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 25
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "금융",
-            "direction": "neutral",
-            "note": "분기보고서"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "BANK OF AMERICA CORP /DE/ · 10.30 · 분기보고서",
-        "headline": "BANK OF AMERICA CORP /DE/, 10-Q 공시",
-        "chips": [
-          "금융→"
-        ],
-        "horizon": {
-          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
-          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001767837-0001628280-26-068629",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001767837",
-        "url": "https://www.sec.gov/Archives/edgar/data/1767837/000162828026068629/0001628280-26-068629-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-10-30T16:00:00-04:00",
-      "collected_at": "2026-10-31T01:27:29.304Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001767837",
-        "name": "Richmond Mutual Bancorporation, Inc.",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "Richmond Mutual Bancorporation, Inc. · 10.30 · 인수합병",
-        "headline": "Richmond Mutual Bancorporation, Inc., 8-K 공시",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
