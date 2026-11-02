@@ -1,0 +1,497 @@
+[
+  {
+    "event": {
+      "id": "naver-20261102-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261102",
+        "url": "https://n.news.naver.com/mnews/article/020/0003759332?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T10:21:00+09:00",
+      "collected_at": "2026-11-02T01:22:24.454Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "자비스, 운영자금 30억원 단기 차입 결정",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "자비스, 운영자금 30억원 단기 차입 결정"
+      ],
+      "snippets": [
+        "반도체·SMT/PCB·2차전지 검사장비를 맡는 XSCAN 부문 수주잔고는 111억6,100만원으로 같은 기간 95% 증가했다. 자비스는 9월 34억원 규모의 배터리 X-ray 검사장비 공급계약을 공시했다. 10월에는 반도체 유리기판 TGV... "
+      ],
+      "media_domains": [
+        "donga.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261102-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261102",
+        "url": "https://n.news.naver.com/mnews/article/022/0004171632?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T08:02:00+09:00",
+      "collected_at": "2026-11-02T01:22:25.535Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 5
+      },
+      "scoring": {
+        "surprise_score": 0.63,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 63
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "명성A&T, 데이터링커 지분 100% 인수 계약…AI 사업 확대",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 5
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "명성A&T, 데이터링커 지분 100% 인수 계약…AI 사업 확대",
+        "명성A&T, AI 솔루션 기업 데이터링커 지분 100% 인수 계약",
+        "명성A&T, 데이터링커 지분 100% 인수 계약 체결…2027년 자회사 편입 예...",
+        "명성A&T, AI 솔루션 기업 데이터링커 주식 100% 인수 계약 체결",
+        "명성A＆T, 데이터링커 인수 계약 체결…제조 자동화 사업 영역 확대"
+      ],
+      "snippets": [
+        "회사 측에 따르면 명성A&T는 데이터링커 기술을 적용한 제조 설비 분석 솔루션 'MS-AGENT'를 개발해 2차전지와 화학소재, 반도체, 디스플레이 제조 현장 등에 공급하고 있다. 자회사 편입 이후에는 하드웨어와 소프트웨어... ",
+        "명성A&T는 데이터링커 기술을 적용한 제조 설비 분석 솔루션 ‘MS-AGENT’를 개발해 국내 2차전지·화학소재·반도체·디스플레이 제조 현장에 공급하고 있다고 밝혔다. 회사 측은 그동안 하드웨어와 소프트웨어 조직이... ",
+        "명성A&T는 데이터링커의 기술을 적용한 제조 설비 분석 솔루션 ‘MS-AGENT’를 개발해 국내 2차전지, 화학소재, 반도체, 디스플레이 제조 현장에 공급하고 있다고 밝혔다. 회사 측은 기존 협업을 통해 개발한 솔루션을... ",
+        "명성A&T는 데이터링커의 기술을 적용한 제조 설비 분석 솔루션 ‘MS-AGENT’를 개발해 국내 2차전지, 화학소재, 반도체, 디스플레이 제조 현장에 공급하고 있다. 회사 측은 기존 협업을 통해 개발한 솔루션을 바탕으로... ",
+        "명성A＆T는 데이터링커의 기술을 적용한 제조 설비 분석 솔루션 ‘MS-AGENT’를 개발해 국내 2차전지, 화학소재, 반도체, 디스플레이 제조 현장에 공급하고 있다. 회사 측은 기존 협업을 통해 개발한 솔루션을 바탕으로... "
+      ],
+      "media_domains": [
+        "segye.com",
+        "donga.com",
+        "khan.co.kr",
+        "dt.co.kr",
+        "seoul.co.kr"
+      ],
+      "corroboration_count": 5
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261102-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261102",
+        "url": "https://n.news.naver.com/mnews/article/008/0005435062?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T10:16:00+09:00",
+      "collected_at": "2026-11-02T01:22:26.281Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "동아에스티, SK바팜 뇌전증 신약 '엑스코프리' 출시…건보 급여 적용",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "동아에스티, SK바팜 뇌전증 신약 '엑스코프리' 출시…건보 급여 적용",
+        "동아에스티, 뇌전증 치료 신약 '엑스코프리' 국내 출시"
+      ],
+      "snippets": [
+        "동아에스티가 SK바이오팜이 개발한 뇌전증 치료제 '엑스코프리'(성분명 세노바메이트)를 국내 출시했다.... 동아에스티는 2024년 1월 SK바이오팜과 한국을 비롯한 동·서남아시아, 러시아, 호주, 뉴질랜드, 튀르키예 등... ",
+        "뇌전증 신약 '세노바메이트'(미국 제품명 엑스코프리) 사진=SK바이오팜 제공  동아에스티는 뇌전증 치료제 '엑스코프리정'(성분명 세노바메이트)을 국내 출시했다고 2일 밝혔다. 엑스코프리는 SK바이오팜이 개발한... "
+      ],
+      "media_domains": [
+        "mt.co.kr",
+        "daily.hankooki.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261102-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261102",
+        "url": "https://www.pointe.co.kr/news/articleView.html?idxno=86988",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T10:20:00+09:00",
+      "collected_at": "2026-11-02T01:22:27.059Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "하나은행 본점에 뜬 1783㎡ 초대형 '하나 캔버스'",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "하나은행 본점에 뜬 1783㎡ 초대형 '하나 캔버스'",
+        "하나은행, 을지로 본점에 초대형 미디어파사드 '하나 캔버스'"
+      ],
+      "snippets": [
+        "실시간 금융 정보 허브 역할 단순한 옥외 광고판을 넘어 실시간 금융 정보의 중심지로 활용할 계획이다. 회사의 상징적인 공간인 딜링룸과 연계해 환율과 주요 주가지수는 물론 각종 금융 정책과 시장 동향 요약 정보를... ",
+        "금융정보·미디어아트 선보여 손흥민 아나모픽 영상 공개…13일부터 크리스마스 콘텐츠  하나은행이 서울 을지로 본점 외벽을 대형 디지털 화면처럼 활용하는 초대형 미디어파사드 '하나 캔버스'를 선보인다. 금융정보... "
+      ],
+      "media_domains": [
+        "pointe.co.kr",
+        "srtimes.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261102-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261102",
+        "url": "https://n.news.naver.com/mnews/article/016/0002717470?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T10:21:00+09:00",
+      "collected_at": "2026-11-02T01:22:27.862Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "HD현대, 2026년 임원인사 실시…HD현대重 설귀훈 등 7명 부사장 승진",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "HD현대, 2026년 임원인사 실시…HD현대重 설귀훈 등 7명 부사장 승진",
+        "HD현대, 임원인사 단행… 부사장 7명 등 77명 승진·신규 선임",
+        "HD현대, 임원인사…부사장 7명·전무 23명 승진"
+      ],
+      "snippets": [
+        "강종성, 강화구, 김선길, 김지홍 ◆ HD현대로보틱스 ▷상무: 최재환, 황재화 ◆ HD현대에너지솔루션 ▷상무: 김면수 ◆ AMC사이언스 ▷전무: 부지홍 ◆ 씨마크서비스 ▷전무: 이성호 ◆ HD현대 ▷상무: 김은진, 최상현",
+        "강종성, 강화구, 김선길, 김지홍 ◆ HD현대로보틱스 ▲상무 최재환, 황재화 ◆ HD현대에너지솔루션 ▲상무 김면수 ◆ AMC사이언스 ▲전무 부지홍 ◆ 씨마크서비스 ▲전무 이성호 ◆ HD현대 ▲상무 김은진, 최상현",
+        "김지홍 [HD현대로보틱스] 상무 선임 ▲ 최재환 ▲ 황재화 [HD현대에너지솔루션] 상무 선임 ▲ 김면수 [AMC사이언스] 전무 승진 ▲ 부지홍 [씨마크서비스] 전무 승진 ▲ 이성호 [HD현대] 상무 선임 ▲ 김은진 ▲ 최상현"
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com",
+        "srtimes.kr",
+        "yna.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261102-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261102",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424733",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-02T10:12:00+09:00",
+      "collected_at": "2026-11-02T01:22:28.637Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.02 · 뉴스 화제성",
+        "headline": "현신균號 LG CNS, 인니서 국내 첫 해외 AI데이터센터 구축",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "현신균號 LG CNS, 인니서 국내 첫 해외 AI데이터센터 구축",
+        "[IT는 지금] LG CNS, 국내 기업 최초 해외 AI데이터센터 구축…인니 30MW..."
+      ],
+      "snippets": [
+        "LG CNS가 국내 IT서비스업계에서 처음으로 해외 AI데이터센터 구축을 완료했다. 현신균 LG CNS 대표 체제에서... 앞으로 이를 AI 플랫폼·서비스와 묶은 'AI 팩토리' 사업으로 확장한다는 구상으로 사업 영역도 아시아권을... ",
+        "트윈 플랫폼 ‘AI 셀 트윈’에 기반한 ‘무선망 자율 운용 기술’을 검증했다고 2일 밝혔다. AI 셀 트윈은 디지털 공간에 가상으로 무선망을 구현한 KT의 네트워크 디지털 트윈 플랫폼이다. 가상 통신 환경에서... "
+      ],
+      "media_domains": [
+        "sisajournal-e.com",
+        "dealsite.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdE4DRCNEAvPRELr6aCW\"}"
+  }
+]

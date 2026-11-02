@@ -1,7 +1,24 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T00:48:47.340Z",
-  "summary": [],
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T01:22:28.703Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "바이오",
+      "events": [
+        {
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
+          "direction": "down",
+          "strength": "중간"
+        },
+        {
+          "name": "삼성바이오로직스, [기재정정]단일판매ㆍ공급계약체결              ",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202609-8542",
@@ -12,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:43.324Z",
+      "collected_at": "2026-11-02T01:22:24.446Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:44.841Z",
+      "collected_at": "2026-11-02T01:22:26.040Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:44.085Z",
+      "collected_at": "2026-11-02T01:22:25.241Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:45.600Z",
+      "collected_at": "2026-11-02T01:22:26.837Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -272,7 +289,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:43.489Z",
+      "collected_at": "2026-11-02T01:22:25.026Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -326,15 +343,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261030",
+      "id": "ecos-fx-20261102",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261030",
+        "ref_id": "fx-usd-20261102",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-10-30T12:00:00+09:00",
-      "collected_at": "2026-11-01T00:48:42.974Z",
+      "event_datetime": "2026-11-02T12:00:00+09:00",
+      "collected_at": "2026-11-02T01:22:24.319Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -348,8 +365,8 @@
         ]
       },
       "metrics": {
-        "fx_value_krw": 1335.3,
-        "fx_change_pct": -0.1
+        "fx_value_krw": 1337.2,
+        "fx_change_pct": 0.1
       },
       "scoring": {
         "surprise_score": 0.05,
@@ -359,29 +376,147 @@
         "priority_score": 36
       },
       "impact": {
-        "direction": "down",
+        "direction": "up",
         "strength": "weak",
         "affected_sectors": [
           {
             "sector": "수출주",
-            "direction": "down"
+            "direction": "up"
           },
           {
             "sector": "여행",
-            "direction": "up"
+            "direction": "down"
           }
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 10.30 · 환율",
-        "headline": "원/달러 환율 1335.3원 (전일 대비 -0.1%)",
+        "meta_line": "원/달러 환율 · 11.02 · 환율",
+        "headline": "원/달러 환율 1337.2원 (전일 대비 +0.1%)",
         "chips": [
-          "수출주↓",
-          "여행↑"
+          "수출주↑",
+          "여행↓"
         ],
         "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
-          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+          "short_term": "원/달러 환율이 전일 대비 0.1% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20261102-800004",
+      "source": {
+        "type": "dart",
+        "ref_id": "20261102800004",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800004",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-02T12:00:00+09:00",
+      "collected_at": "2026-11-02T01:22:27.192Z",
+      "type": "contract",
+      "category": "수시공시",
+      "subject": {
+        "entity_type": "stock",
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 30
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral",
+            "note": "수시공시"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "삼성바이오로직스 · 11.02 · 수시공시",
+        "headline": "삼성바이오로직스, [기재정정]단일판매ㆍ공급계약체결              ",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "신규 계약·특허·임상 관련 공시는 단기 기대감으로 이어지는 경우가 많아요.",
+          "long_term": "계약 규모가 실적에 실질적으로 기여하는 시점과 폭이 중장기 주가를 좌우해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20261102-900257",
+      "source": {
+        "type": "dart",
+        "ref_id": "20261102900257",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102900257",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-02T12:00:00+09:00",
+      "collected_at": "2026-11-02T01:22:27.192Z",
+      "type": "contract",
+      "category": "수시공시",
+      "subject": {
+        "entity_type": "stock",
+        "code": "226950",
+        "name": "올릭스",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 5
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "수시공시"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "올릭스 · 11.02 · 수시공시",
+        "headline": "올릭스, [기재정정]투자판단관련주요경영사항(임상시험계획승인신청)              ",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "신규 계약·특허·임상 관련 공시는 단기 기대감으로 이어지는 경우가 많아요.",
+          "long_term": "계약 규모가 실적에 실질적으로 기여하는 시점과 폭이 중장기 주가를 좌우해요."
         }
       },
       "reliability": {
