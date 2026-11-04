@@ -1,24 +1,7 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T03:22:31.950Z",
-  "summary": [
-    {
-      "id": "sector-0",
-      "name": "바이오",
-      "events": [
-        {
-          "name": "바이오(HS 3004) 수출 전년 동월 대비 -12.9%",
-          "direction": "down",
-          "strength": "중간"
-        },
-        {
-          "name": "삼성바이오로직스, 단일판매ㆍ공급계약체결              ",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    }
-  ],
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T02:00:21.086Z",
+  "summary": [],
   "events": [
     {
       "id": "kdata-202609-8542",
@@ -29,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:27.229Z",
+      "collected_at": "2026-11-04T02:00:10.426Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +77,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:28.846Z",
+      "collected_at": "2026-11-04T02:00:11.680Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +142,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:28.033Z",
+      "collected_at": "2026-11-04T02:00:11.052Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +207,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:29.666Z",
+      "collected_at": "2026-11-04T02:00:12.299Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -281,15 +264,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-cpi-202609",
+      "id": "ecos-cpi-202610",
       "source": {
         "type": "ecos",
-        "ref_id": "cpi-202609",
+        "ref_id": "cpi-202610",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:27.656Z",
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-04T02:00:11.275Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -302,20 +285,20 @@
         ]
       },
       "metrics": {
-        "cpi_yoy_pct": 2.9,
-        "cpi_yoy_pct_prev_month": 3.1,
-        "cpi_yoy_accel_pct_point": -0.2
+        "cpi_yoy_pct": 2.8,
+        "cpi_yoy_pct_prev_month": 2.9,
+        "cpi_yoy_accel_pct_point": -0.1
       },
       "scoring": {
-        "surprise_score": 0.2,
+        "surprise_score": 0.1,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 45
+        "priority_score": 39
       },
       "impact": {
         "direction": "down",
-        "strength": "medium",
+        "strength": "weak",
         "affected_sectors": [
           {
             "sector": "성장주",
@@ -324,13 +307,13 @@
         ]
       },
       "content": {
-        "meta_line": "소비자물가지수(CPI) · 09월 · 소비자물가",
-        "headline": "소비자물가 전년동월대비 2.9% (전월 3.1%에서 둔화)",
+        "meta_line": "소비자물가지수(CPI) · 10월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.8% (전월 2.9%에서 둔화)",
         "chips": [
           "성장주↑"
         ],
         "horizon": {
-          "short_term": "소비자물가 상승률(전년동월대비 2.9%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "short_term": "소비자물가 상승률(전년동월대비 2.8%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
           "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
         }
       },
@@ -343,15 +326,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261103",
+      "id": "ecos-fx-20261104",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261103",
+        "ref_id": "fx-usd-20261104",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-11-03T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:26.967Z",
+      "event_datetime": "2026-11-04T12:00:00+09:00",
+      "collected_at": "2026-11-04T02:00:10.560Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -360,45 +343,39 @@
         "name": "원/달러 환율",
         "is_bellwether": true,
         "sectors": [
-          "수출주",
-          "여행"
+          "수출주"
         ]
       },
       "metrics": {
-        "fx_value_krw": 1341,
-        "fx_change_pct": 0.3
+        "fx_value_krw": 1341.2,
+        "fx_change_pct": 0
       },
       "scoring": {
-        "surprise_score": 0.15,
+        "surprise_score": 0,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 42
+        "priority_score": 33
       },
       "impact": {
-        "direction": "up",
-        "strength": "medium",
+        "direction": "neutral",
+        "strength": "weak",
         "affected_sectors": [
           {
             "sector": "수출주",
-            "direction": "up"
-          },
-          {
-            "sector": "여행",
-            "direction": "down"
+            "direction": "neutral"
           }
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 11.03 · 환율",
-        "headline": "원/달러 환율 1341원 (전일 대비 +0.3%)",
+        "meta_line": "원/달러 환율 · 11.04 · 환율",
+        "headline": "원/달러 환율 1341.2원 (전일 대비 +0%)",
         "chips": [
-          "수출주↑",
-          "여행↓"
+          "수출주→"
         ],
         "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.3% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+          "short_term": "원/달러 환율이 전일과 비슷한 수준을 유지했어요.",
+          "long_term": "뚜렷한 방향성이 나타나는지 다음 거래일을 지켜볼 필요가 있어요."
         }
       },
       "reliability": {
@@ -410,17 +387,76 @@
       "status": "active"
     },
     {
-      "id": "sec-0000320193-0000320193-26-000024",
+      "id": "sec-0000019617-0001628280-26-069523",
+      "source": {
+        "type": "sec",
+        "ref_id": "0000019617",
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/0001628280-26-069523-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-03T16:00:00-04:00",
+      "collected_at": "2026-11-04T02:00:14.049Z",
+      "type": "earnings",
+      "category": "분기보고서",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0000019617",
+        "name": "JPMORGAN CHASE & CO",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral",
+            "note": "분기보고서"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "JPMORGAN CHASE & CO · 11.03 · 분기보고서",
+        "headline": "JPMORGAN CHASE & CO, 10-Q 공시",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0000320193-0000320193-26-000026",
       "source": {
         "type": "sec",
         "ref_id": "0000320193",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-02T16:00:00-04:00",
-      "collected_at": "2026-11-03T03:22:27.178Z",
-      "type": "ma",
-      "category": "인수합병",
+      "event_datetime": "2026-11-03T16:00:00-04:00",
+      "collected_at": "2026-11-04T02:00:14.049Z",
+      "type": "earnings",
+      "category": "연차보고서",
       "subject": {
         "entity_type": "stock",
         "code": "0000320193",
@@ -436,7 +472,7 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 35
+        "priority_score": 25
       },
       "impact": {
         "direction": "neutral",
@@ -445,78 +481,19 @@
           {
             "sector": "IT/플랫폼",
             "direction": "neutral",
-            "note": "인수합병"
+            "note": "연차보고서"
           }
         ]
       },
       "content": {
-        "meta_line": "Apple Inc. · 11.02 · 인수합병",
-        "headline": "Apple Inc., 8-K 공시",
+        "meta_line": "Apple Inc. · 11.03 · 연차보고서",
+        "headline": "Apple Inc., 10-K 공시",
         "chips": [
           "IT/플랫폼→"
         ],
         "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "dart-20261103-800043",
-      "source": {
-        "type": "dart",
-        "ref_id": "20261103800043",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800043",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-03T12:00:00+09:00",
-      "collected_at": "2026-11-03T03:22:29.647Z",
-      "type": "contract",
-      "category": "수시공시",
-      "subject": {
-        "entity_type": "stock",
-        "code": "207940",
-        "name": "삼성바이오로직스",
-        "is_bellwether": true,
-        "sectors": [
-          "바이오"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 30
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "바이오",
-            "direction": "neutral",
-            "note": "수시공시"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "삼성바이오로직스 · 11.03 · 수시공시",
-        "headline": "삼성바이오로직스, 단일판매ㆍ공급계약체결              ",
-        "chips": [
-          "바이오→"
-        ],
-        "horizon": {
-          "short_term": "신규 계약·특허·임상 관련 공시는 단기 기대감으로 이어지는 경우가 많아요.",
-          "long_term": "계약 규모가 실적에 실질적으로 기여하는 시점과 폭이 중장기 주가를 좌우해요."
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
         }
       },
       "reliability": {

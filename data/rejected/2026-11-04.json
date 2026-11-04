@@ -1,0 +1,476 @@
+[
+  {
+    "event": {
+      "id": "naver-20261104-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261104",
+        "url": "https://n.news.naver.com/mnews/article/366/0001202467?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:59:00+09:00",
+      "collected_at": "2026-11-04T02:00:12.333Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "유니컨, 기존 전기차 충전 커넥터에 비접촉 기가비트 통신 기술 공개",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "유니컨, 기존 전기차 충전 커넥터에 비접촉 기가비트 통신 기술 공개"
+      ],
+      "snippets": [
+        "CharIN 아시아 콘퍼런스서 ‘UC60’ 발표, KTC 시험 결과 소개 60GHz 밀리미터파(mmWave) 통신 반도체 기업 유니컨(대표 김영동)이 한국전기연구원(KERI)에서 개최된 ‘CharIN Conference ASIA 2026’에 골드 스폰서로 참가해... "
+      ],
+      "media_domains": [
+        "biz.chosun.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261104-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261104",
+        "url": "https://n.news.naver.com/mnews/article/011/0004678573?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:51:00+09:00",
+      "collected_at": "2026-11-04T02:00:14.282Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "美 중간선거 경계감에 ‘출렁’…코스피, 5600선 아래로 [마켓시그널]",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "美 중간선거 경계감에 ‘출렁’…코스피, 5600선 아래로 [마켓시그널]"
+      ],
+      "snippets": [
+        "특히 에너지저장장치(ESS) 관련 2차전지 종목들의 낙폭이 두드러졌다. ESS 사업 수익성 개선이 예상보다 더디다는 이유로 목표가가 일제히 하향 조정된 LG에너지솔루션은 5.70% 급락한 31만 8750원에 거래되고 있다.... "
+      ],
+      "media_domains": [
+        "sedaily.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261104-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261104",
+        "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=314590",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:56:00+09:00",
+      "collected_at": "2026-11-04T02:00:15.938Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "일동바이오사이언스, 복합 바이오틱스 제조기술로 식품기술대상 금상",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "일동바이오사이언스, 복합 바이오틱스 제조기술로 식품기술대상 금상",
+        "일동바이오사이언스, 복합 바이오틱스 '지큐랩'으로 식품기술대상 금상"
+      ],
+      "snippets": [
+        "일동제약그룹의 건강기능식품 전문 계열사 일동바이오사이언스는 복합 바이오틱스 제품인 '지큐랩 프로·프리·포스트바이오틱스'가 한국식품연구원 주관 '2026 한국식품연구원 식품기술대상'에서 금상을 수상했다고 4일... ",
+        "일동바이오사이언스 본사 전경. 사진=일동바이오사이언스  일동바이오사이언스는 4일 서울 강남구 코엑스에서 열린 '2026 한국식품연구원 식품기술대상'에서 건강기능식품 '지큐랩 프로·프리·포스트바이오틱스'로... "
+      ],
+      "media_domains": [
+        "straightnews.co.kr",
+        "weekly.hankooki.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261104-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261104",
+        "url": "https://www.inthenews.co.kr/news/article.html?no=94000",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:58:00+09:00",
+      "collected_at": "2026-11-04T02:00:17.585Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "이선훈 신한투자증권 대표, '사람 살리는 금융' 릴레이캠페인 동참",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "이선훈 신한투자증권 대표, '사람 살리는 금융' 릴레이캠페인 동참"
+      ],
+      "snippets": [
+        "인더뉴스 박호식 기자ㅣ이선훈 신한투자증권 대표이사가 불법사금융 피해를 막고 금융 취약계층을 지키기 위한 '사람 살리는 금융' 릴레이 캠페인에 참여했습니다. 이 캠페인은 서민금융진흥원이 주관해 금융이 국민의... "
+      ],
+      "media_domains": [
+        "inthenews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261104-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261104",
+        "url": "https://n.news.naver.com/mnews/article/629/0000548572?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:59:00+09:00",
+      "collected_at": "2026-11-04T02:00:19.299Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "효성중공업, 'BIXPO 2026'서 차세대 전력망 기술 공개",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "효성중공업, 'BIXPO 2026'서 차세대 전력망 기술 공개"
+      ],
+      "snippets": [
+        "전압형 HVDC 등 에너지 설비 전시 AI 기반 자산관리 플랫폼 공개 효성중공업이 서해안 전력망 국산화... 4일 ​효성중공업은 오는 6일까지 광주 김대중컨벤션센터에서 열리는 국제 전력·에너지 융복합 전시회 '빛가람... "
+      ],
+      "media_domains": [
+        "news.tf.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261104-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261104",
+        "url": "https://www.etoday.co.kr/news/view/2643947",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-04T10:54:00+09:00",
+      "collected_at": "2026-11-04T02:00:20.970Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.04 · 뉴스 화제성",
+        "headline": "롯데하이마트, 5개 분기 만에 매출 반등...케어서비스·모바일·PB 견인",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "롯데하이마트, 5개 분기 만에 매출 반등...케어서비스·모바일·PB 견인",
+        "롯데하이마트, 5개 분기 만에 매출 반등…영업이익은 뒷걸음질"
+      ],
+      "snippets": [
+        "롯데하이마트는 가전 판매에서 나아가 ‘가전 평생 케어 플랫폼’으로서 고객 접점을 넓히고 있다.... IT·모바일과 PB 매출은 같은 기간 각각 11%, 23%씩 늘면서 성장세를 보이고 있다. 다만 수익성은 업황 침체... ",
+        "가전제품 구매부터 사용, 수리, 교체까지 생애주기 전반을 관리하는 ‘가전 평생 케어 플랫폼’을 구축해... IT·모바일과 PB 상품도 성장세를 이어갔다. 3분기 IT·모바일 매출은 전년 동기 대비 11% 증가했다. 특히... "
+      ],
+      "media_domains": [
+        "etoday.co.kr",
+        "fntimes.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgh4ZYtPggcHmbJKc4hSM\"}"
+  }
+]
