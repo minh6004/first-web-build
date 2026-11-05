@@ -1,7 +1,24 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T02:00:21.086Z",
-  "summary": [],
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T02:03:22.787Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "QUALCOMM INC/DE, 10-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202609-8542",
@@ -12,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:10.426Z",
+      "collected_at": "2026-11-05T02:03:18.962Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:11.680Z",
+      "collected_at": "2026-11-05T02:03:20.456Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:11.052Z",
+      "collected_at": "2026-11-05T02:03:19.709Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:12.299Z",
+      "collected_at": "2026-11-05T02:03:21.213Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -272,7 +289,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:11.275Z",
+      "collected_at": "2026-11-05T02:03:19.093Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -326,15 +343,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261104",
+      "id": "ecos-fx-20261105",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261104",
+        "ref_id": "fx-usd-20261105",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-11-04T12:00:00+09:00",
-      "collected_at": "2026-11-04T02:00:10.560Z",
+      "event_datetime": "2026-11-05T12:00:00+09:00",
+      "collected_at": "2026-11-05T02:03:18.501Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -347,7 +364,7 @@
         ]
       },
       "metrics": {
-        "fx_value_krw": 1341.2,
+        "fx_value_krw": 1340.7,
         "fx_change_pct": 0
       },
       "scoring": {
@@ -368,8 +385,8 @@
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 11.04 · 환율",
-        "headline": "원/달러 환율 1341.2원 (전일 대비 +0%)",
+        "meta_line": "원/달러 환율 · 11.05 · 환율",
+        "headline": "원/달러 환율 1340.7원 (전일 대비 +0%)",
         "chips": [
           "수출주→"
         ],
@@ -387,80 +404,21 @@
       "status": "active"
     },
     {
-      "id": "sec-0000019617-0001628280-26-069523",
+      "id": "dart-20261105-000008",
       "source": {
-        "type": "sec",
-        "ref_id": "0000019617",
-        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/0001628280-26-069523-index.htm",
+        "type": "dart",
+        "ref_id": "20261105000008",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000008",
         "tier": 1
       },
-      "event_datetime": "2026-11-03T16:00:00-04:00",
-      "collected_at": "2026-11-04T02:00:14.049Z",
-      "type": "earnings",
-      "category": "분기보고서",
+      "event_datetime": "2026-11-05T12:00:00+09:00",
+      "collected_at": "2026-11-05T02:03:22.065Z",
+      "type": "disclosure",
+      "category": "주요사항",
       "subject": {
         "entity_type": "stock",
-        "code": "0000019617",
-        "name": "JPMORGAN CHASE & CO",
-        "is_bellwether": true,
-        "sectors": [
-          "금융"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 25
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "금융",
-            "direction": "neutral",
-            "note": "분기보고서"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "JPMORGAN CHASE & CO · 11.03 · 분기보고서",
-        "headline": "JPMORGAN CHASE & CO, 10-Q 공시",
-        "chips": [
-          "금융→"
-        ],
-        "horizon": {
-          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
-          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0000320193-0000320193-26-000026",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000320193",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-03T16:00:00-04:00",
-      "collected_at": "2026-11-04T02:00:14.049Z",
-      "type": "earnings",
-      "category": "연차보고서",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000320193",
-        "name": "Apple Inc.",
+        "code": "035720",
+        "name": "카카오",
         "is_bellwether": true,
         "sectors": [
           "IT/플랫폼"
@@ -481,15 +439,74 @@
           {
             "sector": "IT/플랫폼",
             "direction": "neutral",
+            "note": "주요사항"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "카카오 · 11.05 · 주요사항",
+        "headline": "카카오, 주요사항보고서(자기주식취득결정)",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
+          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0000804328-0000804328-26-000128",
+      "source": {
+        "type": "sec",
+        "ref_id": "0000804328",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/0000804328-26-000128-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-04T16:00:00-04:00",
+      "collected_at": "2026-11-05T02:03:18.035Z",
+      "type": "earnings",
+      "category": "연차보고서",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0000804328",
+        "name": "QUALCOMM INC/DE",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral",
             "note": "연차보고서"
           }
         ]
       },
       "content": {
-        "meta_line": "Apple Inc. · 11.03 · 연차보고서",
-        "headline": "Apple Inc., 10-K 공시",
+        "meta_line": "QUALCOMM INC/DE · 11.04 · 연차보고서",
+        "headline": "QUALCOMM INC/DE, 10-K 공시",
         "chips": [
-          "IT/플랫폼→"
+          "반도체→"
         ],
         "horizon": {
           "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",

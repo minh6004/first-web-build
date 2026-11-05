@@ -1,0 +1,491 @@
+[
+  {
+    "event": {
+      "id": "naver-20261105-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261105",
+        "url": "http://www.metroseoul.co.kr/article/20261105500012",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T11:02:00+09:00",
+      "collected_at": "2026-11-05T02:03:18.568Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "김동철 한전 사장 “전력망 확충하려면 전기요금 현실화 불가피”",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "김동철 한전 사장 “전력망 확충하려면 전기요금 현실화 불가피”",
+        "김동철 한전 사장 \"전기요금 현실화 필요…전력망 확충 재원 마련해야\"",
+        "김동철 한전 사장 \"전기요금 현실화 절실⋯사채 통한 전력망 확충은 한..."
+      ],
+      "snippets": [
+        "누적 적자 해소·국가 전력망 투자 재원 확보 필요…\"사채·외부 차입 의존 지속 가능하지 않아\" 호남 반도체... 특히 호남권 반도체 클러스터의 전력 공급과 관련해 김 사장은 \"내년 초 착공, 2028년 말까지 전력 공급에는... ",
+        "김 사장은 호남 반도체 클러스터 전력 공급과 관련해 \"기후부와 광주광역시, 장성군, 광산구 등이 참여하는... 김 사장은 \"변압기는 세계적인 수요 때문에 조달에 3년 정도가 필요하다\"며 \"호남권 반도체는 10년이라는... ",
+        "호남 반도체 전력공급 2028년 완료 자신…세계 최초 'AI 가상 전력망' 첫선 체코 원전 '시공 총액 확정 계약... 호남권 반도체 메가 클러스터 전력 공급 우려에 대해서는 강한 자신감을 내비쳤다. 김 사장은 \"장록습지 등... "
+      ],
+      "media_domains": [
+        "metroseoul.co.kr",
+        "dailian.co.kr",
+        "etoday.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261105-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261105",
+        "url": "https://www.getnews.co.kr/news/articleView.html?idxno=886090",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T09:56:00+09:00",
+      "collected_at": "2026-11-05T02:03:19.448Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "美중간선거 민주당 압승에 데이터센터 규제 강화 우려... 증권가 \"AI산업...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "美중간선거 민주당 압승에 데이터센터 규제 강화 우려... 증권가 \"AI산업...",
+        "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전..."
+      ],
+      "snippets": [
+        "민주당의 의회 장악으로 친환경에너지와 2차전지 업종에 대한 정책 기대가 커질 수 있지만, 실제 수혜로 이어질지는 지켜봐야 한다는 분석도 나온다. 이 센터장은 \"행정부는 여전히 트럼프 대통령이 장악하고 있어... ",
+        "\"전국적 데이터센터 규제 어렵지만…지역별 건설 지연·비용 부담 가능성\" \"한국 반도체주 팔고 美빅테크주 사는 수급 불확실성 우려\" 국제유가 급락은 국내증시 호재…친환경·2차전지 수혜 지속성은 지켜봐야 (서울... "
+      ],
+      "media_domains": [
+        "getnews.co.kr",
+        "yna.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261105-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261105",
+        "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=365743",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T11:02:00+09:00",
+      "collected_at": "2026-11-05T02:03:20.217Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "SK바이오팜, 3분기 영업익 1163억원",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "SK바이오팜, 3분기 영업익 1163억원",
+        "[특징주] SK바이오팜, 3분기 매출·영업익 성장…주가 14% 쑥"
+      ],
+      "snippets": [
+        "SK바이오팜은 올해 3분기 연결 기준 매출 2584억원, 영업이익 1163억원을 기록했다고 5일 밝혔다. 전년... SK바이오팜은 바이오헤이븐의 뇌전증 신약 후보물질 '오파칼림' 도입 절차를 진행하고 있으며, 2027년에는... ",
+        "SK바이오팜의 주가가 5일 오전 14% 넘게 상승 중이다. 한국거래소에 따르면 오전 10시 55분 SK바이오팜의 주가는 전 거래일보다 1만1500원(14.25%) 급등한 9만2200원에 거래되고 있다. 주가 흐름은 SK바이오팜의 3분기... "
+      ],
+      "media_domains": [
+        "smedaily.co.kr",
+        "newsdream.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261105-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261105",
+        "url": "https://www.ajunews.com/view/20261105100941244",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T11:02:00+09:00",
+      "collected_at": "2026-11-05T02:03:21.017Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "전기차 생산세액공제·부품업계 전환 지원 건의…정부, 이달 대책 발표",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "전기차 생산세액공제·부품업계 전환 지원 건의…정부, 이달 대책 발표",
+        "경제계 \"전기차도 생산세액공제 적용해야\"…정부, 이달 대책 발표"
+      ],
+      "snippets": [
+        "정부지원과 세제·금융, 규제 합리화를 통해 기업활력을 높이겠다는 의지도 밝혔다. 권 차관은 \"높은 산은 민관이 함께 넘고, 신발 속 돌멩이 같은 작은 규제와 애로는 현장에서 바로 찾아 해소해 나가겠다\"고 말했다.",
+        "회의에는 재경부를 비롯해 경제6단체, 산업통상부, 금융위원회, 민·관 싱크탱크 등이 참석했다. 권 차관은... 세제, 금융, 규제 합리화를 적극 추진하겠다고 밝혔다. 그는 \"높은 산도 힘들지만 정작 우리를 지치게 하는 것은... "
+      ],
+      "media_domains": [
+        "ajunews.com",
+        "news.einfomax.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261105-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261105",
+        "url": "http://www.metroseoul.co.kr/article/20261105500012",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T11:02:00+09:00",
+      "collected_at": "2026-11-05T02:03:21.924Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "김동철 한전 사장 “전력망 확충하려면 전기요금 현실화 불가피”",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "김동철 한전 사장 “전력망 확충하려면 전기요금 현실화 불가피”",
+        "김동철 한전 사장 \"전기요금 현실화 필요…전력망 확충 재원 마련해야\""
+      ],
+      "snippets": [
+        "김 사장은 지난 4일 오후 광주 김대중컨벤션센터에서 열린 기후에너지환경부 기자단 현장간담회에서... 한전은 러시아·우크라이나 전쟁에 따른 국제 에너지 가격 급등으로 2021~2023년 대규모 적자를 기록했다. 이후... ",
+        "김 사장은 4일 광주에서 열린 기후에너지환경부 기자단 현장간담회에서 \"최소한의 전기요금 현실화는... 김 사장은 \"재생에너지와 에너지저장장치(ESS), 인공지능 데이터센터(AIDC) 확산으로 직류 전력 수요가 늘고 있다\"며... "
+      ],
+      "media_domains": [
+        "metroseoul.co.kr",
+        "dailian.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261105-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261105",
+        "url": "https://www.newsian.co.kr/news/articleView.html?idxno=100678",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-05T11:00:00+09:00",
+      "collected_at": "2026-11-05T02:03:22.705Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.05 · 뉴스 화제성",
+        "headline": "금융권 37개사서 정보 47.3만건 유출…당국, 580개사 전수점검",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "금융권 37개사서 정보 47.3만건 유출…당국, 580개사 전수점검",
+        "금융권 37개사 해킹에 정보 47만건 유출···당국, 580개사 보안 전수점..."
+      ],
+      "snippets": [
+        "금융위와 금감원은 약 580개 금융회사·전자금융업자·가상자산사업자를 대상으로 모든 정보기술(IT) 자산의... 금융권 공동 보이스피싱 정보공유·분석 플랫폼인 'ASAP'에는 AI 기반 '의심거래 판단지수'를 이달부터 시범... ",
+        "모든 IT 자산을 대상으로 외부접점 및 내부통제체계 전수점검을 실시하기로 했다. 우선 각 금융회사가 자체... 클라우드·플랫폼 사업자의 보안책임을 검토하는 '디지털금융 안전법'도 추진한다. 연내 정책방안을 마련한... "
+      ],
+      "media_domains": [
+        "newsian.co.kr",
+        "newsfreezone.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgixbrxwZogJK369EYxLA\"}"
+  }
+]
