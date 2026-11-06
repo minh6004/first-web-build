@@ -1,0 +1,494 @@
+[
+  {
+    "event": {
+      "id": "naver-20261106-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261106",
+        "url": "https://www.jasm.co.kr/news/view/324416/?sc=Naver",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T11:04:00+09:00",
+      "collected_at": "2026-11-06T02:05:26.354Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "NH농협은행, 퇴직연금 비대면 서비스 개편",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "NH농협은행, 퇴직연금 비대면 서비스 개편"
+      ],
+      "snippets": [
+        "ETF·펀드 상품검색 시 투자지역(국내·해외), 투자테마(반도체·방산·에너지 등), 위험자산 여부 등 다양한 조건으로 검색할 수 있도록 개선했다. 3·6·12개월 수익률과 상품별 상세정보를 쉽게 확인할 수 있도록 했다.... "
+      ],
+      "media_domains": [
+        "jasm.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261106-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261106",
+        "url": "https://www.lawissue.co.kr/view.php?ud=2026110610401480259817d053b9_12",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T10:42:00+09:00",
+      "collected_at": "2026-11-06T02:05:27.264Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 6
+      },
+      "scoring": {
+        "surprise_score": 0.75,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 70
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "미래에셋자산운용, 미국 중간선거 이후 주목할 TIGER ETF 제시",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 6
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "미래에셋자산운용, 미국 중간선거 이후 주목할 TIGER ETF 제시",
+        "미래에셋운용, 美 블루웨이브 이후 주목할 'TIGER ETF' 소개",
+        "미래에셋자산운용, 미국 중간선거 이후 주목할 TIGER ETF 소개",
+        "미래에셋운용, 美 중간선거 이후 유망 ETF 제시",
+        "미래에셋자산운용, 美 중간선거 이후 수혜 TIGER ETF 소개"
+      ],
+      "snippets": [
+        "AI 데이터센터 확산에 따른 전력 저장 수요 증가와 관련해서는 'TIGER 2차전지TOP10 ETF'를 제시했다. 정책 변화에 따른 수혜 가능성이 거론되는 분야로는 신재생에너지와 헬스케어를 꼽았다. 청정에너지 지원... ",
+        "인공지능(AI) 데이터센터 확대와 맞물려 전력 저장 수요가 급증함에 따라 ▲TIGER 2차전지TOP10 ETF가 새로운 성장 동력을 얻을 것으로 분석됐다. 또 친환경 인프라 확대 및 의료보험 접근성 강화 기대감에 따라... ",
+        "전력 저장 수요 확대는 2차전지 산업에도 새로운 성장 동력이 될 수 있다. 관련 ETF로는 ▲'TIGER 2차전지TOP10 ETF(364980)'가 있다. 민주당이 상·하원을 모두 장악하는 블루웨이브가 현실화되면서 정책 변화에 따른... ",
+        "ESS 시장 확대가 2차전지 산업의 새로운 성장 동력으로 작용할 수 있다는 분석이다. 관련 ETF는 'TIGER 2차전지TOP10 ETF'다. 정책 구도 변화에 따른 수혜 산업으로는 신재생에너지와 헬스케어도 거론됐다. 민주당이 상... ",
+        "전력 저장 수요 확대는 2차전지 산업에도 새로운 성장 동력이 될 수 있다. 관련 ETF로는 'TIGER 2차전지TOP10 ETF'가 있다. 민주당이 상·하원을 모두 장악하는 블루웨이브가 현실화되면서 정책 변화에 따른 산업별... "
+      ],
+      "media_domains": [
+        "lawissue.co.kr",
+        "newsis.com",
+        "cstimes.com",
+        "kfenews.co.kr",
+        "ftoday.co.kr",
+        "pointdaily.co.kr"
+      ],
+      "corroboration_count": 6
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261106-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261106",
+        "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7192546",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T11:04:00+09:00",
+      "collected_at": "2026-11-06T02:05:28.050Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "충남도, 국립치의학연구원 천안 유치 위해 범도민 협력체계 구축",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "충남도, 국립치의학연구원 천안 유치 위해 범도민 협력체계 구축",
+        "충남도, 국립치의학연구원 천안 유치 공동 대응체계 구축",
+        "충남도, 국립치의학연구원 천안 유치 '범충남' 결집"
+      ],
+      "snippets": [
+        "충남도는 충북 오송·오창의 첨단의료·바이오산업, 대전의 과학기술, 세종의 행정·정책 기능 등 충청권 내 다양한 역량을 연계해 치의학 연구, 임상 적용, 산업화까지 아우르는 협력 기반을 구축한다는 계획도 밝혔다. 이를... ",
+        "충북 오송·오창의 첨단 의료·바이오산업 기반, 대전의 과학기술 연구 역량, 세종의 행정·정책 기능을 연계해 치의학 연구부터 임상 적용과 산업화까지 이어지는 협력 기반을 마련한다는 구상이다. 도는 이를 통해... ",
+        "충북 오송·오창의 첨단의료·바이오산업 기반과 대전의 과학기술 연구역량, 세종의 행정·정책 기능을 천안과 연계해 치의학 연구부터 임상 적용과 산업화로 이어지는 광역 협력체계를 구축한다는 구상이다. 도는 이를... "
+      ],
+      "media_domains": [
+        "weekly.hankooki.com",
+        "news1.kr",
+        "newsfreezone.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261106-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261106",
+        "url": "https://n.news.naver.com/mnews/article/421/0009274072?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T11:02:00+09:00",
+      "collected_at": "2026-11-06T02:05:28.840Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "긴급시장점검회의 참석하는 이찬진 원장",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "긴급시장점검회의 참석하는 이찬진 원장",
+        "이찬진 원장, 긴급시장점검회의 참석"
+      ],
+      "snippets": [
+        "이찬진 금융감독원장이 6일 오전 서울 종로구 세종대로 정부서울청사에서 열린 긴급시장점검회의에 참석하고 있다. 2026.11.6/뉴스1",
+        "이찬진 금융감독원장이 6일 오전 서울 종로구 세종대로 정부서울청사에서 열린 긴급시장점검회의에 참석하고 있다. 2026.11.6/뉴스1"
+      ],
+      "media_domains": [
+        "news1.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261106-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261106",
+        "url": "https://dhnews.co.kr/news/view/1065578166628621",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T11:04:00+09:00",
+      "collected_at": "2026-11-06T02:05:29.608Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "전남대, ‘2026 JOB FESTA’ 개최",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "전남대, ‘2026 JOB FESTA’ 개최"
+      ],
+      "snippets": [
+        "반도체, 자동차·모빌리티, 에너지·전력, IT·통신, 금융, 제약·바이오, 문화·콘텐츠 등 다양한 산업 분야의 직무정보를 한자리에서 만나볼 수 있다. 삼성전자, SK하이닉스, 현대자동차 남양연구소, 한화에어로스페이스... "
+      ],
+      "media_domains": [
+        "dhnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261106-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261106",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501863",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-06T10:40:00+09:00",
+      "collected_at": "2026-11-06T02:05:30.395Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.06 · 뉴스 화제성",
+        "headline": "카카오, 제15회 나눔국민대상서 국무총리표창 수상…제주 지역 상생 공...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "카카오, 제15회 나눔국민대상서 국무총리표창 수상…제주 지역 상생 공...",
+        "카카오, 지역 상생 활동으로 나눔국민대상 국무총리표창"
+      ],
+      "snippets": [
+        "온라인 기부 플랫폼 '카카오같이가치'를 통한 나눔 활동도 이어가고 있다. 제주 지역 캠페인인 '함께 만드는... the IT' 등 다양한 상생 프로그램을 운영하고 있다. 카카오는 이러한 활동을 바탕으로 지난해 '2025... ",
+        "기부 플랫폼 '카카오같이가치'를 활용한 지역 연계 사업도 진행하고 있다. '함께 만드는 더 나은 제주... 더 IT' 등 미래 인재 교육 프로그램도 운영 중이다. 카카오는 '2025 지역사회공헌 인정제'에서 최고 등급인 S등급을... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr",
+        "digitaltoday.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkraC3fBC7FfjqANvkZH\"}"
+  }
+]
