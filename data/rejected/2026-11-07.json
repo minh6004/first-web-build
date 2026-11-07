@@ -1,0 +1,476 @@
+[
+  {
+    "event": {
+      "id": "naver-20261107-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261107",
+        "url": "https://n.news.naver.com/mnews/article/022/0004173230?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T10:41:00+09:00",
+      "collected_at": "2026-11-07T01:42:57.838Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "李대통령, '성장확산 방점' 예산안 시정연설... 사진으로 돌아보는 한 주...",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "李대통령, '성장확산 방점' 예산안 시정연설... 사진으로 돌아보는 한 주..."
+      ],
+      "snippets": [
+        "반도체 호황으로 발생한 막대한 추가 세수를 청년, 성장동력, 지방, 교육·인재등에 투자하는 160조원 규모의 미래대응기금 신설안을 포함한 액수다. 최근 스마트안경의 커닝 논란이 불거지고 있는 가운데 2일 서울 중구... "
+      ],
+      "media_domains": [
+        "segye.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261107-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261107",
+        "url": "https://www.the-today.com/news/articleView.html?idxno=93221",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T09:08:00+09:00",
+      "collected_at": "2026-11-07T01:42:58.742Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 11,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "[NZSI INDEX] 2026년 10월 20일…코스피 -3.73%·코스닥 -3.30% 동반 급락...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[NZSI INDEX] 2026년 10월 20일…코스피 -3.73%·코스닥 -3.30% 동반 급락..."
+      ],
+      "snippets": [
+        "01 / 2차 개편: 2025. 12. 15 / 3차 개편: 2026. 01. 19 / 4차 개편: 2026. 07. 20 ​ ★ 선정기준: 20개 종목 X 5개 항목... 코스닥 역시 이차전지와 바이오 등 성장주 중심의 변동성이 확대되면서 800선을 다시 내줬다. 국내... "
+      ],
+      "media_domains": [
+        "the-today.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261107-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261107",
+        "url": "https://n.news.naver.com/mnews/article/011/0004679707?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T10:31:00+09:00",
+      "collected_at": "2026-11-07T01:42:59.593Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "정부 신약 R&D 투자 2년째 감소…2024년 5433억원 그쳐",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "정부 신약 R&D 투자 2년째 감소…2024년 5433억원 그쳐",
+        "[바이오사이언스] 신약 경쟁 치열한데…정부 R&D 투자 2년째 감소"
+      ],
+      "snippets": [
+        "후보물질 발굴과 임상 등 신약 개발의 핵심 단계에 대한 투자도 줄어들면서 국내 바이오 산업의 경쟁력 약화를 우려하는 목소리가 나온다. 7일 제약·바이오 업계에 따르면 한국과학기술기획평가원(KISTEP)은... ",
+        "한국 바이오의 생존을 위해 투자를 체계적으로 늘려야 한다는 목소리가 나온다. 신약 R&D 투자 2년 연속 감소…인프라·후보물질에 집중 7일 제약·바이오 업계에 따르면 한국과학기술기획평가원(KISTEP)은 최근... "
+      ],
+      "media_domains": [
+        "sedaily.com",
+        "yna.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261107-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261107",
+        "url": "https://n.news.naver.com/mnews/article/243/0000105338?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T10:42:00+09:00",
+      "collected_at": "2026-11-07T01:43:00.472Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "국내 최대 증권사 미래에셋증권도 해킹, 고객 계좌번호 유출",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "국내 최대 증권사 미래에셋증권도 해킹, 고객 계좌번호 유출"
+      ],
+      "snippets": [
+        "미래에셋증권 관계자는 \"외부 IP의 비정상적인 접근 정황을 확인한 즉시 관련 접근 경로를 차단하고 비상대응체계를 가동했으며, 관련 법령에 따라 금융위원회와 금융감독원·개인정보보호위원회에 보고했다\"고 말했다.... "
+      ],
+      "media_domains": [
+        "economist.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261107-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261107",
+        "url": "https://n.news.naver.com/mnews/article/018/0006405481?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T10:34:00+09:00",
+      "collected_at": "2026-11-07T01:43:01.230Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "마곡동 열수송관 파손…8965세대 온수·난방 12시간 만에 복구(종합)",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "마곡동 열수송관 파손…8965세대 온수·난방 12시간 만에 복구(종합)",
+        "강서구 마곡동서 열수송관 파손…8965세대 온수·난방 중단"
+      ],
+      "snippets": [
+        "서울에너지공사 측은 밤사이 복구 작업을 벌였으며 이날 오전 8시 45분께 복구를 마쳤다. 이 사고로 도로... 아울러 행인 1명과 서울에너지공사 직원 1명이 각각 중상, 경상을 입어 병원으로 이송됐다. 강서구청은... ",
+        "서울에너지공사는 긴급 복구에 나서 이날 오전 8시45분쯤 작업을 마쳤다. 이 사고로 행인 1명과 공사 직원 1명이 각각 중상, 경상의 화상을 입고 병원으로 이송됐다. 일대 8965세대의 온수와 난방 공급이 12시간가량... "
+      ],
+      "media_domains": [
+        "edaily.co.kr",
+        "mt.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261107-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261107",
+        "url": "https://www.bntnews.co.kr/article/view/bnt202611070081",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-07T10:14:00+09:00",
+      "collected_at": "2026-11-07T01:43:01.998Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.07 · 뉴스 화제성",
+        "headline": "네이즈, 무신사 日 대형 팝업 2회 연속 초청",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "네이즈, 무신사 日 대형 팝업 2회 연속 초청"
+      ],
+      "snippets": [
+        "이번 행사는 국내 대표 패션·뷰티 플랫폼 무신사가 간사이 지역에서 최대 규모로 개최한 팝업스토어다.... 지난 9월에는 일본 데뷔 싱글 'I LIKE IT(아이 라이크 잇)'을 발매하고 현지 프로모션을 이어갔다. 음악 활동을... "
+      ],
+      "media_domains": [
+        "bntnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnifiLH2fSKvZa9puMVc\"}"
+  }
+]

@@ -1,40 +1,7 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T02:05:30.497Z",
-  "summary": [
-    {
-      "id": "sector-0",
-      "name": "반도체",
-      "events": [
-        {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +216.5%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    },
-    {
-      "id": "sector-1",
-      "name": "금융",
-      "events": [
-        {
-          "name": "Goldman Sachs Private Credit Corp., 10-Q 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "Goldman Sachs BDC, Inc., 10-Q 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    }
-  ],
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T01:43:02.143Z",
+  "summary": [],
   "events": [
     {
       "id": "kdata-202609-8542",
@@ -45,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:25.588Z",
+      "collected_at": "2026-11-07T01:42:57.068Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +77,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:27.259Z",
+      "collected_at": "2026-11-07T01:42:58.290Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +142,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:26.420Z",
+      "collected_at": "2026-11-07T01:42:57.682Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -240,7 +207,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:28.094Z",
+      "collected_at": "2026-11-07T01:42:58.905Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -305,7 +272,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:26.187Z",
+      "collected_at": "2026-11-07T01:42:57.911Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -367,7 +334,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-06T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:25.476Z",
+      "collected_at": "2026-11-07T01:42:57.370Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -426,24 +393,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261106-000022",
+      "id": "sec-0001708646-0001193125-26-452122",
       "source": {
-        "type": "dart",
-        "ref_id": "20261106000022",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000022",
+        "type": "sec",
+        "ref_id": "0001708646",
+        "url": "https://www.sec.gov/Archives/edgar/data/1708646/000119312526452122/0001193125-26-452122-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-06T12:00:00+09:00",
-      "collected_at": "2026-11-06T02:05:28.414Z",
-      "type": "disclosure",
-      "category": "지분공시",
+      "event_datetime": "2026-11-06T16:00:00-04:00",
+      "collected_at": "2026-11-07T01:42:57.226Z",
+      "type": "earnings",
+      "category": "분기보고서",
       "subject": {
         "entity_type": "stock",
-        "code": "005930",
-        "name": "삼성전자",
+        "code": "0001708646",
+        "name": "Goldman Sachs Physical Gold ETF",
         "is_bellwether": true,
         "sectors": [
-          "반도체"
+          "금융"
         ]
       },
       "metrics": {},
@@ -459,21 +426,21 @@
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "반도체",
+            "sector": "금융",
             "direction": "neutral",
-            "note": "지분공시"
+            "note": "분기보고서"
           }
         ]
       },
       "content": {
-        "meta_line": "삼성전자 · 11.06 · 지분공시",
-        "headline": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+        "meta_line": "Goldman Sachs Physical Gold ETF · 11.06 · 분기보고서",
+        "headline": "Goldman Sachs Physical Gold ETF, 10-Q 공시",
         "chips": [
-          "반도체→"
+          "금융→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "정기 재무 보고서가 공시돼 실적 세부 내용이 시장에 반영되기 시작할 수 있어요.",
+          "long_term": "보고서에 담긴 사업 부문별 흐름이 다음 분기 실적 전망에 어떤 영향을 주는지 지켜볼 필요가 있어요."
         }
       },
       "reliability": {
@@ -485,24 +452,24 @@
       "status": "active"
     },
     {
-      "id": "sec-0001326801-0001193125-26-450074",
+      "id": "sec-0002030954-0001493152-26-050546",
       "source": {
         "type": "sec",
-        "ref_id": "0001326801",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/0001193125-26-450074-index.htm",
+        "ref_id": "0002030954",
+        "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226050546/0001493152-26-050546-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-05T16:00:00-04:00",
-      "collected_at": "2026-11-06T02:05:24.969Z",
-      "type": "disclosure",
-      "category": "수시공시",
+      "event_datetime": "2026-11-06T16:00:00-04:00",
+      "collected_at": "2026-11-07T01:42:57.225Z",
+      "type": "ma",
+      "category": "인수합병",
       "subject": {
         "entity_type": "stock",
-        "code": "0001326801",
-        "name": "Meta Platforms, Inc.",
-        "is_bellwether": true,
+        "code": "0002030954",
+        "name": "TEN Holdings, Inc.",
+        "is_bellwether": false,
         "sectors": [
-          "IT/플랫폼"
+          "미분류"
         ]
       },
       "metrics": {},
@@ -511,28 +478,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 25
+        "priority_score": 10
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "IT/플랫폼",
+            "sector": "미분류",
             "direction": "neutral",
-            "note": "수시공시"
+            "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "Meta Platforms, Inc. · 11.05 · 수시공시",
-        "headline": "Meta Platforms, Inc., 8-K 공시",
+        "meta_line": "TEN Holdings, Inc. · 11.06 · 인수합병",
+        "headline": "TEN Holdings, Inc., 8-K 공시",
         "chips": [
-          "IT/플랫폼→"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "기관 보유 현황(13F) 공개는 대형 투자자들의 포지션 변화를 엿볼 수 있는 참고 자료예요.",
-          "long_term": "이 정보는 최대 45일 지연 공시라 실시간 포지션이 아니라는 점을 감안해서 봐야 해요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
