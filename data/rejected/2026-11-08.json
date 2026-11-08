@@ -1,0 +1,479 @@
+[
+  {
+    "event": {
+      "id": "naver-20261108-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261108",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000493",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:10:00+09:00",
+      "collected_at": "2026-11-08T01:12:08.852Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "\"中 스파이 의혹 불똥 튀었나\"… 엔비디아 매디슨 황 방한 전격 취소",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "\"中 스파이 의혹 불똥 튀었나\"… 엔비디아 매디슨 황 방한 전격 취소"
+      ],
+      "snippets": [
+        "외신 보도를 종합해보면 미국 정보당국은 앨리스 황이 중국 국가안전부(MSS)에 포섭돼 젠슨 황에게 접근했으며, 엔비디아의 첨단 AI 반도체 관련 정보를 수집하거나 대중국 반도체 수출 정책에 영향을 미치려 했을... "
+      ],
+      "media_domains": [
+        "it.chosun.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261108-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261108",
+        "url": "https://n.news.naver.com/mnews/article/003/0014308418?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:00:00+09:00",
+      "collected_at": "2026-11-08T01:12:09.592Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 9,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "\"최악 가정한 공포 경계해야\"…증시 전문가들이 꼽은 생존법[일상화된 ...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "\"최악 가정한 공포 경계해야\"…증시 전문가들이 꼽은 생존법[일상화된 ..."
+      ],
+      "snippets": [
+        "전력기기·신재생·2차전지 주목…고배당주로 변동성 방어 전문가들은 AI 인프라 확충에 필수적인 핵심 업종과 정책 수혜가 뚜렷한 기업을 중심으로 차분히 압축 대응할 것을 제언했다. 이종형 센터장은 \"전력망 확충... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261108-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261108",
+        "url": "https://www.kbsm.net/news/view.php?idx=540750",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:04:00+09:00",
+      "collected_at": "2026-11-08T01:12:10.312Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "[기고문] \"안동으로 가면 된다\"는 말이 나오는 그날까지",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[기고문] \"안동으로 가면 된다\"는 말이 나오는 그날까지",
+        "[기고] ‘안동으로 가면 된다’는 말이 나오는 그날까지"
+      ],
+      "snippets": [
+        "안동은 이미 바이오․백신산업을 미래 성장동력으로 육성해 왔다. 여기에 의과대학과 교육병원이 더해져 산업체․대학․연구기관․병원이 하나로 연결되면 새로운 연구와 기업이 생겨나고, 청년이 머물 수 있는... ",
+        "안동은 이미 바이오․백신산업을 미래 성장동력으로 육성해 왔다. 여기에 의과대학과 교육병원이 더해져 산업체․대학․연구기관․병원이 하나로 연결되면 새로운 연구와 기업이 생겨나고, 청년이 머물 수 있는 일자리도... "
+      ],
+      "media_domains": [
+        "kbsm.net",
+        "segye.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261108-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261108",
+        "url": "https://n.news.naver.com/mnews/article/016/0002720364?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:11:00+09:00",
+      "collected_at": "2026-11-08T01:12:11.074Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "“이란전 끝낼까, 다시 때릴까”…중간선거 참패한 트럼프, 참모진도 3...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "“이란전 끝낼까, 다시 때릴까”…중간선거 참패한 트럼프, 참모진도 3..."
+      ],
+      "snippets": [
+        "트럼프의 한마디에 세계 경제와 금융시장이 출렁이는 시대. 쏟아지는 트럼프 뉴스를 일일이 찾아보기 벅차다면 [1일1트]가 딱입니다. 새벽 5시부터 움직이는 헤럴드경제 국제부가 미국 증시 마감 시황부터 글로벌... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261108-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261108",
+        "url": "https://n.news.naver.com/mnews/article/016/0002720363?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:11:00+09:00",
+      "collected_at": "2026-11-08T01:12:11.793Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "日 시즈오카서 규모 5.7 지진…15명 부상·신칸센 운행 차질",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "日 시즈오카서 규모 5.7 지진…15명 부상·신칸센 운행 차질"
+      ],
+      "snippets": [
+        "일본 기상청이 사용하는 진도는 지진 자체의 에너지를 나타내는 규모와 달리 특정 지역에서 실제로 느껴지는 흔들림의 정도를 의미한다. 진도 5강은 대부분의 행동에 지장을 느낄 정도로 강한 흔들림이 발생하고... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261108-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261108",
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=624518",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-08T10:04:00+09:00",
+      "collected_at": "2026-11-08T01:12:12.539Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.08 · 뉴스 화제성",
+        "headline": "투모로우바이투게더, 미니 9집 'PERFECT STORM' 스포티파이 사전 저장 2주...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "투모로우바이투게더, 미니 9집 'PERFECT STORM' 스포티파이 사전 저장 2주...",
+        "투모로우바이투게더, 'PERFECT STORM' 사전 저장 40만 회…글로벌 기대감",
+        "투모로우바이투게더, 미니 9집 스포티파이 사전 저장 2주 연속 1위"
+      ],
+      "snippets": [
+        "투모로우바이투게더가 미니 9집 'PERFECT STORM' 발매를 일주일 앞두고 글로벌 음원 플랫폼... Sky', 'Hate It or Love It' 등 총 6곡이 수록된다. 투모로우바이투게더의 미니 9집 'PERFECT STORM'은 오는 16일 오후 6시... ",
+        "오는 16일 오후 6시 발매되는 미니 9집 'PERFECT STORM'이 글로벌 음원 스트리밍 플랫폼 스포티파이의 '톱... Sky', 'Hate It or Love It'까지 총 6곡이 수록된다. 투모로우바이투게더의 미니 9집 'PERFECT STORM'은 오는... ",
+        "스트리밍 플랫폼 스포티파이의 사전 저장 추이를 보여주는 '톱 10 카운트다운'에서 2주 연속 정상에... Sky', 'Hate It or Love It'까지 총 6곡으로 구성됐다. 그동안 또래의 관심사와 내면의 이야기를 담아온... "
+      ],
+      "media_domains": [
+        "cbci.co.kr",
+        "mhnse.com",
+        "topstarnews.net"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpa8J2zQ7C8YwUHWtrkc\"}"
+  }
+]
