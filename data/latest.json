@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T01:30:30.377Z",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T03:59:28.728Z",
   "summary": [
     {
       "id": "sector-0",
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:25.966Z",
+      "collected_at": "2026-11-10T03:59:17.965Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:27.401Z",
+      "collected_at": "2026-11-10T03:59:19.198Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -151,73 +151,6 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261109",
-      "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261109",
-        "url": "https://ecos.bok.or.kr/",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-09T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:25.701Z",
-      "type": "macro_indicator",
-      "category": "환율",
-      "subject": {
-        "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
-        "is_bellwether": true,
-        "sectors": [
-          "수출주",
-          "여행"
-        ]
-      },
-      "metrics": {
-        "fx_value_krw": 1357.9,
-        "fx_change_pct": 1.2
-      },
-      "scoring": {
-        "surprise_score": 0.6,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 69
-      },
-      "impact": {
-        "direction": "up",
-        "strength": "strong",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "up"
-          },
-          {
-            "sector": "여행",
-            "direction": "down"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 11.09 · 환율",
-        "headline": "원/달러 환율 1357.9원 (전일 대비 +1.2%)",
-        "chips": [
-          "수출주↑",
-          "여행↓"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 1.2% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
       "id": "kdata-202609-8507",
       "source": {
         "type": "kdata",
@@ -226,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:26.681Z",
+      "collected_at": "2026-11-10T03:59:18.584Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -291,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-09-01T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:28.124Z",
+      "collected_at": "2026-11-10T03:59:19.812Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -348,6 +281,73 @@
       "status": "active"
     },
     {
+      "id": "ecos-fx-20261110",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261110",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-10T12:00:00+09:00",
+      "collected_at": "2026-11-10T03:59:17.838Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1355.7,
+        "fx_change_pct": -0.2
+      },
+      "scoring": {
+        "surprise_score": 0.1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 39
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 11.10 · 환율",
+        "headline": "원/달러 환율 1355.7원 (전일 대비 -0.2%)",
+        "chips": [
+          "수출주↓",
+          "여행↑"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.2% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "ecos-cpi-202610",
       "source": {
         "type": "ecos",
@@ -356,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:26.267Z",
+      "collected_at": "2026-11-10T03:59:18.464Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -410,15 +410,15 @@
       "status": "active"
     },
     {
-      "id": "dart-20261109-000007",
+      "id": "dart-20261110-000038",
       "source": {
         "type": "dart",
-        "ref_id": "20261109000007",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000007",
+        "ref_id": "20261110000038",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000038",
         "tier": 1
       },
-      "event_datetime": "2026-11-09T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:28.191Z",
+      "event_datetime": "2026-11-10T12:00:00+09:00",
+      "collected_at": "2026-11-10T03:59:19.838Z",
       "type": "disclosure",
       "category": "지분공시",
       "subject": {
@@ -450,7 +450,7 @@
         ]
       },
       "content": {
-        "meta_line": "삼성전자 · 11.09 · 지분공시",
+        "meta_line": "삼성전자 · 11.10 · 지분공시",
         "headline": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
         "chips": [
           "반도체→"
@@ -469,24 +469,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261109-900138",
+      "id": "sec-0000320193-0001140361-26-042798",
       "source": {
-        "type": "dart",
-        "ref_id": "20261109900138",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900138",
+        "type": "sec",
+        "ref_id": "0000320193",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/0001140361-26-042798-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-09T12:00:00+09:00",
-      "collected_at": "2026-11-09T01:30:28.191Z",
-      "type": "contract",
+      "event_datetime": "2026-11-09T16:00:00-04:00",
+      "collected_at": "2026-11-10T03:59:17.403Z",
+      "type": "disclosure",
       "category": "수시공시",
       "subject": {
         "entity_type": "stock",
-        "code": "083640",
-        "name": "인콘",
-        "is_bellwether": false,
+        "code": "0000320193",
+        "name": "Apple Inc.",
+        "is_bellwether": true,
         "sectors": [
-          "미분류"
+          "IT/플랫폼"
         ]
       },
       "metrics": {},
@@ -495,28 +495,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 5
+        "priority_score": 25
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "미분류",
+            "sector": "IT/플랫폼",
             "direction": "neutral",
             "note": "수시공시"
           }
         ]
       },
       "content": {
-        "meta_line": "인콘 · 11.09 · 수시공시",
-        "headline": "인콘, 단일판매ㆍ공급계약체결              ",
+        "meta_line": "Apple Inc. · 11.09 · 수시공시",
+        "headline": "Apple Inc., 8-K 공시",
         "chips": [
-          "미분류→"
+          "IT/플랫폼→"
         ],
         "horizon": {
-          "short_term": "신규 계약·특허·임상 관련 공시는 단기 기대감으로 이어지는 경우가 많아요.",
-          "long_term": "계약 규모가 실적에 실질적으로 기여하는 시점과 폭이 중장기 주가를 좌우해요."
+          "short_term": "기관 보유 현황(13F) 공개는 대형 투자자들의 포지션 변화를 엿볼 수 있는 참고 자료예요.",
+          "long_term": "이 정보는 최대 45일 지연 공시라 실시간 포지션이 아니라는 점을 감안해서 봐야 해요."
         }
       },
       "reliability": {

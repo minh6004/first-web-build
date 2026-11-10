@@ -1,0 +1,487 @@
+[
+  {
+    "event": {
+      "id": "naver-20261110-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261110",
+        "url": "https://www.insight.co.kr/news/581375",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T12:58:00+09:00",
+      "collected_at": "2026-11-10T03:59:19.668Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "젠슨 황 불륜녀 '행방 묘연'... \"中 국영방송 기자 출신\" 이력 전해져",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "젠슨 황 불륜녀 '행방 묘연'... \"中 국영방송 기자 출신\" 이력 전해져"
+      ],
+      "snippets": [
+        "엔비디아 반도체 유통망 접근 경위가 주목받고 있다. 월스트리트저널(WSJ)은 9일(현지시간) 앨리스 황... 메가스피드는 중국 게임업체에서 독립한 회사로, 동남아시아 데이터센터에서 엔비디아의 최첨단 AI 반도체를... "
+      ],
+      "media_domains": [
+        "insight.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261110-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261110",
+        "url": "https://n.news.naver.com/mnews/article/003/0014312996?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T12:35:00+09:00",
+      "collected_at": "2026-11-10T03:59:21.624Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "전북도, 2027년 본예산 11조 3533억원 편성…올해보다 3522억↑",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "전북도, 2027년 본예산 11조 3533억원 편성…올해보다 3522억↑"
+      ],
+      "snippets": [
+        "반도체 소재·부품·장비 분야는 특화단지를 중심으로 기업 연구개발에 3억원을 신규 반영하고, 이차전지... 새만금 개발과 광역교통망 확충, 금융중심지 지정, 공공기관 2차 이전 등 전북의 미래 경쟁력을 좌우할 핵심... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261110-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261110",
+        "url": "https://n.news.naver.com/mnews/article/421/0009280955?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T12:42:00+09:00",
+      "collected_at": "2026-11-10T03:59:23.286Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "글로벌바이오포럼 패널 토론서 발언하는 강대엽 부사장",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "글로벌바이오포럼 패널 토론서 발언하는 강대엽 부사장",
+        "글로벌바이오포럼 패널 토론서 발언하는 최영기 소장",
+        "글로벌바이오포럼 패널 토론서 발언하는 양은영 사장",
+        "글로벌바이오포럼 패널 토론서 발언하는 정재호 원장",
+        "글로벌바이오포럼 패널 토론서 발언하는 키스 크리스토퍼 제이앤피메디..."
+      ],
+      "snippets": [
+        "강대엽 씨어스 부사장이 10일 서울 영등포구 콘래드 서울 호텔에서 K-바이오와 헬스케어 글로벌 시장을 담는다를 주제로 열린 '2026 뉴스1 글로벌바이오포럼'에서 패널 토론을 하고 있다. 2026.11.10/뉴스1",
+        "최영기 유한양행 중앙연구소장이 10일 서울 영등포구 콘래드 서울 호텔에서 K-바이오와 헬스케어 글로벌 시장을 담는다를 주제로 열린 '2026 뉴스1 글로벌바이오포럼'에서 패널 토론을 하고 있다. 2026.11.10/뉴스1",
+        "양은영 HLB그룹 바이오사업개발부문장 사장이 10일 서울 영등포구 콘래드 서울 호텔에서 K-바이오와 헬스케어 글로벌 시장을 담는다를 주제로 열린 '2026 뉴스1 글로벌바이오포럼'에서 패널 토론을 하고 있다.... ",
+        "정재호 연세대 융합과학기술원장이 10일 서울 영등포구 콘래드 서울 호텔에서 K-바이오와 헬스케어 글로벌 시장을 담는다를 주제로 열린 '2026 뉴스1 글로벌바이오포럼'에서 패널 토론을 하고 있다. 2026.11.10/뉴스1",
+        "키스 크리스토퍼 제이앤피메디 이사가 10일 서울 영등포구 콘래드 서울 호텔에서 K-바이오와 헬스케어 글로벌 시장을 담는다를 주제로 열린 '2026 뉴스1 글로벌바이오포럼'에서 패널 토론을 하고 있다. 2026.11.10... "
+      ],
+      "media_domains": [
+        "news1.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261110-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261110",
+        "url": "https://www.insight.co.kr/news/581375",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T12:58:00+09:00",
+      "collected_at": "2026-11-10T03:59:24.951Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "젠슨 황 불륜녀 '행방 묘연'... \"中 국영방송 기자 출신\" 이력 전해져",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "젠슨 황 불륜녀 '행방 묘연'... \"中 국영방송 기자 출신\" 이력 전해져"
+      ],
+      "snippets": [
+        "앨리스 황은 중국 관영 매체에서 TV 기자로 활동한 뒤 금융권으로 이직한 것으로 전해진다. 공개된 이력서에는 중국중앙TV(CCTV)와 후난위성TV에서 약 4년간 기자 업무를 수행했으며, HSBC와 중신증권 등 금융회사에... "
+      ],
+      "media_domains": [
+        "insight.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261110-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261110",
+        "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1310267",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T12:58:00+09:00",
+      "collected_at": "2026-11-10T03:59:26.917Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "인제군, 대한민국 솔라리그 장관 표창 수상",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "인제군, 대한민국 솔라리그 장관 표창 수상",
+        "인제군 '대한민국 솔라리그' 기후부장관 표창, 신재생에너지 선도 지자..."
+      ],
+      "snippets": [
+        "강원 인제군은 지역 특성을 반영한 신재생에너지 보급 확대와 에너지 자립 기반 구축 성과를 인정받아 '제8회 대한민국 솔라리그'에서 기후에너지환경부 장관 표창을 수상했다고 10일 밝혔다. 군은 지난 5일... ",
+        "인제군이 '제8회 대한민국 솔라리그'에서 기후에너지환경부장관 표창을 받아, 신재생에너지 보급 선도 지자체로 우뚝 섰다. 인제군은 지역 특성을 반영한 신재생에너지 보급 확대와 에너지 자립기반 구축에 앞장선... "
+      ],
+      "media_domains": [
+        "jeonmae.co.kr",
+        "kado.net"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261110-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261110",
+        "url": "https://www.ajunews.com/view/20261110094404345",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-10T11:34:00+09:00",
+      "collected_at": "2026-11-10T03:59:28.624Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.10 · 뉴스 화제성",
+        "headline": "한국콜마, 2년 연속 CES 2027 뷰티테크 최고혁신상 수상",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "한국콜마, 2년 연속 CES 2027 뷰티테크 최고혁신상 수상",
+        "한국콜마, '크로마 플로우' CES 최고혁신상 수상",
+        "한국콜마, AI 맞춤형 립 제조로 CES 뷰티테크 최고혁신상 2년 연속 수상"
+      ],
+      "snippets": [
+        "최대 IT·가전 전시회 CES 2027에서 뷰티테크 부문 최고혁신상을 받았다. 지난해 '스카 뷰티 디바이스'에 이어... 데이터 플랫폼을 구축할 계획이다. 분야별 AI 모델을 하나의 시스템으로 연결해 피부 진단부터 화장품 제형... ",
+        "한국콜마가 세계 최초로 2년 연속 미국 정보기술(IT)·가전 전시회 뷰티테크 부문 최고혁신상을 확보했다.... 데이터 플랫폼을 구축할 계획이다. 기기별 AI 모델을 연결해 피부 진단부터 화장품 제형 설계와 제조까지... ",
+        "최대 IT·가전 전시회인 CES 2027 뷰티테크 부문 최고혁신상을 받았다. CES 2026에서 상처 관리와 메이크업 커버... 뷰티테크 플랫폼을 구축할 계획이다. 제품별로 개발한 AI 모델을 연결해 피부 진단 결과를 화장품 제형... "
+      ],
+      "media_domains": [
+        "ajunews.com",
+        "biotimes.co.kr",
+        "industrynews.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtaVvovEVKRM5HHSNmnC\"}"
+  }
+]
