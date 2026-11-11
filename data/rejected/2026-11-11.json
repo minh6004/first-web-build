@@ -1,0 +1,497 @@
+[
+  {
+    "event": {
+      "id": "naver-20261111-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261111",
+        "url": "https://n.news.naver.com/mnews/article/014/0005602563?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T10:41:00+09:00",
+      "collected_at": "2026-11-11T01:45:11.316Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "삼성전자, AMD와 반도체 제조 인프라 고도화 협력…차세대 메모리 기술...",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "삼성전자, AMD와 반도체 제조 인프라 고도화 협력…차세대 메모리 기술...",
+        "삼성전자-AMD, 차세대 메모리·CPU 결합…반도체 제조 테스트 협력"
+      ],
+      "snippets": [
+        "삼성전자가 미국 반도체 기업 AMD와 손잡고 차세대 반도체 제조 테스트 인프라의 성능 향상에 나선다. AMD의 최신 고성능 프로세서에 삼성전자의 더블데이트레이트5(DDR5) 메모리와 차세대 솔리드스테이트드라이브... ",
+        "삼성전자가 AMD와 차세대 메모리 및 입출력(I/O) 기술을 활용한 반도체 제조 테스트 인프라 구축에... 11일 업계에 따르면 삼성전자는 AMD의 '에픽 임베디드 9006(EPYC Embedded 9006)' 시리즈 SP7 CPU를 자사 반도체 제조... "
+      ],
+      "media_domains": [
+        "fnnews.com",
+        "ddaily.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261111-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261111",
+        "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101031",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T09:52:00+09:00",
+      "collected_at": "2026-11-11T01:45:12.128Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "코스피, 장 초반 상승 반납 0.43%↓…코스닥은 2.9% 급등",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "코스피, 장 초반 상승 반납 0.43%↓…코스닥은 2.9% 급등",
+        "코스피, 美 금리 인상 우려에 장 초반 약세...코스닥은 2%대 상승"
+      ],
+      "snippets": [
+        "반면 코스닥은 2차전지와 바이오, 반도체 장비주가 오르면서 3% 가까이 급등하고 있다. 한국거래소에 따르면 이날 오전 9시34분 기준 코스피는 전 거래일보다 22.27포인트(0.43%) 내린 5216.86을 나타내고 있다.... ",
+        "삼성전자와 SK하이닉스 등 반도체 대형주가 동반 약세를 보이는 반면 코스닥은 2차전지와 바이오 관련주를 중심으로 2% 넘게 상승하며 차별화된 흐름을 나타내고 있다. 11일 한국거래소에 따르면 이날 오전... "
+      ],
+      "media_domains": [
+        "newsian.co.kr",
+        "m-economynews.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261111-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261111",
+        "url": "http://www.kdfnews.com/news/articleView.html?idxno=190754",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T10:42:00+09:00",
+      "collected_at": "2026-11-11T01:45:12.844Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 5
+      },
+      "scoring": {
+        "surprise_score": 0.63,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 63
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "삼성바이오로직스, 2.7조 유상증자 청약률 96.8% 기록…삼성물산·전자 ...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 5
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "삼성바이오로직스, 2.7조 유상증자 청약률 96.8% 기록…삼성물산·전자 ...",
+        "삼성바이오로직스 2조6650억원 유상증자 청약률 96.8%",
+        "삼성바이오로직스, 2.7조 유상증자 청약률 96.8%",
+        "삼성바이오로직스, 2.7조 유상증자 청약률 96.8%",
+        "삼성바이오로직스, 2조7000억원 규모 유상증자 청약률 96.8%로 집계...폴..."
+      ],
+      "snippets": [
+        "삼성바이오로직스가 약 2조7000억원 규모의 유상증자에서 96.8%의 청약률을 기록했다. 유상증자로 조달하는 자금은 글로벌 펩타이드 위탁개발생산(CDMO) 기업 폴리펩타이드그룹 인수에 사용된다. 삼성바이오로직스... ",
+        "매일일보 = 이용 기자   |  삼성바이오로직스가 폴리펩타이드 위탁개발생산(CDMO) 기업 인수를 위해 추진한... 11일 삼성바이오로직스에 따르면 지난 9~10일 진행한 구주주 및 우리사주조합 대상 유상증자 청약 결과... ",
+        "폴리펩타이드그룹 인수자금 조달 인더뉴스 문정태 기자ㅣ삼성바이오로직스가 약 2조7000억원 규모의... 삼성바이오로직스는 지난 9일부터 10일까지 진행한 구주주 및 우리사주조합 대상 유상증자 청약에서 총... ",
+        "삼성바이오로직스(207940)가 글로벌 펩타이드 위탁개발생산(CDMO) 기업 폴리펩타이드그룹 인수를 위해 추진한 약 2조 7000억 원 규모의 유상증자에서 96.8%의 청약률을 기록했다. 삼성바이오로직스는 지난 9~10일... ",
+        "삼성바이오로직스가 약 2조7000억원 규모의 유상증자에서 청약률 96.8%를 기록했습니다. 9일부터 이틀간... 삼성바이오로직스는 이번 인수를 통해 항체의약품과 mRNA, ADC에 이어 펩타이드까지 사업 영역을 넓히고 CDMO... "
+      ],
+      "media_domains": [
+        "kdfnews.com",
+        "m-i.kr",
+        "inthenews.co.kr",
+        "news1.kr",
+        "paxetv.com"
+      ],
+      "corroboration_count": 5
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261111-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261111",
+        "url": "https://www.ajunews.com/view/20261111103055605",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T10:44:00+09:00",
+      "collected_at": "2026-11-11T01:45:13.582Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "삼성준감위 \"AI 시대, 법적·윤리적 리스크 대응해야\"…선제적 준법경영...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "삼성준감위 \"AI 시대, 법적·윤리적 리스크 대응해야\"…선제적 준법경영..."
+      ],
+      "snippets": [
+        "삼성준감위는 10일 서울 서초구 삼성금융캠퍼스에서 관계사 컴플라이언스 워크숍을 개최했다고 11일 밝혔다. 'AX 시대의 컴플라이언스'를 주제로 진행된 이번 자리 위원회 위원과 사무국 직원, 관계사 준법지원·감시인... "
+      ],
+      "media_domains": [
+        "ajunews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261111-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261111",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731207",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T10:44:00+09:00",
+      "collected_at": "2026-11-11T01:45:14.325Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "대한전선, ESG 경영 성과 인정...6년 연속 통합 A등급",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "대한전선, ESG 경영 성과 인정...6년 연속 통합 A등급",
+        "대한전선, ESG 경영 성과 인정…6년째 A등급 획득"
+      ],
+      "snippets": [
+        "환경 부문에서는 탄소중립 로드맵에 따라 재생에너지 활용을 확대하고 환경 보호 활동을 추진하고 있다. 임신·출산·육아 등 생애주기별 가족친화제도를 운영해 임직원의 일·가정 양립도 지원하고 있다. 아울러... ",
+        "대한전선은 탄소중립 로드맵에 따라 재생에너지 활용을 확대하고 환경 보호 활동을 전개하고 있다. 임신·출산·육아 등 생애주기별 가족친화제도를 운영해 임직원의 일과 가정의 양립도 지원하고 있다. 컴플라이언스... "
+      ],
+      "media_domains": [
+        "ebn.co.kr",
+        "view.asiae.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261111-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261111",
+        "url": "https://n.news.naver.com/mnews/article/030/0003484417?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-11T10:39:00+09:00",
+      "collected_at": "2026-11-11T01:45:15.088Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.11 · 뉴스 화제성",
+        "headline": "신한투자증권, 내년 경제·산업 전망 제시…11~12일 금융시장 포럼",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "신한투자증권, 내년 경제·산업 전망 제시…11~12일 금융시장 포럼",
+        "신한투자증권, 11~12일 ‘2027년 경제·금융·산업 전망 발표’ 포럼 개...",
+        "신한투자증권, 11·12일 '금융시장 포럼' 개최"
+      ],
+      "snippets": [
+        "12일에는 소비재·플랫폼, 모빌리티·소재 및 산업재, IT 하드웨어, 제약·바이오, AI·로보틱스, 금융 등 주요 산업의 전망과 투자전략을 발표한다. AI 투자 확대에 따른 산업별 변화와 기업의 실질적인 수익성을 분석하고... ",
+        "소비재·플랫폼, 모빌리티·소재/산업재, IT 하드웨어, 제약·바이오, AI·로보틱스 및 혁신성장, 금융 등 주요산업을 대상으로 업종별 전망과 투자전략, 최선호 종목 등을 제시할 예정입니다. 특히 AI 투자확대에 따른... ",
+        "오는 12일엔 소비재·플랫폼 모빌리티·소재·산업재 IT 하드웨어 제약·바이오 AI·로보틱스 금융 등 업종별 전망과 최선호 종목을 제시한다. 인공지능(AI) 투자 확대에 따른 산업 변화와 기업의 실질 성장성·수익성도... "
+      ],
+      "media_domains": [
+        "etnews.com",
+        "inthenews.co.kr",
+        "weekly.hankooki.com"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvJ5C7sEUgqnqegQUKVu\"}"
+  }
+]
