@@ -1,0 +1,472 @@
+[
+  {
+    "event": {
+      "id": "naver-20261112-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261112",
+        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602040",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:44:00+09:00",
+      "collected_at": "2026-11-12T02:45:11.922Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "삼성 46조원 충청권 투자 첫 삽⋯온양 HBM 패키징 시설 착공",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "삼성 46조원 충청권 투자 첫 삽⋯온양 HBM 패키징 시설 착공"
+      ],
+      "snippets": [
+        "반도체 후공정 경쟁력 강화를 위한 대규모 투자가 구체화하면서 충청권 반도체 산업 생태계에도 변화가 예상된다. 이재명 대통령은 이날 삼성전자 온양사업장 착공 현장을 찾아 투자 계획을 점검했다. 이 대통령은... "
+      ],
+      "media_domains": [
+        "autodaily.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261112-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261112",
+        "url": "https://www.news2day.co.kr/article/20261110500335",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:06:00+09:00",
+      "collected_at": "2026-11-12T02:45:12.730Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "[기업워치-동원과 사조, 같은 캔, 다른 길 ①] 동원은 배터리·사조는 식...",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[기업워치-동원과 사조, 같은 캔, 다른 길 ①] 동원은 배터리·사조는 식..."
+      ],
+      "snippets": [
+        "동원, 포장재 기술로 2차전지 소재 진출…2026년 북미 양극박 공장 추진 사조, 식품·수산 기업 인수로 대기업집단 지정…올해 계열사 2곳 담합 과징금 3832억원 동원과 사조는 같은 바다에서 출발했다. 1969년과 1971년... "
+      ],
+      "media_domains": [
+        "news2day.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261112-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261112",
+        "url": "https://n.news.naver.com/mnews/article/001/0016438097?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:43:00+09:00",
+      "collected_at": "2026-11-12T02:45:13.486Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "이화여대 명예박사학위 받은 델핀 아르노 디올 CEO",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "이화여대 명예박사학위 받은 델핀 아르노 디올 CEO",
+        "이화여대 명예박사학위 받은 델핀 아르노 디올 CEO"
+      ],
+      "snippets": [
+        "델핀 아르노 크리스찬 디올 최고경영자(오른쪽)가 12일 서울 서대문구 이화여대 김영의홀에서 열린 명예박사 수여식에서 정의선 현대자동차그룹 회장, 신동빈 롯데그룹 회장, 신유열 롯데바이오로직스 각자대표 겸... ",
+        "델핀 아르노 크리스찬 디올 최고경영자(오른쪽)가 12일 서울 서대문구 이화여대 김영의홀에서 열린 명예박사 수여식에서 정의선 현대자동차그룹 회장, 신동빈 롯데그룹 회장, 신유열 롯데바이오로직스 각자대표 겸... "
+      ],
+      "media_domains": [
+        "yna.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261112-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261112",
+        "url": "https://www.smarttoday.co.kr/ko-kr/articles/113687",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:44:00+09:00",
+      "collected_at": "2026-11-12T02:45:14.219Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "하나증권, 금융권 취준생에 리서치센터 실무 경험할 수 있게...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "하나증권, 금융권 취준생에 리서치센터 실무 경험할 수 있게..."
+      ],
+      "snippets": [
+        "하나증권은 금융권 취업을 준비하는 청년들에게 증권사 리서치센터의 실무를 경험할 수 있는 기회를... 황승택 하나증권 리서치센터장은 “하나증권 리서치센터가 쌓아온 분석 노하우를 금융권 취업을 준비하는... "
+      ],
+      "media_domains": [
+        "smarttoday.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261112-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261112",
+        "url": "https://www.electimes.com/news/articleView.html?idxno=374673",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:44:00+09:00",
+      "collected_at": "2026-11-12T02:45:14.949Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "겨울도 안 왔는데 한낮 SMP 183원…전력시장 '살얼음판'",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "겨울도 안 왔는데 한낮 SMP 183원…전력시장 '살얼음판'"
+      ],
+      "snippets": [
+        "일본 JCC와 브렌트유, 미국 헨리허브(HH) 등 벤치마크를 달리하거나 여러 지표를 섞어 국제 에너지가격... 가스공사에서 연료를 공급받는 발전기들도 에너지가격 상승 여파를 피하지 못했다. 서인천복합과... "
+      ],
+      "media_domains": [
+        "electimes.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261112-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261112",
+        "url": "https://n.news.naver.com/mnews/article/016/0002722610?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-12T11:38:00+09:00",
+      "collected_at": "2026-11-12T02:45:15.700Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.12 · 뉴스 화제성",
+        "headline": "엔비디아 이사회, 젠슨 황 ‘해임 논의’ 착수",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "엔비디아 이사회, 젠슨 황 ‘해임 논의’ 착수"
+      ],
+      "snippets": [
+        "앞서 정보기술(IT) 전문매체 디인포메이션은 불륜 상대방인 앨리스 황(중국명 황러)이 황 CEO와의 관계를... 업계에서는 콜레트 크레스 최고재무책임자(CFO)와 엔비디아의 소프트웨어 플랫폼 ‘쿠다’를 만든 이언 벅... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxGTX1pG2sg3eHuAvJJP\"}"
+  }
+]
