@@ -1,0 +1,491 @@
+[
+  {
+    "event": {
+      "id": "naver-20261113-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261113",
+        "url": "https://n.news.naver.com/mnews/article/016/0002723070?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T11:28:00+09:00",
+      "collected_at": "2026-11-13T02:28:41.639Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "코스닥 전면 재설계·M&A 시장 정상화 추진",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "코스닥 전면 재설계·M&A 시장 정상화 추진"
+      ],
+      "snippets": [
+        "이 연구위원은 “새 정부 출범 이후 코스피가 100.4% 상승하는 동안 코스닥 수익률은 4.2%에 그쳤다”며 “반도체 중심의 상승세를 시장 전반의 기업가치 재평가로 확산해야 한다”고 주장했다. 이 선임연구위원은... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261113-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261113",
+        "url": "https://n.news.naver.com/mnews/article/016/0002723062?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T11:24:00+09:00",
+      "collected_at": "2026-11-13T02:28:42.493Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "환율·유가 하락에 10월 수입물가 1.8%↓",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "환율·유가 하락에 10월 수입물가 1.8%↓",
+        "환율·유가 하락에 10월 수입물가 1.8%↓···수출물가는 D램 강세에 상...",
+        "환율·유가 떨어지니 10월 수입물가 1.8%↓…한 달 만에 하락 전환",
+        "환율·유가 하락에 10월 수입물가 1.8%↓…한달 만 하락 전환"
+      ],
+      "snippets": [
+        "중간재는 벙커C유(14.3%) 등 석탄 및 석유제품(3.5%)이 올랐지만, 알루미늄정련품(-8.5%)을 포함한 1차금속제품(-4.2%)과 2차전지(-6.3%) 등 전기장비(-3.4%)가 내리면서 1% 하락했다. 자본재와 소비재는 각각 전월 대비 1.8%, 1.... ",
+        "세부 중간재 품목에서는 벙커C유가 14.3% 크게 올랐으나 수산화알루미늄(-2.3%), 알루미늄정련품(-8.5%), 시스템반도체(-1.6%), 2차전지(-6.3%), 유압 및 공기압전송용밸브(-4.7%) 등에서 하락한 것으로 나타났다. 자본재와... ",
+        "중간재는 석탄 및 석유제품이 3.5% 올랐지만, 알루미늄정련품 등 1차금속제품(-4.2%)과 2차전지 등 전기장비(-3.4%) 가격이 내려 1.0% 하락했다. 자본재와 소비재도 각각 1.8%, 1.4% 떨어졌다. 이달 들어서는 국제유가 하락... ",
+        "세부 품목에서는 △신선수산물(-12.4%) △알루미늄정련품(-8.5%) △2차전지(-6.3%) △옥수수(-4.8%) △휴대용전화기(-3.2%) △원유(-3.0%) 등이 하락했다. 반면 벙커C유(14.3%) 등은 상승했다. 환율 영향을 제외한 계약통화 기준... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com",
+        "todaykorea.co.kr",
+        "econovill.com",
+        "newsprime.co.kr"
+      ],
+      "corroboration_count": 4
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261113-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261113",
+        "url": "https://n.news.naver.com/mnews/article/008/0005440772?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T11:20:00+09:00",
+      "collected_at": "2026-11-13T02:28:43.234Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "SK바이오팜, 뇌전증 치료제 '세노바메이트' 일본 출시",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "SK바이오팜, 뇌전증 치료제 '세노바메이트' 일본 출시",
+        "SK바이오팜, 뇌전증 치료제 ‘세노바메이트’ 일본 출시…韓中日 출시",
+        "SK바이오팜 뇌전증 신약 '세노바메이트', 일본 판매 시작…동북아 3국 진..."
+      ],
+      "snippets": [
+        "SK바이오팜이 뇌전증 신약 '세노바메이트'를 일본에 출시했다. 아시아 주요 시장으로 진출 영역을 확대하며 글로벌 입지를 강화하겠다는 계획이다. SK바이오팜는 일본 협업사 오노약품공업이 뇌전증 혁신 신약... ",
+        "이투데이=이상민 기자 | SK바이오팜은 일본 파트너사인 오노약품공업이 뇌전증 혁신 신약 ‘세노바메이트... SK바이오팜은 2020년 10월 오노약품공업과 일본 내 세노바메이트 개발 및 상업화에 대한 기술수출 계약을... ",
+        "SK바이오팜의 뇌전증 치료제 세노바메이트가 일본 시장에 출시됐다. 중국과 한국에 이어 일본에서도 판매가 시작되면서 동북아시아 주요 3개국에서 상업화가 이뤄지게 됐다. SK바이오팜은 일본 파트너사... "
+      ],
+      "media_domains": [
+        "mt.co.kr",
+        "etoday.co.kr",
+        "polinews.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261113-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261113",
+        "url": "http://www.wsobi.com/news/articleView.html?idxno=321710",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T11:28:00+09:00",
+      "collected_at": "2026-11-13T02:28:44.015Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 16,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "HL만도·HL D&I한라, 동반성장지수 2년 연속 최우수등급 획득·'자율주행...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "HL만도·HL D&I한라, 동반성장지수 2년 연속 최우수등급 획득·'자율주행..."
+      ],
+      "snippets": [
+        "HL만도는 협력사의 경영 안정을 위해 다양한 금융 지원 프로그램을 운영하고 있다. 1020억원 규모의 수출입... 하나은행, 한국무역보험공사와 함께 마련한 수출금융 지원 프로그램은 글로벌 통상 환경 변화에 어려움을... "
+      ],
+      "media_domains": [
+        "wsobi.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261113-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261113",
+        "url": "https://n.news.naver.com/mnews/article/629/0000551632?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T11:24:00+09:00",
+      "collected_at": "2026-11-13T02:28:44.789Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "가스공사 쪽방촌 혹한기 방한물품 지원",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "가스공사 쪽방촌 혹한기 방한물품 지원",
+        "가스공사, 쪽방촌 겨울나기 지원…방한물품 전달∙안부 확인"
+      ],
+      "snippets": [
+        "가스공사 관계자는 \"이번 지원이 쪽방 주민들에게 따뜻한 온기로 전해지길 바란다\"라며 \"앞으로도 상생협력 브랜드 ‘희망 온(On, 溫)’을 바탕으로 취약계층 에너지 복지 프로그램을 지속 확대해 에너지 공기업으로서의... ",
+        "가스공사 관계자는 \"앞으로도 상생협력 브랜드 '희망 온(On, 溫)'을 바탕으로 취약계층 에너지 복지 프로그램을 지속 확대하겠다\"고 말했다. 가스공사의 쪽방촌 지원은 계절별 물품 전달을 정례화하면서 주민들의 생활... "
+      ],
+      "media_domains": [
+        "news.tf.co.kr",
+        "kdfnews.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261113-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261113",
+        "url": "https://www.nextdaily.co.kr/news/articleView.html?idxno=254897",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-13T10:54:00+09:00",
+      "collected_at": "2026-11-13T02:28:45.562Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.13 · 뉴스 화제성",
+        "headline": "포티넷코리아, 'OT 사이버보안 서밋' 개최…제조·에너지 보안 책임자 1...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "포티넷코리아, 'OT 사이버보안 서밋' 개최…제조·에너지 보안 책임자 1...",
+        "포티넷코리아, 2026 OT 사이버보안 서밋 진행"
+      ],
+      "snippets": [
+        "개회사에서 IT·OT 통합, AI를 앞세운 고속 공격, 노후 설비, 강화되는 규제를 OT 보안의 당면 과제로 꼽았다. 해법으로는 세그멘테이션, 안전한 원격 접속 통제, OT 보안 운영과 위협 인텔리전스, 통합 플랫폼 기반... ",
+        "통해 IT와 OT의 결합, AI 기반의 초고속 위협, 레거시 설비, 강화되는 규제를 OT 보안의 주요 현안으로 언급했다. 해결 방안으로는 세그멘테이션과 안전한 원격 접속 제어, OT 보안 운영 및 위협 인텔리전스, 플랫폼 중심... "
+      ],
+      "media_domains": [
+        "nextdaily.co.kr",
+        "newspim.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgz91cMkQHgVPaV8FUCda\"}"
+  }
+]
