@@ -1,0 +1,398 @@
+[
+  {
+    "event": {
+      "id": "naver-20261114-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261114",
+        "url": "https://n.news.naver.com/mnews/article/021/0002832746?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-14T11:02:00+09:00",
+      "collected_at": "2026-11-14T02:03:48.758Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.14 · 뉴스 화제성",
+        "headline": "‘젠슨황 스캔들’에 급락한 엔비디아…서학개미, 1000억 사들였다",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "‘젠슨황 스캔들’에 급락한 엔비디아…서학개미, 1000억 사들였다",
+        "\"젠슨황 여파\"...서학개미, 급락한 엔비디아 1000억원대 '저가 매수'"
+      ],
+      "snippets": [
+        "반대로 서학개미가 지난 한 주간 가장 많이 사들인 종목은 미국 반도체 지수를 3배로 추종하는 ‘SOXL’로 5억8313만 달러(약 7791억 원)를 매수했다. 나스닥 100지수 3배 레버리지인 ‘TQQQ’(2억4763만 달러)와 2배로... ",
+        "이 기간 서학개미가 가장 많이 사들인 종목은 미국 반도체 지수의 하락과 상승에 과감히 베팅하는 고위험·고수익 상품들이었다. 미국 반도체 지수를 3배로 추종하는 'SOXL'에 5억8313만달러(약 7791억 원)가 몰리며... "
+      ],
+      "media_domains": [
+        "munhwa.com",
+        "fnnews.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1zvKkYQg2ZuRzWbqboU\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261114-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261114",
+        "url": "https://n.news.naver.com/mnews/article/022/0004175071?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-14T11:03:00+09:00",
+      "collected_at": "2026-11-14T02:03:50.476Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.14 · 뉴스 화제성",
+        "headline": "김수현, 광고 모델료 11억 5980만 원 반환 판결…39억 위약금 폭탄은 피...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "김수현, 광고 모델료 11억 5980만 원 반환 판결…39억 위약금 폭탄은 피..."
+      ],
+      "snippets": [
+        "수원지법, 프롬바이오 손배소 원고 일부 승소…“제3자 허위유포는 불가항력, 위약금 책임 없어” 배우... 13일 법조계에 따르면 수원지법 제14민사부(문현호 부장판사)는 건강기능식품 전문 기업 프롬바이오가 김수현과... "
+      ],
+      "media_domains": [
+        "segye.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1zvKkYQg2ZuRzWbqboU\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261114-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261114",
+        "url": "https://www.ajunews.com/view/20261113155842245",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-14T11:02:00+09:00",
+      "collected_at": "2026-11-14T02:03:51.246Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.14 · 뉴스 화제성",
+        "headline": "NH농협캐피탈, ESG 지배구조 평가 'A'…5년 연속 유지",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "NH농협캐피탈, ESG 지배구조 평가 'A'…5년 연속 유지"
+      ],
+      "snippets": [
+        "[사진=NH농협캐피탈] NH농협캐피탈이 한국ESG기준원의 금융회사 지배구조 평가에서 5년 연속 A등급을 받았다. NH농협캐피탈은 한국ESG기준원(KCGS)이 발표한 '2026년 ESG 평가'에서 금융회사 지배구조(G) 부문 A등급을... "
+      ],
+      "media_domains": [
+        "ajunews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1zvKkYQg2ZuRzWbqboU\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261114-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261114",
+        "url": "https://n.news.naver.com/mnews/article/030/0003485537?sid=100",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-14T11:01:00+09:00",
+      "collected_at": "2026-11-14T02:03:52.003Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.14 · 뉴스 화제성",
+        "headline": "[세종만사]“핵심 사업 놓칠라”…미래대응기금 사수에 안간힘",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[세종만사]“핵심 사업 놓칠라”…미래대응기금 사수에 안간힘"
+      ],
+      "snippets": [
+        "○…노란 스마일 옆에 우주, 김성환 장관의 새 배지 김성환 기후에너지환경부 장관의 옷깃에 달리는 배지가... 산업부 청사에 남아있던 기후부 에너지실이 기후부 청사로 완전히 이전, 빈 공간을 채우기 위한 산업부 내... "
+      ],
+      "media_domains": [
+        "etnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1zvKkYQg2ZuRzWbqboU\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261114-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261114",
+        "url": "https://m.entertain.naver.com/article/396/0000760902",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-14T10:48:00+09:00",
+      "collected_at": "2026-11-14T02:03:52.734Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.14 · 뉴스 화제성",
+        "headline": "TXT, 컴백 전부터 뜨겁다…스포티파이 사전 저장 20일 연속 1위",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "TXT, 컴백 전부터 뜨겁다…스포티파이 사전 저장 20일 연속 1위",
+        "투모로우바이투게더, 미니 9집 스포티파이 사전 저장 20일 연속 1위"
+      ],
+      "snippets": [
+        "사진-빅히트 뮤직 그룹 투모로우바이투게더(TXT)가 새 앨범 발매를 앞두고 글로벌 음악 플랫폼... ‘Hate It or Love It’ 등 총 6곡이 수록된다. 투모로우바이투게더는 지난 13일 서울 올림픽공원 KSPO DOME에서... ",
+        "스트리밍 플랫폼 스포티파이의 사전 저장(Pre-save) 수를 기반으로 집계되는 '톱 10 카운트다운'에서... Sky', 'Hate It or Love It' 등 총 6곡이 수록된다. 월드투어 일정도 진행 중이다. 투모로우바이투게더는 13일... "
+      ],
+      "media_domains": [
+        "sportsworldi.com",
+        "topstarnews.net"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1zvKkYQg2ZuRzWbqboU\"}"
+  }
+]

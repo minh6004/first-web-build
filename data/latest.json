@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T02:28:47.912Z",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T02:03:52.928Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "바이오",
+      "name": "반도체",
       "events": [
         {
-          "name": "바이오(HS 3004) 수출 전년 동월 대비 +29.9%",
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "셀트리온, 자기주식취득결과보고서",
+          "name": "QUALCOMM INC/DE, 8-K 공시",
           "direction": "neutral",
           "strength": "약함"
         }
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:41.563Z",
+      "collected_at": "2026-11-14T02:03:48.124Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:42.719Z",
+      "collected_at": "2026-11-14T02:03:49.104Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:42.157Z",
+      "collected_at": "2026-11-14T02:03:48.598Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:43.293Z",
+      "collected_at": "2026-11-14T02:03:49.565Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -289,7 +289,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-13T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:41.542Z",
+      "collected_at": "2026-11-14T02:03:48.015Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -356,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:41.806Z",
+      "collected_at": "2026-11-14T02:03:48.282Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -410,24 +410,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261113-000215",
+      "id": "sec-0000804328-0001104659-26-127163",
       "source": {
-        "type": "dart",
-        "ref_id": "20261113000215",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000215",
+        "type": "sec",
+        "ref_id": "0000804328",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/0001104659-26-127163-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-13T12:00:00+09:00",
-      "collected_at": "2026-11-13T02:28:47.811Z",
-      "type": "disclosure",
-      "category": "주요사항",
+      "event_datetime": "2026-11-13T16:00:00-04:00",
+      "collected_at": "2026-11-14T02:03:48.103Z",
+      "type": "contract",
+      "category": "주요계약",
       "subject": {
         "entity_type": "stock",
-        "code": "068270",
-        "name": "셀트리온",
+        "code": "0000804328",
+        "name": "QUALCOMM INC/DE",
         "is_bellwether": true,
         "sectors": [
-          "바이오"
+          "반도체"
         ]
       },
       "metrics": {},
@@ -436,28 +436,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 25
+        "priority_score": 30
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "바이오",
+            "sector": "반도체",
             "direction": "neutral",
-            "note": "주요사항"
+            "note": "주요계약"
           }
         ]
       },
       "content": {
-        "meta_line": "셀트리온 · 11.13 · 주요사항",
-        "headline": "셀트리온, 자기주식취득결과보고서",
+        "meta_line": "QUALCOMM INC/DE · 11.13 · 주요계약",
+        "headline": "QUALCOMM INC/DE, 8-K 공시",
         "chips": [
-          "바이오→"
+          "반도체→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "주요 계약 관련 공시는 단기적으로 시장의 관심을 끌 수 있어요.",
+          "long_term": "계약이 실제 실적에 기여하는 규모와 시점이 중장기 주가를 좌우해요."
         }
       },
       "reliability": {
@@ -469,24 +469,24 @@
       "status": "active"
     },
     {
-      "id": "sec-0001326801-0001193125-26-458525",
+      "id": "sec-0001544227-0001213900-26-119916",
       "source": {
         "type": "sec",
-        "ref_id": "0001326801",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/0001193125-26-458525-index.htm",
+        "ref_id": "0001544227",
+        "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-12T16:00:00-04:00",
-      "collected_at": "2026-11-13T02:28:41.821Z",
-      "type": "disclosure",
-      "category": "수시공시",
+      "event_datetime": "2026-11-13T16:00:00-04:00",
+      "collected_at": "2026-11-14T02:03:48.102Z",
+      "type": "ma",
+      "category": "인수합병",
       "subject": {
         "entity_type": "stock",
-        "code": "0001326801",
-        "name": "Meta Platforms, Inc.",
-        "is_bellwether": true,
+        "code": "0001544227",
+        "name": "Tempest Therapeutics, Inc.",
+        "is_bellwether": false,
         "sectors": [
-          "IT/플랫폼"
+          "미분류"
         ]
       },
       "metrics": {},
@@ -495,28 +495,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 25
+        "priority_score": 10
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "IT/플랫폼",
+            "sector": "미분류",
             "direction": "neutral",
-            "note": "수시공시"
+            "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "Meta Platforms, Inc. · 11.12 · 수시공시",
-        "headline": "Meta Platforms, Inc., 8-K 공시",
+        "meta_line": "Tempest Therapeutics, Inc. · 11.13 · 인수합병",
+        "headline": "Tempest Therapeutics, Inc., 8-K 공시",
         "chips": [
-          "IT/플랫폼→"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "기관 보유 현황(13F) 공개는 대형 투자자들의 포지션 변화를 엿볼 수 있는 참고 자료예요.",
-          "long_term": "이 정보는 최대 45일 지연 공시라 실시간 포지션이 아니라는 점을 감안해서 봐야 해요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {

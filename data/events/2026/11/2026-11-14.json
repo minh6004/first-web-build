@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T02:03:52.928Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "QUALCOMM INC/DE, 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kdata-202610-8542",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8542-202610",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:48.124Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8542",
+        "name": "반도체(집적회로(반도체))",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 40020898731,
+        "import_value_usd": 9626351630,
+        "trade_balance_usd": 30394547101,
+        "export_value_yoy_pct": 203.7,
+        "import_value_yoy_pct": 82.3
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 · 2026.10 · 수출입동향",
+        "headline": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
+        "chips": [
+          "반도체↑"
+        ],
+        "horizon": {
+          "short_term": "반도체 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202610-2709",
+      "source": {
+        "type": "kdata",
+        "ref_id": "2709-202610",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:49.104Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2709",
+        "name": "에너지(원유)",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 0,
+        "import_value_usd": 10721056198,
+        "trade_balance_usd": -10721056198,
+        "export_value_yoy_pct": null,
+        "import_value_yoy_pct": 51.9
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 93
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 · 2026.10 · 수출입동향",
+        "headline": "에너지(HS 2709) 수입 전년 동월 대비 +51.9%",
+        "chips": [
+          "에너지↑"
+        ],
+        "horizon": {
+          "short_term": "에너지 수입이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202610-8507",
+      "source": {
+        "type": "kdata",
+        "ref_id": "8507-202610",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:48.598Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "8507",
+        "name": "2차전지(축전지(2차전지))",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 740759347,
+        "import_value_usd": 701481707,
+        "trade_balance_usd": 39277640,
+        "export_value_yoy_pct": 38.4,
+        "import_value_yoy_pct": 42.3
+      },
+      "scoring": {
+        "surprise_score": 0.85,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 84
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 · 2026.10 · 수출입동향",
+        "headline": "2차전지(HS 8507) 수출 전년 동월 대비 +38.4%",
+        "chips": [
+          "2차전지↑"
+        ],
+        "horizon": {
+          "short_term": "2차전지 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "kdata-202610-3004",
+      "source": {
+        "type": "kdata",
+        "ref_id": "3004-202610",
+        "url": "https://unipass.customs.go.kr/ets/index_.do",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:49.565Z",
+      "type": "macro_indicator",
+      "category": "수출입동향",
+      "subject": {
+        "entity_type": "sector",
+        "code": "3004",
+        "name": "바이오(의약품)",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "export_value_usd": 79890602,
+        "import_value_usd": 619940912,
+        "trade_balance_usd": -540050310,
+        "export_value_yoy_pct": 29.9,
+        "import_value_yoy_pct": 34.7
+      },
+      "scoring": {
+        "surprise_score": 0.69,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 75
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "up",
+            "note": "수출입동향"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 · 2026.10 · 수출입동향",
+        "headline": "바이오(HS 3004) 수출 전년 동월 대비 +29.9%",
+        "chips": [
+          "바이오↑"
+        ],
+        "horizon": {
+          "short_term": "바이오 수출이 전년 동월 대비 늘어나 관련 업종 심리에 단기적으로 긍정적일 수 있어요.",
+          "long_term": "이 증가세가 다음 달에도 이어지는지가 중장기 업황 판단의 핵심이에요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-fx-20261113",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261113",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-13T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:48.015Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1332.4,
+        "fx_change_pct": -0.3
+      },
+      "scoring": {
+        "surprise_score": 0.15,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 42
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 11.13 · 환율",
+        "headline": "원/달러 환율 1332.4원 (전일 대비 -0.3%)",
+        "chips": [
+          "수출주↓",
+          "여행↑"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.3% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-cpi-202610",
+      "source": {
+        "type": "ecos",
+        "ref_id": "cpi-202610",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-10-01T12:00:00+09:00",
+      "collected_at": "2026-11-14T02:03:48.282Z",
+      "type": "macro_indicator",
+      "category": "소비자물가",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-CPI",
+        "name": "소비자물가지수(CPI)",
+        "is_bellwether": true,
+        "sectors": [
+          "성장주"
+        ]
+      },
+      "metrics": {
+        "cpi_yoy_pct": 2.8,
+        "cpi_yoy_pct_prev_month": 2.9,
+        "cpi_yoy_accel_pct_point": -0.1
+      },
+      "scoring": {
+        "surprise_score": 0.1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 39
+      },
+      "impact": {
+        "direction": "down",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "성장주",
+            "direction": "up"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "소비자물가지수(CPI) · 10월 · 소비자물가",
+        "headline": "소비자물가 전년동월대비 2.8% (전월 2.9%에서 둔화)",
+        "chips": [
+          "성장주↑"
+        ],
+        "horizon": {
+          "short_term": "소비자물가 상승률(전년동월대비 2.8%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
+          "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0000804328-0001104659-26-127163",
+      "source": {
+        "type": "sec",
+        "ref_id": "0000804328",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/0001104659-26-127163-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-13T16:00:00-04:00",
+      "collected_at": "2026-11-14T02:03:48.103Z",
+      "type": "contract",
+      "category": "주요계약",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0000804328",
+        "name": "QUALCOMM INC/DE",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 30
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral",
+            "note": "주요계약"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "QUALCOMM INC/DE · 11.13 · 주요계약",
+        "headline": "QUALCOMM INC/DE, 8-K 공시",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "주요 계약 관련 공시는 단기적으로 시장의 관심을 끌 수 있어요.",
+          "long_term": "계약이 실제 실적에 기여하는 규모와 시점이 중장기 주가를 좌우해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0001544227-0001213900-26-119916",
+      "source": {
+        "type": "sec",
+        "ref_id": "0001544227",
+        "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-13T16:00:00-04:00",
+      "collected_at": "2026-11-14T02:03:48.102Z",
+      "type": "ma",
+      "category": "인수합병",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0001544227",
+        "name": "Tempest Therapeutics, Inc.",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 10
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "인수합병"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "Tempest Therapeutics, Inc. · 11.13 · 인수합병",
+        "headline": "Tempest Therapeutics, Inc., 8-K 공시",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    }
+  ]
+}
