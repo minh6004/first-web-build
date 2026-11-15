@@ -1,0 +1,482 @@
+[
+  {
+    "event": {
+      "id": "naver-20261115-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261115",
+        "url": "https://www.etoday.co.kr/news/view/2648248",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:28:00+09:00",
+      "collected_at": "2026-11-15T01:35:43.197Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "최태원 SK 회장 “기존 사업 틀 깨야“⋯AI 플라이휠 전략 강조",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "최태원 SK 회장 “기존 사업 틀 깨야“⋯AI 플라이휠 전략 강조",
+        "최태원 \"AI 플라이휠로 성장 선순환 구축…기존 사업 틀 깨야\"",
+        "최태원 SK 회장 \"AI 반도체 넘어 서비스까지… 'AI 플라이휠'로 성장의 ..."
+      ],
+      "snippets": [
+        "이투데이=문현호 기자 | SK그룹, CEO세미나 개최…경영진 50여 명 참석 반도체·인프라·에너지 넘어 AI... AI 반도체와 인프라, 에너지를 넘어 AI 서비스까지 사업 영역을 확대하고, 각 사업의 성장이 다른 사업의 성장을... ",
+        "매일일보 = 안종열 기자   |  최태원 SK그룹 회장이 인공지능(AI) 반도체, 인프라, 에너지를 중심으로 한 사업... 이번 세미나에서는 기존 AI 반도체, 인프라, 에너지 등 3대 사업을 중심으로 새로운 성장 기회를 발굴하는... ",
+        "'AI 플라이휠'은 반도체 경쟁력이 AI 팩토리 사업의 성장을 촉진하고, 팩토리 확장은 다시 에너지와 AI... 세미나에 참석한 경영진은 AI 반도체·인프라·에너지 등 3대 축을 중심으로 각 멤버사의 역할을 주도적으로... "
+      ],
+      "media_domains": [
+        "etoday.co.kr",
+        "m-i.kr",
+        "ftoday.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261115-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261115",
+        "url": "https://n.news.naver.com/mnews/article/003/0014322662?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:27:00+09:00",
+      "collected_at": "2026-11-15T01:35:44.019Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 9,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "\"2차전지 폐수, 리튬이 황산염보다 농도 낮추기 어렵다\"",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "\"2차전지 폐수, 리튬이 황산염보다 농도 낮추기 어렵다\""
+      ],
+      "snippets": [
+        "2차전지 산업에서 나오는 고염폐수 오염원 가운데 리튬이 황산염보다 농도를 낮추기 어렵고 폐수로 인한 영향은 담수생물이 해양생물보다 더 많이 받는 것으로 나타났다. 경북도보건환경연구원과 포항산업과학연구원... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261115-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261115",
+        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=325981",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:30:00+09:00",
+      "collected_at": "2026-11-15T01:35:44.859Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "고려대, THE와 글로벌 혁신·산학협력 미래 논의",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "고려대, THE와 글로벌 혁신·산학협력 미래 논의"
+      ],
+      "snippets": [
+        "인공지능(AI)과 반도체, 바이오, 기후기술, 첨단제조 등 미래 핵심기술 분야의 연구·투자 방향을 비롯해 연구개발 자금 조달과 글로벌 인재 확보 방안도 논의한다. 아울러 벤처캐피털과 기업, 대학 및 연구기관 간 협력... "
+      ],
+      "media_domains": [
+        "pointdaily.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261115-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261115",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147270",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:34:00+09:00",
+      "collected_at": "2026-11-15T01:35:45.608Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "코인원, 고객 상담 수탁사 '메타엠' 해킹으로 개인정보 유출",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "코인원, 고객 상담 수탁사 '메타엠' 해킹으로 개인정보 유출"
+      ],
+      "snippets": [
+        "코인원은 한국인터넷진흥원(KISA), 개인정보보호위원회, 금융감독원 등 관계 당국에 피해 사실을 신고했다. 유출된 개인정보는 보이스피싱, 스미싱 문자, 명의도용 등 2차 범죄에 악용될 위험이 있다. 이에 계정 비밀번호를... "
+      ],
+      "media_domains": [
+        "boannews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261115-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261115",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2018599",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:32:00+09:00",
+      "collected_at": "2026-11-15T01:35:46.344Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "삼성SDI·LG엔솔, 美 RE+ 출격…ESS·AI 데이터센터용 배터리 공개",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "삼성SDI·LG엔솔, 美 RE+ 출격…ESS·AI 데이터센터용 배터리 공개",
+        "삼성SDI, 美 RE+서 차세대 배터리 솔루션 공개",
+        "삼성SDI·LG엔솔, 美 'RE+'서 AI 데이터센터 배터리 격돌"
+      ],
+      "snippets": [
+        "매일일보 = 김채은 기자   |  삼성SDI와 LG에너지솔루션이 미국 최대 에너지산업 전시회에서 인공지능(AI) 데이터센터용 배터리와 에너지저장장치(ESS) 신기술을 선보인다. AI 확산으로 전력 수요가 증가하는... ",
+        "삼성SDI가 북미 최대 에너지산업 전시회에서 차세대 배터리 솔루션을 선보인다. 삼성SDI는 오는 17일부터 19일(현지시간)까지 미국 라스베이거스에서 열리는 'RE+ 2026'에 참가한다고 15일 밝혔다. 이번 전시에서... ",
+        "삼성SDI와 LG에너지솔루션이 북미 최대 에너지 전시회에서 차세대 에너지저장장치(ESS)와 인공지능(AI) 데이터센터용 배터리를 나란히 공개한다. AI 데이터센터 확산으로 커지는 미국 전력 시장을 겨냥한... "
+      ],
+      "media_domains": [
+        "m-i.kr",
+        "inews24.com",
+        "ebn.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261115-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261115",
+        "url": "http://www.popcornnews.net/news/articleView.html?idxno=140104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-15T10:30:00+09:00",
+      "collected_at": "2026-11-15T01:35:47.084Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.15 · 뉴스 화제성",
+        "headline": "\"K-공간정보, 세계 무대로\"… 한국국토정보공사(LX), 글로벌 국토행정 디...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "\"K-공간정보, 세계 무대로\"… 한국국토정보공사(LX), 글로벌 국토행정 디..."
+      ],
+      "snippets": [
+        "한국의 토지행정 시스템이 단순 지적측량을 넘어 첨단 IT 기술을 입고 해외 시장으로 보폭을 넓히고 있다.... 올해 5월부터는 후속 사업에 돌입해 클라우드 플랫폼의 성능을 높이고 각 서비스가 독립적으로 운영될 수... "
+      ],
+      "media_domains": [
+        "popcornnews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3raykKSAgJXAWf8f4FP\"}"
+  }
+]

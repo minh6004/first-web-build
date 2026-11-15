@@ -1,24 +1,7 @@
 {
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T02:03:52.928Z",
-  "summary": [
-    {
-      "id": "sector-0",
-      "name": "반도체",
-      "events": [
-        {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "QUALCOMM INC/DE, 8-K 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    }
-  ],
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T01:35:47.223Z",
+  "summary": [],
   "events": [
     {
       "id": "kdata-202610-8542",
@@ -29,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:48.124Z",
+      "collected_at": "2026-11-15T01:35:41.970Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +77,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:49.104Z",
+      "collected_at": "2026-11-15T01:35:42.945Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +142,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:48.598Z",
+      "collected_at": "2026-11-15T01:35:42.465Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +207,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:49.565Z",
+      "collected_at": "2026-11-15T01:35:43.439Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -289,7 +272,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-13T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:48.015Z",
+      "collected_at": "2026-11-15T01:35:41.805Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -356,7 +339,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-14T02:03:48.282Z",
+      "collected_at": "2026-11-15T01:35:42.039Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -399,124 +382,6 @@
         "horizon": {
           "short_term": "소비자물가 상승률(전년동월대비 2.8%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
           "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0000804328-0001104659-26-127163",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000804328",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/0001104659-26-127163-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-13T16:00:00-04:00",
-      "collected_at": "2026-11-14T02:03:48.103Z",
-      "type": "contract",
-      "category": "주요계약",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000804328",
-        "name": "QUALCOMM INC/DE",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 30
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral",
-            "note": "주요계약"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "QUALCOMM INC/DE · 11.13 · 주요계약",
-        "headline": "QUALCOMM INC/DE, 8-K 공시",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "주요 계약 관련 공시는 단기적으로 시장의 관심을 끌 수 있어요.",
-          "long_term": "계약이 실제 실적에 기여하는 규모와 시점이 중장기 주가를 좌우해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001544227-0001213900-26-119916",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001544227",
-        "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-13T16:00:00-04:00",
-      "collected_at": "2026-11-14T02:03:48.102Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001544227",
-        "name": "Tempest Therapeutics, Inc.",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "Tempest Therapeutics, Inc. · 11.13 · 인수합병",
-        "headline": "Tempest Therapeutics, Inc., 8-K 공시",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
