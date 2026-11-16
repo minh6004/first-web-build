@@ -1,7 +1,24 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T01:35:47.223Z",
-  "summary": [],
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T01:39:44.677Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "바이오",
+      "events": [
+        {
+          "name": "바이오(HS 3004) 수출 전년 동월 대비 +29.9%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "삼성바이오로직스, 유상증자또는주식관련사채등의청약결과(자율공시)              ",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202610-8542",
@@ -12,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:41.970Z",
+      "collected_at": "2026-11-16T01:39:35.774Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:42.945Z",
+      "collected_at": "2026-11-16T01:39:36.842Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:42.465Z",
+      "collected_at": "2026-11-16T01:39:36.284Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:43.439Z",
+      "collected_at": "2026-11-16T01:39:37.359Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -264,73 +281,6 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261113",
-      "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261113",
-        "url": "https://ecos.bok.or.kr/",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-13T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:41.805Z",
-      "type": "macro_indicator",
-      "category": "환율",
-      "subject": {
-        "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
-        "is_bellwether": true,
-        "sectors": [
-          "수출주",
-          "여행"
-        ]
-      },
-      "metrics": {
-        "fx_value_krw": 1332.4,
-        "fx_change_pct": -0.3
-      },
-      "scoring": {
-        "surprise_score": 0.15,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 42
-      },
-      "impact": {
-        "direction": "down",
-        "strength": "medium",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "down"
-          },
-          {
-            "sector": "여행",
-            "direction": "up"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 11.13 · 환율",
-        "headline": "원/달러 환율 1332.4원 (전일 대비 -0.3%)",
-        "chips": [
-          "수출주↓",
-          "여행↑"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.3% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
-          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
       "id": "ecos-cpi-202610",
       "source": {
         "type": "ecos",
@@ -339,7 +289,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-15T01:35:42.039Z",
+      "collected_at": "2026-11-16T01:39:36.167Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -382,6 +332,191 @@
         "horizon": {
           "short_term": "소비자물가 상승률(전년동월대비 2.8%)이 전월보다 낮아져 단기적으로 금리 인하 기대가 커질 수 있어요.",
           "long_term": "물가 둔화가 추세로 이어지는지가 다음 통화정책 결정에 중요한 근거가 돼요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "ecos-fx-20261116",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261116",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-16T12:00:00+09:00",
+      "collected_at": "2026-11-16T01:39:35.917Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1333.7,
+        "fx_change_pct": 0.1
+      },
+      "scoring": {
+        "surprise_score": 0.05,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 36
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "up"
+          },
+          {
+            "sector": "여행",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 11.16 · 환율",
+        "headline": "원/달러 환율 1333.7원 (전일 대비 +0.1%)",
+        "chips": [
+          "수출주↑",
+          "여행↓"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.1% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20261116-800009",
+      "source": {
+        "type": "dart",
+        "ref_id": "20261116800009",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800009",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-16T12:00:00+09:00",
+      "collected_at": "2026-11-16T01:39:44.544Z",
+      "type": "disclosure",
+      "category": "주요사항",
+      "subject": {
+        "entity_type": "stock",
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 25
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral",
+            "note": "주요사항"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "삼성바이오로직스 · 11.16 · 주요사항",
+        "headline": "삼성바이오로직스, 유상증자또는주식관련사채등의청약결과(자율공시)              ",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
+          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "dart-20261116-800077",
+      "source": {
+        "type": "dart",
+        "ref_id": "20261116800077",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800077",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-16T12:00:00+09:00",
+      "collected_at": "2026-11-16T01:39:44.544Z",
+      "type": "contract",
+      "category": "수시공시",
+      "subject": {
+        "entity_type": "stock",
+        "code": "010140",
+        "name": "삼성중공업",
+        "is_bellwether": false,
+        "sectors": [
+          "미분류"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 5
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "미분류",
+            "direction": "neutral",
+            "note": "수시공시"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "삼성중공업 · 11.16 · 수시공시",
+        "headline": "삼성중공업, 단일판매ㆍ공급계약체결              ",
+        "chips": [
+          "미분류→"
+        ],
+        "horizon": {
+          "short_term": "신규 계약·특허·임상 관련 공시는 단기 기대감으로 이어지는 경우가 많아요.",
+          "long_term": "계약 규모가 실적에 실질적으로 기여하는 시점과 폭이 중장기 주가를 좌우해요."
         }
       },
       "reliability": {

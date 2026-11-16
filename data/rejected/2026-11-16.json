@@ -1,0 +1,482 @@
+[
+  {
+    "event": {
+      "id": "naver-20261116-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261116",
+        "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300183",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T10:38:00+09:00",
+      "collected_at": "2026-11-16T01:39:35.877Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "포티넷코리아, 김종덕 신임 지사장 선임",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "포티넷코리아, 김종덕 신임 지사장 선임"
+      ],
+      "snippets": [
+        "제조·에너지·반도체 등 산업 분야에서는 IT와 OT를 통합 보호하는 산업제어시스템(ICS) 보안 시장 공략에 집중하고 있다. 포티게이트 방화벽을 기반으로 네트워크 세그멘테이션, 위협 탐지, 안전한 원격 접속 등을... "
+      ],
+      "media_domains": [
+        "datanet.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261116-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261116",
+        "url": "http://www.newstomato.com/ReadNews.aspx?no=1320521&inflow=N",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T09:34:00+09:00",
+      "collected_at": "2026-11-16T01:39:36.684Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 18,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "엔비디아발 반도체 불안 지속…코스피, 보합권 등락",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "엔비디아발 반도체 불안 지속…코스피, 보합권 등락",
+        "엔비디아發 기술주 불안 지속···코스피, 5270선 등락",
+        "코스피, 美 반도체 급락에도…개인 매수에 보합권 등락"
+      ],
+      "snippets": [
+        "뉴스토마토 = 김현경 기자 |  삼성SDI의 미국 에너지저장장치(ESS) 배터리 공급계약 소식에 2차전지주가 강세를 보이는 가운데 코스피는 보합권에서 등락하고 있습니다. 간밤 미국 반도체주 급락 여파와... ",
+        "미국 뉴욕증시에서 엔비디아를 비롯한 반도체주가 약세를 보인 영향으로 국내 반도체주에 매도세가 유입된 반면, 일부 2차전지와 자동차주는 강세를 나타내며 업종별 흐름이 엇갈리고 있다. 16일 한국거래소에... ",
+        "2차전지 대표주인 에코프로비엠과 에코프로는 각각 2.97%와 2.61% 오르고 있다. 에코프로는 포항에서 3조3000억원 투자 성과와 배터리 소재 밸류체인을 공개했다. 로봇주인 레인보우로보틱스는 5.09% 상승한... "
+      ],
+      "media_domains": [
+        "newstomato.com",
+        "smartbizn.com",
+        "hankyung.com"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261116-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261116",
+        "url": "https://n.news.naver.com/mnews/article/056/0012294465?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T10:38:00+09:00",
+      "collected_at": "2026-11-16T01:39:37.458Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "미 FDA, 중국산 폐암 치료 신약 ‘이보네시맙’ 승인 거부",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "미 FDA, 중국산 폐암 치료 신약 ‘이보네시맙’ 승인 거부"
+      ],
+      "snippets": [
+        "이보네시맙은 중국 제약회사 아케소 바이오파마(康方生物)가 개발한 항암제로, 중국 신약 개발의 상징으로 여겨지던 신약입니다. 서밋은 이번에 진행성 폐암 환자 중 특정 환자에 대해 FDA에 승인을 신청했으며, 대장암... "
+      ],
+      "media_domains": [
+        "news.kbs.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261116-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261116",
+        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54745",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T10:38:00+09:00",
+      "collected_at": "2026-11-16T01:39:38.242Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "신한은행 누적 순익 1위…정상혁 세 번째 임기 가나",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "신한은행 누적 순익 1위…정상혁 세 번째 임기 가나"
+      ],
+      "snippets": [
+        "우리금융이 정진완(58) 우리은행장을 차기 행장 후보로 다시 추천하면서 연말 은행장 인선이 본격화한... ◆ 지난해 최대 순익, 올해 3분기 누적 1위 신한금융지주의 경영실적 자료에 따르면 정 행장의 두 번째 임기... "
+      ],
+      "media_domains": [
+        "koreareport.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261116-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261116",
+        "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=819032",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T10:38:00+09:00",
+      "collected_at": "2026-11-16T01:39:39.010Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "[오늘증시] 엔비디아發 불안에 코스피 5100선…반도체주 '추풍낙엽'",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[오늘증시] 엔비디아發 불안에 코스피 5100선…반도체주 '추풍낙엽'"
+      ],
+      "snippets": [
+        "LG에너지솔루션은 31만9500원(-1.54%), 삼성바이오로직스는 140만9000원(-0.14%), 현대차는 26만8000원(-0.56%)을 기록하고 있다. 반면 KB금융은 15만9200원(+0.13%)으로 소폭 상승 중이다. 코스닥시장에서도 반도체 장비와... "
+      ],
+      "media_domains": [
+        "startuptoday.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261116-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261116",
+        "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300183",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-16T10:38:00+09:00",
+      "collected_at": "2026-11-16T01:39:39.773Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.16 · 뉴스 화제성",
+        "headline": "포티넷코리아, 김종덕 신임 지사장 선임",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "포티넷코리아, 김종덕 신임 지사장 선임",
+        "포티넷코리아, 김종덕 신임 지사장 선임",
+        "포티넷코리아, 김종덕 신임 지사장 선임…20년 만에 다시 지휘봉"
+      ],
+      "snippets": [
+        "또한 기업용 AI 및 데이터 플랫폼 전략을 이끌며 리더십을 입증했고, 국내 IT 서비스 및 컨설팅 기업과도 탄탄한 관계를 쌓아왔다. 김종덕 포티넷코리아 지사장은 \"네트워크 보안에서 클라우드, AI와 데이터 플랫폼까지... ",
+        "기업용 AI 및 데이터 플랫폼 전략을 이끌며 리더십을 입증했고, 국내 IT 서비스 및 컨설팅 기업과도 탄탄한 관계를 쌓아왔다. 김종덕 포티넷코리아 지사장은 \"네트워크 보안에서 클라우드, AI와 데이터 플랫폼까지 30년... ",
+        "또한 기업용 AI 및 데이터 플랫폼 전략을 이끌며 리더십을 입증했고, 국내 IT 서비스 및 컨설팅 기업과도 탄탄한 관계를 쌓아왔다. 김종덕 포티넷코리아 지사장은 \"네트워크 보안에서 클라우드, AI와 데이터... "
+      ],
+      "media_domains": [
+        "datanet.co.kr",
+        "ikld.kr",
+        "dailian.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5khQ7FWT6u9G4frKmBm\"}"
+  }
+]
