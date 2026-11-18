@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T04:22:30.592Z",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T03:26:09.967Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "바이오",
+      "name": "반도체",
       "events": [
         {
-          "name": "바이오(HS 3004) 수출 전년 동월 대비 +29.9%",
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "Moderna, Inc., 8-K 공시",
+          "name": "NVIDIA CORP, 8-K 공시",
           "direction": "neutral",
           "strength": "약함"
         }
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:23.684Z",
+      "collected_at": "2026-11-18T03:26:04.884Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:25.005Z",
+      "collected_at": "2026-11-18T03:26:06.067Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:24.345Z",
+      "collected_at": "2026-11-18T03:26:05.493Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:25.671Z",
+      "collected_at": "2026-11-18T03:26:06.629Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -281,6 +281,73 @@
       "status": "active"
     },
     {
+      "id": "ecos-fx-20261118",
+      "source": {
+        "type": "ecos",
+        "ref_id": "fx-usd-20261118",
+        "url": "https://ecos.bok.or.kr/",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-18T12:00:00+09:00",
+      "collected_at": "2026-11-18T03:26:04.969Z",
+      "type": "macro_indicator",
+      "category": "환율",
+      "subject": {
+        "entity_type": "macro",
+        "code": "KR-USD-FX",
+        "name": "원/달러 환율",
+        "is_bellwether": true,
+        "sectors": [
+          "수출주",
+          "여행"
+        ]
+      },
+      "metrics": {
+        "fx_value_krw": 1338.8,
+        "fx_change_pct": 0.3
+      },
+      "scoring": {
+        "surprise_score": 0.15,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 42
+      },
+      "impact": {
+        "direction": "up",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "수출주",
+            "direction": "up"
+          },
+          {
+            "sector": "여행",
+            "direction": "down"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "원/달러 환율 · 11.18 · 환율",
+        "headline": "원/달러 환율 1338.8원 (전일 대비 +0.3%)",
+        "chips": [
+          "수출주↑",
+          "여행↓"
+        ],
+        "horizon": {
+          "short_term": "원/달러 환율이 전일 대비 0.3% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
+          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "ecos-cpi-202610",
       "source": {
         "type": "ecos",
@@ -289,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:24.037Z",
+      "collected_at": "2026-11-18T03:26:05.239Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -343,91 +410,24 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261117",
-      "source": {
-        "type": "ecos",
-        "ref_id": "fx-usd-20261117",
-        "url": "https://ecos.bok.or.kr/",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-17T12:00:00+09:00",
-      "collected_at": "2026-11-17T04:22:23.708Z",
-      "type": "macro_indicator",
-      "category": "환율",
-      "subject": {
-        "entity_type": "macro",
-        "code": "KR-USD-FX",
-        "name": "원/달러 환율",
-        "is_bellwether": true,
-        "sectors": [
-          "수출주",
-          "여행"
-        ]
-      },
-      "metrics": {
-        "fx_value_krw": 1335,
-        "fx_change_pct": 0.1
-      },
-      "scoring": {
-        "surprise_score": 0.05,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 36
-      },
-      "impact": {
-        "direction": "up",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "수출주",
-            "direction": "up"
-          },
-          {
-            "sector": "여행",
-            "direction": "down"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "원/달러 환율 · 11.17 · 환율",
-        "headline": "원/달러 환율 1335원 (전일 대비 +0.1%)",
-        "chips": [
-          "수출주↑",
-          "여행↓"
-        ],
-        "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.1% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001682852-0001682852-26-000208",
+      "id": "sec-0001045810-0001045810-26-000088",
       "source": {
         "type": "sec",
-        "ref_id": "0001682852",
-        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000208/0001682852-26-000208-index.htm",
+        "ref_id": "0001045810",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-16T16:00:00-04:00",
-      "collected_at": "2026-11-17T04:22:26.641Z",
+      "event_datetime": "2026-11-17T16:00:00-04:00",
+      "collected_at": "2026-11-18T03:26:09.869Z",
       "type": "ma",
       "category": "인수합병",
       "subject": {
         "entity_type": "stock",
-        "code": "0001682852",
-        "name": "Moderna, Inc.",
+        "code": "0001045810",
+        "name": "NVIDIA CORP",
         "is_bellwether": true,
         "sectors": [
-          "바이오"
+          "반도체"
         ]
       },
       "metrics": {},
@@ -443,17 +443,17 @@
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "바이오",
+            "sector": "반도체",
             "direction": "neutral",
             "note": "인수합병"
           }
         ]
       },
       "content": {
-        "meta_line": "Moderna, Inc. · 11.16 · 인수합병",
-        "headline": "Moderna, Inc., 8-K 공시",
+        "meta_line": "NVIDIA CORP · 11.17 · 인수합병",
+        "headline": "NVIDIA CORP, 8-K 공시",
         "chips": [
-          "바이오→"
+          "반도체→"
         ],
         "horizon": {
           "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
@@ -469,21 +469,21 @@
       "status": "active"
     },
     {
-      "id": "sec-0000701719-0001104659-26-128592",
+      "id": "sec-0001604191-0001104659-26-129167",
       "source": {
         "type": "sec",
-        "ref_id": "0000701719",
-        "url": "https://www.sec.gov/Archives/edgar/data/701719/000110465926128592/0001104659-26-128592-index.htm",
+        "ref_id": "0001604191",
+        "url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926129167/0001104659-26-129167-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-16T16:00:00-04:00",
-      "collected_at": "2026-11-17T04:22:26.640Z",
+      "event_datetime": "2026-11-17T16:00:00-04:00",
+      "collected_at": "2026-11-18T03:26:09.868Z",
       "type": "ma",
       "category": "인수합병",
       "subject": {
         "entity_type": "stock",
-        "code": "0000701719",
-        "name": "Envela Corp",
+        "code": "0001604191",
+        "name": "GridAI Technologies Corp.",
         "is_bellwether": false,
         "sectors": [
           "미분류"
@@ -509,8 +509,8 @@
         ]
       },
       "content": {
-        "meta_line": "Envela Corp · 11.16 · 인수합병",
-        "headline": "Envela Corp, 8-K 공시",
+        "meta_line": "GridAI Technologies Corp. · 11.17 · 인수합병",
+        "headline": "GridAI Technologies Corp., 8-K 공시",
         "chips": [
           "미분류→"
         ],

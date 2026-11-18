@@ -1,0 +1,485 @@
+[
+  {
+    "event": {
+      "id": "naver-20261118-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261118",
+        "url": "http://www.queen.co.kr/news/articleView.html?idxno=466528",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T12:20:00+09:00",
+      "collected_at": "2026-11-18T03:26:05.014Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "KDI, 올해 성장률 3.8%·내년 3.9%로 상향…\"성장 동력 3분의 2는 반도체...",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "KDI, 올해 성장률 3.8%·내년 3.9%로 상향…\"성장 동력 3분의 2는 반도체...",
+        "KDI, 내년 성장률 올해보다 높은 3.9%로 전망…“3분의 2는 반도체 기여..."
+      ],
+      "snippets": [
+        "한국개발연구원(KDI)이 반도체 산업의 호황을 반영해 우리나라 경제성장률 전망치를 큰 폭으로 상향 조정했다. 글로벌 인공지능(AI) 투자 확대에 힘입은 반도체 수출과 설비투자 증가세가 당분간 이어질 것으로... ",
+        "반도체 호황으로 인한 수출과 투자 확대가 내년까지 이어지고, 소득과 민간소비도 내년에 점차 개선될 거란 분석이다. 다만 우리 경제의 반도체 의존도가 높아지면서 내년에 관련 수요가 위축될 경우 경제성장률도 큰... "
+      ],
+      "media_domains": [
+        "queen.co.kr",
+        "hani.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261118-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261118",
+        "url": "https://www.pointe.co.kr/news/articleView.html?idxno=87981",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T11:40:00+09:00",
+      "collected_at": "2026-11-18T03:26:05.910Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "네이버웹툰 '컷츠 메이크', 구글플레이 '2026 올해의 베스트 앱' 선정",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "네이버웹툰 '컷츠 메이크', 구글플레이 '2026 올해의 베스트 앱' 선정",
+        "네이버웹툰 '컷츠메이크', 구글플레이 올해의 베스트 앱 선정",
+        "네이버웹툰 ‘컷츠 메이크’, 구글플레이 ‘올해의 베스트 앱’ 선정"
+      ],
+      "snippets": [
+        "인기 웹툰 20종 IP 제공…출시 후 신규 크리에이터 24% 늘어 무엇보다 원작자가 공식 승인한 IP만을 활용해 저작권 침해 우려 없이 누구나 자유롭게 2차 창작에 뛰어들 수 있는 기반을 다졌다. 현재 '전지적 독자 시점... ",
+        "컷츠 메이크는 원작자가 승인한 웹툰 IP만 활용해 저작권 우려 없이 누구나 2차 창작을 할 수 있는 환경을 만든 점을 인정받았다. 현재 '전지적 독자 시점', '연애혁명', '가비지타임', '이직로그' 등 20개 인기 웹툰 IP를... ",
+        "컷츠 메이크는 원작자가 승인한 웹툰 IP만 활용해 저작권 걱정 없이 2차 창작 콘텐츠를 제작하는 환경을 구축한 점을 인정받았다. 현재 ▲전지적 독자 시점 ▲연애혁명 ▲가비지타임 ▲이직로그 등 20개 웹툰 IP를... "
+      ],
+      "media_domains": [
+        "pointe.co.kr",
+        "etnews.com",
+        "economist.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261118-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261118",
+        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326456",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T12:22:00+09:00",
+      "collected_at": "2026-11-18T03:26:06.680Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "삼성바이오 노조, 한국노총 가입…\"부당노동행위 강력 규탄\"",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "삼성바이오 노조, 한국노총 가입…\"부당노동행위 강력 규탄\"",
+        "[종합] 삼성바이오 노조, 한국노총 가입⋯“파업 지원·입법 대응”"
+      ],
+      "snippets": [
+        "삼성바이오로직스 상생노동조합(이하 노조)가 한국노총에 가입했다. 이와 함께 고용안정, 임금 및 성과급의 구체적인 대안 등을 담은 안을 사측에 요구했다. 서울 영등포구 한국노동조합총연맹에서 열린 삼성바이오로직... ",
+        "삼성바이오로직스 상생노동조합(노조)이 조합원 총투표를 거쳐 한국노총 가입을 결정했다. 한국노총은... 박재성 삼성바이오로직스 상생노조 위원장은 “그동안 기업별 노조로 교섭하면서 회사의 고소와 징계에도 맞서... "
+      ],
+      "media_domains": [
+        "pointdaily.co.kr",
+        "viva100.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261118-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261118",
+        "url": "https://www.mediaus.co.kr/news/articleView.html?idxno=319061",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T12:24:00+09:00",
+      "collected_at": "2026-11-18T03:26:07.428Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "증권사 '캡티브 영업' 내년부터 금지…회사채 금리 왜곡 차단",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "증권사 '캡티브 영업' 내년부터 금지…회사채 금리 왜곡 차단"
+      ],
+      "snippets": [
+        "18일 금융투자업계에 따르면 금융투자협회는 지난 12일 '증권 인수업무 등에 관한 규정'을 개정해 13일부터 시행했다. 회사채 수요예측 과정의 '캡티브 영업'을 제한하는 조항은 2027년 1월 1일 이후 처음 제출되는... "
+      ],
+      "media_domains": [
+        "mediaus.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261118-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261118",
+        "url": "http://www.weeklytoday.com/news/articleView.html?idxno=802464",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T12:24:00+09:00",
+      "collected_at": "2026-11-18T03:26:08.215Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "[위클리오늘] 안성시, 2027년 1월 5국 체제로 조직개편",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[위클리오늘] 안성시, 2027년 1월 5국 체제로 조직개편"
+      ],
+      "snippets": [
+        "대응과 에너지 전환 기능을 통합해 지속 가능한 도시환경 조성을 추진한다. 시는 성평등아동과, 공동체과, 정원녹지과, 토지정보과, 기후에너지과 등 5개 과를 신설해 분야별 전담 조직을 통한 행정 대응력 강화에도... "
+      ],
+      "media_domains": [
+        "weeklytoday.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261118-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261118",
+        "url": "https://www.delighti.co.kr/news/articleView.html?idxno=125165",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-18T12:06:00+09:00",
+      "collected_at": "2026-11-18T03:26:08.983Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.18 · 뉴스 화제성",
+        "headline": "우리금융그룹, 계열사 AI 성과 한자리에... 'AI Day' 개최",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "우리금융그룹, 계열사 AI 성과 한자리에... 'AI Day' 개최",
+        "“AI 이렇게 썼어요” 우리금융, ‘AI Day’ 개최…계열사 성과 공유"
+      ],
+      "snippets": [
+        "현장에는 지주 최고디지털책임자(CDO)를 비롯해 각 그룹사의 AI·디지털·정보기술(IT) 담당 임원과... ABL생명은 AI 기반 이상금융거래 탐지 시스템 강화 방안을, 우리자산운용은 AI 활용을 위한 데이터 플랫폼 도입... ",
+        "현장에는 지주 CDO(최고디지털책임자)를 비롯해 각 그룹사의 AI·디지털·IT 담당 임원과 실무진이 참석해... 데이터 플랫폼 도입(우리자산운용) 등 현업에 실질적으로 활용된 사례도 소개했다. 2부에서는 지주 AI... "
+      ],
+      "media_domains": [
+        "delighti.co.kr",
+        "economist.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9gRvDLxSPeSKege2Ucr\"}"
+  }
+]
