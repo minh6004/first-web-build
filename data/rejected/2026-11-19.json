@@ -1,0 +1,476 @@
+[
+  {
+    "event": {
+      "id": "naver-20261119-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261119",
+        "url": "https://www.viva100.com/article/20261119500424",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:58:00+09:00",
+      "collected_at": "2026-11-19T02:59:24.753Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "[장중시황] 코스피 5000선 이탈⋯엔터·여행주는 20%대 급등",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "[장중시황] 코스피 5000선 이탈⋯엔터·여행주는 20%대 급등"
+      ],
+      "snippets": [
+        "삼성전자와 SK하이닉스 등 반도체주가 약세를 보이는 가운데 코스닥도 하락하고 있다. 반면 한한령(한류 제한령) 해제 기대감에 엔터테인먼트와 여행 관련주는 급등하고 있다. 19일 한국거래소에 따르면 오전... "
+      ],
+      "media_domains": [
+        "viva100.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261119-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261119",
+        "url": "https://www.viva100.com/article/20261119500610",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:38:00+09:00",
+      "collected_at": "2026-11-19T02:59:25.840Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "삼성SDI, ESS 기대에도 나흘 새 14.5% 급락⋯美 정책 불확실성·금리 부담",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "삼성SDI, ESS 기대에도 나흘 새 14.5% 급락⋯美 정책 불확실성·금리 부담"
+      ],
+      "snippets": [
+        "박창윤 지엘리서치 대표는 “최근 2차전지주가 ESS 관련 기대감으로 상승했지만, 미국의 AI 데이터센터 규제와 이에 연계된 ESS·태양광 등 신재생에너지 사업에 대한 우려가 겹친 것으로 봐야 한다”고 설명했다.... "
+      ],
+      "media_domains": [
+        "viva100.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261119-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261119",
+        "url": "http://www.paxetv.com/news/articleView.html?idxno=287387",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:52:00+09:00",
+      "collected_at": "2026-11-19T02:59:26.643Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "[인사] HLB그룹",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "[인사] HLB그룹",
+        "[인사] HLB그룹"
+      ],
+      "snippets": [
+        "코아바이오 윤선호 ▲ 프레시코 하창우 ◇ 상무보 승진 ▲ HLB 현장지원본부 커뮤니케이션팀 정희영... HLB제약 이용우 ▲ HLB제약 신미리내 ▲ HLB인베스트먼트 윤경수 ▲ HLB셀 정래호 ▲ HLB바이오코드 김용석",
+        "코아바이오 윤선호 ▲ 프레시코 하창우 ◇ 상무보 승진 ▲ HLB 현장지원본부 커뮤니케이션팀 정희영... HLB제약 이용우 ▲ HLB제약 신미리내 ▲ HLB인베스트먼트 윤경수 ▲ HLB셀 정래호 ▲ HLB바이오코드 김용석"
+      ],
+      "media_domains": [
+        "paxetv.com",
+        "sentv.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261119-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261119",
+        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=159323",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:52:00+09:00",
+      "collected_at": "2026-11-19T02:59:27.479Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "KB금융, 서울서 열리는 쇼트트랙 월드투어 후원… 세계 정상급 선수들 ...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "KB금융, 서울서 열리는 쇼트트랙 월드투어 후원… 세계 정상급 선수들 ...",
+        "KB금융, 쇼트트랙 월드투어 서울 대회 후원"
+      ],
+      "snippets": [
+        "이미지/ KB금융 제공 KB금융그룹이 세계 쇼트트랙 강자들이 격돌하는 국제대회 후원에 나선다. 국내에서 열리는 글로벌 빙상 스포츠 행사를 지원하며 대한민국 스포츠 발전과 선수들의 국제 경쟁력 강화에 힘을... ",
+        "KB금융그룹이 20일부터 22일까지 서울 목동 아이스링크에서 열리는 'KB금융-ISU 쇼트트랙 월드투어 서울 2026/27'에 공식 후원사로 참여한다. 이번 대회는 국제빙상연맹(ISU)이 주최하는 2026/27시즌 월드투어의 세 번째... "
+      ],
+      "media_domains": [
+        "koreaittimes.com",
+        "press9.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261119-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261119",
+        "url": "https://n.news.naver.com/mnews/article/014/0005606763?sid=100",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:58:00+09:00",
+      "collected_at": "2026-11-19T02:59:28.285Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "李 \"北 대화의 문 다시 열리길\"…미·중·러 모인 APEC서 각국에 협력 요...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "李 \"北 대화의 문 다시 열리길\"…미·중·러 모인 APEC서 각국에 협력 요..."
+      ],
+      "snippets": [
+        "특히 \"취약한 아태지역의 에너지 공급망을 안정화하려면 정보공유, 에너지 공동 비축, 공동 대응체계 마련, 비상시 수급 안정 협력 등을 제도화하고, 장기적으로 재생에너지 확대와 전기화의 속도를 높여야 한다\"고... "
+      ],
+      "media_domains": [
+        "fnnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261119-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261119",
+        "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=731453",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-19T11:56:00+09:00",
+      "collected_at": "2026-11-19T02:59:29.068Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.19 · 뉴스 화제성",
+        "headline": "[지스타 2026] 국내 최대 게임쇼 개막… 글로벌 신작·AI 한자리에",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "[지스타 2026] 국내 최대 게임쇼 개막… 글로벌 신작·AI 한자리에"
+      ],
+      "snippets": [
+        "◆AI 기업 첫 메인 스폰서, 웹툰·모빌리티까지 합류 올해 지스타의 메인 스폰서는 AI 플랫폼 기업 뤼튼테크놀로지스가 맡았다. 게임을 직접 개발하거나 서비스하지 않는 일반 IT 기업이 메인 스폰서로 참여한 것은... "
+      ],
+      "media_domains": [
+        "the-biz.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBYDrFxkdmYPF1doLWZ8\"}"
+  }
+]
