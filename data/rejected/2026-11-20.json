@@ -1,0 +1,496 @@
+[
+  {
+    "event": {
+      "id": "naver-20261120-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261120",
+        "url": "https://n.news.naver.com/mnews/article/421/0009301142?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:48:00+09:00",
+      "collected_at": "2026-11-20T02:53:00.298Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "[프로필] 이종명 삼성전자 DS부문 CTO 사장 겸 반도체연구소장",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "[프로필] 이종명 삼성전자 DS부문 CTO 사장 겸 반도체연구소장",
+        "[프로필] 조상연 삼성전자 DS부문 시스템LSI사업부장 사장"
+      ],
+      "snippets": [
+        "삼성전자가 20일 디바이스솔루션(DS)부문 최고기술책임자(CTO) 사장 겸 반도체연구소장으로 이종명 사장을 임명했다. 이 신임 사장은 메모리사업부 T기술팀장, 반도체연구소 차세대공정개발팀장 등의 보직을... ",
+        "A-프로젝트팀장, 반도체연구소 SW센터장 등을 거쳤다. 또한 2024년 12월부터 DS부문 미주총괄(DSA) 겸 DSRA-Memory 연구소장을 맡아 미국 현지 반도체 사업을 총괄해 왔다. 삼성전자는 조 신임 시스템LSI사업부장... "
+      ],
+      "media_domains": [
+        "news1.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261120-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261120",
+        "url": "https://n.news.naver.com/mnews/article/629/0000553978?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:13:00+09:00",
+      "collected_at": "2026-11-20T02:53:01.171Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 8
+      },
+      "scoring": {
+        "surprise_score": 1,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 85
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "삼성증권 자문사 CEO 67% \"내년 코스피 7000선 이상 전망\"",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 8
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "삼성증권 자문사 CEO 67% \"내년 코스피 7000선 이상 전망\"",
+        "자문사 CEO 67% \"2027년 코스피 7000 이상\"…반도체·AI 유망",
+        "삼성증권, 자문사 CEO 포럼 개최…내년 증시 전망 공유",
+        "삼성증권 포럼서 자문사 CEO 3명 중 2명 \"내년 코스피 7000 넘는다\"",
+        "삼성증권 자문사 CEO 67% \"내년 코스피 7000선 이상 전망\""
+      ],
+      "snippets": [
+        "국내 유망 업종으로는 반도체·AI·IT(66.7%), 2차전지(54.2%), 바이오·헬스케어(45.8%) 순으로 꼽혔다. 반면 시장의 주요 하방 위험으로는 AI·기술주 밸류에이션 조정(58.3%)이 가장 많이 지목됐다. 고금리 장기화(37.5%)와... ",
+        "이어 2차전지 13명(54.2%), 바이오·헬스케어 11명(45.8%) 순이었다. 증시 상승 기대와 달리 위험 요인에 대해서는 신중한 시각이 나타났다. 금융시장의 주요 하방 위험을 묻는 복수응답에서 AI·기술주 밸류에이션 조정을... ",
+        "국내 유망 업종을 묻는 복수응답에서는 반도체·AI/IT 16명(66.7%), 2차전지 13명(54.2%), 바이오·헬스케어 11명(45.8%) 순으로 나타났다. 금융시장 주요 하방 위험(복수응답)은 AI·기술주 밸류에이션 조정 14명(58.3... ",
+        "2차전지가 13명(54.2%), 바이오·헬스케어가 11명(45.8%)으로 뒤를 이었다. 금융시장 하락을 부를 수 있는 요인으로는 14명(58.3%)이 AI·기술주의 밸류에이션 조정을 꼽았다. 기업 실적 등에 비해 주가를 높게 평가해 온... ",
+        "국내 유망 업종으로는 반도체·AI/IT(66.7%), 2차전지(54.2%), 바이오·헬스케어(45.8%) 순으로 꼽혔다. 주요 하방 위험으로는 AI·기술주 밸류에이션 조정(58.3%)이 가장 많았다. 이어 고금리 장기화(37.5%), 주요국 재정 및... "
+      ],
+      "media_domains": [
+        "news.tf.co.kr",
+        "newsian.co.kr",
+        "whitepaper.co.kr",
+        "4th.kr",
+        "ajunews.com",
+        "wolyo.co.kr",
+        "womentimes.co.kr",
+        "newsmap.co.kr"
+      ],
+      "corroboration_count": 8
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261120-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261120",
+        "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4119821",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:52:00+09:00",
+      "collected_at": "2026-11-20T02:53:01.956Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "생명연 정주연 센터장, OECD 바이오나노융합기술작업반 부의장 선출",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "생명연 정주연 센터장, OECD 바이오나노융합기술작업반 부의장 선출"
+      ],
+      "snippets": [
+        "한국생명공학연구원(생명연) 정주연 바이오나노연구센터장이 경제협력개발기구(OECD) 바이오나노융합기술작업반 부의장으로 선출됐습니다. 생명연은 정 센터장이 지난 19일부터 20일까지 프랑스 파리에서 열린 OECD... "
+      ],
+      "media_domains": [
+        "news.bbsi.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261120-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261120",
+        "url": "https://news.cpbc.co.kr/article/1177155?division=NAVER",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:52:00+09:00",
+      "collected_at": "2026-11-20T02:53:02.834Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "이 대통령 \"개혁이 혁명보다 어렵다\"…YS 정신 잇는다",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "이 대통령 \"개혁이 혁명보다 어렵다\"…YS 정신 잇는다"
+      ],
+      "snippets": [
+        "이 대통령은 김 전 대통령이 추진했던 △금융실명제 △지방자치 △해양수산부 신설을 개혁 성과로 꼽고, 그 정신을 이어가겠다고 밝혔다. 금융실명제에서 자본시장 개혁으로 이 대통령은 \"김 전 대통령이 금융실명제를... "
+      ],
+      "media_domains": [
+        "news.cpbc.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261120-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261120",
+        "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89919",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:52:00+09:00",
+      "collected_at": "2026-11-20T02:53:03.612Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "KAIST, 휘어진 드론 다리에 넣는 리튬-황 배터리 전극 개발",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "KAIST, 휘어진 드론 다리에 넣는 리튬-황 배터리 전극 개발"
+      ],
+      "snippets": [
+        "KAIST는 기기의 뼈대에 에너지 저장 기능을 더해 드론과 로봇을 더 가볍고 오래 움직이게 할 기술로 기대했다. 이번 기술은 뼈대가 기기를 지탱하면서 에너지도 저장하는 '구조 배터리(structural battery)'를 겨냥했다. 드론과... "
+      ],
+      "media_domains": [
+        "industrynews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261120-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261120",
+        "url": "https://n.news.naver.com/mnews/article/629/0000553978?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-20T11:13:00+09:00",
+      "collected_at": "2026-11-20T02:53:04.396Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.20 · 뉴스 화제성",
+        "headline": "삼성증권 자문사 CEO 67% \"내년 코스피 7000선 이상 전망\"",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "삼성증권 자문사 CEO 67% \"내년 코스피 7000선 이상 전망\"",
+        "자문사 CEO 67% \"2027년 코스피 7000 이상\"…반도체·AI 유망",
+        "삼성증권, 자문사 CEO 포럼 개최…내년 증시 전망 공유",
+        "삼성증권 포럼서 자문사 CEO 3명 중 2명 \"내년 코스피 7000 넘는다\""
+      ],
+      "snippets": [
+        "국내 유망 업종으로는 반도체·AI·IT(66.7%), 2차전지(54.2%), 바이오·헬스케어(45.8%) 순으로 꼽혔다. 반면... 한편 삼성증권의 자문플랫폼 운용자산(AUM)은 2019년 약 500억원에서 올해 4월 말 기준 2조원 이상으로... ",
+        "국내 유망 업종을 묻는 복수응답에서는 반도체·AI 및 정보기술(IT)이 16명(66.7%)으로 1위를 차지했다. 이어... 삼성증권은 이번 포럼에서 자문사들과 시장 전망 및 투자 아이디어를 공유하고 자문플랫폼을 활용한 협업... ",
+        "화이트페이퍼, WHITEPAPER박경희 삼성증권 WM부문장 부사장(가운데)과 오선미 삼성증권 SNI/플랫폼전략담당... 국내 유망 업종을 묻는 복수응답에서는 반도체·AI/IT 16명(66.7%), 2차전지 13명(54.2%), 바이오·헬스케어 11명... ",
+        "포쓰저널 이현민 기자 박경희 삼성증권 WM부문장 부사장(가운데), 오선미 삼성증권 SNI/플랫폼전략담당... 국내 유망 업종으로는 반도체·AI(인공지능)·IT(정보기술) 분야를 가장 많이 꼽았고, 금융시장의 위험... "
+      ],
+      "media_domains": [
+        "news.tf.co.kr",
+        "newsian.co.kr",
+        "whitepaper.co.kr",
+        "4th.kr"
+      ],
+      "corroboration_count": 4
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDRXPc34A8vrT4cz2cqJ\"}"
+  }
+]
