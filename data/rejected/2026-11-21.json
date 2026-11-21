@@ -1,0 +1,476 @@
+[
+  {
+    "event": {
+      "id": "naver-20261121-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261121",
+        "url": "https://www.e-science.co.kr/news/articleView.html?idxno=140409",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T12:00:00+09:00",
+      "collected_at": "2026-11-21T03:01:51.646Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "앤트로픽 아모데이 \"AI로 100년 과학 발전 10년으로\"…기술 가속과 안전...",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "앤트로픽 아모데이 \"AI로 100년 과학 발전 10년으로\"…기술 가속과 안전..."
+      ],
+      "snippets": [
+        "앤트로픽과 전략적 투자 관계를 맺은 SK텔레콤을 비롯해 삼성전자와 SK하이닉스는 AI 인프라 및 고성능 반도체 수요 확대와 연결돼 있다. 네이버와 LG CNS, 삼성SDS 등은 기업용 AI와 소프트웨어 개발 분야에서 관련... "
+      ],
+      "media_domains": [
+        "e-science.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261121-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261121",
+        "url": "https://www.moneystorm.kr/news/articleView.html?idxno=8694",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T10:48:00+09:00",
+      "collected_at": "2026-11-21T03:01:52.541Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 13,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "[재무이슈] 발행조건 유리하나 주가부담 상당한 엘앤에프의 CB 1515억원....",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "[재무이슈] 발행조건 유리하나 주가부담 상당한 엘앤에프의 CB 1515억원...."
+      ],
+      "snippets": [
+        "2차전지 소재기업 엘앤에프(L&F)가 LFP(리튬인산철배터리) 양산을 위한 운영자금 조달용으로 2건의 사모 전환사채(CB) 1515억원을 발행하기로 했다. 발행조건은 엘앤에프에 비교적 유리한 조건이나 기존 미상환... "
+      ],
+      "media_domains": [
+        "moneystorm.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261121-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261121",
+        "url": "https://n.news.naver.com/mnews/article/421/0009302538?sid=102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T11:54:00+09:00",
+      "collected_at": "2026-11-21T03:01:53.280Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "고령군, 내년 예산 4860억원 편성…전년比 3.15%↑",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "고령군, 내년 예산 4860억원 편성…전년比 3.15%↑",
+        "고령군, 내년 예산 4860억원 편성…본예산보다 3.15%↑"
+      ],
+      "snippets": [
+        "지역 산업 경쟁력과 미래 성장 기반 확충에는 △그린 바이오소재 산업화시설 구축 53억 원 △고령군 뿌리산업 리빌딩 프로젝트 10억 원 △차세대 식물 엑소좀 기술개발 3억 원 등이 담겼다. 정광호 군수 권한대행은... ",
+        "8억원 ▲그린바이오소재 산업화시설 구축 53억원 등이다. 정광호 고령군수 권한대행은 \"소중한 재원이 군민들에게 꼭 필요한 곳에 반영될 수 있도록 최선을 다하겠다\"고 말했다. 내년도 예산안은 다음달 고령군의회... "
+      ],
+      "media_domains": [
+        "news1.kr",
+        "newsis.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261121-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261121",
+        "url": "https://n.news.naver.com/mnews/article/003/0014337200?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T12:00:00+09:00",
+      "collected_at": "2026-11-21T03:01:54.122Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "수억 부담금에 '술렁'…조합들 소송 불사·절감책 찾기 분주[재초환 후...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "수억 부담금에 '술렁'…조합들 소송 불사·절감책 찾기 분주[재초환 후..."
+      ],
+      "snippets": [
+        "지연될수록 금융비용이 누적된다는 점에서 조합원별 부담액을 조기에 제시하는 것이 사업 속도에도... 증액이나 금융비용 증가로 조합원 부담이 커진다면 투자수익률은 기대에 미치지 못할 수 있다\"고 조언했다. 그러면서... "
+      ],
+      "media_domains": [
+        "newsis.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261121-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261121",
+        "url": "https://n.news.naver.com/mnews/article/030/0003488114?sid=105",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T12:01:00+09:00",
+      "collected_at": "2026-11-21T03:01:54.866Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "[소부장 테크페어]아이큐랩, 초고주파 GaN 소자 국산화 속도…“측정·...",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "[소부장 테크페어]아이큐랩, 초고주파 GaN 소자 국산화 속도…“측정·..."
+      ],
+      "snippets": [
+        "김상기 아이큐랩 부사장은 20일 '2026 글로벌 소재·부품·장비 테크페어'에서 “AI 시대에 D램과 고대역폭메모리(HBM) 기술도 중요하지만, 전력과 에너지 효율화 시대에는 SiC 전력반도체 기술 선진국이 되는 것 역시... "
+      ],
+      "media_domains": [
+        "etnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261121-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261121",
+        "url": "https://www.gokorea.kr/news/articleView.html?idxno=886591",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-21T11:00:00+09:00",
+      "collected_at": "2026-11-21T03:01:55.586Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.21 · 뉴스 화제성",
+        "headline": "인젠트, 제28회 공공솔루션마켓 참가…N2SF 기반 AI 데이터 보안 전략 소...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "인젠트, 제28회 공공솔루션마켓 참가…N2SF 기반 AI 데이터 보안 전략 소...",
+        "인젠트, 공공솔루션마켓서 'N2SF 기반 AI 데이터 보안' 발표...'RAGOps' 연..."
+      ],
+      "snippets": [
+        "데이터 플랫폼 전문기업 인젠트(대표 이형배)가 '제28회 공공솔루션마켓'에 참가해 국가망 보안체계(N2SF)를... 한국IT서비스산업협회와 전자신문이 주최한 제28회 공공솔루션마켓은 'NEXT PUBLIC INNOVATION: AI로 완성하는... ",
+        "한국IT서비스산업협회와 전자신문이 주최한 행사는 ‘NEXT PUBLIC INNOVATION: AI로 완성하는 국가 대전환'을... 인젠트는 문서중앙화 솔루션과 검색증강생성 운영관리 체계인 ‘RAGOps’를 연계한 '도큐먼트 AI 플랫폼(Document... "
+      ],
+      "media_domains": [
+        "gokorea.kr",
+        "hinews.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFL1TpsSdQFLCyx8Qw3H\"}"
+  }
+]

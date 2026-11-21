@@ -1,7 +1,40 @@
 {
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T02:53:04.491Z",
-  "summary": [],
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T03:01:55.699Z",
+  "summary": [
+    {
+      "id": "sector-0",
+      "name": "반도체",
+      "events": [
+        {
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "ADVANCED MICRO DEVICES INC, 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-1",
+      "name": "금융",
+      "events": [
+        {
+          "name": "BANK OF AMERICA CORP /DE/, 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "Goldman Sachs Private Credit Corp., 8-K 공시",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "id": "kdata-202610-8542",
@@ -12,7 +45,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:00.465Z",
+      "collected_at": "2026-11-21T03:01:51.205Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -77,7 +110,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:01.756Z",
+      "collected_at": "2026-11-21T03:01:52.169Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -142,7 +175,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:01.114Z",
+      "collected_at": "2026-11-21T03:01:51.683Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -207,7 +240,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:02.404Z",
+      "collected_at": "2026-11-21T03:01:52.656Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -272,7 +305,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:00.566Z",
+      "collected_at": "2026-11-21T03:01:51.504Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -326,6 +359,124 @@
       "status": "active"
     },
     {
+      "id": "sec-0000070858-0000070858-26-000608",
+      "source": {
+        "type": "sec",
+        "ref_id": "0000070858",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/0000070858-26-000608-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-20T16:00:00-04:00",
+      "collected_at": "2026-11-21T03:01:51.098Z",
+      "type": "ma",
+      "category": "지배구조 변경",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0000070858",
+        "name": "BANK OF AMERICA CORP /DE/",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 35
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral",
+            "note": "지배구조 변경"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "BANK OF AMERICA CORP /DE/ · 11.20 · 지배구조 변경",
+        "headline": "BANK OF AMERICA CORP /DE/, 8-K 공시",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
+      "id": "sec-0000002488-0000002488-26-000218",
+      "source": {
+        "type": "sec",
+        "ref_id": "0000002488",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218/0000002488-26-000218-index.htm",
+        "tier": 1
+      },
+      "event_datetime": "2026-11-20T16:00:00-04:00",
+      "collected_at": "2026-11-21T03:01:51.098Z",
+      "type": "ma",
+      "category": "지배구조 변경",
+      "subject": {
+        "entity_type": "stock",
+        "code": "0000002488",
+        "name": "ADVANCED MICRO DEVICES INC",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {},
+      "scoring": {
+        "surprise_score": 0,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 35
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral",
+            "note": "지배구조 변경"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "ADVANCED MICRO DEVICES INC · 11.20 · 지배구조 변경",
+        "headline": "ADVANCED MICRO DEVICES INC, 8-K 공시",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
+        }
+      },
+      "reliability": {
+        "tier": 1,
+        "needs_review": false,
+        "corroboration_count": 0
+      },
+      "updates": [],
+      "status": "active"
+    },
+    {
       "id": "ecos-fx-20261120",
       "source": {
         "type": "ecos",
@@ -334,7 +485,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-20T12:00:00+09:00",
-      "collected_at": "2026-11-20T02:53:00.255Z",
+      "collected_at": "2026-11-21T03:01:51.230Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -376,124 +527,6 @@
         "horizon": {
           "short_term": "원/달러 환율이 전일과 비슷한 수준을 유지했어요.",
           "long_term": "뚜렷한 방향성이 나타나는지 다음 거래일을 지켜볼 필요가 있어요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0001818274-0001493152-26-053323",
-      "source": {
-        "type": "sec",
-        "ref_id": "0001818274",
-        "url": "https://www.sec.gov/Archives/edgar/data/1818274/000149315226053323/0001493152-26-053323-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-19T16:00:00-04:00",
-      "collected_at": "2026-11-20T02:53:00.578Z",
-      "type": "ma",
-      "category": "지배구조 변경",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0001818274",
-        "name": "Arrive AI Inc.",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "지배구조 변경"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "Arrive AI Inc. · 11.19 · 지배구조 변경",
-        "headline": "Arrive AI Inc., 8-K 공시",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0000014707-0001104659-26-130237",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000014707",
-        "url": "https://www.sec.gov/Archives/edgar/data/14707/000110465926130237/0001104659-26-130237-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-19T16:00:00-04:00",
-      "collected_at": "2026-11-20T02:53:00.578Z",
-      "type": "ma",
-      "category": "인수합병",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000014707",
-        "name": "CALERES INC",
-        "is_bellwether": false,
-        "sectors": [
-          "미분류"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 10
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "미분류",
-            "direction": "neutral",
-            "note": "인수합병"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "CALERES INC · 11.19 · 인수합병",
-        "headline": "CALERES INC, 8-K 공시",
-        "chips": [
-          "미분류→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
