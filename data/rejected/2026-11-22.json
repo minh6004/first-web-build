@@ -1,0 +1,473 @@
+[
+  {
+    "event": {
+      "id": "naver-20261122-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261122",
+        "url": "https://www.mediapen.com/news/view/1139089",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T10:56:00+09:00",
+      "collected_at": "2026-11-22T01:58:08.500Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "한국, 사상 첫 ‘수출 1조달러’ 돌파...반도체 빠지면 세계 8위",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "한국, 사상 첫 ‘수출 1조달러’ 돌파...반도체 빠지면 세계 8위"
+      ],
+      "snippets": [
+        "다만 반도체를 제외한 수출 순위는 세계 8위로 떨어지는 것으로 나타났다. 22일 세계무역기구(WTO)와 유엔... 반도체를 비롯한 주력 산업의 경쟁력과 소비재 등 유망 품목의 성장이 더해지며 지난 10일 기준 누적 수출... "
+      ],
+      "media_domains": [
+        "mediapen.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261122-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261122",
+        "url": "https://www.ekn.kr/web/view.php?key=20261122022072985",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T10:34:00+09:00",
+      "collected_at": "2026-11-22T01:58:09.299Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 12,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "포스코 노사, 2차 잠정합의…일시금 80만원 늘려 28일 재투표",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "포스코 노사, 2차 잠정합의…일시금 80만원 늘려 28일 재투표"
+      ],
+      "snippets": [
+        "22일 포스코 노사에 따르면 양측은 지난 20일 포항 본사에서 본교섭을 열고 2026년 임금교섭 2차... 전지성 기자 jjs@ekn.kr 기본임금 2.6% 인상 유지…격려금·특별조정분 추가 1차 합의안 311표 차 부결…재부결 땐 총파업... "
+      ],
+      "media_domains": [
+        "ekn.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261122-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261122",
+        "url": "http://www.metroseoul.co.kr/article/20261121500077",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T10:56:00+09:00",
+      "collected_at": "2026-11-22T01:58:10.103Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "경기도경제과학진흥원, 바이오스타트업 투자 지원…엔바이오셀 투자 유...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "경기도경제과학진흥원, 바이오스타트업 투자 지원…엔바이오셀 투자 유..."
+      ],
+      "snippets": [
+        "- 도내 바이오스타트업 10개사 참여…데모데이·1대1 투자상담 개최 - 엔바이오셀, 티비지파트너스 투자 유치…맞춤형 지원 성과 - 기업진단·IR 컨설팅·투자기관 연계…후속 투자 지원 확대 20일 경과원이 'G-Bio Funding... "
+      ],
+      "media_domains": [
+        "metroseoul.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261122-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261122",
+        "url": "https://www.kbsm.net/news/view.php?idx=542751",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T10:56:00+09:00",
+      "collected_at": "2026-11-22T01:58:10.826Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "대구교육청, 수능 끝난 고3 대상 ‘스무 살 실전 수업’ 운영",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "대구교육청, 수능 끝난 고3 대상 ‘스무 살 실전 수업’ 운영"
+      ],
+      "snippets": [
+        "2027년 연 나이 19세가 되는 학생들을 대상으로 법률별 성인 기준과 책임을 안내하고, 근로계약서 확인 절차와 부당해고 대처법, 해외 취업 사기 예방법 등을 소개한다.특히 금융·주거 분야에서는 사회초년생이 겪기 쉬운... "
+      ],
+      "media_domains": [
+        "kbsm.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261122-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261122",
+        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602302",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T10:56:00+09:00",
+      "collected_at": "2026-11-22T01:58:11.602Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "BMW, 신형 전기 SUV iX4 양산 시작⋯1회 충전 최대 828km",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "BMW, 신형 전기 SUV iX4 양산 시작⋯1회 충전 최대 828km"
+      ],
+      "snippets": [
+        "있는 에너지를 확보한다. 고성능 모델인 iX4 M60 xDrive도 향후 라인업에 합류할 예정이다. 해당 모델... 정상 가동 시 화석연료를 사용하지 않고 재생에너지로 생산한 전력만 사용하는 것이 특징이다. 공장... "
+      ],
+      "media_domains": [
+        "autodaily.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261122-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261122",
+        "url": "https://www.thepublic.kr/news/articleView.html?idxno=327851",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-22T09:36:00+09:00",
+      "collected_at": "2026-11-22T01:58:12.352Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.22 · 뉴스 화제성",
+        "headline": "SK증권, AI로 종목 찾고 차트 분석한다…HTS·MTS 동시 탑재",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "SK증권, AI로 종목 찾고 차트 분석한다…HTS·MTS 동시 탑재",
+        "SK증권, AI로 종목 찾고 차트 분석...조건검색 진입장벽 낮춘다"
+      ],
+      "snippets": [
+        "이번 서비스는 양사가 지난해 11월 체결한 'AI금융플랫폼 추진을 위한 업무협약(MOU)'의 첫 성과다. 한국금융IT가 오픈소스 대형언어모델(LLM)을 내부망에 구축하는 방식으로 개발해 고객 정보의 외부 유출 가능성을... ",
+        "SK증권은 한국금융IT와 공동 개발한 'AI조건검색·차트분석' 서비스를 홈트레이딩시스템(HTS) '주파수W'와 모바일트레이딩시스템(MTS) '주파수3'에 적용했다. 양사가 지난해 11월 체결한 AI 금융플랫폼 업무협약의 첫... "
+      ],
+      "media_domains": [
+        "thepublic.kr",
+        "asiaa.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH8xYyKkojwvNaMUVv2Z\"}"
+  }
+]

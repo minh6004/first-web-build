@@ -1,40 +1,7 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T03:01:55.699Z",
-  "summary": [
-    {
-      "id": "sector-0",
-      "name": "반도체",
-      "events": [
-        {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "ADVANCED MICRO DEVICES INC, 8-K 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    },
-    {
-      "id": "sector-1",
-      "name": "금융",
-      "events": [
-        {
-          "name": "BANK OF AMERICA CORP /DE/, 8-K 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "Goldman Sachs Private Credit Corp., 8-K 공시",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    }
-  ],
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T01:58:12.485Z",
+  "summary": [],
   "events": [
     {
       "id": "kdata-202610-8542",
@@ -45,7 +12,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:51.205Z",
+      "collected_at": "2026-11-22T01:58:08.316Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +77,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:52.169Z",
+      "collected_at": "2026-11-22T01:58:09.312Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +142,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:51.683Z",
+      "collected_at": "2026-11-22T01:58:08.811Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -240,7 +207,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:52.656Z",
+      "collected_at": "2026-11-22T01:58:09.806Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -305,7 +272,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:51.504Z",
+      "collected_at": "2026-11-22T01:58:08.629Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -359,124 +326,6 @@
       "status": "active"
     },
     {
-      "id": "sec-0000070858-0000070858-26-000608",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000070858",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/0000070858-26-000608-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-20T16:00:00-04:00",
-      "collected_at": "2026-11-21T03:01:51.098Z",
-      "type": "ma",
-      "category": "지배구조 변경",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000070858",
-        "name": "BANK OF AMERICA CORP /DE/",
-        "is_bellwether": true,
-        "sectors": [
-          "금융"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 35
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "금융",
-            "direction": "neutral",
-            "note": "지배구조 변경"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "BANK OF AMERICA CORP /DE/ · 11.20 · 지배구조 변경",
-        "headline": "BANK OF AMERICA CORP /DE/, 8-K 공시",
-        "chips": [
-          "금융→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
-      "id": "sec-0000002488-0000002488-26-000218",
-      "source": {
-        "type": "sec",
-        "ref_id": "0000002488",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000218/0000002488-26-000218-index.htm",
-        "tier": 1
-      },
-      "event_datetime": "2026-11-20T16:00:00-04:00",
-      "collected_at": "2026-11-21T03:01:51.098Z",
-      "type": "ma",
-      "category": "지배구조 변경",
-      "subject": {
-        "entity_type": "stock",
-        "code": "0000002488",
-        "name": "ADVANCED MICRO DEVICES INC",
-        "is_bellwether": true,
-        "sectors": [
-          "반도체"
-        ]
-      },
-      "metrics": {},
-      "scoring": {
-        "surprise_score": 0,
-        "price_trigger": false,
-        "price_change_pct": null,
-        "watchlist_boost": false,
-        "priority_score": 35
-      },
-      "impact": {
-        "direction": "neutral",
-        "strength": "weak",
-        "affected_sectors": [
-          {
-            "sector": "반도체",
-            "direction": "neutral",
-            "note": "지배구조 변경"
-          }
-        ]
-      },
-      "content": {
-        "meta_line": "ADVANCED MICRO DEVICES INC · 11.20 · 지배구조 변경",
-        "headline": "ADVANCED MICRO DEVICES INC, 8-K 공시",
-        "chips": [
-          "반도체→"
-        ],
-        "horizon": {
-          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
-          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
-        }
-      },
-      "reliability": {
-        "tier": 1,
-        "needs_review": false,
-        "corroboration_count": 0
-      },
-      "updates": [],
-      "status": "active"
-    },
-    {
       "id": "ecos-fx-20261120",
       "source": {
         "type": "ecos",
@@ -485,7 +334,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-20T12:00:00+09:00",
-      "collected_at": "2026-11-21T03:01:51.230Z",
+      "collected_at": "2026-11-22T01:58:08.366Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
