@@ -1,0 +1,491 @@
+[
+  {
+    "event": {
+      "id": "naver-20261123-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261123",
+        "url": "http://www.e2news.com/news/articleView.html?idxno=336378",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:22:00+09:00",
+      "collected_at": "2026-11-23T02:23:45.303Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "전기연구원, 차세대 반도체 공정용 맞춤형 펄스 전원 기술 민간 이전",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "전기연구원, 차세대 반도체 공정용 맞춤형 펄스 전원 기술 민간 이전"
+      ],
+      "snippets": [
+        "한국전기연구원(KERI)은 전기물리연구센터 장석록 박사팀이 개발한 차세대 반도체 공정용 맞춤형 펄스 전원 기술을 반도체 장비 전문기업 아센디아(대표 박문수·강승현)에 이전했다고 23일 밝혔다. 착수기본료와 제품... "
+      ],
+      "media_domains": [
+        "e2news.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261123-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261123",
+        "url": "https://news.unn.net/news/articleView.html?idxno=601166",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:16:00+09:00",
+      "collected_at": "2026-11-23T02:23:46.190Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "경북 앵커(ANCHOR), 29개 대학 한자리에 모아 '재구조화' 맞춤 자문",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "경북 앵커(ANCHOR), 29개 대학 한자리에 모아 '재구조화' 맞춤 자문"
+      ],
+      "snippets": [
+        "지난 17일부터 19일까지 '경북 앵커 2차년도 컨설팅'이 진행됐다. (사진=경북앵커센터) ■ 약 230개 과제... 경북도 3대 메가프로젝트와 함께 △반도체 첨단소재‧부품 △이차전지 핵심소재 △첨단 모빌리티 부품 △첨단 AI... "
+      ],
+      "media_domains": [
+        "news.unn.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261123-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261123",
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611231106596920144",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:22:00+09:00",
+      "collected_at": "2026-11-23T02:23:46.984Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "아모레퍼시픽, 日 ‘아시아 뷰티테크 어워즈’서 AIㆍ디바이스ㆍ바이오...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "아모레퍼시픽, 日 ‘아시아 뷰티테크 어워즈’서 AIㆍ디바이스ㆍ바이오..."
+      ],
+      "snippets": [
+        "디바이스, 바이오 세 축으로 추진하는 뷰티테크 혁신 전략을 공개했다. K-뷰티의 경쟁 무게를 제품... 김 대표는 “중요한 것은 AI, 디바이스, 바이오 등 영역에서의 기술력 그 자체가 아니라, 이를 통해 고객에게... "
+      ],
+      "media_domains": [
+        "dnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261123-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261123",
+        "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2386102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:22:00+09:00",
+      "collected_at": "2026-11-23T02:23:47.773Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "이재근 KB금융 회장 취임…\"리딩 뱅크 넘어 글로벌 금융 플랫폼으로\"",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "이재근 KB금융 회장 취임…\"리딩 뱅크 넘어 글로벌 금융 플랫폼으로\"",
+        "변화 강조한 이재근···\"리딩 금융 넘어 리딩 플랫폼으로\""
+      ],
+      "snippets": [
+        "이재근 KB금융지주 신임 회장이 23일 취임하면서 인공지능(AI)과 데이터를 활용한 글로벌 금융 플랫폼으로의 전환을 선언했다. 은행·증권·보험·카드 등 계열사 간 연계를 강화하고 해외사업을 확대하는 한편, 고객... ",
+        "| 스마트비즈 = 기하늘 기자 | 이재근 신임 KB금융그룹 회장이 '리딩뱅크'에서 '리딩 플랫폼'으로의 전환을 새로운 경영 목표로 제시했다. KB스타뱅킹을 중심으로 디지털 금융 경쟁력을 강화하고, 계열사 간 협력을 통해... "
+      ],
+      "media_domains": [
+        "webeconomy.co.kr",
+        "smartbizn.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261123-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261123",
+        "url": "http://www.newslock.co.kr/news/articleView.html?idxno=140687",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:22:00+09:00",
+      "collected_at": "2026-11-23T02:23:48.555Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "삼성물산 건설부문장에 최영재 사장…6년 만에 수장 교체",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "삼성물산 건설부문장에 최영재 사장…6년 만에 수장 교체",
+        "삼성물산, 건설부문장에 최영재 사장 선임",
+        "삼성물산 건설부문장에 최영재 사장 승진"
+      ],
+      "snippets": [
+        "삼성물산은 최 사장이 건설부문의 에너지, 하이테크, 건축, 토목, 주택 등 다양한 사업 분야에 대한 폭넓은 이해와 전문성을 토대로 부문 전반의 체질 개선과 질적 성장 가속화를 견인할 것으로 기대하고 있다.... ",
+        "삼성물산은 최 사장이 에너지, 하이테크, 건축, 토목, 주택 분야에 대한 폭넓은 이해를 바탕으로 건설부문의 체질을 개선하고 질적 성장에 속도를 낼 것으로 기대했다. 부사장 이하 2027년 정기 임원인사는 조만간... ",
+        "이후 하이테크사업부를 이끌었으며 이번 인사로 에너지·하이테크·건축·토목·주택 등 건설사업 전반을 총괄하게 됐다. 삼성물산은 최 사장에 대해 \"건설부문의 에너지와 하이테크, 건축, 토목, 주택 등 다양한 사업... "
+      ],
+      "media_domains": [
+        "newslock.co.kr",
+        "dnews.co.kr",
+        "industrynews.co.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261123-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261123",
+        "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2386102",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-23T11:22:00+09:00",
+      "collected_at": "2026-11-23T02:23:49.341Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 5
+      },
+      "scoring": {
+        "surprise_score": 0.63,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 63
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "strong",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.23 · 뉴스 화제성",
+        "headline": "이재근 KB금융 회장 취임…\"리딩 뱅크 넘어 글로벌 금융 플랫폼으로\"",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 5
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "이재근 KB금융 회장 취임…\"리딩 뱅크 넘어 글로벌 금융 플랫폼으로\"",
+        "이재근 KB금융지주 회장 취임... \"리딩 뱅크 넘어 리딩 플랫폼으로\"",
+        "이재근 KB금융 회장 취임 … \"리딩 플랫폼으로 도약하겠다\"",
+        "이재근 KB금융 회장 취임…\"리딩 뱅크 넘어 리딩 플랫폼으로\"",
+        "KB금융 이재근 회장 취임…\"리딩 뱅크 넘어 리딩 플랫폼으로 나아갈 것..."
+      ],
+      "snippets": [
+        "이재근 KB금융지주 신임 회장이 23일 취임하면서 인공지능(AI)과 데이터를 활용한 글로벌 금융 플랫폼으로의... 취임 첫 내부 일정으로 IT·정보보호·AI·디지털전환 담당 임원들과 만나 정보유출 사고 대응 방안을... ",
+        "이재근 신임 KB금융지주 회장이 23일 취임 일성으로 데이터와 인공지능(AI)을 앞세운 '리딩 플랫폼' 전환을... 이 회장은 이날 취임 첫 내부 일정으로 그룹 정보기술(IT)·정보보호·AI·디지털전환(DT) 담당 임원들과... ",
+        "일성으로 '리딩 플랫폼'으로 도약하겠다고 밝혔다. 이 회장은 23일 오전 서울 영등포구 KB국민은행 신관에서... 이 회장은 취임 후 첫 내부 일정으로 그룹 IT, 정보보호, AI·DT 담당 임원들과 티타임을 갖고, 최근 금융권에서... ",
+        "이어 \"과거의 KB가 '리딩 뱅크'였다면, 앞으로의 KB는 '리딩 플랫폼'이 되어야 한다\"고 강조했다. 3대 경영... 취임 직후에는 그룹 IT·정보보호·AI/DT 담당 임원들과 금융권 정보유출 사고 대응책을 논의했다. 그는... ",
+        "성장하는 플랫폼으로서, 금융의 새로운 기준을 만들어 가는 KB금융의 미래를 함께 열어가자\"고 말했다. 이 회장은 취임 첫 내부 일정으로 그룹 IT, 정보보호, AI·DT 담당 임원들과 티타임을 갖고, 최근 금융권에서 잇따른... "
+      ],
+      "media_domains": [
+        "webeconomy.co.kr",
+        "hankookilbo.com",
+        "ilovepc.co.kr",
+        "womentimes.co.kr",
+        "getnews.co.kr"
+      ],
+      "corroboration_count": 5
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChK4imKsnjAX62bcaEdF2\"}"
+  }
+]
