@@ -1,0 +1,485 @@
+[
+  {
+    "event": {
+      "id": "naver-20261124-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261124",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=425278",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T14:46:00+09:00",
+      "collected_at": "2026-11-24T05:47:03.711Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "코스피 '반토막' 날 때 소비재·헬스케어株 선방···반등장서 상승 여...",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "코스피 '반토막' 날 때 소비재·헬스케어株 선방···반등장서 상승 여..."
+      ],
+      "snippets": [
+        "각 종목의 주가 흐름은 같은 기간 반도체 대장주인 삼성전자(-49.8%), SK하이닉스(-62.8%)가 두자릿수로 하락한... 다만 각 업종이 국내 주도 업종인 반도체의 조정 국면에서 방어주로서 부각됐기 때문에, 반도체 중심의... "
+      ],
+      "media_domains": [
+        "sisajournal-e.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261124-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261124",
+        "url": "https://www.kbmaeil.com/article/20261124500331",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T13:46:00+09:00",
+      "collected_at": "2026-11-24T05:47:04.767Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "안병윤 예천군수, 시정연설서 2027년 5대 군정과제 제시",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "안병윤 예천군수, 시정연설서 2027년 5대 군정과제 제시",
+        "안병윤 예천군수, 내년도 5대 군정과제 제시… 민생·미래성장에 방점",
+        "안병윤 예천군수, 내년 예산 7400억원 편성…5대 군정과제 제시",
+        "안병윤 예천군수, 2027년 군정 밑그림 제시…5대 과제에 7400억 원 투입"
+      ],
+      "snippets": [
+        "안 군수는 24일 열린 제289회 예천군의회 제2차 정례회 본회의에서 시정연설을 통해 취임 이후 주요 성과를... 교육과 전지훈련단 유치에 힘써 지역 방문객이 골목상권 소비로 이어지도록 할 계획이다. 셋째, 농업을 돈이... ",
+        "안 군수는 24일 열린 제289회 예천군의회 제2차 정례회 본회의에서 시정연설을 통해 이 같은 내용을 담은... 국제 육상 지도자 교육과 전지훈련단 유치를 통해 원도심 상권 활성화에도 힘쓴다. 농업 분야에서는 지보면... ",
+        "안병윤 예천군수가 24일 열린 제289회 예천군의회 제2차 정례회 본회의 시정연설에서 취임 이후 주요 성과와... 한천 보행전용교 설계와 아시아육상연맹 지역개발센터(ADC)를 활용한 국제 지도자 교육·전지훈련단 유치도... ",
+        "안 군수는 24일 열린 예천군의회 제289회 제2차 정례회 본회의에서 시정연설을 통해 취임 이후 주요 성과를... 교육과 전지훈련단 유치로 체육관광 수요를 지역 상권과 연계할 방침이다.세 번째는 농업의 미래 경쟁력을... "
+      ],
+      "media_domains": [
+        "kbmaeil.com",
+        "imaeil.com",
+        "daily.hankooki.com",
+        "kbsm.net"
+      ],
+      "corroboration_count": 4
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261124-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261124",
+        "url": "https://www.ziksir.com/news/articleView.html?idxno=154497",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T14:46:00+09:00",
+      "collected_at": "2026-11-24T05:47:05.684Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "국민성장펀드, 내년 40조원으로 확대…우주항공·양자산업 지원 추진",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "국민성장펀드, 내년 40조원으로 확대…우주항공·양자산업 지원 추진",
+        "국민성장펀드, 내년 40조원으로 확대…우주항공·양자 지원 추진"
+      ],
+      "snippets": [
+        "내년 정책금융은 AI와 반도체, 바이오 등 첨단전략산업의 경쟁력 강화에 초점을 맞춘다. 지방 우대금융 공급 비중 목표도 올해 41.7%에서 내년 43%로 상향된다. 해상풍력 등 에너지 전환과 기후기술 분야에 대한... ",
+        "기존 AI·반도체·바이오·이차전지 등 12대 첨단전략산업에 우주항공·양자 등 신규 산업을 추가하기 위한 산업은행법 시행령 개정도 추진 중이다. 정책금융 역시 AI·반도체·바이오 등 첨단전략산업을 중심으로 자금... "
+      ],
+      "media_domains": [
+        "ziksir.com",
+        "newsprime.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261124-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261124",
+        "url": "https://www.ajunews.com/view/20261124142935267",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T14:46:00+09:00",
+      "collected_at": "2026-11-24T05:47:06.634Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "李대통령, 국고채 담합에 \"과징금 아직 적다\"…주주 중심 증시 개혁도 ...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "李대통령, 국고채 담합에 \"과징금 아직 적다\"…주주 중심 증시 개혁도 ..."
+      ],
+      "snippets": [
+        "이 대통령은 금융권 일각에서 과징금이 과도하다는 주장이 나오는 데 대해 “과해 보이지 않는다”며... 한편 이 대통령은 금융위원회에는 자본시장 개혁의 강도와 속도를 높이라고 요구했다. 이 대통령은 “다른... "
+      ],
+      "media_domains": [
+        "ajunews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261124-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261124",
+        "url": "https://n.news.naver.com/mnews/article/028/0002833701?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T14:46:00+09:00",
+      "collected_at": "2026-11-24T05:47:07.531Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "포스코인터내셔널, 미국 셰일가스전 인수…5억5천만달러 투자",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "포스코인터내셔널, 미국 셰일가스전 인수…5억5천만달러 투자"
+      ],
+      "snippets": [
+        "해외 에너지자원 확보 성과다. 이로써 포스코인터내셔널은 미얀마·호주에 이어 미국까지 천연가스 생산거점을 넓히며 포스코그룹의 에너지자원 공급 기반을 강화하게 됐다. 포스코인터내셔널은 23일(현지시각) 미국... "
+      ],
+      "media_domains": [
+        "hani.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261124-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261124",
+        "url": "https://n.news.naver.com/mnews/article/018/0006414763?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-24T14:34:00+09:00",
+      "collected_at": "2026-11-24T05:47:08.319Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.24 · 뉴스 화제성",
+        "headline": "엔키화이트햇, AI 보안 플랫폼 앞세워 글로벌 시장 공략 시동[IPO출사표...",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "엔키화이트햇, AI 보안 플랫폼 앞세워 글로벌 시장 공략 시동[IPO출사표...",
+        "엔키화이트햇 \"글로벌 오펜시브 보안 시장 공략 본격화...사이버 방산으..."
+      ],
+      "snippets": [
+        "핵심 성장 동력은 2024년 8월 출시한 오펜시브 보안 통합 플랫폼 ‘오펜(OFFen)’이다. 오펜은 외부에 노출된 정보기술(IT) 자산을 찾아내는 공격표면관리(ASM), 실제 침투 가능성을 검증하는 서비스형 모의해킹(PTaaS), 웹... ",
+        "통합 플랫폼 오펜(OFFen)은  자산 탐지부터 취약점 진단, 침투 검증, 조치 이후 이행 점검까지 연결해 일회성 보안 점검을 상시 검증 체계로 전환할 수 있도록 지원한다. 외부에 노출된 IT 자산을 탐지하는... "
+      ],
+      "media_domains": [
+        "edaily.co.kr",
+        "digitaltoday.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChME2vJSDYhACD4oKQnbA\"}"
+  }
+]
