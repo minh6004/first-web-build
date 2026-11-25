@@ -1,0 +1,485 @@
+[
+  {
+    "event": {
+      "id": "naver-20261125-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261125",
+        "url": "https://n.news.naver.com/mnews/article/016/0002728349?sid=101",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T13:48:00+09:00",
+      "collected_at": "2026-11-25T04:49:08.882Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "10월 45.3만명 거주지 옮겨…서울선 빠져나가고 경기·충청선 늘어",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "10월 45.3만명 거주지 옮겨…서울선 빠져나가고 경기·충청선 늘어"
+      ],
+      "snippets": [
+        "지역별로는 수도권 일부 지역과 반도체 산업이 밀집한 충청권으로 인구가 유입되는 양상이 나타났다. 전입 인구에서 전출 인구를 뺀 순이동 규모를 보면 경기가 3560명으로 가장 많았다. 인천(1835명), 충남(1414명)... "
+      ],
+      "media_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261125-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261125",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2023214",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T12:00:00+09:00",
+      "collected_at": "2026-11-25T04:49:09.747Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "삼성SDI 울산사업장, 녹색경영 대상…'27년 연속' 친환경 역량 입증",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "삼성SDI 울산사업장, 녹색경영 대상…'27년 연속' 친환경 역량 입증",
+        "삼성SDI 울산사업장, 2026 녹색경영 우수기업 대상"
+      ],
+      "snippets": [
+        "울산사업장은 1999년 2차전지 업계 최초로 녹색기업에 지정된 이후 27년 연속 자격을 유지하게 됐다. 이번 심사에서 수자원 활용 효율 성과를 높게 평가받았다. 울산사업장은 폐수 재이용률을 90%까지 끌어올려 연간 약... ",
+        "울산사업장은 1999년 2차전지 업계에서 처음으로 ‘녹색기업’에 선정된 후 올해까지 자격을 유지하며 친환경 사업장 운영 역량을 인정받고 있다. 특히 올해 4월에는 기후부가 진행하는 물 절약 사업에서... "
+      ],
+      "media_domains": [
+        "m-i.kr",
+        "sedaily.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261125-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261125",
+        "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7195681",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T13:46:00+09:00",
+      "collected_at": "2026-11-25T04:49:10.487Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "허서홍 GS리테일 대표, 사장 승진…본업 중심 실적 개선 성과",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "허서홍 GS리테일 대표, 사장 승진…본업 중심 실적 개선 성과",
+        "허서홍 GS리테일 대표, 취임 2년 만에 사장 승진…본업서 실적 반등",
+        "허서홍 GS리테일 대표 사장 승진···‘본업 경쟁력 강화’ 통했다"
+      ],
+      "snippets": [
+        "등을 거쳤으며, 2020년 ㈜GS 미래사업팀장을 맡아 그룹 차원의 신사업 투자와 인수합병(M&A)을 담당했다. 당시 바이오 기업 휴젤 인수에도 참여했다. 2023년 GS리테일 경영전략SU장을 거쳐 2025년 대표이사에 취임했다.",
+        "경력을 시작해 GS홈쇼핑 신사업팀과 쉐브론, GS에너지 등을 거쳤다. 2020년 ㈜GS 미래사업팀장을 맡아 바이오 기업 휴젤 인수를 주도했으며, 2023년 GS리테일 경영전략SU장을 거쳐 2025년 대표이사에 취임했다.",
+        "2020년부터 ㈜GS 미래사업팀장을 맡아 바이오 기업 휴젤 인수 등 그룹 차원의 신사업 투자를 주도했다. 2023년 GS리테일 경영전략SU장으로 자리를 옮긴 뒤 지난해 대표이사에 취임했다. 한편 GS그룹은 이번 정기... "
+      ],
+      "media_domains": [
+        "weekly.hankooki.com",
+        "newsprime.co.kr",
+        "ekn.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261125-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261125",
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887100",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T13:48:00+09:00",
+      "collected_at": "2026-11-25T04:49:11.272Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "카카오뱅크, 66억 규모 자사주 소각…주주가치 제고",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "카카오뱅크, 66억 규모 자사주 소각…주주가치 제고",
+        "[공시]카카오뱅크, 66억원 규모 자사주 27만주 소각"
+      ],
+      "snippets": [
+        "한편 카카오뱅크는 주주환원 정책을 다지는 동시에 최근 금융권의 최대 화두인 결제 시장에서 파괴력 있는 행보를 이어가고 있다. 금융권에 따르면 카카오뱅크는 현대카드에 이어 국내 금융회사 중 두 번째이자... ",
+        "25일 금융감독원 전자공시시스템에 따르면 소각 대상은 보통주 27만주로 전체 발행주식의 약 0.06%에 해당한다. 이번 소각은 지난 3월6일 시행된 개정 상법에 따른 것으로 2023년 4월 자기주식취득 신탁계약을 통해... "
+      ],
+      "media_domains": [
+        "hansbiz.co.kr",
+        "finomy.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261125-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261125",
+        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=327361",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T13:48:00+09:00",
+      "collected_at": "2026-11-25T04:49:12.043Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "삼성SDI 울산사업장, '녹색경영 우수기업' 대상 수상",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "삼성SDI 울산사업장, '녹색경영 우수기업' 대상 수상",
+        "삼성SDI 울산사업장, 녹색경영 우수기업 선정"
+      ],
+      "snippets": [
+        "사진=삼성SDI  삼성SDI는 울산사업장이 '2026 녹색경영 우수기업' 우수 녹색기업 부문에서 대상인 기후에너지환경부 장관상을 받았다고 25일 밝혔다. 녹색경영 우수기업 시상은 기후에너지환경부와... ",
+        "삼성SDI 울산사업장이 기후에너지환경부와 한국환경산업기술원이 주관하는 '2026 녹색경영 우수기업' 시상에서 우수 녹색기업 부문 대상(기후에너지환경부 장관상)을 받았다고 25일 밝혔다. 1999년 이차전지 업계... "
+      ],
+      "media_domains": [
+        "pointdaily.co.kr",
+        "cnbnews.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261125-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261125",
+        "url": "https://www.betanews.net/article/view/beta202611240147",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-25T13:48:00+09:00",
+      "collected_at": "2026-11-25T04:49:12.803Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.25 · 뉴스 화제성",
+        "headline": "삼성SDS, 2027년 정기 임원 인사…부사장 4명·상무 6명 승진",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "삼성SDS, 2027년 정기 임원 인사…부사장 4명·상무 6명 승진"
+      ],
+      "snippets": [
+        "기업들의 AI 전환(AX) 수요가 빠르게 늘면서, IT서비스 기업들은 AI 플랫폼과 클라우드, 데이터센터 인프라를 아우르는 통합 서비스 역량 확보에 힘을 쏟고 있다. 이에 연말 인사에서도 AX·클라우드 사업 현장에서... "
+      ],
+      "media_domains": [
+        "betanews.net"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChP3RhwumCRbKJB1rKeHA\"}"
+  }
+]

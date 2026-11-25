@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T05:47:08.406Z",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T04:49:13.793Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "2차전지",
+      "name": "반도체",
       "events": [
         {
-          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +38.4%",
+          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
           "direction": "up",
           "strength": "강함"
         },
         {
-          "name": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "name": "QUALCOMM INC/DE, 8-K 공시",
           "direction": "neutral",
           "strength": "약함"
         }
@@ -29,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:03.057Z",
+      "collected_at": "2026-11-25T04:49:08.870Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -94,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:04.376Z",
+      "collected_at": "2026-11-25T04:49:09.987Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -159,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:03.721Z",
+      "collected_at": "2026-11-25T04:49:09.428Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -224,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:05.027Z",
+      "collected_at": "2026-11-25T04:49:10.545Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -281,15 +281,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261124",
+      "id": "ecos-fx-20261125",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261124",
+        "ref_id": "fx-usd-20261125",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-11-24T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:03.249Z",
+      "event_datetime": "2026-11-25T12:00:00+09:00",
+      "collected_at": "2026-11-25T04:49:09.461Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -303,40 +303,40 @@
         ]
       },
       "metrics": {
-        "fx_value_krw": 1346.6,
-        "fx_change_pct": 0.7
+        "fx_value_krw": 1343.6,
+        "fx_change_pct": -0.2
       },
       "scoring": {
-        "surprise_score": 0.35,
+        "surprise_score": 0.1,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 54
+        "priority_score": 39
       },
       "impact": {
-        "direction": "up",
-        "strength": "medium",
+        "direction": "down",
+        "strength": "weak",
         "affected_sectors": [
           {
             "sector": "수출주",
-            "direction": "up"
+            "direction": "down"
           },
           {
             "sector": "여행",
-            "direction": "down"
+            "direction": "up"
           }
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 11.24 · 환율",
-        "headline": "원/달러 환율 1346.6원 (전일 대비 +0.7%)",
+        "meta_line": "원/달러 환율 · 11.25 · 환율",
+        "headline": "원/달러 환율 1343.6원 (전일 대비 -0.2%)",
         "chips": [
-          "수출주↑",
-          "여행↓"
+          "수출주↓",
+          "여행↑"
         ],
         "horizon": {
-          "short_term": "원/달러 환율이 전일 대비 0.7% 올라(원화 약세) 단기적으로 수출 기업의 가격 경쟁력에 우호적일 수 있어요.",
-          "long_term": "이 흐름이 추세적인지, 단기 변동인지에 따라 수입 물가·기업 실적에 미치는 영향이 달라져요."
+          "short_term": "원/달러 환율이 전일 대비 0.2% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
         }
       },
       "reliability": {
@@ -356,7 +356,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:03.564Z",
+      "collected_at": "2026-11-25T04:49:09.746Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -410,24 +410,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261124-000223",
+      "id": "sec-0000804328-0000804328-26-000138",
       "source": {
-        "type": "dart",
-        "ref_id": "20261124000223",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000223",
+        "type": "sec",
+        "ref_id": "0000804328",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/0000804328-26-000138-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-24T12:00:00+09:00",
-      "collected_at": "2026-11-24T05:47:06.892Z",
-      "type": "disclosure",
-      "category": "지분공시",
+      "event_datetime": "2026-11-24T16:00:00-04:00",
+      "collected_at": "2026-11-25T04:49:09.098Z",
+      "type": "ma",
+      "category": "지배구조 변경",
       "subject": {
         "entity_type": "stock",
-        "code": "006400",
-        "name": "삼성SDI",
+        "code": "0000804328",
+        "name": "QUALCOMM INC/DE",
         "is_bellwether": true,
         "sectors": [
-          "2차전지"
+          "반도체"
         ]
       },
       "metrics": {},
@@ -436,28 +436,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 25
+        "priority_score": 35
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "2차전지",
+            "sector": "반도체",
             "direction": "neutral",
-            "note": "지분공시"
+            "note": "지배구조 변경"
           }
         ]
       },
       "content": {
-        "meta_line": "삼성SDI · 11.24 · 지분공시",
-        "headline": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
+        "meta_line": "QUALCOMM INC/DE · 11.24 · 지배구조 변경",
+        "headline": "QUALCOMM INC/DE, 8-K 공시",
         "chips": [
-          "2차전지→"
+          "반도체→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
@@ -469,21 +469,21 @@
       "status": "active"
     },
     {
-      "id": "sec-0001326801-0001628280-26-075541",
+      "id": "sec-0001652044-0001193125-26-475973",
       "source": {
         "type": "sec",
-        "ref_id": "0001326801",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/0001628280-26-075541-index.htm",
+        "ref_id": "0001652044",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/0001193125-26-475973-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-23T16:00:00-04:00",
-      "collected_at": "2026-11-24T05:47:02.299Z",
+      "event_datetime": "2026-11-24T16:00:00-04:00",
+      "collected_at": "2026-11-25T04:49:09.097Z",
       "type": "disclosure",
       "category": "수시공시",
       "subject": {
         "entity_type": "stock",
-        "code": "0001326801",
-        "name": "Meta Platforms, Inc.",
+        "code": "0001652044",
+        "name": "Alphabet Inc.",
         "is_bellwether": true,
         "sectors": [
           "IT/플랫폼"
@@ -509,8 +509,8 @@
         ]
       },
       "content": {
-        "meta_line": "Meta Platforms, Inc. · 11.23 · 수시공시",
-        "headline": "Meta Platforms, Inc., 8-K 공시",
+        "meta_line": "Alphabet Inc. · 11.24 · 수시공시",
+        "headline": "Alphabet Inc., 8-K 공시",
         "chips": [
           "IT/플랫폼→"
         ],
