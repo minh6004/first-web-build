@@ -1,0 +1,485 @@
+[
+  {
+    "event": {
+      "id": "naver-20261126-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261126",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026112612580977895",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T13:00:00+09:00",
+      "collected_at": "2026-11-26T04:01:26.218Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "젠슨 황 복귀했는데 날벼락…엔비디아 신용등급 강등 '빨간불'",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "젠슨 황 복귀했는데 날벼락…엔비디아 신용등급 강등 '빨간불'"
+      ],
+      "snippets": [
+        "S&P는 미국의 대중국 반도체 수출 규제와 관련해 규정 위반이나 우회 수출이 확인되거나, 중국 사업에 대한 기존 정보 공개가 실제 위험을 충분히 반영하지 못한 것으로 판단될 경우 엔비디아의 신용도에 부정적인... "
+      ],
+      "media_domains": [
+        "newsway.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261126-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261126",
+        "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1107913",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T09:56:00+09:00",
+      "collected_at": "2026-11-26T04:01:27.056Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "크릿벤처스, 한·일 콘텐츠 IP 사업화 기업 '클링크'에 후속 투자",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "크릿벤처스, 한·일 콘텐츠 IP 사업화 기업 '클링크'에 후속 투자",
+        "크릿벤처스, 日 콘텐츠 IP 사업화 기업 '클링크' 후속 투자"
+      ],
+      "snippets": [
+        "클링크는 극장판 영화 '전지적 독자 시점'을 비롯해 웹툰 '도굴왕', '템빨', '괴력난신', '권왕전생' 등의 일본... 클링크는 현지 업계 경험과 네트워크를 활용해 제작위원회 참여부터 2차 사업화까지의 절차를 진행하는... ",
+        "주요 사업 이력으로는 극장판 '전지적 독자 시점'과 '도굴왕', '템빨', '괴력난신', '권왕전생' 등의 일본 사업화 자문 및 공동 제작이 있다. 일본 현지 업계 네트워크를 활용해 한국 IP의 현지 유통부터 영상화 등 2차... "
+      ],
+      "media_domains": [
+        "discoverynews.kr",
+        "hankyung.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261126-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261126",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=566683",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T13:00:00+09:00",
+      "collected_at": "2026-11-26T04:01:27.779Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "롯데지주, 8830억원 투자한 바이오 사업 결실…송도공장 준공·글로벌 수...",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "롯데지주, 8830억원 투자한 바이오 사업 결실…송도공장 준공·글로벌 수..."
+      ],
+      "snippets": [
+        "|중앙이코노미뉴스 윤남웅 기자|롯데바이오로직스 송도 바이오 캠퍼스 제1공장 전경. [사진=롯데지주]  롯데지주가 롯데바이오로직스의 송도 제1공장 준공과 대규모 위탁생산 수주를 계기로 바이오 사업을 통한 그룹... "
+      ],
+      "media_domains": [
+        "joongangenews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261126-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261126",
+        "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282278",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T12:58:00+09:00",
+      "collected_at": "2026-11-26T04:01:28.493Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "신한은행 땡겨요, 교촌치킨 할인 이벤트",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "신한은행 땡겨요, 교촌치킨 할인 이벤트",
+        "신한은행 '땡겨요' 이벤트, 2만원짜리 교촌치킨이 '8000원'"
+      ],
+      "snippets": [
+        "특히 SOL트립앤J 체크카드는 금융권 최초의 JCB 브랜드 체크카드로 환율 우대 100%와 해외 결제 수수료 면제 혜택을 제공하고 있다. 일본 현지의 돈키호테, 편의점, 유니클로, 무인양품 등 주요 가맹점 할인 혜택도... ",
+        "면제는 물론 일본 주요 가맹점에서 다양한 할인 혜택을 제공합니다. 신한은행은 앞으로도 고객들이 실생활에서 체감할 수 있는 다양한 제휴 혜택을 확대하며 생활밀착형 금융서비스를 강화해 나간다는 계획입니다."
+      ],
+      "media_domains": [
+        "businesskorea.co.kr",
+        "newswell.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261126-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261126",
+        "url": "https://www.kbmaeil.com/article/20261126500349",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T13:00:00+09:00",
+      "collected_at": "2026-11-26T04:01:29.266Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "윤경희 청송군수, 영양변전소 조기 신설 건의",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "윤경희 청송군수, 영양변전소 조기 신설 건의",
+        "윤경희 청송군수, 한전사장에 영양변전소 조속 신설 건의"
+      ],
+      "snippets": [
+        "앞으로 전력 수요 증가와 신재생에너지 보급 확대에 대비하기 위해서는 전력 공급 기반을 선제적으로 확충해야 하는 상황이다. 특히 진보변전소의 전력계통 상당 부분이 영양군과 연계돼 있어 영양변전소가 신설되면... ",
+        "윤 군수는 향후 전력 수요에 선제적으로 대응하고 신재생에너지 보급을 확대하려면 영양변전소 건설사업이 조속히 추진돼야 한다며 한전의 관심과 협조를 당부했다. 윤경희 군수는 \"안정적인 전력 공급은 군민의 생활... "
+      ],
+      "media_domains": [
+        "kbmaeil.com",
+        "newspim.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261126-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261126",
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887583",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-26T12:04:00+09:00",
+      "collected_at": "2026-11-26T04:01:30.021Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 3
+      },
+      "scoring": {
+        "surprise_score": 0.38,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 48
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.26 · 뉴스 화제성",
+        "headline": "우리은행 가족봉사단, 복지부장관상 수상",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 3
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "우리은행 가족봉사단, 복지부장관상 수상",
+        "우리은행 임직원 가족봉사단, 보건복지부장관상 수상...따뜻한 동행 결...",
+        "우리은행 가족봉사단, 보건복지부 장관상 수상"
+      ],
+      "snippets": [
+        "또 디지털 소외 어르신을 대상으로 보이스피싱 예방과 IT 금융교육을 진행했으며, 유기동물 보호소 일손... 우리은행은 지난 7월 임직원들이 일상에서 나눔을 실천할 수 있도록 자원봉사 전용 플랫폼 'WE:TH(위드)'를 열고... ",
+        "이와 함께 디지털 소외 어르신을 대상으로 보이스피싱 예방 및 정보기술(IT) 금융교육을 진행하고, 유기동물... 지난 7월에는 임직원들이 일상에서 나눔을 실천할 수 있도록 자원봉사 전용 플랫폼 'WE:TH(위드)'를 개설하고... ",
+        "디지털 소외 어르신을 대상으로 보이스피싱 예방 및 IT 금융교육을 실시하고 유기동물 보호소 일손 돕기에도 참여했다. 우리은행은 지난 7월 자원봉사 전용 플랫폼 'WE:TH(위드)'를 개설해 임직원의 자발적인 봉사활동을... "
+      ],
+      "media_domains": [
+        "hansbiz.co.kr",
+        "delighti.co.kr",
+        "press9.kr"
+      ],
+      "corroboration_count": 3
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQsbXfQDaTmCFzY46vvM\"}"
+  }
+]
