@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T04:01:30.135Z",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T03:58:57.531Z",
   "summary": [
     {
       "id": "sector-0",
@@ -15,11 +15,47 @@
           "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
           "direction": "neutral",
           "strength": "약함"
+        },
+        {
+          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        },
+        {
+          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
         }
       ]
     },
     {
       "id": "sector-1",
+      "name": "2차전지",
+      "events": [
+        {
+          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +38.4%",
+          "direction": "up",
+          "strength": "강함"
+        },
+        {
+          "name": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
+          "direction": "neutral",
+          "strength": "약함"
+        }
+      ]
+    },
+    {
+      "id": "sector-2",
       "name": "성장주",
       "events": [
         {
@@ -45,7 +81,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:25.516Z",
+      "collected_at": "2026-11-27T03:58:52.855Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -110,7 +146,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:26.546Z",
+      "collected_at": "2026-11-27T03:58:54.035Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -175,7 +211,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:26.027Z",
+      "collected_at": "2026-11-27T03:58:53.445Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -240,7 +276,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:27.070Z",
+      "collected_at": "2026-11-27T03:58:54.635Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -305,7 +341,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-26T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:24.975Z",
+      "collected_at": "2026-11-27T03:58:52.192Z",
       "type": "rate_decision",
       "category": "통화정책",
       "subject": {
@@ -378,7 +414,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:26.136Z",
+      "collected_at": "2026-11-27T03:58:53.170Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -432,15 +468,15 @@
       "status": "active"
     },
     {
-      "id": "ecos-fx-20261126",
+      "id": "ecos-fx-20261127",
       "source": {
         "type": "ecos",
-        "ref_id": "fx-usd-20261126",
+        "ref_id": "fx-usd-20261127",
         "url": "https://ecos.bok.or.kr/",
         "tier": 1
       },
-      "event_datetime": "2026-11-26T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:25.841Z",
+      "event_datetime": "2026-11-27T12:00:00+09:00",
+      "collected_at": "2026-11-27T03:58:52.869Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -449,39 +485,45 @@
         "name": "원/달러 환율",
         "is_bellwether": true,
         "sectors": [
-          "수출주"
+          "수출주",
+          "여행"
         ]
       },
       "metrics": {
-        "fx_value_krw": 1343.9,
-        "fx_change_pct": 0
+        "fx_value_krw": 1342.7,
+        "fx_change_pct": -0.1
       },
       "scoring": {
-        "surprise_score": 0,
+        "surprise_score": 0.05,
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 33
+        "priority_score": 36
       },
       "impact": {
-        "direction": "neutral",
+        "direction": "down",
         "strength": "weak",
         "affected_sectors": [
           {
             "sector": "수출주",
-            "direction": "neutral"
+            "direction": "down"
+          },
+          {
+            "sector": "여행",
+            "direction": "up"
           }
         ]
       },
       "content": {
-        "meta_line": "원/달러 환율 · 11.26 · 환율",
-        "headline": "원/달러 환율 1343.9원 (전일 대비 +0%)",
+        "meta_line": "원/달러 환율 · 11.27 · 환율",
+        "headline": "원/달러 환율 1342.7원 (전일 대비 -0.1%)",
         "chips": [
-          "수출주→"
+          "수출주↓",
+          "여행↑"
         ],
         "horizon": {
-          "short_term": "원/달러 환율이 전일과 비슷한 수준을 유지했어요.",
-          "long_term": "뚜렷한 방향성이 나타나는지 다음 거래일을 지켜볼 필요가 있어요."
+          "short_term": "원/달러 환율이 전일 대비 0.1% 내려(원화 강세) 단기적으로 수입 물가 부담이 줄어들 수 있어요.",
+          "long_term": "원화 강세가 이어지면 수출 기업의 가격 경쟁력에는 부담이 될 수 있어요."
         }
       },
       "reliability": {
@@ -493,24 +535,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261126-000250",
+      "id": "dart-20261127-000671",
       "source": {
         "type": "dart",
-        "ref_id": "20261126000250",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000250",
+        "ref_id": "20261127000671",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000671",
         "tier": 1
       },
-      "event_datetime": "2026-11-26T12:00:00+09:00",
-      "collected_at": "2026-11-26T04:01:29.422Z",
+      "event_datetime": "2026-11-27T12:00:00+09:00",
+      "collected_at": "2026-11-27T03:58:56.367Z",
       "type": "disclosure",
       "category": "지분공시",
       "subject": {
         "entity_type": "stock",
-        "code": "005930",
-        "name": "삼성전자",
+        "code": "006400",
+        "name": "삼성SDI",
         "is_bellwether": true,
         "sectors": [
-          "반도체"
+          "2차전지"
         ]
       },
       "metrics": {},
@@ -526,17 +568,17 @@
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "반도체",
+            "sector": "2차전지",
             "direction": "neutral",
             "note": "지분공시"
           }
         ]
       },
       "content": {
-        "meta_line": "삼성전자 · 11.26 · 지분공시",
-        "headline": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
+        "meta_line": "삼성SDI · 11.27 · 지분공시",
+        "headline": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
         "chips": [
-          "반도체→"
+          "2차전지→"
         ],
         "horizon": {
           "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
