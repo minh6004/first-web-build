@@ -1,0 +1,488 @@
+[
+  {
+    "event": {
+      "id": "naver-20261128-반도체",
+      "source": {
+        "type": "naver",
+        "ref_id": "반도체-20261128",
+        "url": "https://www.hidomin.com/news/articleView.html?idxno=731386",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T12:40:00+09:00",
+      "collected_at": "2026-11-28T03:46:37.468Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "반도체",
+        "name": "반도체",
+        "is_bellwether": true,
+        "sectors": [
+          "반도체"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "반도체",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "반도체 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "예산안 시한 D-4…여야 '104조 미래대응기금' 접점 못 찾고 헛바퀴",
+        "chips": [
+          "반도체→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "반도체",
+      "headlines": [
+        "예산안 시한 D-4…여야 '104조 미래대응기금' 접점 못 찾고 헛바퀴",
+        "예산안 처리 시한 나흘 앞... 여야 '미래대응기금 공방'"
+      ],
+      "snippets": [
+        "반면 국민의힘 박성훈 수석대변인은 논평에서 \"반도체 호황은 한때지만 나랏빚은 대를 이어 남는다\"며 \"100조원의 적자국채를 발행하면서 초과 세수 104조4000억원을 별도 기금에 쌓아두겠다는 것부터 상식에 어긋난다\"고... ",
+        "반도체 초호황에 따른 초과세수를 미래 투자에 활용해야 한다는 여당과 국가 채무부터 상환해야 한다는... 박 수석대변인은 \"반도체 호황은 한때지만 나랏빚은 대를 이어 남는다. 정권은 5년이면 떠나지만 국민이 갚아야... "
+      ],
+      "media_domains": [
+        "hidomin.com",
+        "hankookilbo.com"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261128-2차전지",
+      "source": {
+        "type": "naver",
+        "ref_id": "2차전지-20261128",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=509130",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T11:30:00+09:00",
+      "collected_at": "2026-11-28T03:46:38.267Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "2차전지",
+        "name": "2차전지",
+        "is_bellwether": true,
+        "sectors": [
+          "2차전지"
+        ]
+      },
+      "metrics": {
+        "article_count": 19,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "2차전지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "2차전지 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "CSN·라마코 폭등… 포스코홀딩스·현대제철도 펄펄 끓까",
+        "chips": [
+          "2차전지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "2차전지",
+      "headlines": [
+        "CSN·라마코 폭등… 포스코홀딩스·현대제철도 펄펄 끓까"
+      ],
+      "snippets": [
+        "포스코홀딩스는 철강뿐 아니라 리튬 등 2차전지 소재 사업도 보유하고 있어 철강 업황과 배터리 소재 시장의 변화가 동시에 영향을 미친다. 철강 가공과 냉연·도금강판 분야에서는 KG스틸, 동국제강, 세아제강 등도 업황... "
+      ],
+      "media_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261128-바이오",
+      "source": {
+        "type": "naver",
+        "ref_id": "바이오-20261128",
+        "url": "https://n.news.naver.com/mnews/article/056/0012303107?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T11:41:00+09:00",
+      "collected_at": "2026-11-28T03:46:38.994Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "바이오",
+        "name": "바이오",
+        "is_bellwether": true,
+        "sectors": [
+          "바이오"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "바이오",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "바이오 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "지난해 일본 ‘정치자금 파티’ 수입 다시 급증…전년보다 37% 증가",
+        "chips": [
+          "바이오→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "바이오",
+      "headlines": [
+        "지난해 일본 ‘정치자금 파티’ 수입 다시 급증…전년보다 37% 증가",
+        "지난해 日 '정치자금 파티' 수입 다시 급증…전년보다 37% 증가"
+      ],
+      "snippets": [
+        "세키 문부상은 2024년 3월 도쿄의 한 호텔에서 경제산업성 과장을 불러 바이오의약품 등 기업 관계자에 현안을 설명하는 파티를 개최했습니다. 그는 기업 관계자들로부터 1인당 9만 엔(약 75만 원) 정도를 모금하고... ",
+        "세키 문부상은 2024년 3월 도쿄의 한 호텔에서 경제산업성 과장을 불러 바이오의약품 등 기업 관계자에 현안을 설명하는 파티를 개최했다. 그는 기업 관계자들로부터 1인당 9만엔(약 75만원) 정도를 모금하고 관료를... "
+      ],
+      "media_domains": [
+        "news.kbs.co.kr",
+        "yna.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261128-금융",
+      "source": {
+        "type": "naver",
+        "ref_id": "금융-20261128",
+        "url": "https://m.sports.naver.com/wfootball/article/311/0002085008",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T12:45:00+09:00",
+      "collected_at": "2026-11-28T03:46:39.750Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "금융",
+        "name": "금융",
+        "is_bellwether": true,
+        "sectors": [
+          "금융"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 1
+      },
+      "scoring": {
+        "surprise_score": 0.13,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 33
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "weak",
+        "affected_sectors": [
+          {
+            "sector": "금융",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "금융 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "러시아 감옥서 '노동착취' 충격 현실, 브라질 女 축구 스타 어쩌나…\"간...",
+        "chips": [
+          "금융→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 1
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "금융",
+      "headlines": [
+        "러시아 감옥서 '노동착취' 충격 현실, 브라질 女 축구 스타 어쩌나…\"간..."
+      ],
+      "snippets": [
+        "미국 법무부는 지난 2023년 체르카소프를 외국 정부의 비밀요원으로 활동한 혐의와 비자 사기, 금융 사기 등의 혐의로 기소했다. 미국 정부는 브라질에 체르카소프의 신병 인도를 요청했고, 러시아 역시 그의 귀국을 추진해... "
+      ],
+      "media_domains": [
+        "xportsnews.com"
+      ],
+      "corroboration_count": 1
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261128-에너지",
+      "source": {
+        "type": "naver",
+        "ref_id": "에너지-20261128",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1733307",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T12:40:00+09:00",
+      "collected_at": "2026-11-28T03:46:40.500Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "에너지",
+        "name": "에너지",
+        "is_bellwether": true,
+        "sectors": [
+          "에너지"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 2
+      },
+      "scoring": {
+        "surprise_score": 0.25,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 40
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "에너지",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "에너지 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "GS, 동해에 아시아 최대 AI 데이터센터 첫 삽…인프라 구축에 30조 투입",
+        "chips": [
+          "에너지→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 2
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "에너지",
+      "headlines": [
+        "GS, 동해에 아시아 최대 AI 데이터센터 첫 삽…인프라 구축에 30조 투입",
+        "[속보] 동해에 아시아 최대 AI 데이터센터…이 대통령 “정부 모든 역량..."
+      ],
+      "snippets": [
+        "GS는 지난 6월 11일 지주사 산하에 전담 법인 GS AI 인프라를 출범시켜 그룹의 발전·에너지 운영 노하우와 GS건설의 시공 역량을 모았다. 7월 강원도·동해시와 업무협약을 맺은 이후 전력계통영향평가와 건축허가... ",
+        "그러면서 “건설과 전력, 에너지, 냉각과 공조 등의 연관 산업은 물론 지역 중소기업과 협력업체가 함께 성장하며 골목 상권도 새로운 활력을 얻도록 꼼꼼하게 챙기겠다”며 데이터센터 건설과 운영 과정에서 축적한... "
+      ],
+      "media_domains": [
+        "ebn.co.kr",
+        "seoul.co.kr"
+      ],
+      "corroboration_count": 2
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  },
+  {
+    "event": {
+      "id": "naver-20261128-IT/플랫폼",
+      "source": {
+        "type": "naver",
+        "ref_id": "IT/플랫폼-20261128",
+        "url": "https://n.news.naver.com/mnews/article/052/0002439305?sid=104",
+        "tier": 2
+      },
+      "event_datetime": "2026-11-28T10:57:00+09:00",
+      "collected_at": "2026-11-28T03:46:41.225Z",
+      "type": "industry_news",
+      "category": "뉴스 화제성",
+      "subject": {
+        "entity_type": "sector",
+        "code": "IT/플랫폼",
+        "name": "IT/플랫폼",
+        "is_bellwether": true,
+        "sectors": [
+          "IT/플랫폼"
+        ]
+      },
+      "metrics": {
+        "article_count": 20,
+        "distinct_media_count": 4
+      },
+      "scoring": {
+        "surprise_score": 0.5,
+        "price_trigger": false,
+        "price_change_pct": null,
+        "watchlist_boost": false,
+        "priority_score": 55
+      },
+      "impact": {
+        "direction": "neutral",
+        "strength": "medium",
+        "affected_sectors": [
+          {
+            "sector": "IT/플랫폼",
+            "direction": "neutral"
+          }
+        ]
+      },
+      "content": {
+        "meta_line": "IT/플랫폼 관련 뉴스 · 11.28 · 뉴스 화제성",
+        "headline": "미 증시 에너지업종 올해 들어 37% 상승...AI에 가려진 주도주",
+        "chips": [
+          "IT/플랫폼→"
+        ],
+        "horizon": {
+          "short_term": "이 뉴스가 단기 주가에 미칠 영향은 아직 명확하지 않아요 -- 후속 보도와 시장 반응을 함께 확인할 필요가 있어요.",
+          "long_term": "여러 매체가 같은 내용을 이어서 다루는지가 중장기적으로 신뢰도를 판단하는 기준이 될 수 있어요."
+        }
+      },
+      "reliability": {
+        "tier": 2,
+        "needs_review": true,
+        "corroboration_count": 4
+      },
+      "updates": [],
+      "status": "active"
+    },
+    "evidence": {
+      "source": "naver",
+      "sector": "IT/플랫폼",
+      "headlines": [
+        "미 증시 에너지업종 올해 들어 37% 상승...AI에 가려진 주도주",
+        "미 증시 에너지업종 올해 37% 상승…AI 투자 열풍 속 조용히 올라",
+        "美증시, AI에 가려진 주도주⋯에너지업종 올해 37% 상승",
+        "조용히 상승, 미국증시 에너지업종 올해 들어 37% 올라"
+      ],
+      "snippets": [
+        "5%)는 상대적으로 상승 폭이 작았고, 알파벳(구글), 메타플랫폼, 넷플릭스와 통신사를 포괄하는 커뮤니케이션 서비스 업종은 오히려 10.3% 하락했습니다. 엔비디아와 애플, 마이크로소프트 등을 아우르는 IT 업종이 6.6... ",
+        "5%)는 상대적으로 상승 폭이 작았고, 알파벳(구글), 메타플랫폼, 넷플릭스와 통신사를 포괄하는 커뮤니케이션 서비스 업종은 오히려 10.3% 하락했습니다. 엔비디아, 애플, 마이크로소프트 등을 아우르는 IT 업종이 6.6... ",
+        "이는 S&P500의 11개 업종 가운데 가장 높은 상승률로 정보기술(IT) 업종(6.6%)보다 30.2%포인트 높다. 에너지에... 구글의 모회사 알파벳과 메타플랫폼, 넷플릭스 등이 속한 커뮤니케이션 서비스 업종은 10.3% 하락했다. 개별... ",
+        "엔비디아, 애플, 마이크로소프트 등 IT 업종은 6.6% 상승에 그쳤다. 산업재(6.5%)와 금융(4.1%), 임의소비재(1.5%)는 상대적으로 상승 폭이 작았고, 알파벳(구글), 메타플랫폼, 넷플릭스와 통신사를 포괄하는 커뮤니케이션... "
+      ],
+      "media_domains": [
+        "ytn.co.kr",
+        "mbnmoney.mbn.co.kr",
+        "viva100.com",
+        "etoday.co.kr"
+      ],
+      "corroboration_count": 4
+    },
+    "reason": "검수 게이트 호출 실패: AI 검수 게이트 API 요청 실패 (status 401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUe5quvgZUsGhWZ1fxKX\"}"
+  }
+]

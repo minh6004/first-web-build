@@ -1,61 +1,9 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T03:58:57.531Z",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T03:46:41.369Z",
   "summary": [
     {
       "id": "sector-0",
-      "name": "반도체",
-      "events": [
-        {
-          "name": "반도체(HS 8542) 수출 전년 동월 대비 +203.7%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        },
-        {
-          "name": "삼성전자, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    },
-    {
-      "id": "sector-1",
-      "name": "2차전지",
-      "events": [
-        {
-          "name": "2차전지(HS 8507) 수출 전년 동월 대비 +38.4%",
-          "direction": "up",
-          "strength": "강함"
-        },
-        {
-          "name": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
-          "direction": "neutral",
-          "strength": "약함"
-        }
-      ]
-    },
-    {
-      "id": "sector-2",
       "name": "성장주",
       "events": [
         {
@@ -81,7 +29,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:52.855Z",
+      "collected_at": "2026-11-28T03:46:36.856Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -146,7 +94,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:54.035Z",
+      "collected_at": "2026-11-28T03:46:37.739Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -211,7 +159,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:53.445Z",
+      "collected_at": "2026-11-28T03:46:37.297Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -276,7 +224,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:54.635Z",
+      "collected_at": "2026-11-28T03:46:38.185Z",
       "type": "macro_indicator",
       "category": "수출입동향",
       "subject": {
@@ -341,7 +289,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-26T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:52.192Z",
+      "collected_at": "2026-11-28T03:46:36.238Z",
       "type": "rate_decision",
       "category": "통화정책",
       "subject": {
@@ -414,7 +362,7 @@
         "tier": 1
       },
       "event_datetime": "2026-10-01T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:53.170Z",
+      "collected_at": "2026-11-28T03:46:37.000Z",
       "type": "macro_indicator",
       "category": "소비자물가",
       "subject": {
@@ -476,7 +424,7 @@
         "tier": 1
       },
       "event_datetime": "2026-11-27T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:52.869Z",
+      "collected_at": "2026-11-28T03:46:36.770Z",
       "type": "macro_indicator",
       "category": "환율",
       "subject": {
@@ -535,24 +483,24 @@
       "status": "active"
     },
     {
-      "id": "dart-20261127-000671",
+      "id": "sec-0000813762-0001104659-26-132525",
       "source": {
-        "type": "dart",
-        "ref_id": "20261127000671",
-        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000671",
+        "type": "sec",
+        "ref_id": "0000813762",
+        "url": "https://www.sec.gov/Archives/edgar/data/813762/000110465926132525/0001104659-26-132525-index.htm",
         "tier": 1
       },
-      "event_datetime": "2026-11-27T12:00:00+09:00",
-      "collected_at": "2026-11-27T03:58:56.367Z",
-      "type": "disclosure",
-      "category": "지분공시",
+      "event_datetime": "2026-11-27T16:00:00-04:00",
+      "collected_at": "2026-11-28T03:46:36.784Z",
+      "type": "ma",
+      "category": "지배구조 변경",
       "subject": {
         "entity_type": "stock",
-        "code": "006400",
-        "name": "삼성SDI",
-        "is_bellwether": true,
+        "code": "0000813762",
+        "name": "ICAHN ENTERPRISES L.P.",
+        "is_bellwether": false,
         "sectors": [
-          "2차전지"
+          "미분류"
         ]
       },
       "metrics": {},
@@ -561,28 +509,28 @@
         "price_trigger": false,
         "price_change_pct": null,
         "watchlist_boost": false,
-        "priority_score": 25
+        "priority_score": 10
       },
       "impact": {
         "direction": "neutral",
         "strength": "weak",
         "affected_sectors": [
           {
-            "sector": "2차전지",
+            "sector": "미분류",
             "direction": "neutral",
-            "note": "지분공시"
+            "note": "지배구조 변경"
           }
         ]
       },
       "content": {
-        "meta_line": "삼성SDI · 11.27 · 지분공시",
-        "headline": "삼성SDI, 임원ㆍ주요주주특정증권등소유상황보고서",
+        "meta_line": "ICAHN ENTERPRISES L.P. · 11.27 · 지배구조 변경",
+        "headline": "ICAHN ENTERPRISES L.P., 8-K 공시",
         "chips": [
-          "2차전지→"
+          "미분류→"
         ],
         "horizon": {
-          "short_term": "자본 변동·지분 관련 공시는 단기적으로 주가에 직접적인 영향을 줄 수 있어요.",
-          "long_term": "지분 구조나 자본 조달 목적이 중장기적으로 어떤 의미를 갖는지 살펴볼 필요가 있어요."
+          "short_term": "지배구조·인수합병 관련 공시는 단기적으로 주가 변동성을 키우는 경우가 많아요.",
+          "long_term": "거래·변화가 실제로 어떻게 마무리되는지가 중장기 관점에서 중요해요."
         }
       },
       "reliability": {
